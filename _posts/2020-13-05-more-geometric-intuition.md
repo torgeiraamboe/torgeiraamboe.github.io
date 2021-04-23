@@ -6,6 +6,8 @@ color: dark
 description: One useful result that is often stated as a corollary to Noether’s normalization lemma is Zariski’s lemma. It is a corollary of the algebraic form of the normalization lemma, so i thought there ought to be a geometric version of it as well, which I think I have found.
 ---
 
+{% include_relative _includes/head.html %}
+
 Yesterday I wrote a geometric explanation of Noether’s normalization lemma, which you can find here. I’m going to use the geometric machinery developed in that post, so it can be useful to read that first.
 
 One useful result that is often stated as a corollary to Noether’s normalization lemma is Zariski’s lemma. It is a corollary of the algebraic form of the normalization lemma, so i thought there ought to be a geometric version of it as well, which I think I have found. Zariski’s lemma holds true even for non algebraically closed fields, but I think the geometric picture becomes much clearer for algebraically closed fields.
