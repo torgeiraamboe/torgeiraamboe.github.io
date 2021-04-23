@@ -1,3 +1,5 @@
-theme: jekyll-theme-tactile
+name: Torgeir Aambø
 title: Torgeir Aambø
 description: Testing out github to use as personal homepage
+include: ["_pages"]
+permalink: /:title/
