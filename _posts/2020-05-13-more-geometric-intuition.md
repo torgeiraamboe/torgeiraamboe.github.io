@@ -1,7 +1,7 @@
 ---
 title: More geometric intuition
 tags: [Algebraic geometry, Zariski's lemma]
-style: 
+style: fill
 color: dark
 description: One useful result that is often stated as a corollary to Noether’s normalization lemma is Zariski’s lemma. It is a corollary of the algebraic form of the normalization lemma, so i thought there ought to be a geometric version of it as well, which I think I have found.
 ---
