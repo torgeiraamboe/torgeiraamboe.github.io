@@ -1,6 +1,6 @@
 ---
 title: Geometric intuition
-tags: [algebraic geometry, Noether normalization]
+tags: [Algebraic geometry, Noether normalization]
 style: fill
 color: dark
 description: We present a geometric picture, and some motivation for Noether's normalization lemma from commutative algebra and algebraic geometry. 
