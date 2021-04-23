@@ -2,7 +2,7 @@
 title: Geometric intuition
 tags: [algebraic geometry, Noether normalization]
 style: fill
-color: black
+color: dark
 ---
 
 {% include_relative _includes/head.html %}
