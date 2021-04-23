@@ -7,9 +7,6 @@ color: black
 
 {% include_relative _includes/head.html %}
 
-
-# Introduction
-
 This spring I have been taking a graduate class in commutative algebra, and I have yet to do algebraic geometry in a proper way, and have only gotten a small taste while writing my bachelor thesis. So this entire semester, I have felt this hinting at a geometric picture from the algebra itself, but i didn't have the insight to figure it out. That said, I now think I have the geometric picture for Noether normalization, which in term implies a geometric picture of Hilbert nullstellensatz and some other results. It took a long time to convert the algebra into geometry for me, and i still have much to learn regarding this. What i have started to figure out is the close relationship between ideals and varieties. I have for a while known that this is one of the main reasons to introduce commutative algebra into algebraic geometry, but i couldn't see the picture myself. Anyway, lets start with some introductory stuff. 
 
 An affine algebraic variety $X$ in $k^n $ is a subset of $k^n $ cut out by a collection of polynomials \(F=\{ f_i\}_ {i\in I}\), i.e. $X = \{ x\in k^n | f_i(x)=0, \forall f_i \in F\} $. The set $F$ of polynomials generate a prime ideal of $k[x_1, \cdots, x_n] $, which we denote by $I(X)$. We can also start by taking a prime ideal $\mathfrak{p} $ in $k[x_1, \cdots, x_n] $ and generate its vanishing set $V(\mathfrak{p})$, which will be it's corresponding affine algebraic variety. More explicitly $V(\mathfrak{p})= \{ x\in k^n | f(x)=0, \forall f\in \mathfrak{p}\} $. The ring $P(X)=k[x_1, \cdots, x_n]/I(X) $ is called the coordinate ring of the variety. This correspondence is the key bridge between the geometric picture and the algebra, and the full relation is described by Hilbert's nullstellensatz. 
