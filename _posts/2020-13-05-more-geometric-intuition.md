@@ -10,14 +10,14 @@ Yesterday I wrote a geometric explanation of Noether’s normalization lemma, wh
 
 One useful result that is often stated as a corollary to Noether’s normalization lemma is Zariski’s lemma. It is a corollary of the algebraic form of the normalization lemma, so i thought there ought to be a geometric version of it as well, which I think I have found. Zariski’s lemma holds true even for non algebraically closed fields, but I think the geometric picture becomes much clearer for algebraically closed fields.
 
-*Lemma (Zariski):* Let $k$  be an algebraically closed field, and $A$ a finitely generated $k$-algebra which is also a field. Then $A$ is a finite field extension of $k$.
+**Lemma (Zariski):** Let $k$  be an algebraically closed field, and $A$ a finitely generated $k$-algebra which is also a field. Then $A$ is a finite field extension of $k$.
 
 That $A $ is a finite field extension of $k $ is the same as saying that $A $ is an integral extension of $k $. Now this is starting to sound similar to our situation in Noether’s normalization lemma. This algebra $A$  is the coordinate ring of an affine algebraic variety $X $ in $k^n$ , and if that ring is in fact a field, then the ideal $I(X)$  associated to that variety must be maximal.
 
 ## The weak nullstellensatz
 Now, we haven’t been through this yet, but we know precisely which varieties that have associated ideals which are maximal, namely varieties that are just points in $k^n$ . How do we see this? It is explained by the weak form of Hilbert’s nullstellensatz. Usually, if we don’t assume that our field is algebraically closed, then the weak form of Hilbert’s nullstellensatz is usually stated as a corollary to Zariski’s lemma by letting the field be algebraically closed, but today we flip the picture a little.
 
-*The weak Hilbert’s nullstellensatz:* All maximal ideals $\mathfrak{m}$  in the ring $k[x_1, \cdots, x_n] $ where $k$  is an algebraically closed field are of the form $\mathfrak{m}=\mathfrak{m}_a=(x_1-a_1, \cdots , x_n-a_n) $, where $a = (a_1, \cdots, a_n)$  denotes a point in $k^n $.
+**The weak Hilbert’s nullstellensatz:** All maximal ideals $\mathfrak{m}$  in the ring $k[x_1, \cdots, x_n] $ where $k$  is an algebraically closed field are of the form $\mathfrak{m}=\mathfrak{m}_a=(x_1-a_1, \cdots , x_n-a_n) $, where $a = (a_1, \cdots, a_n)$  denotes a point in $k^n $.
 
 For a detailed proof you can read my write up on the strong version on the nullstellensatz, where I also prove the weak one. You can find that here. For a geometric (and a big bit handwavy) approach, we note that prime ideals in $k[x_1, \cdots, x_n]$  correspond to affine algebraic varieties $X$  in $k^n$ , and prime ideals in the coordinate ring of $X$ , i.e. $k[x_1, \cdots, x_n]/I(X) = k[x_1, \cdots, x_n]/ \mathfrak{p}$ , then translates to affine subvarieties of $X$  because prime ideals in $k[x_1, \cdots, x_n]/\mathfrak{p}$  are exactly the prime ideals in $k[x_1, \cdots, x_n] $ that contains $\mathfrak{p}$ . All maximal ideals are also prime, so maximal ideals in $k[x_1, \cdots, x_n] $ should translate to affine algebraic varieties that contain no affine algebraic subvarieties, i.e. points in $k^n$ .
 
