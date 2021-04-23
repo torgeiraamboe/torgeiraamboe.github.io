@@ -16,16 +16,16 @@ nav_exclude:
 
 ### Author Info ###
 author:
-  name              : YRN
-  image             : https://avatars2.githubusercontent.com/u/41103290
-  github            : YoussefRaafatNasry
+  name              : Torgeir Aambø
+  #image             : https://avatars2.githubusercontent.com/u/41103290
+  #github            : YoussefRaafatNasry
 
 
 ### Posts ###
 permalink: /blog/:title
 
-disqus:
-  shortname: your-disqus-shortname
+#disqus:
+  #shortname: your-disqus-shortname
 
 ### Collections ###
 collections:
@@ -39,8 +39,8 @@ collections:
 ### Analytics ###
 analytics:
   enabled: true
-  google:
-    tracking_id: google-tracking-id
+  #google:
+    #tracking_id: google-tracking-id
 
 
 ### Defaults for collections ###
