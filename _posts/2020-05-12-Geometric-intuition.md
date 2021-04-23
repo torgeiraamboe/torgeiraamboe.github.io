@@ -3,6 +3,7 @@ title: Geometric intuition
 tags: [algebraic geometry, Noether normalization]
 style: fill
 color: dark
+description: We present a geometric picture, and some motivation for Noether's normalization lemma from commutative algebra and algebraic geometry. 
 ---
 
 {% include_relative _includes/head.html %}
@@ -16,7 +17,7 @@ An affine algebraic variety $X$ in $k^n$ is a subset of $k^n$ cut out by a colle
 
 Before I explain the geometric meaning i have learned, I want to formulate the lemma in the regular algebraic way it is usually presented.
 
-*Lemma (Noether):* Let $k$ be an algebraically closed infinite field and $A$ a finitely generated $k$-algebra. Then there exists an integer $d $ and algebraically independent generators $y_1, \cdots ,y_d $ such that $A $ is a finitely generated module over $k[y_1, \cdots, y_d] $.
+**Lemma (Noether):** Let $k$ be an algebraically closed infinite field and $A$ a finitely generated $k$-algebra. Then there exists an integer $d $ and algebraically independent generators $y_1, \cdots ,y_d $ such that $A $ is a finitely generated module over $k[y_1, \cdots, y_d] $.
 
 It is often useful to know weather an affine algebraic variety $X$ projects onto a linear subspace of $k^n$. This can for example tell us information on the dimension of the variety, which again tells us other useful stuff. I have not yet explored dimension theory, hence the motivation behind this is maybe still a bit vague to me. This projection induces an injection on the cordinate rings. Let $A$ be the coordinate ring of an affine algebraic variety $X$ and $B$ the coordinate ring of a linear subspace $L$ of $k^n.$ By a coordinate change, $L \cong k^d$, hence $I(L)$ is the zero ideal, because it consists of all polynomials in $d$ variables who vanish on every point in $k^d$, which is only the zero polynomial. Hence the coordinate ring $B$ is isomorphic to $k[x_1, \cdots x_d] $.
 
