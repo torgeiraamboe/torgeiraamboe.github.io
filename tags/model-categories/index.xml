@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model categories on Writing what I&#39;m learning</title>
+    <link>/tags/model-categories/</link>
+    <description>Recent content in Model categories on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/model-categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The homotopy category</title>
+      <link>/posts/2020/the-homotopy-category/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/the-homotopy-category/</guid>
+      <description>This is part 9 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 8.
+Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting.</description>
+    </item>
+    
+    <item>
+      <title>Homotopy in model categories</title>
+      <link>/posts/2020/homotopy-in-model-categories/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/homotopy-in-model-categories/</guid>
+      <description>This is part 8 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 9.
+Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with.</description>
+    </item>
+    
+    <item>
+      <title>Model categories</title>
+      <link>/posts/2020/model-categories/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/model-categories/</guid>
+      <description>This is part 7 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 8 and 9.
+Finally we have made it to the destination we set, namely, more abstraction. This post is focused on the definition and intuition on model categories, which abstracts the objects we have been studying for some weeks, namely fibrations and cofibrations. The main definition is that of a model structure on a category, which together with a nice category will form the definition of a model category.</description>
+    </item>
+    
+  </channel>
+</rss>

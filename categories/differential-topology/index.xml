@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Differential topology on Writing what I&#39;m learning</title>
+    <link>/categories/differential-topology/</link>
+    <description>Recent content in Differential topology on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/differential-topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Lecture in My Second Year</title>
+      <link>/posts/2021/a-leqture-in-my-second-year/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2021/a-leqture-in-my-second-year/</guid>
+      <description>For those that don’t know I am a fifth year mathematics student at NTNU, meaning I am finishing my masters degree after this semester. During my time at NTNU I have had some wonderful classes, and some wonderful teachers. Since most I post about on this blog is related to topology, it is very safe to assume that some of my most memorable courses are exactly the topology courses. I very recently looked at my notes from my first topology course, or rather one of the two first, as I took two in parallel during my fourth semester.</description>
+    </item>
+    
+  </channel>
+</rss>

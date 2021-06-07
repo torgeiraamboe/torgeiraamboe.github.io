@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fiber bundles on Writing what I&#39;m learning</title>
+    <link>/tags/fiber-bundles/</link>
+    <description>Recent content in Fiber bundles on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fiber-bundles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swans Theorem</title>
+      <link>/posts/2020/swans-theorem/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/swans-theorem/</guid>
+      <description>A part of mathematics I really an starting to enjoy more is mathematics that explain or develop connections between geometry or topology, and algebra. The first two posts on this blog was focused on developing some geometrical insight to two lemmas from commutative algebra, namely Noether’s normalization lemma and Zariski’s lemma. There are many more such connections worth discussing and exploring, and today I want to focus on one of these “bridges” between geometry and algebra, namely Swan’s theorem.</description>
+    </item>
+    
+    <item>
+      <title>Fiber bundles</title>
+      <link>/posts/2020/fiber-bundles/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/fiber-bundles/</guid>
+      <description>This is part 2 of a series leading up to and exploring model categories. For the other parts see 1, 3, 4, 5 6, 7, 8 and 9.
+Yesterday we discussed the standard definition of a fibration by the homotopy lifting property, and today we are continuing that discussion, but in a more visual manner. This we will do by first looking at fiber bundles, and then generalizing them. Since fibrations are generalized fiber bundles, every fiber bundle is an example of a fibration, and they have been the most important examples for me, as they help me visualize and get intuition into the fibrations without having to really use the full generality of the definition.</description>
+    </item>
+    
+  </channel>
+</rss>

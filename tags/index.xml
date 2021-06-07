@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Writing what I&#39;m learning</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algebraic varieties</title>
+      <link>/tags/algebraic-varieties/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algebraic-varieties/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algebras</title>
+      <link>/tags/algebras/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algebras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noether normalization</title>
+      <link>/tags/noether-normalization/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/noether-normalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schemes</title>
+      <link>/tags/schemes/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/schemes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sheaves</title>
+      <link>/tags/sheaves/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sheaves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cobordisms</title>
+      <link>/tags/cobordisms/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cobordisms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monoidal categories</title>
+      <link>/tags/monoidal-categories/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/monoidal-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topological quantum field theories</title>
+      <link>/tags/topological-quantum-field-theories/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/topological-quantum-field-theories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group action</title>
+      <link>/tags/group-action/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/group-action/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manifolds</title>
+      <link>/tags/manifolds/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/manifolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orbifolds</title>
+      <link>/tags/orbifolds/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/orbifolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>/tags/functions/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pre-sheaves</title>
+      <link>/tags/pre-sheaves/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pre-sheaves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiber bundles</title>
+      <link>/tags/fiber-bundles/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fiber-bundles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projective modules</title>
+      <link>/tags/projective-modules/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/projective-modules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swan&#39;s theorem</title>
+      <link>/tags/swans-theorem/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/swans-theorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vector bundles</title>
+      <link>/tags/vector-bundles/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vector-bundles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Derived categories</title>
+      <link>/tags/derived-categories/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/derived-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homotopy</title>
+      <link>/tags/homotopy/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/homotopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homotopy category</title>
+      <link>/tags/homotopy-category/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/homotopy-category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model categories</title>
+      <link>/tags/model-categories/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/model-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cofibrations</title>
+      <link>/tags/cofibrations/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cofibrations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fibrations</title>
+      <link>/tags/fibrations/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fibrations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coexact sequence</title>
+      <link>/tags/coexact-sequence/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/coexact-sequence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cofibration</title>
+      <link>/tags/cofibration/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cofibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eilenberg-Maclane spaces</title>
+      <link>/tags/eilenberg-maclane-spaces/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/eilenberg-maclane-spaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Puppe sequence</title>
+      <link>/tags/the-puppe-sequence/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/the-puppe-sequence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fibration</title>
+      <link>/tags/fibration/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homotopy groups</title>
+      <link>/tags/homotopy-groups/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/homotopy-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hurewicz theorem&#34;</title>
+      <link>/tags/hurewicz-theorem/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hurewicz-theorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cohomology</title>
+      <link>/tags/cohomology/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cohomology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hopf fibration</title>
+      <link>/tags/hopf-fibration/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hopf-fibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral sequences</title>
+      <link>/tags/spectral-sequences/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spectral-sequences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Möbius band</title>
+      <link>/tags/m%C3%B6bius-band/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/m%C3%B6bius-band/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hilbert&#39;s nullstellensatz</title>
+      <link>/tags/hilberts-nullstellensatz/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hilberts-nullstellensatz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zariski&#39;s lemma</title>
+      <link>/tags/zariskis-lemma/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/zariskis-lemma/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

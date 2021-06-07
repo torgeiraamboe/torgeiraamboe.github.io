@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eilenberg-Maclane spaces on Writing what I&#39;m learning</title>
+    <link>/tags/eilenberg-maclane-spaces/</link>
+    <description>Recent content in Eilenberg-Maclane spaces on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/eilenberg-maclane-spaces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cofibrations</title>
+      <link>/posts/2020/cofibrations/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/cofibrations/</guid>
+      <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 7, 8 and 9.
+Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations.</description>
+    </item>
+    
+    <item>
+      <title>A homotopy group of a sphere</title>
+      <link>/posts/2020/a-homotopy-group-of-a-sphere/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/a-homotopy-group-of-a-sphere/</guid>
+      <description>This is part 5 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 6, 7, 8 and 9.
+As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algebraic topology on Writing what I&#39;m learning</title>
+    <link>/categories/algebraic-topology/</link>
+    <description>Recent content in Algebraic topology on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orbifolds</title>
+      <link>/posts/2020/orbifolds/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/orbifolds/</guid>
+      <description>For quite some time I have occasionally stumbled onto the Wikipedia page for orbifolds while looking at topology related mathematics. I have always been fascinated by them, and always though that they certainly will come up during studies at university, but they never have (at least not yet). On said wikipedia page it says that the word orbifold is short for “orbit manifold” and that these orbifolds are in fact a generalization of manifolds.</description>
+    </item>
+    
+    <item>
+      <title>Swans Theorem</title>
+      <link>/posts/2020/swans-theorem/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/swans-theorem/</guid>
+      <description>A part of mathematics I really an starting to enjoy more is mathematics that explain or develop connections between geometry or topology, and algebra. The first two posts on this blog was focused on developing some geometrical insight to two lemmas from commutative algebra, namely Noether’s normalization lemma and Zariski’s lemma. There are many more such connections worth discussing and exploring, and today I want to focus on one of these “bridges” between geometry and algebra, namely Swan’s theorem.</description>
+    </item>
+    
+    <item>
+      <title>Cofibrations</title>
+      <link>/posts/2020/cofibrations/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/cofibrations/</guid>
+      <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 7, 8 and 9.
+Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations.</description>
+    </item>
+    
+    <item>
+      <title>A homotopy group of a sphere</title>
+      <link>/posts/2020/a-homotopy-group-of-a-sphere/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/a-homotopy-group-of-a-sphere/</guid>
+      <description>This is part 5 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 6, 7, 8 and 9.
+As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask?</description>
+    </item>
+    
+    <item>
+      <title>The Serre spectral sequence</title>
+      <link>/posts/2020/the-serre-spectral-sequence/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/the-serre-spectral-sequence/</guid>
+      <description>This is part 4 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 5 6, 7, 8 and 9.
+My personal favorite part about fibrations is that they come equipped with a natural way to compute the cohomology of the total space from the cohomology of the base and the cohomology of the fibers. This process is encoded in a structure called a spectral sequence, and is a complicated object in its full generality.</description>
+    </item>
+    
+    <item>
+      <title>Fiber bundles</title>
+      <link>/posts/2020/fiber-bundles/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/fiber-bundles/</guid>
+      <description>This is part 2 of a series leading up to and exploring model categories. For the other parts see 1, 3, 4, 5 6, 7, 8 and 9.
+Yesterday we discussed the standard definition of a fibration by the homotopy lifting property, and today we are continuing that discussion, but in a more visual manner. This we will do by first looking at fiber bundles, and then generalizing them. Since fibrations are generalized fiber bundles, every fiber bundle is an example of a fibration, and they have been the most important examples for me, as they help me visualize and get intuition into the fibrations without having to really use the full generality of the definition.</description>
+    </item>
+    
+    <item>
+      <title>Fibrations</title>
+      <link>/posts/2020/fibrations/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/fibrations/</guid>
+      <description>This is part 1 of a series leading up to and exploring model categories. For the other parts see 2, 3, 4, 5 6, 7, 8 and 9.
+My main mathematical interest for the last couple years has been algebraic topology. I feel it suits my needs for intuition, and graphical picturing of what happens. A concept I have been learning more rigorously recently is fibrations, and how to use them in computing homotopy groups and homology groups of different spaces.</description>
+    </item>
+    
+  </channel>
+</rss>

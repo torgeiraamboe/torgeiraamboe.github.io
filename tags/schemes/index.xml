@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schemes on Writing what I&#39;m learning</title>
+    <link>/tags/schemes/</link>
+    <description>Recent content in Schemes on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/schemes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updated geometric intuition</title>
+      <link>/posts/2021/updated-geometric-intuition/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2021/updated-geometric-intuition/</guid>
+      <description>The first post on this blog is titled &amp;ldquo;geometric intuition&amp;rdquo;, and discusses the geometry behind Noether&amp;rsquo;s normalization lemma. When I wrote it I didn&amp;rsquo;t yet understand all the pieces, as I was not very comfortable working with algebraic geometry. One year later, I&amp;rsquo;m still not comfortable, but a bit more than last year. So, I thought I would update last years post with my new knowledge, as well as generalize the intuition to schemes - which we introduced in the last post.</description>
+    </item>
+    
+    <item>
+      <title>Schemes</title>
+      <link>/posts/2021/schemes/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2021/schemes/</guid>
+      <description>The first two posts ([1],[2]) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote a post about sheaves, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks.</description>
+    </item>
+    
+  </channel>
+</rss>
