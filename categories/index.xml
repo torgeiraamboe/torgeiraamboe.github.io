@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Writing what I&#39;m learning</title>
-    <link>/categories/</link>
+    <link>https://torgeiraamboe.github.io/categories/</link>
     <description>Recent content in Categories on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algebraic geometry</title>
-      <link>/categories/algebraic-geometry/</link>
+      <link>https://torgeiraamboe.github.io/categories/algebraic-geometry/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/algebraic-geometry/</guid>
+      <guid>https://torgeiraamboe.github.io/categories/algebraic-geometry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Category theory</title>
-      <link>/categories/category-theory/</link>
+      <link>https://torgeiraamboe.github.io/categories/category-theory/</link>
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/category-theory/</guid>
+      <guid>https://torgeiraamboe.github.io/categories/category-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Differential topology</title>
-      <link>/categories/differential-topology/</link>
+      <link>https://torgeiraamboe.github.io/categories/differential-topology/</link>
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/differential-topology/</guid>
+      <guid>https://torgeiraamboe.github.io/categories/differential-topology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algebraic topology</title>
-      <link>/categories/algebraic-topology/</link>
+      <link>https://torgeiraamboe.github.io/categories/algebraic-topology/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/algebraic-topology/</guid>
+      <guid>https://torgeiraamboe.github.io/categories/algebraic-topology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homotopy theory</title>
-      <link>/categories/homotopy-theory/</link>
+      <link>https://torgeiraamboe.github.io/categories/homotopy-theory/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/homotopy-theory/</guid>
+      <guid>https://torgeiraamboe.github.io/categories/homotopy-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algebric topology</title>
-      <link>/categories/algebric-topology/</link>
+      <link>https://torgeiraamboe.github.io/categories/algebric-topology/</link>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/algebric-topology/</guid>
+      <guid>https://torgeiraamboe.github.io/categories/algebric-topology/</guid>
       <description></description>
     </item>
     

@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebraic geometry on Writing what I&#39;m learning</title>
-    <link>/categories/algebraic-geometry/</link>
+    <link>https://torgeiraamboe.github.io/categories/algebraic-geometry/</link>
     <description>Recent content in Algebraic geometry on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updated geometric intuition</title>
-      <link>/posts/2021/updated-geometric-intuition/</link>
+      <link>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2021/updated-geometric-intuition/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</guid>
       <description>The first post on this blog is titled &amp;ldquo;geometric intuition&amp;rdquo;, and discusses the geometry behind Noether&amp;rsquo;s normalization lemma. When I wrote it I didn&amp;rsquo;t yet understand all the pieces, as I was not very comfortable working with algebraic geometry. One year later, I&amp;rsquo;m still not comfortable, but a bit more than last year. So, I thought I would update last years post with my new knowledge, as well as generalize the intuition to schemes - which we introduced in the last post.</description>
     </item>
     
     <item>
       <title>Schemes</title>
-      <link>/posts/2021/schemes/</link>
+      <link>https://torgeiraamboe.github.io/posts/2021/schemes/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2021/schemes/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2021/schemes/</guid>
       <description>The first two posts ([1],[2]) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote a post about sheaves, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks.</description>
     </item>
     
     <item>
       <title>Sheaves</title>
-      <link>/posts/2020/sheaves/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/sheaves/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/sheaves/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/sheaves/</guid>
       <description>This summer I’m participating in Ravi Vakils pseudocourse on algebraic geometry, AGITTOC. Hence this summer serves as a wonderful opportunity to learn and write about cool mathematics. For long I have wanted to dive deeper into this abstract topic after just dipping my toes in during my bachelor thesis, and now it is time. Ravi though us in the first lecture that we shouldn’t study abstract objects without a cause, i.</description>
     </item>
     
     <item>
       <title>More geometric intuition</title>
-      <link>/posts/2020/more-geometric-intuition/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/more-geometric-intuition/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/</guid>
       <description>Yesterday I wrote a geometric explanation of Noether’s normalization lemma, which you can find here. I’m going to use the geometric machinery developed in that post, so it can be useful to read that first.
 One useful result that is often stated as a corollary to Noether’s normalization lemma is Zariski’s lemma. It is a corollary of the algebraic form of the normalization lemma, so i thought there ought to be a geometric version of it as well, which I think I have found.</description>
     </item>
     
     <item>
       <title>Geometric Intuition</title>
-      <link>/posts/2020/geometric-intuition/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/geometric-intuition/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</guid>
       <description>Introduction This spring I have been taking a graduate class in commutative algebra, and I have yet to do algebraic geometry in a proper way, and have only gotten a small taste while writing my bachelor thesis. So this entire semester, I have felt this hinting at a geometric picture from the algebra itself, but i didn&amp;rsquo;t have the insight to figure it out. That said, I now think I have the geometric picture for Noether normalization, which in term implies a geometric picture of Hilbert nullstellensatz and some other results.</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manifolds on Writing what I&#39;m learning</title>
-    <link>/tags/manifolds/</link>
+    <link>https://torgeiraamboe.github.io/tags/manifolds/</link>
     <description>Recent content in Manifolds on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/manifolds/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/manifolds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Orbifolds</title>
-      <link>/posts/2020/orbifolds/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/orbifolds/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/orbifolds/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/orbifolds/</guid>
       <description>For quite some time I have occasionally stumbled onto the Wikipedia page for orbifolds while looking at topology related mathematics. I have always been fascinated by them, and always though that they certainly will come up during studies at university, but they never have (at least not yet). On said wikipedia page it says that the word orbifold is short for “orbit manifold” and that these orbifolds are in fact a generalization of manifolds.</description>
     </item>
     

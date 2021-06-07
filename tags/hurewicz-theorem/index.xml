@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hurewicz theorem&#34; on Writing what I&#39;m learning</title>
-    <link>/tags/hurewicz-theorem/</link>
+    <link>https://torgeiraamboe.github.io/tags/hurewicz-theorem/</link>
     <description>Recent content in Hurewicz theorem&#34; on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/hurewicz-theorem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/hurewicz-theorem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A homotopy group of a sphere</title>
-      <link>/posts/2020/a-homotopy-group-of-a-sphere/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/a-homotopy-group-of-a-sphere/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</guid>
       <description>This is part 5 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 6, 7, 8 and 9.
 As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask?</description>
     </item>

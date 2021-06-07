@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zariski&#39;s lemma on Writing what I&#39;m learning</title>
-    <link>/tags/zariskis-lemma/</link>
+    <link>https://torgeiraamboe.github.io/tags/zariskis-lemma/</link>
     <description>Recent content in Zariski&#39;s lemma on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/zariskis-lemma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/zariskis-lemma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>More geometric intuition</title>
-      <link>/posts/2020/more-geometric-intuition/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/more-geometric-intuition/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/</guid>
       <description>Yesterday I wrote a geometric explanation of Noether’s normalization lemma, which you can find here. I’m going to use the geometric machinery developed in that post, so it can be useful to read that first.
 One useful result that is often stated as a corollary to Noether’s normalization lemma is Zariski’s lemma. It is a corollary of the algebraic form of the normalization lemma, so i thought there ought to be a geometric version of it as well, which I think I have found.</description>
     </item>

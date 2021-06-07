@@ -9,15 +9,15 @@
 <meta name="keywords" content="Algebras, Schemes, Algebraic varieties, Sheaves" />
 <meta name="description" content="The first two posts ([1],[2]) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote a post about sheaves, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks.">
 <meta name="author" content="Torgeir Aambø">
-<link rel="canonical" href="/posts/2021/schemes/" />
+<link rel="canonical" href="https://torgeiraamboe.github.io/posts/2021/schemes/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.03b0b181051ddb5a16368e42dc326410dc70f2c882501139d92564ae95625b20.css" integrity="sha256-A7CxgQUd21oWNo5C3DJkENxw8siCUBE52SVkrpViWyA=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="mask-icon" href="safari-pinned-tab.svg">
+<link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://torgeiraamboe.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://torgeiraamboe.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://torgeiraamboe.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.1" />
@@ -45,13 +45,13 @@
 <meta property="og:title" content="Schemes" />
 <meta property="og:description" content="The first two posts ([1],[2]) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote a post about sheaves, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/2021/schemes/" />
-<meta property="og:image" content="images/intersection2.png" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://torgeiraamboe.github.io/posts/2021/schemes/" />
+<meta property="og:image" content="https://torgeiraamboe.github.io/images/intersection2.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-18T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2021-05-18T00:00:00&#43;00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="images/intersection2.png" />
+<meta name="twitter:image" content="https://torgeiraamboe.github.io/images/intersection2.png" />
 <meta name="twitter:title" content="Schemes"/>
 <meta name="twitter:description" content="The first two posts ([1],[2]) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote a post about sheaves, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks."/>
 
@@ -60,18 +60,18 @@
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [, 
+  "itemListElement": [
     {
       "@type": "ListItem",
-      "position":  2 ,
+      "position":  1 ,
       "name": "Posts",
-      "item": "/posts/"
+      "item": "https://torgeiraamboe.github.io/posts/"
     }, 
     {
       "@type": "ListItem",
-      "position":  3 ,
+      "position":  2 ,
       "name": "Schemes",
-      "item": "/posts/2021/schemes/"
+      "item": "https://torgeiraamboe.github.io/posts/2021/schemes/"
     }
   ]
 }
@@ -89,7 +89,7 @@
   "articleBody": "The first two posts ([1],[2]) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote a post about sheaves, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks. Today we will rectify this situation. I have my algebraic geometry exam this week, so this is both an explainer-post, and a “making sure I understand the course material”-post. These types of posts have in fact become common on this blog, but hopefully that is ok.\nThe goal of the post is to be able to understand the definition of a scheme. So in order to do that we first make a quite extensive recap on algebraic varieties in order to get some motivation and intuition, and then make sure we understand all the components of the definition. As we have done before, we start with the definition we want to understand, and then unravel it as we go along. So, here it is, the definition of a scheme.\nDefinition (Scheme): A scheme is a locally ringed space $(X, \\mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \\mathcal{O}_{X|U_i})$ is isomorphic to $\\text{Spec }A_i$, the spectrum of some ring $A_i$.\nThere are many ways to package the information in the above definition, so just be aware that not all definitions of a scheme will look like this, but, this is the definition an formulation we are going to cover in this post.\nAlgebraic varieties Much of algebraic geometry can be done without ever mentioning schemes. This is due to them being a generalization of another well established - easy to work with - object, called algebraic varieties. An algebraic variety consists of two things:\n A topological space $X$. In particular, this topological space needs to be cut out by certain algebraic equations. A sheaf on $X$. In particular, a sheaf of functions that lift to certain polynomial functions on a certain vector space.  We must of course explain what the above words mean more mathematically and rigorously, but this is at least some handwavy information. To be more precise, an algebraic variety will be a ringed space $(X, \\mathcal{O}_X)$, i.e. a topological space $X$, together with a sheaf of functions on $X$. It will however be a very nice ringed space.\nAffine algebraic sets The main schtick in algebraic geometry is the correspondence and correlation between algebraic and geometric information. The geometric information will be curves, surfaces and shapes in $k^n$ for some field $k$ (most often algebraically closed), while the algebraic information are prime ideals in the polynomial ring $k[X_1, \\ldots, X_n]$. In order to have this nice correspondence we have two constructions that allow us to translate back and forth between these two seemingly separate worlds.\nDefinition: Let $S$ be a subset of $k[X_1, \\ldots, X_n]$. We define the zero-set of $S$, also called the vanishing set, to be $V(S)=\\{ x\\in k^n | f(x)=0, \\forall f\\in S \\}$.\nNotice that the set $S$ generates an ideal $(S)$, and that the zero-set of $(S)$ is the same as the zero set of $S$. This means we can restrict our selves to studying ideals instead of all sets. We call a subset $V\\subseteq k^n$ an affine algebraic set if $V=V(I)$ for some ideal $I\\subseteq k[X_1, \\ldots, X_n]$.\nFor starters we can let $k = \\mathbb{R}$, and $n=2$. This means that some polynomial in two variables, for example $F(X,Y)=X^2+Y^2-1$, generates an ideal in $k[X,Y]$. The zero-set of $F$ is the unit circle:\nAnother example is the zero-set of the ideal generated by $G(X,Y)=XY-1$, which has its zero-set equal to the graph of the function $f(x)=1/x$:\nThese affine algebraic sets, that are generated by a single polynomial, are called hypersurfaces in $k^n$.\nWe can quite easily see that the intersection and union of two affine algebraic sets is again affine algebraic sets. In fact we have $V(I)\\cap V(J) = V(I+J)$ and $V(I)\\cup V(J) = V(IJ)$. For example, the intersection of the above two affine algebraic sets is the empty set, which is the zero set of the whole ring $k[X_1, \\ldots, X_n]$.\nBut, if we for example scale the radius of the circle a bit, i.e. instead use $F(X,Y)=X^2+Y^2-\\sqrt{2}$, then we see that the two affine algebraic sets intersect in two points:\nOk, we need to be able to produce algebraic information from geometric one, so we also need the sort of “reverse” construction.\nDefinition: Let $W$ be a subset of $k^n$. We define the ideal of $W$ to be $I(W) = \\{ f\\in k[X_1, \\ldots, X_n] | f(x) = 0, \\forall x\\in W \\}$. Note that $I(W)$ is in fact an ideal.\nIf we take some subset $W\\subseteq k^n$, then we define its coordinate ring (also called the ring of regular functions) to be $k[X_1, \\ldots, X_n]/I(W)$.\nNote that for arbitrary imagined subsets $W$, the ideal $I(W)$ usually consists only of the zero element. This is because we usually think about subsets as blobs, or at least as dictated by some standard topology on $k^n$, which have no regular algebraic information in them. However, $k^n$ does not get to have the standard topology in our situation, so closed subsets will automatically correspond to sets $W$ where $I(W)$ will be more than just the zero-polynomial.\nThe Zariski topology We already got a little sneak-peak above, by the fact that intersection and union of affine algebraic sets is again affine algebraic sets, and that the empty set is an affine algebraic set. This is already almost everything we need in order to have a topology on $k^n$. We need that $k^n$ itself is an affine algebraic set, and that we either have arbitrary unions or arbitrary intersections. The last one is only to know weather we should define the topology by its closed or its open sets. For the first one we notice that all points in $k^n$ vanish on the zero-polynomial. Since $k$ is a field, the zero-polynomial does in fact generate an ideal $(0)$, hence we must have $V((0)) = k^n$. The last step is realizing that we do in fact have arbitrary intersections, i.e. $\\bigcap_{i\\in I} V(I_i) = V(\\prod_{i\\in I} I_i)$. This means that the affine algebraic sets make up the closed sets in a topology on $k^n$. This topology is called the Zariski topology.\nAn important thing to realize is that this topology works quite a bit different than the topologies one is used to from topology. The closed sets are shaped that we get from repedeately slicing $k^n$ by polynomials, which makes them really “small”. The open sets, are then “huge”, and are almost always dense in $k^n$.\nWe have some easy to define open sets called the standard open sets, or sometimes distinguished open sets. These are defined by $D(f) = k^n\\setminus V((f))$, i.e. the complement of the hypersurface generated by $f\\in k[X_1,\\ldots,X_n]$. These open sets form a basis for the Zariski topology on $k^n$. We can use this to define the Zariski topology on any affine algebraic set $X\\subseteq k^n$ by letting the topology on $X$ be the subspace topology. Then we would instead use $f\\in \\Gamma(X)$.\nThe sheaf of regular functions As we have already covered sheaves in an earlier blog post, we will not do that here. So if the reader has not seen sheaves, it would be smart to look at that post before reading onwards.\nBut, before we construct the sheaf we need, we need to realize that defining it on a basis for the topology is enough. Usually we need to define an object - in our case a ring - for each open set in a topological space $X$, satisfying a couple conditions. A basis for the topology on $X$ allows us to construct any other open set as a colimit of sets in the basis. When we apply the sheaf, then the rings we get for the general open sets can again be constructed as colimits of the rings we get from the open sets in the basis. Thus when we only define the sheaf for the basis elements, we are simultaneously defining it for all open sets, due to colimits of rings behaving nicely.\nIf we let $X$ be an affine algebraic set, then we define the sheaf of regular functions by\n$$\\mathcal{O}_X(D(f)) = \\Gamma(X)_f$$\nThis means that for any standard open set $D(f)$, the elements in the ring associated to it by the sheaf $\\mathcal{O}_X$, looks like fractions $\\frac{a}{f^n}$, where $a\\in \\Gamma(X)$.\nWe have not covered stalks and germs of sheaves yet, but intuitively stalks are what the sheaf does really really close to a point $x\\in X$. To be more precise, the stalk of $\\mathcal{O}_ X$ at the point $x$, is defined as the colimit $colim_{x\\in U} \\mathcal{O}_ X(U)$, and is denoted by $\\mathcal{O}_{X,x}$. For the above defined sheaf, every stalk inherits a ring structure, as the colimit of rings is again a ring. Every stalk is in fact a local ring, which by the way, is the reason for why $(-)_f$ is called localization, and the reason for calling rings local in the first place. Intuitively, we “zoom in” to the smallest open set around a point $x\\in X$, and there, the regular functions looks like the ring of global regular functions $\\Gamma(X)$, localized at the maximal ideal that corresponds to the point $x$.\nVarieties This means that we can turn any affine algebraic set into a ringed space by letting the associated sheaf be the sheaf of regular functions. We can then define what an affine algebraic variety is.\nDefinition (Affine algebraic variety): An affine algebraic variety is a ringed space $(X, \\mathcal{O}_X)$ that is isomorphic to $(V, \\mathcal{O}_V)$ for some affine algebraic set $V$.\nAs we above noted that the stalks of the sheaf of regular functions are in fact local rings, we call an affine algebraic variety a locally ringed space.\nThe only difference between an affine algebraic variety and a general algebraic variety is that we allow algebraic varieties to be sewn together by these affine algebraic varieties. Like manifolds, who locally look like Euclidean $n$-space, an algebraic variety locally looks like an affine algebraic variety. To be precise we include a proper formulation.\nDefinition (Algebraic variety): An algebraic variety is a locally ringed space $(X, \\mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \\mathcal{O}_{X|U_i})$ is an affine algebraic variety.\nHere $\\mathcal{O}_{X|U}$ means that we restrict our sheaf to only consider open subsets of $U$, instead of open sets on all of $X$. The above definition seemingly looks very much like the definition of a scheme we introduced in the beginning, so we conclude that we are on the right track.\nSchemes One of the things that stick out as a difference between the definition of an algebraic variety, and the definition we stated in the beginning of a scheme, is the object $Spec A_i$.\nThe spectrum as a topological space This is the gadget that makes a scheme more general than an algebraic variety, so lets define it.\nDefinition: Let $A$ be a commutative unital ring. We define the spectrum of $A$ (as a topological space) to be the set $\\text{Spec } A = \\{ p\\subseteq A | p \\text{ prime}\\}$, i.e. the set of prime ideals in $A$, together with the topology defined by letting the closed sets be of the form $V(a)=\\{ p\\in \\text{Spec } A| a\\subseteq p \\}$, where $a$ is any ideal in $A$.\nWe won’t prove that this is a topology on $\\text{Spec } A$, but it should remind us of the topology we had on an affine algebraic set, namely the Zariski topology. These are in fact the same topology, hence they also get the same name for both algebraic varieties and spectrums. As for affine algebraic varieties, we have a nice basis for this topology, defined by the sets\n$$D(f) = \\text{Spec }A\\setminus V(f)=\\{ p\\in \\text{Spec } A | f\\notin p\\}$$\nHere we start to see why using $\\text{Spec }A$ is a generalization of affine algebraic varieties. If we let $A=\\Gamma(X)$ for some affine algebraic set $X$, then by the weak nullstellensatz we know that the points in $X$ correspond to maximal ideals in its coordinate ring, $\\Gamma(X)$. All maximal ideals are prime, but not all prime ideals are maximal. Hence $\\text{Spec }\\Gamma(X)$ contains in some sense “more points” than $X$. As prime ideals in $\\Gamma(X)$ correspond to irreducible affine algebraic subsets of $X$, we get that $\\text{Spec }\\Gamma(X)$ contains both the information about the points in $X$, but also all the affine algebraic subsets.\nThe spectrum as a ringed space We saw all the way back in the introduction that a scheme was defined as a ringed space, so it should hopefully come as no surprise that we also need to give $\\text{Spec }A$ a sheaf of rings. This sheaf will hopefully look familiar.\nDefinition (Structure sheaf on $\\text{Spec }A$): Let $A$ be a commutative unital ring and $\\text{Spec } A$ its spectrum. We define a sheaf on $\\text{Spec }A$, called its structure sheaf, by\n$$\\mathcal{O}_{\\text{Spec }A}(D(f)) = A_f$$\nThis means that we can turn any ring $A$ into a ringed space by letting the topological space be $\\text{Spec }A$, and the sheaf be the structure sheaf $\\mathcal{O}_{\\text{Spec }A}$. This ringed space is called its spectrum. As for affine algebraic varieties, these ringed spaces are in fact locally ringed spaces, i.e. ringed spaces where the stalk at every point is a local ring. To be precise, and to sum up, we give the definition properly.\nDefinition (Spectrum of a ring): Let $A$ be a commutative unital ring. We define the spectrum of $A$ to be the locally ringed space $(\\text{Spec }A, \\mathcal{O}_ {\\text{Spec }A})$, where $\\mathcal{O}_{\\text{Spec }A}$ is the structure sheaf defined above. By abuse of notation we often denote this ringed space by just $\\text{Spec } A$.\nThese spaces are actually schemes, and we will see below that they are the basic building blocks for all schemes. This is maybe not surprising, as in the introduction we defined schemes to be locally ringed spaces that locally looked like these spectra of rings.\nThe definition Phew! That was a lot of construction. Luckily, we are now ready to define our objects of interest - schemes. As with algebraic varieties, we will first define an affine scheme, and then define a general scheme to be a ringed space that is locally affine. This means simply that the affine schemes are the building blocks of general schemes, just as affine algebraic varieties formed the building blocks of algebraic varieties.\nDefinition (Affine scheme): An affine scheme is a locally ringed space $(X, \\mathcal{O}_X)$ that is isomorphic to $\\text{Spec }A$ for some commutative unital ring $A$.\nHere we see what we stated above, i.e. that the spectra of rings actually form the building blocks we wanted. But we allow some isomorphisms in order to not be too strict in our definitions. Thus we can finally restate the definition from the introduction, and say that we understand the parts.\nDefinition (Scheme): A scheme is a locally ringed space $(X, \\mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \\mathcal{O}_{X|U_i})$ is an affine scheme.\nBy the definition of an affine scheme, this definition is really the definition we presented in the introduction, even though it looks slightly different. The reason we did not use the word affine scheme in the introduction is that using affine schemes to define schemes is not very enlightening without first understanding the whole affine construction.\nWe now hopefully understand what the different components of the definition are, as well as why they are defined that way. They do however look disturbingly similar to algebraic varieties, so are schemes actually useful?\nWhy the need for schemes? So why do we need this abstraction? The algebraic varieties we had earlier are most usable for rings that are algebras over an algebraically closed field $k$. In fact, big results like the general nullstellensatz only holds for algebraically closed fields. This is one place where the necessity for schemes arise, as schemes are usable for all commutative unital rings! Maybe most notably, the integers $\\mathbb{Z}$ is not a $k$-algebra. Hence, if we want to use algebro-geometric techniques in number theory - for example studying the vanishing set of $X^n+Y^n-Z^n$ over $\\mathbb{Z}$ for $n\\geq 3$- then we often need schemes to do so.\nBut, even in the world of algebraically closed fields, schemes show up as necessary. They do so for example in the study of intersections of plane curves. We have not really covered projective space and projective varieties in this blog post (maybe we will do that later), but one can study plane curves by studying homogeneous polynomials in $k[X,Y,T]$. Bezout’s theorem then tells us that the number of intersection points $V(F)\\cap V(G)$ of two homogeneous polynomials with no common components, is $s\\cdot t$, where $s$ is the degree of $F$ and $t$ the degree of $G$. This theorem only holds when we count multiplicities of intersections, which is a scheme-theoretic construction. Let us for example look at the intersection of the two plane curves we saw earlier:\nRecall that these curves are given by $F=X^2+Y^2-1$ and $G=XY-1$. These both have degree 2, but there are only 2 intersection points. As we really need these to be projective curves, we can possibly also have an intersection point “at infinity”. This is still only three possible points, so we need to have at least one intersection with “multiplicity 2”. If we were only allowed to use the structure of algebraic varieties here, then all these multiplicities will be 1, but if we allow for the intersection to admit a scheme structure, then we can “count correctly”. In this way we get the four intersection points that Bezout’s theorem tells us we should have.\nSchemes are of course useful in many other situations, where algebraic varieties turn out not to be general enough, or not the right tool. In one of the next coming days we will see a generalization of the first post i ever made, i.e. geometric intuition about Noether normalization, to these more general schemes. Maybe we’ll write a bit better what is stated in the first post as well…\n",
   "wordCount" : "3083",
   "inLanguage": "en",
-  "image":"images/intersection2.png","datePublished": "2021-05-18T00:00:00Z",
+  "image":"https://torgeiraamboe.github.io/images/intersection2.png","datePublished": "2021-05-18T00:00:00Z",
   "dateModified": "2021-05-18T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -97,14 +97,14 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/posts/2021/schemes/"
+    "@id": "https://torgeiraamboe.github.io/posts/2021/schemes/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Writing what I'm learning",
     "logo": {
       "@type": "ImageObject",
-      "url": "favicon.ico"
+      "url": "https://torgeiraamboe.github.io/favicon.ico"
     }
   }
 }
@@ -163,7 +163,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="" accesskey="h" title="Writing what I&#39;m learning (Alt + H)">Writing what I&#39;m learning</a>
+            <a href="https://torgeiraamboe.github.io/" accesskey="h" title="Writing what I&#39;m learning (Alt + H)">Writing what I&#39;m learning</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -189,22 +189,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="categories/" title="Categories">
+                <a href="https://torgeiraamboe.github.io/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="tags/" title="Tags">
+                <a href="https://torgeiraamboe.github.io/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="archives/" title="Archive">
+                <a href="https://torgeiraamboe.github.io/archives/" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://torgeiraamboe.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -215,7 +215,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://torgeiraamboe.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://torgeiraamboe.github.io/posts/">Posts</a></div>
     <h1 class="post-title">
       Schemes
     </h1>
@@ -258,7 +258,7 @@
     </details>
 </div>
 
-  <div class="post-content"><p>The first two posts (<a href="/posts/2020/geometric-intuition/">[1]</a>,<a href="/posts/2020/more-geometric-intuition/">[2]</a>) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote <a href="/posts/2020/sheaves/">a post about sheaves</a>, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks. Today we will rectify this situation. I have my algebraic geometry exam this week, so this is both an explainer-post, and a &ldquo;making sure I understand the course material&rdquo;-post. These types of posts have in fact become common on this blog, but hopefully that is ok.</p>
+  <div class="post-content"><p>The first two posts (<a href="https://torgeiraamboe.github.io/posts/2020/geometric-intuition/">[1]</a>,<a href="https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/">[2]</a>) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote <a href="https://torgeiraamboe.github.io/posts/2020/sheaves/">a post about sheaves</a>, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks. Today we will rectify this situation. I have my algebraic geometry exam this week, so this is both an explainer-post, and a &ldquo;making sure I understand the course material&rdquo;-post. These types of posts have in fact become common on this blog, but hopefully that is ok.</p>
 <p>The goal of the post is to be able to understand the definition of a scheme. So in order to do that we first make a quite extensive recap on algebraic varieties in order to get some motivation and intuition, and then make sure we understand all the components of the definition. As we have done before, we start with the definition we want to understand, and then unravel it as we go along. So, here it is, the definition of a scheme.</p>
 <p><strong>Definition (Scheme):</strong> A scheme is a locally ringed space $(X, \mathcal{O}_ X)$ that admits an open cover $\{U_i\}$ such that $(U_i, \mathcal{O}_{X|U_i})$ is isomorphic to $\text{Spec }A_i$, the spectrum of some ring $A_i$.</p>
 <p>There are many ways to package the information in the above definition, so just be aware that not all definitions of a scheme will look like this, but, this is the definition an formulation we are going to cover in this post.</p>
@@ -295,7 +295,7 @@
 <p>An important thing to realize is that this topology works quite a bit different than the topologies one is used to from topology. The closed sets are shaped that we get from repedeately slicing $k^n$ by polynomials, which makes them really &ldquo;small&rdquo;. The open sets, are then &ldquo;huge&rdquo;, and are almost always dense in $k^n$.</p>
 <p>We have some easy to define open sets called the standard open sets, or sometimes distinguished open sets. These are defined by $D(f) = k^n\setminus V((f))$, i.e. the complement of the hypersurface generated by $f\in k[X_1,\ldots,X_n]$.  These open sets form a basis for the Zariski topology on $k^n$. We can use this to define the Zariski topology on any affine algebraic set $X\subseteq k^n$ by letting the topology on $X$ be the subspace topology. Then we would instead use $f\in \Gamma(X)$.</p>
 <h2 id="the-sheaf-of-regular-functions">The sheaf of regular functions<a hidden class="anchor" aria-hidden="true" href="#the-sheaf-of-regular-functions">#</a></h2>
-<p>As we have already covered sheaves in <a href="/posts/2020/sheaves/">an earlier blog post</a>, we will not do that here. So if the reader has not seen sheaves, it would be smart to look at that post before reading onwards.</p>
+<p>As we have already covered sheaves in <a href="https://torgeiraamboe.github.io/posts/2020/sheaves/">an earlier blog post</a>, we will not do that here. So if the reader has not seen sheaves, it would be smart to look at that post before reading onwards.</p>
 <p>But, before we construct the sheaf we need, we need to realize that defining it on a basis for the topology is enough. Usually we need to define an object - in our case a ring - for each open set in a topological space $X$, satisfying a couple conditions. A basis for the topology on $X$ allows us to construct any other open set as a colimit of sets in the basis. When we apply the sheaf, then the rings we get for the general open sets can again be constructed as colimits of the rings we get from the open sets in the basis. Thus when we only define the sheaf for the basis elements, we are simultaneously defining it for all open sets, due to colimits of rings behaving nicely.</p>
 <p>If we let $X$ be an affine algebraic set, then we define the sheaf of regular functions by</p>
 <p>$$\mathcal{O}_X(D(f)) = \Gamma(X)_f$$</p>
@@ -336,23 +336,23 @@
 <p><img loading="lazy" src="images/intersection2.png" alt="Error loading image"  />
 </p>
 <p>Recall that these curves are given by $F=X^2+Y^2-1$ and $G=XY-1$. These both have degree 2, but there are only 2 intersection points. As we really need these to be projective curves, we can possibly also have an intersection point &ldquo;at infinity&rdquo;. This is still only three possible points, so we need to have at least one intersection with &ldquo;multiplicity 2&rdquo;. If we were only allowed to use the structure of algebraic varieties here, then all these multiplicities will be 1, but if we allow for the intersection to admit a scheme structure, then we can &ldquo;count correctly&rdquo;. In this way we get the four intersection points that Bezout&rsquo;s theorem tells us we should have.</p>
-<p>Schemes are of course useful in many other situations, where algebraic varieties turn out not to be general enough, or not the right tool. In one of the next coming days we will see a generalization of the <a href="/posts/2020/geometric-intuition/">first post i ever made</a>, i.e. geometric intuition about Noether normalization, to these more general schemes. Maybe we&rsquo;ll write a bit better what is stated in the first post as well&hellip;</p>
+<p>Schemes are of course useful in many other situations, where algebraic varieties turn out not to be general enough, or not the right tool. In one of the next coming days we will see a generalization of the <a href="https://torgeiraamboe.github.io/posts/2020/geometric-intuition/">first post i ever made</a>, i.e. geometric intuition about Noether normalization, to these more general schemes. Maybe we&rsquo;ll write a bit better what is stated in the first post as well&hellip;</p>
 
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="/tags/algebras/">Algebras</a></li>
-      <li><a href="/tags/schemes/">Schemes</a></li>
-      <li><a href="/tags/algebraic-varieties/">Algebraic varieties</a></li>
-      <li><a href="/tags/sheaves/">Sheaves</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/algebras/">Algebras</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/schemes/">Schemes</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/algebraic-varieties/">Algebraic varieties</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/sheaves/">Sheaves</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="/posts/2021/updated-geometric-intuition/">
+  <a class="prev" href="https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/">
     <span class="title">« Prev Page</span>
     <br>
     <span>Updated geometric intuition</span>
   </a>
-  <a class="next" href="/posts/2021/a-leqture-in-my-second-year/">
+  <a class="next" href="https://torgeiraamboe.github.io/posts/2021/a-leqture-in-my-second-year/">
     <span class="title">Next Page »</span>
     <br>
     <span>A Lecture in My Second Year</span>
@@ -361,42 +361,42 @@
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Schemes on twitter"
-        href="https://twitter.com/intent/tweet/?text=Schemes&amp;url=%2fposts%2f2021%2fschemes%2f&amp;hashtags=Algebras%2cSchemes%2cAlgebraicvarieties%2cSheaves">
+        href="https://twitter.com/intent/tweet/?text=Schemes&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fschemes%2f&amp;hashtags=Algebras%2cSchemes%2cAlgebraicvarieties%2cSheaves">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Schemes on linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2f2021%2fschemes%2f&amp;title=Schemes&amp;summary=Schemes&amp;source=%2fposts%2f2021%2fschemes%2f">
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fschemes%2f&amp;title=Schemes&amp;summary=Schemes&amp;source=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fschemes%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Schemes on reddit"
-        href="https://reddit.com/submit?url=%2fposts%2f2021%2fschemes%2f&title=Schemes">
+        href="https://reddit.com/submit?url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fschemes%2f&title=Schemes">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Schemes on facebook"
-        href="https://facebook.com/sharer/sharer.php?u=%2fposts%2f2021%2fschemes%2f">
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fschemes%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Schemes on whatsapp"
-        href="https://api.whatsapp.com/send?text=Schemes%20-%20%2fposts%2f2021%2fschemes%2f">
+        href="https://api.whatsapp.com/send?text=Schemes%20-%20https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fschemes%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Schemes on telegram"
-        href="https://telegram.me/share/url?text=Schemes&amp;url=%2fposts%2f2021%2fschemes%2f">
+        href="https://telegram.me/share/url?text=Schemes&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fschemes%2f">
         <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
             <path
                 d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />

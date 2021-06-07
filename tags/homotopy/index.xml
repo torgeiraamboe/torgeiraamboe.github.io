@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homotopy on Writing what I&#39;m learning</title>
-    <link>/tags/homotopy/</link>
+    <link>https://torgeiraamboe.github.io/tags/homotopy/</link>
     <description>Recent content in Homotopy on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/homotopy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/homotopy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The homotopy category</title>
-      <link>/posts/2020/the-homotopy-category/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/the-homotopy-category/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</guid>
       <description>This is part 9 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 8.
 Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting.</description>
     </item>
     
     <item>
       <title>Homotopy in model categories</title>
-      <link>/posts/2020/homotopy-in-model-categories/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/homotopy-in-model-categories/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</guid>
       <description>This is part 8 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 9.
 Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with.</description>
     </item>
     
     <item>
       <title>Fibrations</title>
-      <link>/posts/2020/fibrations/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/fibrations/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/fibrations/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/fibrations/</guid>
       <description>This is part 1 of a series leading up to and exploring model categories. For the other parts see 2, 3, 4, 5 6, 7, 8 and 9.
 My main mathematical interest for the last couple years has been algebraic topology. I feel it suits my needs for intuition, and graphical picturing of what happens. A concept I have been learning more rigorously recently is fibrations, and how to use them in computing homotopy groups and homology groups of different spaces.</description>
     </item>

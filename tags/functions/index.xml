@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Functions on Writing what I&#39;m learning</title>
-    <link>/tags/functions/</link>
+    <link>https://torgeiraamboe.github.io/tags/functions/</link>
     <description>Recent content in Functions on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/functions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/functions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sheaves</title>
-      <link>/posts/2020/sheaves/</link>
+      <link>https://torgeiraamboe.github.io/posts/2020/sheaves/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020/sheaves/</guid>
+      <guid>https://torgeiraamboe.github.io/posts/2020/sheaves/</guid>
       <description>This summer I’m participating in Ravi Vakils pseudocourse on algebraic geometry, AGITTOC. Hence this summer serves as a wonderful opportunity to learn and write about cool mathematics. For long I have wanted to dive deeper into this abstract topic after just dipping my toes in during my bachelor thesis, and now it is time. Ravi though us in the first lecture that we shouldn’t study abstract objects without a cause, i.</description>
     </item>
     
