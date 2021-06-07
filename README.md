@@ -1,4 +1,4 @@
-# My homepage/blog
+# My blog
 
-This is a place to have documents for my homepage/blog. It is currently not hosted through github pages, but can be found [here](https://folk.ntnu.no/torgeaam/)
+For easier blog-post publishing I have split my homepage in two, one static information site, hosted [here](https://folk.ntnu.no/torgeaam/) and one blog site, hosted [here](https://torgeiraamboe.github.io/) on github pages! 
 
