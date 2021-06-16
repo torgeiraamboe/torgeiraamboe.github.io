@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monads on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/monads/</link>
+    <description>Recent content in Monads on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/monads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vertical Monoids</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</guid>
+      <description>You may be thinking, what the heck is a monoid, and why the heck is it vertical? To explain this we will need some insight into classical categories and $2$-categories, which we luckily have been developing for the last few posts. First off, to let the familiar readers know, the objects of study today is called monads, not vertical monoids. But, I like to visualize them and think about them as somehow vertical, or at least something not strictly horizontal or one-dimensional.</description>
+    </item>
+    
+  </channel>
+</rss>

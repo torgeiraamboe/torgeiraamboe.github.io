@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bicategories on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/bicategories/</link>
+    <description>Recent content in Bicategories on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/bicategories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vertical Monoids</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</guid>
+      <description>You may be thinking, what the heck is a monoid, and why the heck is it vertical? To explain this we will need some insight into classical categories and $2$-categories, which we luckily have been developing for the last few posts. First off, to let the familiar readers know, the objects of study today is called monads, not vertical monoids. But, I like to visualize them and think about them as somehow vertical, or at least something not strictly horizontal or one-dimensional.</description>
+    </item>
+    
+    <item>
+      <title>Equivalence of Categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/</guid>
+      <description>Last fall I held a talk about functors, natural transformations and equivalences of categories. This talk was part two of five in a student seminar on introductory category theory. There was mostly second year students attending but also a couple more experienced students. To make the talk a bit interesting for them as well I said that an equivalence of categories is the correct notion of “sameness” of categories, and not isomorphisms due to the fact that categories naturally lie in a $2$-category.</description>
+    </item>
+    
+    <item>
+      <title>The Homotopy Litmus Test</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</guid>
+      <description>A litmus test is a question asked in politics to a potential candidate for high office in which the answer determines if the person gets nominated or not. If a person or a committee holds the power of nominating candidates, they can use that power to make sure that a potential candidate holds their view on a certain matter. So, what does this have to do with mathematics, or especially with homotopy theory?</description>
+    </item>
+    
+  </channel>
+</rss>

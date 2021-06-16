@@ -34,5 +34,14 @@
       <description>For those that don’t know I am a fifth year mathematics student at NTNU, meaning I am finishing my masters degree after this semester. During my time at NTNU I have had some wonderful classes, and some wonderful teachers. Since most I post about on this blog is related to topology, it is very safe to assume that some of my most memorable courses are exactly the topology courses. I very recently looked at my notes from my first topology course, or rather one of the two first, as I took two in parallel during my fourth semester.</description>
     </item>
     
+    <item>
+      <title>Under Category</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/under-category/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/under-category/</guid>
+      <description>Since one of my main mathematical interests is homotopy theory, im bound to often bump into things that require the use of base-points. This has long been the classical way to study spaces, especially in terms of homotopy groups. When I was introduced to these so-called pointed spaces, I couldn’t help but feel that these we less natural, or more ad hoc, than regular spaces. I didn’t know much about categories then, but have since learned it is usually in this context that some form of naturality occur.</description>
+    </item>
+    
   </channel>
 </rss>

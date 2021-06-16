@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Closed category on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/closed-category/</link>
+    <description>Recent content in Closed category on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/closed-category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defining the Cosmos: Properties and definition</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</guid>
+      <description>This post is part two of a little two-part miniseries about defining the cosmos. To learn what a cosmos is in mathematics, or rather what we want it to be, you can read the first part. There we described a cosmos as a nice place to enrich a category, or a nice place to do enriched category theory, and to quickly recap, an enriched category is a category where we have objects of morphisms instead of just a collection of them, and these objects come from some monoidal category.</description>
+    </item>
+    
+  </channel>
+</rss>

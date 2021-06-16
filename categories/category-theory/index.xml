@@ -17,6 +17,33 @@
     </item>
     
     <item>
+      <title>Under Category</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/under-category/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/under-category/</guid>
+      <description>Since one of my main mathematical interests is homotopy theory, im bound to often bump into things that require the use of base-points. This has long been the classical way to study spaces, especially in terms of homotopy groups. When I was introduced to these so-called pointed spaces, I couldn’t help but feel that these we less natural, or more ad hoc, than regular spaces. I didn’t know much about categories then, but have since learned it is usually in this context that some form of naturality occur.</description>
+    </item>
+    
+    <item>
+      <title>Defining the Cosmos: Properties and definition</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</guid>
+      <description>This post is part two of a little two-part miniseries about defining the cosmos. To learn what a cosmos is in mathematics, or rather what we want it to be, you can read the first part. There we described a cosmos as a nice place to enrich a category, or a nice place to do enriched category theory, and to quickly recap, an enriched category is a category where we have objects of morphisms instead of just a collection of them, and these objects come from some monoidal category.</description>
+    </item>
+    
+    <item>
+      <title>Defining the Cosmos: Enriched category theory</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/</guid>
+      <description>I think there are many parts of physics worth studying for mathematicians, and the physical notion of a cosmos may be one of them, but, this post is not about physics. Even though the usual field of study one thinks of when hearing the word “cosmos” is physics, there is also a type of mathematical object with the same name. This type of object does have that name for a reason, which is not clear maybe from the object it self, but from what one can do with and in such an object.</description>
+    </item>
+    
+    <item>
       <title>Swans Theorem</title>
       <link>https://torgeiraamboe.github.io/posts/2020/swans-theorem/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>

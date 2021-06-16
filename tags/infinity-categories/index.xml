@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infinity-categories on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/infinity-categories/</link>
+    <description>Recent content in Infinity-categories on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/infinity-categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quasi Categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</guid>
+      <description>A couple weeks ago I held a talk on introductory higher category theory. Most of the talk was based upon thing we already have discussed on this blog, such as the strict $2$-category $Cat$, bicategories, and why strictness fails for the category of topological spaces. The inly thing I talked about which I haven’t yet featured on this blog is the notion of quasi-categories, so I though that I would do that today.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,25 @@
     <description>Recent content in Homotopy theory on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quasi Categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</guid>
+      <description>A couple weeks ago I held a talk on introductory higher category theory. Most of the talk was based upon thing we already have discussed on this blog, such as the strict $2$-category $Cat$, bicategories, and why strictness fails for the category of topological spaces. The inly thing I talked about which I haven’t yet featured on this blog is the notion of quasi-categories, so I though that I would do that today.</description>
+    </item>
+    
+    <item>
+      <title>The Homotopy Litmus Test</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</guid>
+      <description>A litmus test is a question asked in politics to a potential candidate for high office in which the answer determines if the person gets nominated or not. If a person or a committee holds the power of nominating candidates, they can use that power to make sure that a potential candidate holds their view on a certain matter. So, what does this have to do with mathematics, or especially with homotopy theory?</description>
+    </item>
+    
     <item>
       <title>The homotopy category</title>
       <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</link>
@@ -45,6 +63,15 @@ Finally we have made it to the destination we set, namely, more abstraction. Thi
       <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
       <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 7, 8 and 9.
 Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations.</description>
+    </item>
+    
+    <item>
+      <title>Hanging Pictures With Homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</guid>
+      <description>Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it!</description>
     </item>
     
     <item>

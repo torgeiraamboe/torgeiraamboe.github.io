@@ -16,5 +16,32 @@
       <description>For those that don’t know I am a fifth year mathematics student at NTNU, meaning I am finishing my masters degree after this semester. During my time at NTNU I have had some wonderful classes, and some wonderful teachers. Since most I post about on this blog is related to topology, it is very safe to assume that some of my most memorable courses are exactly the topology courses. I very recently looked at my notes from my first topology course, or rather one of the two first, as I took two in parallel during my fourth semester.</description>
     </item>
     
+    <item>
+      <title>Vertical Monoids</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</guid>
+      <description>You may be thinking, what the heck is a monoid, and why the heck is it vertical? To explain this we will need some insight into classical categories and $2$-categories, which we luckily have been developing for the last few posts. First off, to let the familiar readers know, the objects of study today is called monads, not vertical monoids. But, I like to visualize them and think about them as somehow vertical, or at least something not strictly horizontal or one-dimensional.</description>
+    </item>
+    
+    <item>
+      <title>Defining the Cosmos: Properties and definition</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</guid>
+      <description>This post is part two of a little two-part miniseries about defining the cosmos. To learn what a cosmos is in mathematics, or rather what we want it to be, you can read the first part. There we described a cosmos as a nice place to enrich a category, or a nice place to do enriched category theory, and to quickly recap, an enriched category is a category where we have objects of morphisms instead of just a collection of them, and these objects come from some monoidal category.</description>
+    </item>
+    
+    <item>
+      <title>Defining the Cosmos: Enriched category theory</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/</guid>
+      <description>I think there are many parts of physics worth studying for mathematicians, and the physical notion of a cosmos may be one of them, but, this post is not about physics. Even though the usual field of study one thinks of when hearing the word “cosmos” is physics, there is also a type of mathematical object with the same name. This type of object does have that name for a reason, which is not clear maybe from the object it self, but from what one can do with and in such an object.</description>
+    </item>
+    
   </channel>
 </rss>

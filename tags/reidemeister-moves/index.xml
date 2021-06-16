@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reidemeister moves on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/reidemeister-moves/</link>
+    <description>Recent content in Reidemeister moves on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/reidemeister-moves/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are There Knots?</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/there-are-knots/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/there-are-knots/</guid>
+      <description>Something I have been looking into a bit lately, due to it sadly not being taught at my university is knot theory. This is something I have always known to be a part of topology, and have known to have interesting applications in physics, medicine, chemistry and more. So to rectify the situation I thought I would prove that knots exist. It was also nice to take a brake from all the higher category theory we have been looking into lately!</description>
+    </item>
+    
+  </channel>
+</rss>

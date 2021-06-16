@@ -6,7 +6,17 @@
     <description>Recent content in Homotopy on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/homotopy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/homotopy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Warsaw Circle</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</guid>
+      <description>The last few posts have all been of relatively long length and have all taken some time to construct and write. I initially also wanted to produce shorter posts just discussing an example or a calculation etc, and today I tried to do just that, but failed. The post became somewhat longer than intended, but it is really informal and intuitive, so its fine in my opinion.
+In a previous post we discussed both weak homotopy equivalences and regular homotopy equivalences, and we have also encountered the Whitehead theorem, which says that any weak homotopy equivalence between CW-complexes is in fact a regular homotopy equivalence.</description>
+    </item>
+    
     <item>
       <title>The homotopy category</title>
       <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</link>
@@ -25,6 +35,15 @@ Last time we ended by giving a definition of a homotopy between maps on the coll
       <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</guid>
       <description>This is part 8 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 9.
 Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with.</description>
+    </item>
+    
+    <item>
+      <title>Hanging Pictures With Homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</guid>
+      <description>Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it!</description>
     </item>
     
     <item>

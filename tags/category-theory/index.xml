@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category theory on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/category-theory/</link>
+    <description>Recent content in Category theory on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/category-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Equivalence of Categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/</guid>
+      <description>Last fall I held a talk about functors, natural transformations and equivalences of categories. This talk was part two of five in a student seminar on introductory category theory. There was mostly second year students attending but also a couple more experienced students. To make the talk a bit interesting for them as well I said that an equivalence of categories is the correct notion of “sameness” of categories, and not isomorphisms due to the fact that categories naturally lie in a $2$-category.</description>
+    </item>
+    
+  </channel>
+</rss>
