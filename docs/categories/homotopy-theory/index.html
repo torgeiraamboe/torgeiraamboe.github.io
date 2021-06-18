@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Homotopy theory | Writing what I&#39;m learning</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<meta name="author" content="Torgeir Aambø">
+<link rel="canonical" href="https://torgeiraamboe.github.io/categories/homotopy-theory/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6b567b96d324ca919a2b2df93e085725455b1fabad1d42441b501145f46e2d53.css" integrity="sha256-a1Z7ltMkypGaKy35PghXJUVbH6utHUJEG1ARRfRuLVM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://torgeiraamboe.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://torgeiraamboe.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://torgeiraamboe.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.82.1" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://torgeiraamboe.github.io/categories/homotopy-theory/index.xml">
+<head>
+
+
+</head>
+
+<meta property="og:title" content="Homotopy theory" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://torgeiraamboe.github.io/categories/homotopy-theory/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Homotopy theory"/>
+<meta name="twitter:description" content=""/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://torgeiraamboe.github.io/" accesskey="h" title="Writing what I&#39;m learning (Alt + H)">Writing what I&#39;m learning</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://folk.ntnu.no/torgeaam/" title="My homepage">
+                    <span>My homepage</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://torgeiraamboe.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://torgeiraamboe.github.io/categories/">Categories</a></div>
+  <h1>Homotopy theory</h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/quasi-categories/images/k-horn-lift_hu0faee249dfd3c66b84bdba4d5dbc406a_15559_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/quasi-categories/images/k-horn-lift_hu0faee249dfd3c66b84bdba4d5dbc406a_15559_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/quasi-categories/images/k-horn-lift.png 719w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/quasi-categories/images/k-horn-lift.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>Quasi Categories</h2>
+  </header>
+  <section class="entry-content">
+    <p>A couple weeks ago I held a talk on introductory higher category theory. Most of the talk was based upon thing we already have discussed on this blog, such as the strict $2$-category $Cat$, bicategories, and why strictness fails for the category of topological spaces. The inly thing I talked about which I haven’t yet featured on this blog is the notion of quasi-categories, so I though that I would do that today....</p>
+  </section>
+  <footer class="entry-footer">November 30, 2020&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to Quasi Categories" href="https://torgeiraamboe.github.io/posts/2020/quasi-categories/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/images/infty_grpd_hu844f9b540e401e99a11f4a150126aa1e_163745_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/images/infty_grpd_hu844f9b540e401e99a11f4a150126aa1e_163745_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/images/infty_grpd_hu844f9b540e401e99a11f4a150126aa1e_163745_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/images/infty_grpd_hu844f9b540e401e99a11f4a150126aa1e_163745_1080x0_resize_box_2.png 1080w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/images/infty_grpd_hu844f9b540e401e99a11f4a150126aa1e_163745_1500x0_resize_box_2.png 1500w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/images/infty_grpd.png 1647w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/images/infty_grpd.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>The Homotopy Litmus Test</h2>
+  </header>
+  <section class="entry-content">
+    <p>A litmus test is a question asked in politics to a potential candidate for high office in which the answer determines if the person gets nominated or not. If a person or a committee holds the power of nominating candidates, they can use that power to make sure that a potential candidate holds their view on a certain matter. So, what does this have to do with mathematics, or especially with homotopy theory?...</p>
+  </section>
+  <footer class="entry-footer">September 30, 2020&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to The Homotopy Litmus Test" href="https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/images/homclasses_hu179a94a6d39229a41a16320cd4a16bba_64402_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/images/homclasses_hu179a94a6d39229a41a16320cd4a16bba_64402_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/images/homclasses_hu179a94a6d39229a41a16320cd4a16bba_64402_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/images/homclasses_hu179a94a6d39229a41a16320cd4a16bba_64402_1080x0_resize_box_2.png 1080w ,https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/images/homclasses.png 1210w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/images/homclasses.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>The homotopy category</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is part 9 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 8.
+Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting....</p>
+  </section>
+  <footer class="entry-footer">June 14, 2020&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to The homotopy category" href="https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/images/relation_hu8e0eec076aa83c1d919a9485288f1f3d_80020_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/images/relation_hu8e0eec076aa83c1d919a9485288f1f3d_80020_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/images/relation_hu8e0eec076aa83c1d919a9485288f1f3d_80020_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/images/relation_hu8e0eec076aa83c1d919a9485288f1f3d_80020_1080x0_resize_box_2.png 1080w ,https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/images/relation.png 1388w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/images/relation.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>Homotopy in model categories</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is part 8 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 9.
+Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with....</p>
+  </section>
+  <footer class="entry-footer">June 7, 2020&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to Homotopy in model categories" href="https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/model-categories/images/lift_huc7dd1ec0d2fa1faf3d5323661a5a1e98_35853_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/model-categories/images/lift_huc7dd1ec0d2fa1faf3d5323661a5a1e98_35853_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/model-categories/images/lift_huc7dd1ec0d2fa1faf3d5323661a5a1e98_35853_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/model-categories/images/lift.png 1008w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/model-categories/images/lift.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>Model categories</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is part 7 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 8 and 9.
+Finally we have made it to the destination we set, namely, more abstraction. This post is focused on the definition and intuition on model categories, which abstracts the objects we have been studying for some weeks, namely fibrations and cofibrations. The main definition is that of a model structure on a category, which together with a nice category will form the definition of a model category....</p>
+  </section>
+  <footer class="entry-footer">June 6, 2020&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to Model categories" href="https://torgeiraamboe.github.io/posts/2020/model-categories/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/cofibrations/images/Homotopy_extension_property_hua45ea0fdf7c86520aecaaacc65c2e202_67899_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/cofibrations/images/Homotopy_extension_property_hua45ea0fdf7c86520aecaaacc65c2e202_67899_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/cofibrations/images/Homotopy_extension_property_hua45ea0fdf7c86520aecaaacc65c2e202_67899_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/cofibrations/images/Homotopy_extension_property_hua45ea0fdf7c86520aecaaacc65c2e202_67899_1080x0_resize_box_2.png 1080w ,https://torgeiraamboe.github.io/posts/2020/cofibrations/images/Homotopy_extension_property.png 1201w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/cofibrations/images/Homotopy_extension_property.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>Cofibrations</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is part 6 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 7, 8 and 9.
+Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations....</p>
+  </section>
+  <footer class="entry-footer">June 2, 2020&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to Cofibrations" href="https://torgeiraamboe.github.io/posts/2020/cofibrations/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/images/hanging_a_picture3_hu27bd2d42c234aeb8227f59fda0f7f4e4_117701_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/images/hanging_a_picture3_hu27bd2d42c234aeb8227f59fda0f7f4e4_117701_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/images/hanging_a_picture3_hu27bd2d42c234aeb8227f59fda0f7f4e4_117701_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/images/hanging_a_picture3_hu27bd2d42c234aeb8227f59fda0f7f4e4_117701_1080x0_resize_box_2.png 1080w ,https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/images/hanging_a_picture3.png 1367w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/images/hanging_a_picture3.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>Hanging Pictures With Homotopy</h2>
+  </header>
+  <section class="entry-content">
+    <p>Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it!...</p>
+  </section>
+  <footer class="entry-footer">May 29, 2020&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to Hanging Pictures With Homotopy" href="https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/images/Computing_H%5E5%28X%29_hu647d7945868bd5645f5f94ecaf23934c_106097_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/images/Computing_H%5E5%28X%29_hu647d7945868bd5645f5f94ecaf23934c_106097_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/images/Computing_H%5E5%28X%29_hu647d7945868bd5645f5f94ecaf23934c_106097_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/images/Computing_H%5E5%28X%29_hu647d7945868bd5645f5f94ecaf23934c_106097_1080x0_resize_box_2.png 1080w ,https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/images/Computing_H%5E5%28X%29.png 1207w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/images/Computing_H%5E5%28X%29.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>A homotopy group of a sphere</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is part 5 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 6, 7, 8 and 9.
+As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask?...</p>
+  </section>
+  <footer class="entry-footer">May 28, 2020&nbsp;·&nbsp;13 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to A homotopy group of a sphere" href="https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/images/Hopf_hu1af21ac911861a0ad27c68fa920e9e5e_32990_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/images/Hopf_hu1af21ac911861a0ad27c68fa920e9e5e_32990_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/images/Hopf_hu1af21ac911861a0ad27c68fa920e9e5e_32990_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/images/Hopf.png 810w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/images/Hopf.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>The Serre spectral sequence</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is part 4 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 5 6, 7, 8 and 9.
+My personal favorite part about fibrations is that they come equipped with a natural way to compute the cohomology of the total space from the cohomology of the base and the cohomology of the fibers. This process is encoded in a structure called a spectral sequence, and is a complicated object in its full generality....</p>
+  </section>
+  <footer class="entry-footer">May 27, 2020&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to The Serre spectral sequence" href="https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://torgeiraamboe.github.io/posts/2020/homotopy-groups/images/SuspensionS1_hu4fac0752398b74f1c073cac88f079c05_55887_360x0_resize_box_2.png 360w ,https://torgeiraamboe.github.io/posts/2020/homotopy-groups/images/SuspensionS1_hu4fac0752398b74f1c073cac88f079c05_55887_480x0_resize_box_2.png 480w ,https://torgeiraamboe.github.io/posts/2020/homotopy-groups/images/SuspensionS1_hu4fac0752398b74f1c073cac88f079c05_55887_720x0_resize_box_2.png 720w ,https://torgeiraamboe.github.io/posts/2020/homotopy-groups/images/SuspensionS1_hu4fac0752398b74f1c073cac88f079c05_55887_1080x0_resize_box_2.png 1080w ,https://torgeiraamboe.github.io/posts/2020/homotopy-groups/images/SuspensionS1.png 1174w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://torgeiraamboe.github.io/posts/2020/homotopy-groups/images/SuspensionS1.png" alt="" />
+</figure>
+  <header class="entry-header">
+    <h2>Homotopy groups</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is part 3 of a series leading up to and exploring model categories. For the other parts see 1, 2, 4, 5 6, 7, 8 and 9.
+For an introduction to the material, the definitions, motivation and some examples, please read part 1 and part 2 about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups....</p>
+  </section>
+  <footer class="entry-footer">May 16, 2020&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Torgeir Aambø</footer>
+  <a class="entry-link" aria-label="post link to Homotopy groups" href="https://torgeiraamboe.github.io/posts/2020/homotopy-groups/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://torgeiraamboe.github.io/categories/homotopy-theory/page/2/">Next Page »</a>
+  </nav>
+</footer>
+    </main>
+    <footer class="footer">
+    <span></span>
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
