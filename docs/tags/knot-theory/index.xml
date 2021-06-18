@@ -6,7 +6,16 @@
     <description>Recent content in Knot theory on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/knot-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/knot-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hanging Pictures With Knots</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/hanging-pictures-with-knots/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/hanging-pictures-with-knots/</guid>
+      <description>Last year I posted a blog post where we looked at a way to use elementary homotopy theory to hang a picture on the wall in a stupid way. The task was to hang a picture on two nails in such a way that if we pull one of the nails out, the picture falls down. “That is stupid” I hear you say, but premise is as premise does, or something similar quoted from Forrest Gump.</description>
+    </item>
+    
     <item>
       <title>Are There Knots?</title>
       <link>https://torgeiraamboe.github.io/posts/2020/there-are-knots/</link>

@@ -6,7 +6,43 @@
     <description>Recent content in Algebraic topology on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homotopy Associative Algebraic Product</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</guid>
+      <description>In the two last posts we have been discussing operations that are associative up to homotopy, and where such operations might arise naturally in topology. One claim I made, which I later realized was maybe a bit unmotivated and in need of some clarification was how some higher arity maps actually defined (or were defined by) homotopies between combinations of the lower arity maps. We also purely looked at this in a topological setting, but in algebraic topology we often translate to algebraic structures, so I also wanted to see clearly that the same constructions hold in that setting.</description>
+    </item>
+    
+    <item>
+      <title>Spaces With Operations</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</guid>
+      <description>In the most recent blog post we discussed homotopy associativity and how to transfer algebraic structures on topological spaces. There we in particular used topological groups, which are topological spaces with group structures. That said, any group is a topological group by equipping it with the discrete topology. So if we want to study some actual topology, and not just glorified group theory, we need to look at where multiplications and binary operations arise naturally in topology.</description>
+    </item>
+    
+    <item>
+      <title>Homotopy Associativity</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
+      <description>Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures.</description>
+    </item>
+    
+    <item>
+      <title>Hanging Pictures With Knots</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/hanging-pictures-with-knots/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/hanging-pictures-with-knots/</guid>
+      <description>Last year I posted a blog post where we looked at a way to use elementary homotopy theory to hang a picture on the wall in a stupid way. The task was to hang a picture on two nails in such a way that if we pull one of the nails out, the picture falls down. “That is stupid” I hear you say, but premise is as premise does, or something similar quoted from Forrest Gump.</description>
+    </item>
+    
     <item>
       <title>Are There Knots?</title>
       <link>https://torgeiraamboe.github.io/posts/2020/there-are-knots/</link>

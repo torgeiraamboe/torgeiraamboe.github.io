@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stasheff associahedra on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/stasheff-associahedra/</link>
+    <description>Recent content in Stasheff associahedra on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/stasheff-associahedra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sha Algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</guid>
+      <description>This is part four in a sort of connected story about operations in mathematics that are associative up to homotopy. It will probably be beneficial to read part 1, part 2 and part 3 in advance of this, but it is not required in theory. These previous posts do however build up some intuition and motivation for the object we are looking at today. To quickly recap what we already seen in these previous posts we recall that we started out by looking at how to transfer a group structure on a topological space through an isomorphism.</description>
+    </item>
+    
+    <item>
+      <title>Homotopy Associativity</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
+      <description>Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures.</description>
+    </item>
+    
+  </channel>
+</rss>

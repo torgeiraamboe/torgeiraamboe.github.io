@@ -61,6 +61,9 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowToc: true
+    cover:
+        responsiveImages: false
+        hiddenInSingle: true 
     # hidesummary: true
     # comments: true
     # images: ["papermod-cover.png"]
@@ -99,10 +102,6 @@ params:
     #     apple_touch_icon: "<link / abs url>"
     #     safari_pinned_tab: "<link / abs url>"
 
-    cover:
-    #    hidden: true # hide everywhere but not in structured data
-    #    hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
 
     # fuseOpts:
     #     isCaseSensitive: false

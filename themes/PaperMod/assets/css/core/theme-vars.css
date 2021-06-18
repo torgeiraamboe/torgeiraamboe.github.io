@@ -2,10 +2,10 @@
     --gap: 24px;
     --content-gap: 20px;
     --nav-width: 1024px;
-    --main-width: 720px;
+    --main-width: 700px;
     --header-height: 60px;
     --footer-height: 60px;
-    --radius: 8px;
+    --radius: 5px;
     --theme: #fff;
     --entry: #fff;
     --primary: rgba(0, 0, 0, 0.88);
@@ -21,7 +21,7 @@
     --theme: #1d1e20;
     --entry: #2e2e33;
     --primary: rgba(255, 255, 255, 0.84);
-    --secondary: rgba(255, 255, 255, 0.56);
+    --secondary: rgba(255, 255, 255, 0.64);
     --tertiary: rgba(255, 255, 255, 0.16);
     --content: rgba(255, 255, 255, 0.74);
     --hljs-bg: #2e2e33;
