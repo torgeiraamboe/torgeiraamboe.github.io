@@ -1,0 +1,157 @@
+baseURL: "https://torgeiraamboe.github.io/"
+title: Writing what I'm learning
+paginate: 10
+theme: PaperMod
+copyright: " "
+publishDir: docs
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+
+
+    
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+menu:
+    main:
+      - name: My homepage
+        url: "https://folk.ntnu.no/torgeaam/"
+        weight: 5     
+      - name: Categories
+        url: categories/
+        weight: 10 
+      - name: Tags
+        url: tags/
+        weight: 15          
+      - name: Archive
+        url: archives/
+        weight: 20    
+      - name: Search
+        url: search/
+        weight: 25
+
+
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: ""
+    author: Torgeir Aambø
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowToc: true
+    # hidesummary: true
+    # comments: true
+    # images: ["papermod-cover.png"]
+
+    #profileMode:
+    #      enabled: false
+    #      title: Torgeir Aambø
+    #      imageUrl: "0torgeir-1.png"
+    #      # imageTitle: my image
+    #      imageWidth: 265
+    #      imageHeight: 310
+    #      subtitle: "Master student in mathematics"
+
+    socialIcons:
+        - name: LinkedIn
+          url: "https://www.linkedin.com/in/torgeir-aamb%C3%B8/"
+        - name: Email
+          url: "mailto:torgeiraamboe@gmail.com"
+        - name: github
+          url: "https://github.com/torgeiraamboe"        
+
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    cover:
+    #    hidden: true # hide everywhere but not in structured data
+    #    hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+     goldmark:
+        renderer:
+            unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+#privacy:
+#    vimeo:
+#        disabled: false
+#        simple: true
+
+#    twitter:
+#        disabled: false
+#        enableDNT: true
+#        simple: true
+
+#    instagram:
+#        disabled: false
+#        simple: true
+
+#    youtube:
+#        disabled: false
+#        privacyEnhanced: true
+
+#services:
+#    instagram:
+#        disableInlineCSS: true
+#    twitter:
+#        disableInlineCSS: true
+
+    
