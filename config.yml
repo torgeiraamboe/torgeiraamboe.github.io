@@ -4,6 +4,7 @@ paginate: 10
 theme: PaperMod
 copyright: " "
 publishDir: docs
+googleAnalytics: G-Z4GPE516BB
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -11,7 +12,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-googleAnalytics: G-Z4GPE516BB
+
 
 minify:
     disableXML: true
@@ -47,7 +48,7 @@ menu:
 
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    # env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: ""
     author: Torgeir Aambø
     # author: ["Me", "You"] # multiple authors
@@ -72,7 +73,7 @@ params:
     #      enabled: false
     #      title: Torgeir Aambø
     #      imageUrl: "0torgeir-1.png"
-    #      # imageTitle: my image
+    #      imageTitle: my image
     #      imageWidth: 265
     #      imageHeight: 310
     #      subtitle: "Master student in mathematics"
@@ -93,7 +94,7 @@ params:
 
     # analytics:
     #     google:
-    #         SiteVerificationTag: "XYZabc"
+    #         SiteVerificationTag: "Boi"
 
     # assets:
     #     favicon: "<link / abs url>"
