@@ -3,7 +3,7 @@ title: "Homotopy groups"
 date: 2020-05-16
 draft: false
 tags: ["Fibrations", "Homotopy groups", "Hopf fibration", "The Puppe sequence"]
-categories: ["Algebric topology", "Homotopy theory"]
+categories: ["Algebraic topology", "Homotopy theory"]
 math: true
 cover:
     image: "images/SuspensionS1.png"

@@ -27,5 +27,15 @@ Last time we finally defined the model category, gave some examples and tried (k
 Finally we have made it to the destination we set, namely, more abstraction. This post is focused on the definition and intuition on model categories, which abstracts the objects we have been studying for some weeks, namely fibrations and cofibrations. The main definition is that of a model structure on a category, which together with a nice category will form the definition of a model category.</description>
     </item>
     
+    <item>
+      <title>Cofibrations</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/cofibrations/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
+      <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 7, 8 and 9.
+Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations.</description>
+    </item>
+    
   </channel>
 </rss>

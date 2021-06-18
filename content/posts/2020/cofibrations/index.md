@@ -2,7 +2,7 @@
 title: "Cofibrations"
 date: 2020-06-02
 draft: false
-tags: ["Coexact sequence", "Cofibration", "Eilenberg-MacLane spaces", "The Puppe sequence"]
+tags: ["Coexact sequence", "Cofibrations", "Eilenberg-MacLane spaces", "The Puppe sequence"]
 categories: ["Algebraic topology", "Homotopy theory"]
 math: true
 cover:

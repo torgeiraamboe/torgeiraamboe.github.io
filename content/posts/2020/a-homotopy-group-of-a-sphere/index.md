@@ -2,7 +2,7 @@
 title: "A homotopy group of a sphere"
 date: 2020-05-28
 draft: false
-tags: ["Eilenberg-Maclane spaces", "fibration", "homotopy groups", Hurewicz theorem"]
+tags: ["Eilenberg-Maclane spaces", "Fibrations", "Homotopy groups", Hurewicz theorem"]
 categories: ["Algebraic topology", "Homotopy theory"]
 math: true
 cover:
