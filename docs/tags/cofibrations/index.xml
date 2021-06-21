@@ -13,7 +13,7 @@
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</guid>
-      <description>This is part 8 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 9.
+      <description>This is part 8 of a series leading up to and exploring model categories. For the other parts see the series overview.
 Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with.</description>
     </item>
     
@@ -23,7 +23,7 @@ Last time we finally defined the model category, gave some examples and tried (k
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/model-categories/</guid>
-      <description>This is part 7 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 8 and 9.
+      <description>This is part 7 of a series leading up to and exploring model categories. For the other parts see the series overview.
 Finally we have made it to the destination we set, namely, more abstraction. This post is focused on the definition and intuition on model categories, which abstracts the objects we have been studying for some weeks, namely fibrations and cofibrations. The main definition is that of a model structure on a category, which together with a nice category will form the definition of a model category.</description>
     </item>
     
@@ -33,8 +33,8 @@ Finally we have made it to the destination we set, namely, more abstraction. Thi
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
-      <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 7, 8 and 9.
-Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations.</description>
+      <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see the series overview.
+Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations. The road we are heading with this series, as mentioned before, is to define Model categories, and discover how to use them.</description>
     </item>
     
   </channel>

@@ -13,8 +13,8 @@
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
-      <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 7, 8 and 9.
-Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations.</description>
+      <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see the series overview.
+Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations. The road we are heading with this series, as mentioned before, is to define Model categories, and discover how to use them.</description>
     </item>
     
     <item>
@@ -23,8 +23,8 @@ Through the series so far we have covered the basic uses of fibrations and relat
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</guid>
-      <description>This is part 5 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 6, 7, 8 and 9.
-As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask?</description>
+      <description>This is part 5 of a series leading up to and exploring model categories. For the other parts see the series overview.
+As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask? Last time we developed the machinery to calculate the cohomology of the total space of a fibration, but we want to compute homotopy.</description>
     </item>
     
   </channel>

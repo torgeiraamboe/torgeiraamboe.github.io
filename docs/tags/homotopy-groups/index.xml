@@ -32,8 +32,8 @@ In a previous post we discussed both weak homotopy equivalences and regular homo
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</guid>
-      <description>This is part 5 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 6, 7, 8 and 9.
-As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask?</description>
+      <description>This is part 5 of a series leading up to and exploring model categories. For the other parts see the series overview.
+As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask? Last time we developed the machinery to calculate the cohomology of the total space of a fibration, but we want to compute homotopy.</description>
     </item>
     
     <item>
@@ -42,8 +42,8 @@ As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I thin
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</guid>
-      <description>This is part 3 of a series leading up to and exploring model categories. For the other parts see 1, 2, 4, 5 6, 7, 8 and 9.
-For an introduction to the material, the definitions, motivation and some examples, please read part 1 and part 2 about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups.</description>
+      <description>This is part 3 of a series leading up to and exploring model categories. For the other parts see the series overview.
+For an introduction to the material, the definitions, motivation and some examples, please read part 1 and part 2 about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration.</description>
     </item>
     
   </channel>

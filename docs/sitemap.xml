@@ -236,6 +236,12 @@
     <loc>https://torgeiraamboe.github.io/tags/model-categories/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://torgeiraamboe.github.io/series/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/series/the-fibration-series/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -317,7 +323,5 @@
     <loc>https://torgeiraamboe.github.io/archives/</loc>
   </url><url>
     <loc>https://torgeiraamboe.github.io/search/</loc>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/series/</loc>
   </url>
 </urlset>

@@ -22,7 +22,7 @@
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/fiber-bundles/</guid>
-      <description>This is part 2 of a series leading up to and exploring model categories. For the other parts see 1, 3, 4, 5 6, 7, 8 and 9.
+      <description>This is part 2 of a series leading up to and exploring model categories. For the other parts see the series overview.
 Yesterday we discussed the standard definition of a fibration by the homotopy lifting property, and today we are continuing that discussion, but in a more visual manner. This we will do by first looking at fiber bundles, and then generalizing them. Since fibrations are generalized fiber bundles, every fiber bundle is an example of a fibration, and they have been the most important examples for me, as they help me visualize and get intuition into the fibrations without having to really use the full generality of the definition.</description>
     </item>
     

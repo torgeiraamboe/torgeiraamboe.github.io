@@ -50,7 +50,7 @@ In a previous post we discussed both weak homotopy equivalences and regular homo
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</guid>
-      <description>This is part 9 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 8.
+      <description>This is part 9 of a series leading up to and exploring model categories. For the other parts see the series overview.
 Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting.</description>
     </item>
     
@@ -60,7 +60,7 @@ Last time we ended by giving a definition of a homotopy between maps on the coll
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</guid>
-      <description>This is part 8 of a series leading up to and exploring model categories. For the other parts see 1, 2, 3, 4, 5 6, 7 and 9.
+      <description>This is part 8 of a series leading up to and exploring model categories. For the other parts see the series overview.
 Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with.</description>
     </item>
     
@@ -79,7 +79,7 @@ Last time we finally defined the model category, gave some examples and tried (k
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/posts/2020/fibrations/</guid>
-      <description>This is part 1 of a series leading up to and exploring model categories. For the other parts see 2, 3, 4, 5 6, 7, 8 and 9.
+      <description>This is part 1 of a series leading up to and exploring model categories. For the other parts see the series overview.
 My main mathematical interest for the last couple years has been algebraic topology. I feel it suits my needs for intuition, and graphical picturing of what happens. A concept I have been learning more rigorously recently is fibrations, and how to use them in computing homotopy groups and homology groups of different spaces.</description>
     </item>
     

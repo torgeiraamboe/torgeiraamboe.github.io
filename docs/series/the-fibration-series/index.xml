@@ -1,57 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homotopy theory on Writing what I&#39;m learning</title>
-    <link>https://torgeiraamboe.github.io/categories/homotopy-theory/</link>
-    <description>Recent content in Homotopy theory on Writing what I&#39;m learning</description>
+    <title>The fibration series on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/series/the-fibration-series/</link>
+    <description>Recent content in The fibration series on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sha Algebras</title>
-      <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>
-      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</guid>
-      <description>This is part four in a sort of connected story about operations in mathematics that are associative up to homotopy. It will probably be beneficial to read part 1, part 2 and part 3 in advance of this, but it is not required in theory. These previous posts do however build up some intuition and motivation for the object we are looking at today. To quickly recap what we already seen in these previous posts we recall that we started out by looking at how to transfer a group structure on a topological space through an isomorphism.</description>
-    </item>
-    
-    <item>
-      <title>Homotopy Associative Algebraic Product</title>
-      <link>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</link>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</guid>
-      <description>In the two last posts we have been discussing operations that are associative up to homotopy, and where such operations might arise naturally in topology. One claim I made, which I later realized was maybe a bit unmotivated and in need of some clarification was how some higher arity maps actually defined (or were defined by) homotopies between combinations of the lower arity maps. We also purely looked at this in a topological setting, but in algebraic topology we often translate to algebraic structures, so I also wanted to see clearly that the same constructions hold in that setting.</description>
-    </item>
-    
-    <item>
-      <title>Homotopy Associativity</title>
-      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
-      <description>Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures.</description>
-    </item>
-    
-    <item>
-      <title>Quasi Categories</title>
-      <link>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</link>
-      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</guid>
-      <description>A couple weeks ago I held a talk on introductory higher category theory. Most of the talk was based upon thing we already have discussed on this blog, such as the strict $2$-category $Cat$, bicategories, and why strictness fails for the category of topological spaces. The inly thing I talked about which I haven’t yet featured on this blog is the notion of quasi-categories, so I though that I would do that today.</description>
-    </item>
-    
-    <item>
-      <title>The Homotopy Litmus Test</title>
-      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</guid>
-      <description>A litmus test is a question asked in politics to a potential candidate for high office in which the answer determines if the person gets nominated or not. If a person or a committee holds the power of nominating candidates, they can use that power to make sure that a potential candidate holds their view on a certain matter. So, what does this have to do with mathematics, or especially with homotopy theory?</description>
-    </item>
-    
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/series/the-fibration-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The homotopy category</title>
       <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</link>
@@ -90,15 +45,6 @@ Finally we have made it to the destination we set, namely, more abstraction. Thi
       <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
       <description>This is part 6 of a series leading up to and exploring model categories. For the other parts see the series overview.
 Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations. The road we are heading with this series, as mentioned before, is to define Model categories, and discover how to use them.</description>
-    </item>
-    
-    <item>
-      <title>Hanging Pictures With Homotopy</title>
-      <link>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</guid>
-      <description>Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it!</description>
     </item>
     
     <item>
