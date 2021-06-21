@@ -4,20 +4,13 @@ date: 2020-05-15
 draft: false
 tags: ["Fiber bundles", "Fibrations", "Möbius band"]
 categories: ["Algebraic topology", "Homotopy theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/mobius1.png"
 ---
 
-This is part 2 of a series leading up to and exploring model categories. For the other parts see 
-[1]( {{< ref "/posts/2020/fibrations" >}}),
-[3]( {{< ref "/posts/2020/homotopy-groups" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[5]( {{< ref "/posts/2020/a-homotopy-group-of-a-sphere" >}})
-[6]( {{< ref "/posts/2020/cofibrations" >}}),
-[7]( {{< ref "/posts/2020/model-categories" >}}),
-[8]( {{< ref "/posts/2020/homotopy-in-model-categories" >}}) and
-[9]( {{< ref "/posts/2020/the-homotopy-category" >}}).
+This is part 2 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}).
 
 Yesterday we discussed the standard definition of a fibration by the homotopy lifting property, and today we are continuing that discussion, but in a more visual manner. This we will do by first looking at fiber bundles, and then generalizing them. Since fibrations are generalized fiber bundles, every fiber bundle is an example of a fibration, and they have been the most important examples for me, as they help me visualize and get intuition into the fibrations without having to really use the full generality of the definition. The main idea of a fiber bundle is that of a family of topological spaces parameterized by another topological space. This family will again form a topological space usually called the total space of the fiber bundle, while the space that parameterizes it is called the base space. Before we get rigorous and technical with definitions, we explore an example.
 

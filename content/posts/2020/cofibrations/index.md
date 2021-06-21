@@ -4,21 +4,14 @@ date: 2020-06-02
 draft: false
 tags: ["Coexact sequence", "Cofibrations", "Eilenberg-MacLane spaces", "The Puppe sequence"]
 categories: ["Algebraic topology", "Homotopy theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/Homotopy_extension_property.png"
 ---
 
 
-This is part 6 of a series leading up to and exploring model categories. For the other parts see 
-[1]( {{< ref "/posts/2020/fibrations" >}}),
-[2]( {{< ref "/posts/2020/fiber-bundles" >}}),
-[3]( {{< ref "/posts/2020/homotopy-groups" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[5]( {{< ref "/posts/2020/a-homotopy-group-of-a-sphere" >}})
-[7]( {{< ref "/posts/2020/model-categories" >}}),
-[8]( {{< ref "/posts/2020/homotopy-in-model-categories" >}}) and
-[9]( {{< ref "/posts/2020/the-homotopy-category" >}}).
+This is part 6 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}).
 
 Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations. The road we are heading with this series, as mentioned before, is to define Model categories, and discover how to use them. Up until now, and including this post, I have been pretty comfortable with the objects of study, and I feel i know them quite well. After this post tho, I think I’m entering unknown territory for me, which is good!
 

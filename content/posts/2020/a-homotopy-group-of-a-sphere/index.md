@@ -4,21 +4,14 @@ date: 2020-05-28
 draft: false
 tags: ["Eilenberg-Maclane spaces", "Fibrations", "Homotopy groups", Hurewicz theorem"]
 categories: ["Algebraic topology", "Homotopy theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/Computing_H^5(X).png"
 ---
 
 
-This is part 5 of a series leading up to and exploring model categories. For the other parts see 
-[1]( {{< ref "/posts/2020/fibrations" >}}),
-[2]( {{< ref "/posts/2020/fiber-bundles" >}}),
-[3]( {{< ref "/posts/2020/homotopy-groups" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[6]( {{< ref "/posts/2020/cofibrations" >}}),
-[7]( {{< ref "/posts/2020/model-categories" >}}),
-[8]( {{< ref "/posts/2020/homotopy-in-model-categories" >}}) and
-[9]( {{< ref "/posts/2020/the-homotopy-category" >}}).
+This is part 5 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}). 
 
 
 As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask? Last time we developed the machinery to calculate the cohomology of the total space of a fibration, but we want to compute homotopy. Hence we need a method for translating cohmological information into homotopical information, which is what we are missing to be able to do the calculation. There may be other processes that I haven’t learned, but the process I know goes through two steps. First we must translate cohomology into homology. This is done through the so called cohomological universal coefficient theorem (cUCT). Then we need to translate from homology to homotopy. This is done through the Hurewicz theorem. I think of these two theorems together as sort of a Rosetta stone for algebraic topology. It makes us able (with some computation and restrictions of course) to move between the three fundamental theories of invariants we have in algebraic topology, which I find beautiful. There is one more thing we need, which is a starting point for our calculation. We need a good fibration to extract the information we want which we are able to translate into homotopy afterwards. Therefore we need a space in the fibration that does not complicate things when we translate into homotopy, i.e. we need a space in which we completely understand its homotopy groups. The “homotopy-easy” spaces I’m describing are called Eilenberg-MacLane spaces. In cohomology (and homology) theory we have the easy spaces being spheres because we completely understand their cohomological structure. They cam be thought of as the building blocks for (co)homology. The same type of space for homotopy is exactly theese Eilenberg-MacLane spaces, and they form the building blocks for homotopy groups in the same way as the spheres for (co)homology. Hence we can combine these spaces and spheres in a fibration and use that to compute cohomology and then relatively easily translate this to homotopy, which is exactly our plan for computing $\pi_4(S^3)$.

@@ -4,21 +4,14 @@ date: 2020-06-14
 draft: false
 tags: ["Homotopy", "Homotopy category", "Model categories", "Derived categories"]
 categories: ["Homotopy theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/homclasses.png"
 ---
 
 
-This is part 9 of a series leading up to and exploring model categories. For the other parts see 
-[1]( {{< ref "/posts/2020/fibrations" >}}),
-[2]( {{< ref "/posts/2020/fiber-bundles" >}}),
-[3]( {{< ref "/posts/2020/homotopy-groups" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[5]( {{< ref "/posts/2020/a-homotopy-group-of-a-sphere" >}})
-[6]( {{< ref "/posts/2020/cofibrations" >}}),
-[7]( {{< ref "/posts/2020/model-categories" >}}) and
-[8]( {{< ref "/posts/2020/homotopy-in-model-categories" >}}).
+This is part 9 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}).
 
 Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting. The goal is to have a well defined workable notion of a homotopy category, and understand what it consists of.
 

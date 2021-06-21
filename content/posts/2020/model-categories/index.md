@@ -4,20 +4,13 @@ date: 2020-06-06
 draft: false
 tags: ["Cofibrations", "Fibrations", "Model categories"]
 categories: ["Homotopy theory", "Category theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/lift.png"
 ---
 
-This is part 7 of a series leading up to and exploring model categories. For the other parts see 
-[1]( {{< ref "/posts/2020/fibrations" >}}),
-[2]( {{< ref "/posts/2020/fiber-bundles" >}}),
-[3]( {{< ref "/posts/2020/homotopy-groups" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[5]( {{< ref "/posts/2020/a-homotopy-group-of-a-sphere" >}})
-[6]( {{< ref "/posts/2020/cofibrations" >}}),
-[8]( {{< ref "/posts/2020/homotopy-in-model-categories" >}}) and
-[9]( {{< ref "/posts/2020/the-homotopy-category" >}}).
+This is part 7 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}).
 
 Finally we have made it to the destination we set, namely, more abstraction. This post is focused on the definition and intuition on model categories, which abstracts the objects we have been studying for some weeks, namely fibrations and cofibrations. The main definition is that of a model structure on a category, which together with a nice category will form the definition of a model category. So, why do we want this? There are more than one reason.
 

@@ -37,13 +37,17 @@ menu:
         weight: 10 
       - name: Tags
         url: tags/
-        weight: 15          
+        weight: 15   
+      - name: Series
+        url: series/
+        weight: 20               
       - name: Archive
         url: archives/
-        weight: 20    
+        weight: 25    
       - name: Search
         url: search/
-        weight: 25
+        weight: 30
+
 
 
 

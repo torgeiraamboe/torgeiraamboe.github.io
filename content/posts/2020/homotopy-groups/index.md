@@ -4,20 +4,13 @@ date: 2020-05-16
 draft: false
 tags: ["Fibrations", "Homotopy groups", "Hopf fibration", "The Puppe sequence"]
 categories: ["Algebraic topology", "Homotopy theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/SuspensionS1.png"
 ---
 
-This is part 3 of a series leading up to and exploring model categories. For the other parts see 
-[1]( {{< ref "/posts/2020/fibrations" >}}),
-[2]( {{< ref "/posts/2020/fiber-bundles" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[5]( {{< ref "/posts/2020/a-homotopy-group-of-a-sphere" >}})
-[6]( {{< ref "/posts/2020/cofibrations" >}}),
-[7]( {{< ref "/posts/2020/model-categories" >}}),
-[8]( {{< ref "/posts/2020/homotopy-in-model-categories" >}}) and
-[9]( {{< ref "/posts/2020/the-homotopy-category" >}}).
+This is part 3 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}).
 
 For an introduction to the material, the definitions, motivation and some examples, please read part 1 and part 2 about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration. In this this part, we look at the long exact sequence. This is a tool that will let us relate the homotopy groups of different kinds of spaces to each other, and ultimately, will help us compute the homotopy groups of fiberbundles from the homotopy groups of the base space, and the homotopy groups of the fibers. Forward, we always have pointed spaces, and the base spaces of our fibrations are simply connected. To be a bit more self contained, we remind ourselves what a long exact sequence is.
 

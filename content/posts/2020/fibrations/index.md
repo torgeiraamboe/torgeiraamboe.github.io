@@ -4,20 +4,13 @@ date: 2020-05-14
 draft: false
 tags: ["Fibrations", "Homotopy"]
 categories: ["Algebraic topology", "Homotopy theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/lift.png"
 ---
 
-This is part 1 of a series leading up to and exploring model categories. For the other parts see 
-[2]( {{< ref "/posts/2020/fiber-bundles" >}}),
-[3]( {{< ref "/posts/2020/homotopy-groups" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[5]( {{< ref "/posts/2020/a-homotopy-group-of-a-sphere" >}})
-[6]( {{< ref "/posts/2020/cofibrations" >}}),
-[7]( {{< ref "/posts/2020/model-categories" >}}),
-[8]( {{< ref "/posts/2020/homotopy-in-model-categories" >}}) and
-[9]( {{< ref "/posts/2020/the-homotopy-category" >}}).
+This is part 1 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}).
 
 
 My main mathematical interest for the last couple years has been algebraic topology. I feel it suits my needs for intuition, and graphical picturing of what happens. A concept I have been learning more rigorously recently is fibrations, and how to use them in computing homotopy groups and homology groups of different spaces. There is something fun and exciting about computing the homology and homotopy groups of new spaces, as it usually requires different techniques and insight every time, and fibrations have certainly presented some new tools for my calculation toolbox. Since fibrations gives us nice tools, it would be nice to understand them better, and that is my plan for this post. As a remark, all spaces used and mentioned will be topological spaces, and all maps will be continuous.

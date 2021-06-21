@@ -4,20 +4,13 @@ date: 2020-06-07
 draft: false
 tags: ["Cofibrations", "Fibrations", "Homotopy", "Model categories"]
 categories: ["Homotopy theory"]
+series: ["The fibration series"]
 math: true
 cover:
     image: "images/relation.png"
 ---
 
-This is part 8 of a series leading up to and exploring model categories. For the other parts see 
-[1]( {{< ref "/posts/2020/fibrations" >}}),
-[2]( {{< ref "/posts/2020/fiber-bundles" >}}),
-[3]( {{< ref "/posts/2020/homotopy-groups" >}}),
-[4]( {{< ref "/posts/2020/the-serre-spectral-sequence" >}}),
-[5]( {{< ref "/posts/2020/a-homotopy-group-of-a-sphere" >}})
-[6]( {{< ref "/posts/2020/cofibrations" >}}),
-[7]( {{< ref "/posts/2020/model-categories" >}}) and
-[9]( {{< ref "/posts/2020/the-homotopy-category" >}}).
+This is part 8 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}). 
 
 Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with. This structure on a category is supposed to embody where homotopy theory works, but failed to immediately convey that to me. But, that said, we will today go through the construction of homotopy, and prove that it is an equivalence relation on maps in nice cases. These cases we mentioned in the previous part, and will be maps between objects that are both fibrant and cofibrant, which I will refer to as bifibrant.
 
@@ -65,7 +58,7 @@ When I first worked through this I was a bit uneased by the two different notion
 
 **Proof:** Choose a good cylinder object $X\coprod X \overset{i_1 + i_2}\rightarrow Cyl(X) \overset{j}\rightarrow X$ and let $h:Cyl(X)\rightarrow Y$ be a left homotopy between $f$ and $g$. Choose also a good path object $Y\overset{q}\rightarrow Path(Y) \overset{(p_1, p_2)}\rightarrow Y\prod Y.$ We then have a commutative diagram
 
-![Error loading image](images/relation_left_right_homotopy.png)
+![Error loading image](images/relation.png)
 
 which has a lift $\overline{h}$ by the third axiom of model categories **(MC3)**. Note here that we used the fact that $i_1$ is an acyclic cofibration which we have not proved, but it can be seen by the two out of three property since $X$ is assumed to be cofibrant together with the fact that it is a composition of two cofibrations. The composition $h\circ i_2:X\rightarrow Path(X)$ gives a right homotopy between $f$ and $g$ as desired. The dual statement has a dual proof.
 
