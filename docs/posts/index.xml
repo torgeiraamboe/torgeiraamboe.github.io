@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tensor Triangulated Categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/</guid>
+      <description>For the last five years mathematics has been my passion, as well as my main focus in life. This passion for mathematics will hopefully not diminish, as I am now heading into four more years of studies and research through a PhD in mathematics at NTNU. I am joining a project, called Tensor triangulated geometry in Trondheim, so today I thought I would explore the definition of one of the main players in this theory, namely tensor triangulated categories.</description>
+    </item>
+    
     <item>
       <title>Updated geometric intuition</title>
       <link>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</link>

@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Derived categories</title>
+      <link>https://torgeiraamboe.github.io/tags/derived-categories/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/derived-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monoidal categories</title>
+      <link>https://torgeiraamboe.github.io/tags/monoidal-categories/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/monoidal-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensor triangulated categories</title>
+      <link>https://torgeiraamboe.github.io/tags/tensor-triangulated-categories/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/tensor-triangulated-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Triangulated categories</title>
+      <link>https://torgeiraamboe.github.io/tags/triangulated-categories/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/triangulated-categories/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Algebraic varieties</title>
       <link>https://torgeiraamboe.github.io/tags/algebraic-varieties/</link>
@@ -112,15 +148,6 @@
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/cobordisms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monoidal categories</title>
-      <link>https://torgeiraamboe.github.io/tags/monoidal-categories/</link>
-      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/monoidal-categories/</guid>
       <description></description>
     </item>
     
@@ -409,15 +436,6 @@
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/vector-bundles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Derived categories</title>
-      <link>https://torgeiraamboe.github.io/tags/derived-categories/</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/derived-categories/</guid>
       <description></description>
     </item>
     

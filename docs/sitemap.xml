@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://torgeiraamboe.github.io/categories/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/category-theory/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/derived-categories/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/monoidal-categories/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/tensor-triangulated-categories/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/triangulated-categories/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/categories/algebraic-geometry/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,25 +44,13 @@
     <loc>https://torgeiraamboe.github.io/tags/algebras/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/tags/noether-normalization/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/posts/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/schemes/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/schemes/</loc>
@@ -77,16 +98,10 @@
     <loc>https://torgeiraamboe.github.io/posts/2021/a-leqture-in-my-second-year/</loc>
     <lastmod>2021-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/category-theory/</loc>
-    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/tags/cobordisms/</loc>
     <lastmod>2021-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/differential-topology/</loc>
-    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/monoidal-categories/</loc>
     <lastmod>2021-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/topological-quantum-field-theories/</loc>
@@ -226,9 +241,6 @@
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/vector-bundles/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/derived-categories/</loc>
-    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/homotopy-category/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
