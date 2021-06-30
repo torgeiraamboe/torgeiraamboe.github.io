@@ -1,5 +1,5 @@
 ---
-title: "Tensor Triangulated Categories"
+title: "Tensor triangulated categories"
 date: 2021-06-28
 draft: false
 math: true

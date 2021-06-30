@@ -82,7 +82,16 @@ params:
     #      imageHeight: 310
     #      subtitle: "Master student in mathematics"
 
+    
+    homeInfoParams:
+        Title: Hi!
+        Content: >
+            Welcome to my mathematics blog. 
+            On here I write my way through my mathematics education, mostly focusing on algebraic topology, but also other things that interests me.
+
     socialIcons:
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/aamboe"  
         - name: LinkedIn
           url: "https://www.linkedin.com/in/torgeir-aamb%C3%B8/"
         - name: Email
