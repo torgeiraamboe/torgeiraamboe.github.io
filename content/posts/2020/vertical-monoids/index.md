@@ -4,7 +4,7 @@ date: 2020-10-16
 draft: false
 tags: ["2-categories", "Bicategories", "Monads", "Monoidal categories"]
 categories: ["Higher category theory"]
-math: true
+katex: true
 cover:
     image: "images/axiom_1.png"
 ---
@@ -13,15 +13,15 @@ You may be thinking, what the heck is a monoid, and why the heck is it vertical?
 
 Not everyone is familiar with monoids, so to set the stage for the rest of the post we define a monoid to be a set $M$ together with a map $\mu:M\times M\longrightarrow M$ and a distinguished element $1 \in M$ such that $m(a, 1) = a = m(1, a)$ and $m(m(a, b), c) = m(a, m(b, c))$ for all $a, b, c \in M$. This makes m an associative multiplication on $M$ with a two-sided unit $1$. We can kind of think about a monoid as a group without inverses, but pulling all intuition from groups might turn out bad.
 
-We can define more general versions of monoids by using category theory. This makes use of monoidal categories, which we have talked about a little while ago. A monoid in a monoidal category $(\mathcal{C}, \otimes, I)$ is an object $M$ together with a map $\mu:M\otimes M\longrightarrow M$, called multiplication, and a map $\eta: I\longrightarrow M$, called the unit, such that the associative law and left and right unit laws hold.
+We can define more general versions of monoids by using category theory. This makes use of monoidal categories, which we have talked about [a little while ago]({{<ref "posts/2020/defining-the-cosmos-1">}}). A _monoid in a monoidal category_ $(\mathcal{C}, \otimes, I)$ is an object $M$ together with a map $\mu:M\otimes M\longrightarrow M$, called multiplication, and a map $\eta: I\longrightarrow M$, called the unit, such that the associative law and left and right unit laws hold.
 
 ![Error loading image](images/triangle_identity.png)
 
 ![Error loading image](images/pentagon_identity.png)
 
-Here $\alpha$ is the associator in the monoidal category and $\lambda$, $\rho$ are the unitors. These are described a bit in the previously mentioned post. We see that this notion of monoid in a monoidal category is essentially equal to the one previously stated using sets, in fact the first definition is the same as a monoid in the monoidal category of sets, $Set$.
+Here $\alpha$ is the associator in the monoidal category and $\lambda$, $\rho$ are the unitors. These are described a bit in the [previously mentioned post]({{<ref "posts/2020/defining-the-cosmos-1">}}). We see that this notion of monoid in a monoidal category is essentially equal to the one previously stated using sets, in fact the first definition is the same as a monoid in the monoidal category of sets, $Set$.
 
-If we recall back to the discussion about $2$-categories in the post about the homotopy hypothesis, we defined what we called vertical composition of $2$-morphisms. This notion of vertical is the reason for saying that monads are somehow vertical monoids. If we draw $1$-morphisms horizontally, as we usually do, then we can draw $2$-morphisms vertically.
+If we recall back to the discussion about $2$-categories in the earlier [post about the homotopy hypothesis]({{<ref "posts/2020/the-homotopy-litmus-test">}}), we defined what we called vertical composition of $2$-morphisms. This notion of vertical is the reason for saying that monads are somehow vertical monoids. If we draw $1$-morphisms horizontally, as we usually do, then we can draw $2$-morphisms vertically.
 
 ![Error loading image](images/vertical_map.png)
 

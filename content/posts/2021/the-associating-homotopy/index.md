@@ -1,5 +1,5 @@
 ---
-title: "Homotopy Associative Algebraic Product"
+title: "The associating homotopy"
 date: 2021-04-03
 draft: false
 tags: ["A_infinity algebras", "Algebras", "Homotopy"]

@@ -4,7 +4,7 @@ date: 2020-07-31
 draft: false
 tags: ["Homotopy", "Homotopy groups", "Shape theory", "Warsaw circle"]
 categories: ["Algebraic topology"]
-math: true
+katex: true
 cover:
     image: "images/warsaw_circle.png"
 ---

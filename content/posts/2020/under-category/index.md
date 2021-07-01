@@ -4,7 +4,7 @@ date: 2020-09-08
 draft: false
 tags: ["Algebras", "Under category", "Pointed topological spaces"]
 categories: ["Category theory"]
-math: true
+katex: true
 cover:
     image: "images/morphism.png"
 ---

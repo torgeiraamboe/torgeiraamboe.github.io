@@ -23,24 +23,24 @@ One useful result that is often stated as a corollary to Noether’s normalizati
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.1" />
 <head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
-  </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
 
 
 
@@ -279,7 +279,7 @@ One useful result that is often stated as a corollary to Noether’s normalizati
 <h2 id="the-weak-nullstellensatz">The weak nullstellensatz<a hidden class="anchor" aria-hidden="true" href="#the-weak-nullstellensatz">#</a></h2>
 <p>Now, we haven’t been through this yet, but we know precisely which varieties that have associated ideals which are maximal, namely varieties that are just points in $k^n$ . How do we see this? It is explained by the weak form of Hilbert’s nullstellensatz. Usually, if we don’t assume that our field is algebraically closed, then the weak form of Hilbert’s nullstellensatz is usually stated as a corollary to Zariski’s lemma by letting the field be algebraically closed, but today we flip the picture a little.</p>
 <p><strong>The weak Hilbert’s nullstellensatz:</strong> All maximal ideals $\mathfrak{m}$  in the ring $k[x_1, \cdots, x_n] $ where $k$  is an algebraically closed field are of the form $\mathfrak{m}=\mathfrak{m}_a=(x_1-a_1, \cdots , x_n-a_n) $, where $a = (a_1, \cdots, a_n)$  denotes a point in $k^n $.</p>
-<p>For a detailed proof you can read my write up on the strong version on the nullstellensatz, where I also prove the weak one. You can find that here. For a geometric (and a big bit handwavy) approach, we note that prime ideals in $k[x_1, \cdots, x_n]$  correspond to affine algebraic varieties $X$  in $k^n$ , and prime ideals in the coordinate ring of $X$ , i.e. $k[x_1, \cdots, x_n]/I(X) = k[x_1, \cdots, x_n]/ \mathfrak{p}$ , then translates to affine subvarieties of $X$  because prime ideals in $k[x_1, \cdots, x_n]/\mathfrak{p}$  are exactly the prime ideals in $k[x_1, \cdots, x_n] $ that contains $\mathfrak{p}$ . All maximal ideals are also prime, so maximal ideals in $k[x_1, \cdots, x_n] $ should translate to affine algebraic varieties that contain no affine algebraic subvarieties, i.e. points in $k^n$ .</p>
+<p>For a detailed proof you can read my write up on the strong version on the nullstellensatz, where I also prove the weak one. You can find that <a href="https://drive.google.com/file/d/1yKxSQFyLKB1mQxI3i2UJvpUW-uRXytCe/view?usp=sharing">here</a>. For a geometric (and a big bit handwavy) approach, we note that prime ideals in $k[x_1, \cdots, x_n]$  correspond to affine algebraic varieties $X$  in $k^n$ , and prime ideals in the coordinate ring of $X$ , i.e. $k[x_1, \cdots, x_n]/I(X) = k[x_1, \cdots, x_n]/ \mathfrak{p}$ , then translates to affine subvarieties of $X$  because prime ideals in $k[x_1, \cdots, x_n]/\mathfrak{p}$  are exactly the prime ideals in $k[x_1, \cdots, x_n] $ that contains $\mathfrak{p}$ . All maximal ideals are also prime, so maximal ideals in $k[x_1, \cdots, x_n] $ should translate to affine algebraic varieties that contain no affine algebraic subvarieties, i.e. points in $k^n$ .</p>
 <h2 id="geometric-zariskis-lemma">Geometric Zariski&rsquo;s lemma<a hidden class="anchor" aria-hidden="true" href="#geometric-zariskis-lemma">#</a></h2>
 <p>Ok, we now know which affine algebraic varieties that have associated maximal ideals. Last time we translated certain integral extensions to certain surjective projections of varieties onto linear subspaces of $k^n$ . In fact, we showed that if we have a surjective projection from our affine algebraic variety to a linear subspace $L $ of $k^n$  we know that the coordinate ring of the variety is integral over the coordinate ring of the linear subspace. Now the trick to proving Zariski’s lemma becomes to find a suitable linear subspace. Since we have shown that our variety associated to the maximal ideal is a point, we only have one choice of linear subspace to surject to, namely the zero-dimensional linear subspace, $k^0 $. This is certainly a projection, and certainly surjective, hence our coordinate ring (or coordinate field really) $A$  is integral over the coordinate ring of the zero dimensional linear subspace of $k^n$ .</p>
 <p><img loading="lazy" src="images/varietyV.png" alt="surject to point"  />

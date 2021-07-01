@@ -5,7 +5,7 @@ draft: false
 tags: ["Cofibrations", "Fibrations", "Homotopy", "Model categories"]
 categories: ["Homotopy theory"]
 series: ["The fibration series"]
-math: true
+katex: true
 cover:
     image: "images/relation.png"
 ---
@@ -18,9 +18,9 @@ Last time we finally defined the model category, gave some examples and tried (k
 
 We know from topology that homotopy requires some sort of interval or paths, and the abstract definition will in a way reflect that. What we are going to construct are so called cylinder objects, that imitates taking the product with the interval in regular topological homotopy. Dualy, we are going to define path objects, which will mimic the path space in topology. These two will respectively define left and right homotopies, which will be equivalence classes only on fibrant and cofibrant objects respectively. These two notions of homotopy will coincide and give the same equivalence relation on bifibrant objects. Note that in the definition we are using products $\prod$ and coproducts $\coprod$. Since we work in a model category these always exists because the product is a special case of a limit, and the coproduct is a special case of a colimit, which both exists because a model category is bicomplete.
 
-**Definition (cylinder object):** Given an object $X$ in a model category $C$ we define the cylinder object of $X$, denoted $Cyl(X)$ to be factorization of the codiagonal map $X \coprod X \rightarrow X$ into $X \coprod X \overset{i_1+i_2} \rightarrow Cyl(X) \overset{p} \rightarrow X$, where $p$ is a weak equivalence. If $X\coprod X\overset{i_1 + i_2}\rightarrow Cyl(X)$ is a cofibration, we call $Cyl(X)$ a good cylinder object, and if in addition $p$ is an acyclic fibration, we call $Cyl(X)$ a very good cylinder object.
+**Definition (cylinder object):** Given an object $X$ in a model category $C$ we define the cylinder object of $X$, denoted $Cyl(X)$ to be factorization of the codiagonal map $X \coprod X \rightarrow X$ into $$X \coprod X \overset{i_1+i_2} \rightarrow Cyl(X) \overset{p} \rightarrow X,$$ where $p$ is a weak equivalence. If $X\coprod X\overset{i_1 + i_2}\rightarrow Cyl(X)$ is a cofibration, we call $Cyl(X)$ a good cylinder object, and if in addition $p$ is an acyclic fibration, we call $Cyl(X)$ a very good cylinder object.
 
-**Definition (path object):** Given an object $X$ in a model category $C$ we define the path object of $X$, denoted $Path(X)$ to be factorization of the diagonal map $X \rightarrow X\prod X$ into $X \overset{i}\rightarrow Path(X) \overset{(p_1,p_2)}\rightarrow X \prod X$, where $i$ is a weak equivalence. Similarily to the cylinder object, if $Path(X)\overset{p}\rightarrow X\prod X$ is a fibration, we call $Path(X)$ a good path object, and if in addition i is an acyclic cobration, we call $Path(X)$ a very good path object.
+**Definition (path object):** Given an object $X$ in a model category $C$ we define the path object of $X$, denoted $Path(X)$ to be factorization of the diagonal map $X \rightarrow X\prod X$ into $$X \overset{i}\rightarrow Path(X) \overset{(p_1,p_2)}\rightarrow X \prod X,$$ where $i$ is a weak equivalence. Similarily to the cylinder object, if $Path(X)\overset{p}\rightarrow X\prod X$ is a fibration, we call $Path(X)$ a good path object, and if in addition i is an acyclic cobration, we call $Path(X)$ a very good path object.
 
 By the factorization axiom for model categories **(MC4)** every object has at least one very good cylinder object and one very good path object. It can be useful to use these in some cases, but in other cases we can actually be interested in cylinder and path objects that aren’t necessarily good, or very good. For example, in the Serre model structure on topological spaces, the standard cylinder object $Cyl(X)=X\times I$ is only good when $X$ is a CW-complex.
 

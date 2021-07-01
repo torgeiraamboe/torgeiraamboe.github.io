@@ -4,16 +4,16 @@ date: 2020-10-08
 draft: false
 tags: ["2-categories", "Bicategories", "Category theory"]
 categories: ["Higher category theory"]
-math: true
+katex: true
 cover:
     image: "images/equivalence.png"
 ---
 
-Last fall I held a talk about functors, natural transformations and equivalences of categories. This talk was part two of five in a student seminar on introductory category theory. There was mostly second year students attending but also a couple more experienced students. To make the talk a bit interesting for them as well I said that an equivalence of categories is the correct notion of “sameness” of categories, and not isomorphisms due to the fact that categories naturally lie in a $2$-category. An isomorphism of categories would be the correct notion of sameness if the category of categories had only trivial $2$-categorical structure, and we didn’t have to worry about higher morphisms. In this post I want to look at this statement and show that it is true.
+Last fall I held a [talk](https://fagkom.wordpress.com/2019/11/05/kategoriteori-del-2/) about functors, natural transformations and equivalences of categories. This talk was part two of five in a student seminar on introductory category theory. There was mostly second year students attending but also a couple more experienced students. To make the talk a bit interesting for them as well I said that an equivalence of categories is the correct notion of “sameness” of categories, and not isomorphisms due to the fact that categories naturally lie in a $2$-category. An isomorphism of categories would be the correct notion of sameness if the category of categories had only trivial $2$-categorical structure, and we didn’t have to worry about higher morphisms. In this post I want to look at this statement and show that it is true.
 
 ## Motivation and hand waving
 
-Last post we talked a bit about $2$-categories and the differences between strict and weak $2$-categories. We introduced these through $Cat$, the category of (small) categories, which we discovered was a strict $2$-category. We also defined a bicategory, which is a way to explicitly describe a weak $2$-category. It can be smart to read that post to have some familiarity with the notion of $2$-categories. Since strict $2$-categories are special cases of weak $2$-categories, I will for simply use the term $2$-category instead of explicitly referring to one of them for most of this post.
+[Last post]({{<ref "posts/2020/the-homotopy-litmus-test">}}) we talked a bit about $2$-categories and the differences between strict and weak $2$-categories. We introduced these through $Cat$, the category of (small) categories, which we discovered was a strict $2$-category. We also defined a bicategory, which is a way to explicitly describe a weak $2$-category. It can be smart to read that post to have some familiarity with the notion of $2$-categories. Since strict $2$-categories are special cases of weak $2$-categories, I will for simply use the term $2$-category instead of explicitly referring to one of them for most of this post.
 
 In normal category theory we have for long understood that objects are not to be classified using equality, but some weaker notion of equivalence, usually called isomorphisms. For example in the category of abelian groups we want to use the first isomorphism theorem. This says that the image of a group homomorphism $f:G\longrightarrow H$, is isomorphic to the domain modulo the kernel of the homomorphism. These two groups are essentially the same, i.e. the induced morphism on the quotient $\overline{f}:G/Ker(f)\longrightarrow Im(f)$ is an isomorphism. If we were only allowed to talk about groups being equal, this would not be a useful theorem, and our theory in general would not be as rich. So, we have learned that equality of objects is a bad notion in a standard category.
 

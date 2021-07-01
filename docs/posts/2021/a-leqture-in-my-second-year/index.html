@@ -22,24 +22,24 @@
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.1" />
 <head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
-  </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
 
 
 
@@ -275,7 +275,7 @@ if (!doNotTrack) {
 
   <div class="post-content"><p>For those that don’t know I am a fifth year mathematics student at NTNU, meaning I am finishing my masters degree after this semester. During my time at NTNU I have had some wonderful classes, and some wonderful teachers. Since most I post about on this blog is related to topology, it is very safe to assume that some of my most memorable courses are exactly the topology courses. I very recently looked at my notes from my first topology course, or rather one of the two first, as I took two in parallel during my fourth semester. The course was focused on differential topology and the study of smooth manifolds. It was taught by my now supervisor, but on a couple of the last lectures we had some guest appearances from the other topology professors at NTNU. One of these guest lectures is the focus of todays blog post.</p>
 <p>The reason I still remember this particular lecture is because I left it understanding nothing. Some lectures takes some time to process, but this was not one of those. The information contained in the lecture was just so far above my head at the time, and it has taken me until now to understand it. I remember the lecture because it was inspiring, because I realized there is no cap on mathematical knowledge, because this is a field where one can always continue learning and never understanding it all. Not all lectures need to be understandable, or even exam-relevant (this one luckily wasn’t), some lectures just need to be inspiring and forward-looking.</p>
-<p>Anyways, below are my notes from that lecture. I have added some text to clarify some points and to make the post more cohesive, but the message and the theory is as written in the notes. If you want to see my actual notes for reference, you can find them here. You can also read the lecturers notes here. This material was presented in a 2×45 minute lecture, so details will be a bit sparse, and knowledge will mostly be presented on a need to know basis. As this comes from a lecture, the post is also somewhat long, so you are now officially warned.</p>
+<p>Anyways, below are my notes from that lecture. I have added some text to clarify some points and to make the post more cohesive, but the message and the theory is as written in the notes. If you want to see my actual notes for reference, you can find them <a href="https://drive.google.com/file/d/1gN29yAuHjyDZ9C7i9rbQR3G6fKYBrX5l/view?usp=sharing">here</a>. You can also read the lecturers notes <a href="https://folk.ntnu.no/gereonq/TMA4190V2018/TMA4190_Lecture26.pdf">here</a>. This material was presented in a 2×45 minute lecture, so details will be a bit sparse, and knowledge will mostly be presented on a need to know basis. As this comes from a lecture, the post is also somewhat long, so you are now officially warned.</p>
 <p>Introduction to topology, 19.04.18</p>
 <h2 id="2-dimensional-topological-quantum-field-theories">2-dimensional topological quantum field theories<a hidden class="anchor" aria-hidden="true" href="#2-dimensional-topological-quantum-field-theories">#</a></h2>
 <p>A topological quantum field theory (TQFT) is a very rich topological gadget with many use cases. These objects encode many of the fundamental invariants that we associate to manifolds. More precisely, an n-dimensional TQFT is a symmetric monoidal functor $Z:nCob\longrightarrow Vect_{\mathbb{C}}$. Here the category $nCob$ is the category of $n$-dimensional manifolds and cobordisms, and the category $Vect_\mathbb{C}$ is the category of complex vector spaces. The latter can be substituted by another linear category if wanted. When $n=2$ we have the following theorem.</p>
@@ -305,7 +305,7 @@ if (!doNotTrack) {
 <p>The reason we introduce these maps between maps, is because we want a way to compare categories to see if they are similar. In other fields of mathematics we usually define isomorphisms between objects to satisfy this need. These are usually defined to be maps $f:A\longrightarrow B$ such that there exists a two sided inverse. In category theory however, it turns out that such isomorphisms between categories is a too strong notion of comparison, as they leave out categories we intuitively want to consider “the same”. In topology we also run into this problem, and we then can define homotopy equivalences instead. The following definition will hopefully be reminiscent of such types of “weaker” equivalences.</p>
 <p>We say two categories<br>
 $\mathcal{C}$  and $\mathcal{D}$ are equivalent if there exists two functors $F:\mathcal{C}\longrightarrow \mathcal{D}$ and $G:\mathcal{D}\longrightarrow \mathcal{C}$ such that $G\circ F\simeq id_\mathcal{C}$ and $F\circ G \simeq id_\mathcal{D}$.</p>
-<p>If you want some more information on equivalences of categories I also have a post going into more details explaining why they are “more correct” than isomorphisms of categories.</p>
+<p>If you want some more information on equivalences of categories I also have a <a href="https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/">post</a> going into more details explaining why they are “more correct” than isomorphisms of categories.</p>
 <p>We now have the basics covered, and will now start to add on more structure which we want later. We said that a TQFT was a symmetric monoidal functor, so we need to explain what we mean by that.</p>
 <p><strong>Definition (Strict monoidal category):</strong> A strict monoidal category $(\mathcal{C}, \otimes , I)$ is a category $\mathcal{C}$  together with a functor $\otimes:\mathcal{C}\times \mathcal{C}\longrightarrow \mathcal{C}$ and an object $I\in \mathcal{C}$, such that $\otimes$ is associative and  $I$ is a left and a right unit for $\otimes.$</p>
 <p>This should be thought of as a not necessarily commutative product on the category. To make it nicer, i.e. introduce a notion of commutativity, we need the following definition.</p>

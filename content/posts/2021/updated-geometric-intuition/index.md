@@ -4,7 +4,7 @@ date: 2021-05-20
 draft: false
 tags: ["Algebras", "Schemes", "Algebraic varieties", "Noether normalization"]
 categories: ["Algebraic geometry"]
-math: true
+katex: true
 cover:
     image: "images/hyperbola2.png"
 ---

@@ -4,7 +4,7 @@ date: 2020-05-12
 tags: ["Noether normalization"]
 categories: ["Algebraic geometry"]
 draft: false
-math: true
+katex: true
 cover:
     image: "images/varietyX.png"
 ---

@@ -5,14 +5,14 @@ draft: false
 tags: ["Fibrations", "Homotopy groups", "Hopf fibration", "The Puppe sequence"]
 categories: ["Algebraic topology", "Homotopy theory"]
 series: ["The fibration series"]
-math: true
+katex: true
 cover:
     image: "images/SuspensionS1.png"
 ---
 
 This is part 3 of a series leading up to and exploring model categories. For the other parts see [the series overview]({{< ref "/series/the-fibration-series" >}}).
 
-For an introduction to the material, the definitions, motivation and some examples, please read part 1 and part 2 about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration. In this this part, we look at the long exact sequence. This is a tool that will let us relate the homotopy groups of different kinds of spaces to each other, and ultimately, will help us compute the homotopy groups of fiberbundles from the homotopy groups of the base space, and the homotopy groups of the fibers. Forward, we always have pointed spaces, and the base spaces of our fibrations are simply connected. To be a bit more self contained, we remind ourselves what a long exact sequence is.
+For an introduction to the material, the definitions, motivation and some examples, please read [part 1]({{<ref "posts/2020/fibrations">}}) and [part 2]({{<ref "posts/2020/fiber-bundles">}}) about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration. In this this part, we look at the long exact sequence. This is a tool that will let us relate the homotopy groups of different kinds of spaces to each other, and ultimately, will help us compute the homotopy groups of fiberbundles from the homotopy groups of the base space, and the homotopy groups of the fibers. Forward, we always have pointed spaces, and the base spaces of our fibrations are simply connected. To be a bit more self contained, we remind ourselves what a long exact sequence is.
 
 **Definition (l.e.s):** A long sequence of objects (in our case usually groups or pointed spaces) 
 
@@ -24,7 +24,11 @@ is called exact at $A_n$ if $\text{Ker}(d_n)=\text{Im}(d_{n+1})$ . The sequence 
 
 There are several ways to develop the long exact sequence of homotopy groups, but we will do it through the Puppe sequence, and for that we first need to look at the loop space $\Omega X$ of a topological space $X$. This is, as the name says, the topological space consisting of all loops in $X$ , i.e. the space of all pointed maps from the pointed sircle $(S^1, \infty)$ to $X$ . We also need the notion of the homotopy fiber of a map $f: X\rightarrow Y$ . Intuitively, this is the fiber of $f$ , except we are allowed to move thing around by a homotopy. To be more precise, the homotopy fiber of a point $y\in Y$ consists of pairs $(x,\omega)$ such that $\omega$ is a path from $f(x)$ to $y$ in $Y$ . We call the collection of the fibers of all the points for the homotopy fiber of $f$, denoted $hofib(f)$.
 
-Now, let $f:X\longrightarrow Y$ be a map of topological spaces. We can turn this into an exact sequence by including the homotopy fiber into the picture, namely $hofib(f)\rightarrow X\rightarrow Y$ . The loop space of $Y$ injects nicely into the homotopy fiber, because it consists of the paths that both start and end at the same points. We can even include $\Omega X$ , and get an exact sequence $\Omega X \rightarrow \Omega Y \rightarrow hofib(f)\rightarrow X\rightarrow Y$ . Iterating this process further by doing the same construction on the map $\Omega X \rightarrow \Omega Y$ , we get a long exact sequence consisting of iterated loop spaces $\Omega^n X, \Omega^n Y$ and homotopy fibers. This long exact sequence is called the Puppe sequence, and as you may have guessed, it is going to give us the exact sequence of homotopy groups that we are after.
+Now, let $f:X\longrightarrow Y$ be a map of topological spaces. We can turn this into an exact sequence by including the homotopy fiber into the picture, namely $hofib(f)\rightarrow X\rightarrow Y$ . The loop space of $Y$ injects nicely into the homotopy fiber, because it consists of the paths that both start and end at the same points. We can even include $\Omega X$ , and get an exact sequence
+
+$$\Omega X \rightarrow \Omega Y \rightarrow hofib(f)\rightarrow X\rightarrow Y.$$ 
+
+Iterating this process further by doing the same construction on the map $\Omega X \rightarrow \Omega Y$ , we get a long exact sequence consisting of iterated loop spaces $\Omega^n X, \Omega^n Y$ and homotopy fibers. This long exact sequence is called the Puppe sequence, and as you may have guessed, it is going to give us the exact sequence of homotopy groups that we are after.
 
 ## The long exact sequence in homotopy
 
@@ -70,4 +74,4 @@ $$\pi_3 S^1 \rightarrow \pi_3 S^3 \rightarrow \pi_3 S^2 \rightarrow \pi_2 S^1$$
 
 where $\pi_2 S^1$ is trivial as mentioned above, and for the same reason, $\pi_3 S^1 =0$ . Hence we have an exact sequence $0 \rightarrow \pi_3 S^3 \rightarrow \pi_3 S^2 \rightarrow 0$ , which means that $\pi_3 S^3 \cong \pi_3 S^2$ , and since every group $\pi_n S^n \cong \mathbb{Z}$ , we have the first non-trivial example for homotopy groups of spheres, namely $\pi_3 S^2 \cong \mathbb{Z}$ .
 
-Next time we introduce the Serre spectral sequence, and use it to compute cohomology groups of some interesting spaces. If we get far enough, we compute another non-trivial example of homotopy groups of spheres, namely $\pi_4 S^3$ . As a gift for bothering to read, I link an amazing artwork by my favorite Russian mathematical artist Anatoly Fomenko, called “Homotopy groups of spheres”.
+Next time we introduce the Serre spectral sequence, and use it to compute cohomology groups of some interesting spaces. If we get far enough, we compute another non-trivial example of homotopy groups of spheres, namely $\pi_4 S^3$ . As a gift for bothering to read, I link an amazing artwork by my favorite Russian mathematical artist Anatoly Fomenko, called [“Homotopy groups of spheres”](http://chronologia.org/en/math_impressions/poster034.html).

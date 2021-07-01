@@ -1,13 +1,12 @@
 ---
-title: "Hanging Pictures With Homotopy"
+title: "Hanging pictures with homotopy"
 date: 2020-05-29
 draft: false
 tags: ["Fundamental group", "Homotopy", "Homotopy groups", "Seifert van Kampen"]
 categories: ["Homotopy theory"]
-math: true
+katex: true
 cover:
     image: "images/hanging_a_picture3.png"
----
 ---
 
 
@@ -27,7 +26,7 @@ Removing one of the nails correspond to filling one of the holes. If we forget a
 
 ![Error loading image](images/hanging_a_picture.png)
 
-Picture 3: A non-zero element in the homotopy group represented by a way to hang a picture on the wall. We will later call this particular way for $a^2b^{-1}ab^{-2}$, but more on the naming schemes in a little bit.
+Above you can see a non-zero element in the homotopy group represented by a way to hang a picture on the wall. We will later call this particular way for $a^2b^{-1}ab^{-2}$, but more on the naming schemes in a little bit.
 
 Ok, so we have figured out that any way to make the picture hang on the wall using the two nails correspond to a non-zero element in the group $\pi_1(\mathbb{R}^2-\{a,b\}, x)$. Can we describe this group in a more relatable simpler way? It turns out that we can, but not too simple. This description comes from a cool theorem in algebraic topology called the Seifert-van Kampen theorem. This theorem tells us that if we can decompose a space $X$ into two pieces, $U$ and $V$ such that the intersection of these two pieces is contractible and the base point lies in this intersection, then the fundamental group of the entire space is equal to the free product of the fundamental groups of the two pieces, i.e. $\pi_1(X,x) = \pi_1(U,x)\ast \pi_1(V,x)$. What the free product is will be explained soon, but first we need to know what this theorem can do for us? We can split $\mathbb{R}^2-\{a,b\}$ into two pieces, each one containing just one of the points, and leaving a little overlap.
 

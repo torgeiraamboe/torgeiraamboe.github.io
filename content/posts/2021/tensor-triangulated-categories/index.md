@@ -2,7 +2,7 @@
 title: "Tensor triangulated categories"
 date: 2021-06-28
 draft: false
-math: true
+katex: true
 categories: ["Category theory", "Stable homotopy theory"]
 tags: ["Tensor triangulated categories", "Monoidal categories", "Triangulated categories", "Derived categories"]
 cover:

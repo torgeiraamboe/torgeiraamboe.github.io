@@ -5,7 +5,7 @@ draft: false
 tags: ["Cofibrations", "Fibrations", "Model categories"]
 categories: ["Homotopy theory", "Category theory"]
 series: ["The fibration series"]
-math: true
+katex: true
 cover:
     image: "images/lift.png"
 ---

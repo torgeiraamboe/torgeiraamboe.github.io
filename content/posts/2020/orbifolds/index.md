@@ -4,7 +4,7 @@ date: 2020-07-22
 draft: false
 tags: ["Group action", "Manifolds", "Orbifolds"]
 categories: ["Algebraic topology"]
-math: true
+katex: true
 cover:
     image: "images/pillowcase2.png"
 ---

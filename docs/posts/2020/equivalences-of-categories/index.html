@@ -22,24 +22,24 @@
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.1" />
 <head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
-  </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
 
 
 
@@ -271,9 +271,9 @@ if (!doNotTrack) {
     </details>
 </div>
 
-  <div class="post-content"><p>Last fall I held a talk about functors, natural transformations and equivalences of categories. This talk was part two of five in a student seminar on introductory category theory. There was mostly second year students attending but also a couple more experienced students. To make the talk a bit interesting for them as well I said that an equivalence of categories is the correct notion of “sameness” of categories, and not isomorphisms due to the fact that categories naturally lie in a $2$-category. An isomorphism of categories would be the correct notion of sameness if the category of categories had only trivial $2$-categorical structure, and we didn’t have to worry about higher morphisms. In this post I want to look at this statement and show that it is true.</p>
+  <div class="post-content"><p>Last fall I held a <a href="https://fagkom.wordpress.com/2019/11/05/kategoriteori-del-2/">talk</a> about functors, natural transformations and equivalences of categories. This talk was part two of five in a student seminar on introductory category theory. There was mostly second year students attending but also a couple more experienced students. To make the talk a bit interesting for them as well I said that an equivalence of categories is the correct notion of “sameness” of categories, and not isomorphisms due to the fact that categories naturally lie in a $2$-category. An isomorphism of categories would be the correct notion of sameness if the category of categories had only trivial $2$-categorical structure, and we didn’t have to worry about higher morphisms. In this post I want to look at this statement and show that it is true.</p>
 <h2 id="motivation-and-hand-waving">Motivation and hand waving<a hidden class="anchor" aria-hidden="true" href="#motivation-and-hand-waving">#</a></h2>
-<p>Last post we talked a bit about $2$-categories and the differences between strict and weak $2$-categories. We introduced these through $Cat$, the category of (small) categories, which we discovered was a strict $2$-category. We also defined a bicategory, which is a way to explicitly describe a weak $2$-category. It can be smart to read that post to have some familiarity with the notion of $2$-categories. Since strict $2$-categories are special cases of weak $2$-categories, I will for simply use the term $2$-category instead of explicitly referring to one of them for most of this post.</p>
+<p><a href="https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/">Last post</a> we talked a bit about $2$-categories and the differences between strict and weak $2$-categories. We introduced these through $Cat$, the category of (small) categories, which we discovered was a strict $2$-category. We also defined a bicategory, which is a way to explicitly describe a weak $2$-category. It can be smart to read that post to have some familiarity with the notion of $2$-categories. Since strict $2$-categories are special cases of weak $2$-categories, I will for simply use the term $2$-category instead of explicitly referring to one of them for most of this post.</p>
 <p>In normal category theory we have for long understood that objects are not to be classified using equality, but some weaker notion of equivalence, usually called isomorphisms. For example in the category of abelian groups we want to use the first isomorphism theorem. This says that the image of a group homomorphism $f:G\longrightarrow H$, is isomorphic to the domain modulo the kernel of the homomorphism. These two groups are essentially the same, i.e. the induced morphism on the quotient $\overline{f}:G/Ker(f)\longrightarrow Im(f)$ is an isomorphism. If we were only allowed to talk about groups being equal, this would not be a useful theorem, and our theory in general would not be as rich. So, we have learned that equality of objects is a bad notion in a standard category.</p>
 <h2 id="classical-theory">Classical theory<a hidden class="anchor" aria-hidden="true" href="#classical-theory">#</a></h2>
 <p>To understand what equivalences and isomorphisms of categories are, and how they relate to this higher $2$-categorical structure, we need to look at their classical definitions.</p>

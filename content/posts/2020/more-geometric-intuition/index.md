@@ -5,7 +5,7 @@ tags: ["Zariski's lemma", "Hilbert's nullstellensatz"]
 categories: ["Algebraic geometry"]
 description: ""
 draft: false
-math: true
+katex: true
 cover:
     image: "images/varietyV.png"
 
@@ -24,7 +24,7 @@ Now, we haven’t been through this yet, but we know precisely which varieties t
 
 **The weak Hilbert’s nullstellensatz:** All maximal ideals $\mathfrak{m}$  in the ring $k[x_1, \cdots, x_n] $ where $k$  is an algebraically closed field are of the form $\mathfrak{m}=\mathfrak{m}_a=(x_1-a_1, \cdots , x_n-a_n) $, where $a = (a_1, \cdots, a_n)$  denotes a point in $k^n $.
 
-For a detailed proof you can read my write up on the strong version on the nullstellensatz, where I also prove the weak one. You can find that here. For a geometric (and a big bit handwavy) approach, we note that prime ideals in $k[x_1, \cdots, x_n]$  correspond to affine algebraic varieties $X$  in $k^n$ , and prime ideals in the coordinate ring of $X$ , i.e. $k[x_1, \cdots, x_n]/I(X) = k[x_1, \cdots, x_n]/ \mathfrak{p}$ , then translates to affine subvarieties of $X$  because prime ideals in $k[x_1, \cdots, x_n]/\mathfrak{p}$  are exactly the prime ideals in $k[x_1, \cdots, x_n] $ that contains $\mathfrak{p}$ . All maximal ideals are also prime, so maximal ideals in $k[x_1, \cdots, x_n] $ should translate to affine algebraic varieties that contain no affine algebraic subvarieties, i.e. points in $k^n$ .
+For a detailed proof you can read my write up on the strong version on the nullstellensatz, where I also prove the weak one. You can find that [here](https://drive.google.com/file/d/1yKxSQFyLKB1mQxI3i2UJvpUW-uRXytCe/view?usp=sharing). For a geometric (and a big bit handwavy) approach, we note that prime ideals in $k[x_1, \cdots, x_n]$  correspond to affine algebraic varieties $X$  in $k^n$ , and prime ideals in the coordinate ring of $X$ , i.e. $k[x_1, \cdots, x_n]/I(X) = k[x_1, \cdots, x_n]/ \mathfrak{p}$ , then translates to affine subvarieties of $X$  because prime ideals in $k[x_1, \cdots, x_n]/\mathfrak{p}$  are exactly the prime ideals in $k[x_1, \cdots, x_n] $ that contains $\mathfrak{p}$ . All maximal ideals are also prime, so maximal ideals in $k[x_1, \cdots, x_n] $ should translate to affine algebraic varieties that contain no affine algebraic subvarieties, i.e. points in $k^n$ .
 
 ## Geometric Zariski's lemma
 Ok, we now know which affine algebraic varieties that have associated maximal ideals. Last time we translated certain integral extensions to certain surjective projections of varieties onto linear subspaces of $k^n$ . In fact, we showed that if we have a surjective projection from our affine algebraic variety to a linear subspace $L $ of $k^n$  we know that the coordinate ring of the variety is integral over the coordinate ring of the linear subspace. Now the trick to proving Zariski’s lemma becomes to find a suitable linear subspace. Since we have shown that our variety associated to the maximal ideal is a point, we only have one choice of linear subspace to surject to, namely the zero-dimensional linear subspace, $k^0 $. This is certainly a projection, and certainly surjective, hence our coordinate ring (or coordinate field really) $A$  is integral over the coordinate ring of the zero dimensional linear subspace of $k^n$ .

@@ -4,7 +4,7 @@ date: 2021-01-19
 draft: false
 tags: ["Algebras", "Cobordisms", "Monoidal categories", "Topological quantum field theories"]
 categories: ["Category theory", "Differential topology"]
-math: true
+katex: true
 cover:
     image: "images/associativity_coassociativity.png"
 ---
@@ -13,7 +13,7 @@ For those that don’t know I am a fifth year mathematics student at NTNU, meani
 
 The reason I still remember this particular lecture is because I left it understanding nothing. Some lectures takes some time to process, but this was not one of those. The information contained in the lecture was just so far above my head at the time, and it has taken me until now to understand it. I remember the lecture because it was inspiring, because I realized there is no cap on mathematical knowledge, because this is a field where one can always continue learning and never understanding it all. Not all lectures need to be understandable, or even exam-relevant (this one luckily wasn’t), some lectures just need to be inspiring and forward-looking.
 
-Anyways, below are my notes from that lecture. I have added some text to clarify some points and to make the post more cohesive, but the message and the theory is as written in the notes. If you want to see my actual notes for reference, you can find them here. You can also read the lecturers notes here. This material was presented in a 2×45 minute lecture, so details will be a bit sparse, and knowledge will mostly be presented on a need to know basis. As this comes from a lecture, the post is also somewhat long, so you are now officially warned.
+Anyways, below are my notes from that lecture. I have added some text to clarify some points and to make the post more cohesive, but the message and the theory is as written in the notes. If you want to see my actual notes for reference, you can find them [here](https://drive.google.com/file/d/1gN29yAuHjyDZ9C7i9rbQR3G6fKYBrX5l/view?usp=sharing). You can also read the lecturers notes [here](https://folk.ntnu.no/gereonq/TMA4190V2018/TMA4190_Lecture26.pdf). This material was presented in a 2×45 minute lecture, so details will be a bit sparse, and knowledge will mostly be presented on a need to know basis. As this comes from a lecture, the post is also somewhat long, so you are now officially warned.
 
 Introduction to topology, 19.04.18
 
@@ -56,7 +56,7 @@ The reason we introduce these maps between maps, is because we want a way to com
 We say two categories  
 $\mathcal{C}$  and $\mathcal{D}$ are equivalent if there exists two functors $F:\mathcal{C}\longrightarrow \mathcal{D}$ and $G:\mathcal{D}\longrightarrow \mathcal{C}$ such that $G\circ F\simeq id_\mathcal{C}$ and $F\circ G \simeq id_\mathcal{D}$.
 
-If you want some more information on equivalences of categories I also have a post going into more details explaining why they are “more correct” than isomorphisms of categories.
+If you want some more information on equivalences of categories I also have a [post]({{<ref "posts/2020/equivalences-of-categories">}}) going into more details explaining why they are “more correct” than isomorphisms of categories.
 
 We now have the basics covered, and will now start to add on more structure which we want later. We said that a TQFT was a symmetric monoidal functor, so we need to explain what we mean by that.
 

@@ -4,12 +4,12 @@ date: 2021-05-18
 draft: false
 tags: ["Algebras", "Schemes", "Algebraic varieties", "Sheaves"]
 categories: ["Algebraic geometry"]
-math: true
+katex: true
 cover:
     image: "images/intersection2.png"
 ---
 
-The first two posts ([[1]]( {{< ref "/posts/2020/geometric-intuition" >}}),[[2]]( {{< ref "/posts/2020/more-geometric-intuition" >}})) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote [a post about sheaves]( {{< ref "/posts/2020/sheaves" >}}), and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks. Today we will rectify this situation. I have my algebraic geometry exam this week, so this is both an explainer-post, and a "making sure I understand the course material"-post. These types of posts have in fact become common on this blog, but hopefully that is ok. 
+The first two posts ([[1]]({{<ref "/posts/2020/geometric-intuition" >}}),[[2]]({{<ref "/posts/2020/more-geometric-intuition" >}})) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote [a post about sheaves]({{<ref "/posts/2020/sheaves" >}}), and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks. Today we will rectify this situation. I have my algebraic geometry exam this week, so this is both an explainer-post, and a "making sure I understand the course material"-post. These types of posts have in fact become common on this blog, but hopefully that is ok. 
 
 The goal of the post is to be able to understand the definition of a scheme. So in order to do that we first make a quite extensive recap on algebraic varieties in order to get some motivation and intuition, and then make sure we understand all the components of the definition. As we have done before, we start with the definition we want to understand, and then unravel it as we go along. So, here it is, the definition of a scheme. 
 
@@ -70,7 +70,7 @@ We have some easy to define open sets called the standard open sets, or sometime
 
 ## The sheaf of regular functions
 
-As we have already covered sheaves in [an earlier blog post]( {{< ref "/posts/2020/sheaves" >}}), we will not do that here. So if the reader has not seen sheaves, it would be smart to look at that post before reading onwards.
+As we have already covered sheaves in [an earlier blog post]({{<ref "/posts/2020/sheaves" >}}), we will not do that here. So if the reader has not seen sheaves, it would be smart to look at that post before reading onwards.
 
 But, before we construct the sheaf we need, we need to realize that defining it on a basis for the topology is enough. Usually we need to define an object - in our case a ring - for each open set in a topological space $X$, satisfying a couple conditions. A basis for the topology on $X$ allows us to construct any other open set as a colimit of sets in the basis. When we apply the sheaf, then the rings we get for the general open sets can again be constructed as colimits of the rings we get from the open sets in the basis. Thus when we only define the sheaf for the basis elements, we are simultaneously defining it for all open sets, due to colimits of rings behaving nicely. 
 
@@ -150,4 +150,4 @@ But, even in the world of algebraically closed fields, schemes show up as necess
 
 Recall that these curves are given by $F=X^2+Y^2-1$ and $G=XY-1$. These both have degree 2, but there are only 2 intersection points. As we really need these to be projective curves, we can possibly also have an intersection point "at infinity". This is still only three possible points, so we need to have at least one intersection with "multiplicity 2". If we were only allowed to use the structure of algebraic varieties here, then all these multiplicities will be 1, but if we allow for the intersection to admit a scheme structure, then we can "count correctly". In this way we get the four intersection points that Bezout's theorem tells us we should have. 
 
-Schemes are of course useful in many other situations, where algebraic varieties turn out not to be general enough, or not the right tool. In one of the next coming days we will see a generalization of the [first post i ever made]( {{< ref "/posts/2020/geometric-intuition" >}}), i.e. geometric intuition about Noether normalization, to these more general schemes. Maybe we'll write a bit better what is stated in the first post as well... 
+Schemes are of course useful in many other situations, where algebraic varieties turn out not to be general enough, or not the right tool. In one of the next coming days we will see a generalization of the [first post i ever made]({{<ref "/posts/2020/geometric-intuition" >}}), i.e. geometric intuition about Noether normalization, to these more general schemes. Maybe we'll write a bit better what is stated in the first post as well... 

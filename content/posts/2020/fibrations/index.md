@@ -5,7 +5,7 @@ draft: false
 tags: ["Fibrations", "Homotopy"]
 categories: ["Algebraic topology", "Homotopy theory"]
 series: ["The fibration series"]
-math: true
+katex: true
 cover:
     image: "images/lift.png"
 ---

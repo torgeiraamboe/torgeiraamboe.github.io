@@ -22,24 +22,24 @@
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.1" />
 <head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
-  </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
 
 
 
@@ -274,7 +274,7 @@ if (!doNotTrack) {
   <div class="post-content"><p>A litmus test is a question asked in politics to a potential candidate for high office in which the answer determines if the person gets nominated or not. If a person or a committee holds the power of nominating candidates, they can use that power to make sure that a potential candidate holds their view on a certain matter. So, what does this have to do with mathematics, or especially with homotopy theory? There is a question worth asking certain objects to check if they should be allowed to be a suitable “definition” for a certain nice structure. The question, or test, which we will look more closely at soon, first started as a conjecture by Grothendieck, named later “the homotopy hypothesis”. This conjecture is still open in the way formulated by Grothendieck, but it can be turned on its head to form this test instead. The reason this is possible is because of ambiguity in a certain definition in higher category theory, and because there is seemingly many inequivalent “definitions” for the same object. Before exploring any theory at all, the conjecture states that $\infty$-groupoids are equivalent to topological spaces. The litmus test then becomes; $X$ is considered a definition of $\infty$-groupoids if and only if all $X$s’ are equivalent to topological spaces.</p>
 <h2 id="motivation">Motivation<a hidden class="anchor" aria-hidden="true" href="#motivation">#</a></h2>
 <p>Before jumping into definitions and theory, I wanted to first give a little motivation to why we are going past normal categories, and why stuff with the $\infty$ prefix are interesting to study. As I understand it, the main reason to do $\infty$ -stuff is to make “less strict” versions of our familiar objects from normal abstract algebra, and it turns out that the correct definition of “less strict” kind of means “up to homotopy”. This will hopefully become apparent throughout this post. The main $\infty$ -object in this post will be $\infty$ -groupoids, and it acts as one of the fundamental higher objects in homotopy theory, and it is of course the star of the beforementioned litmus test.</p>
-<p>The motivating example for studying so-called higher categories is the category of categories, denoted $Cat$. Or, to avoid nasty set theoretic Russel paradox business, we actually define it as the category of small categories. Here the objects are (small) categories, and the morphisms are functors. As we have learned in regular category theory, there also exists morphisms between functors, called natural transformations. Hence we have more types of things in this new type of category. We have two types of morphisms, which we simply call $1$-morphisms, which are the functors in this case, and $2$-morphisms, which are the natural transformations. Since $2$ is the highest we have in this setting, we call it a $2$-category. From normal category theory we also know that the collection of functors between two categories form a category themselves, so we can also think about a $2$-category as a category where all the homsets are themselves categories. When we discussed cosmoi, we defined what we called an enriched category, and this is exactly what a $2$-category is, a category enriched over $Cat$. We can do this because $Cat$ is monoidal under the Cartesian product. This definition actually makes what we define as strict $2$-categories. These are categories where composition of $1$-morphisms has to be associative on the nose, because they are the morphisms of a category, i.e. strictly associative. This also means that strict $2$-categories actually also are normal categories with more information. We can then iteratively define a strict $n$-category to be a category enriched in a strict $(n-1)$-category. These strict versions are easy to define, and are nice to work with, but turns out to rarely show up in nature. As we mentioned, we want to have less strict versions of algebraic objects, not keep going with the same stuff.</p>
+<p>The motivating example for studying so-called higher categories is the category of categories, denoted $Cat$. Or, to avoid nasty set theoretic Russel paradox business, we actually define it as the category of small categories. Here the objects are (small) categories, and the morphisms are functors. As we have learned in regular category theory, there also exists morphisms between functors, called natural transformations. Hence we have more types of things in this new type of category. We have two types of morphisms, which we simply call $1$-morphisms, which are the functors in this case, and $2$-morphisms, which are the natural transformations. Since $2$ is the highest we have in this setting, we call it a $2$-category. From normal category theory we also know that the collection of functors between two categories form a category themselves, so we can also think about a $2$-category as a category where all the homsets are themselves categories. When we discussed <a href="https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/">cosmoi</a>, we defined what we called an enriched category, and this is exactly what a $2$-category is, a category enriched over $Cat$. We can do this because $Cat$ is monoidal under the Cartesian product. This definition actually makes what we define as strict $2$-categories. These are categories where composition of $1$-morphisms has to be associative on the nose, because they are the morphisms of a category, i.e. strictly associative. This also means that strict $2$-categories actually also are normal categories with more information. We can then iteratively define a strict $n$-category to be a category enriched in a strict $(n-1)$-category. These strict versions are easy to define, and are nice to work with, but turns out to rarely show up in nature. As we mentioned, we want to have less strict versions of algebraic objects, not keep going with the same stuff.</p>
 <h2 id="weak-higher-categories">Weak higher categories<a hidden class="anchor" aria-hidden="true" href="#weak-higher-categories">#</a></h2>
 <p>The question then becomes; how do we define a non-strict, or more often called a weak $2$-category? This is not obvious, and require us to choose how to do it. Intuitively we want a $2$-category to be a collection of objects together with $1$-morphisms and $2$-morphisms, such that compositions of $1$-morphisms are associative up to invertible $2$-morphisms, but formalizing this in an exact definition is not trivial. One solution is called bicategories. These are created by weakening the notion of enrichment, and calling a bicategory a category weakly enriched in $Cat$. This is the oldest, and most used definition of a weak $2$-category.</p>
 <p><strong>Definition (Bicategory):</strong> A bicategory is a structure consisting of</p>

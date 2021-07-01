@@ -4,7 +4,7 @@ date: 2020-08-19
 draft: false
 tags: ["Closed category", "Cosmos", "Enriched categories", "Monoidal categories"]
 categories: ["Category theory"]
-math: true
+katex: true
 cover:
     image: "images/limit.png"
 ---
@@ -60,7 +60,11 @@ Closedness is formalized by the notion of internal homs. From the intuitive defi
 
 We have now defined all the structures that we need to state the definition of a cosmos. But, since we now have several structures at the same time, we need to make sure that these structures play nice together. As a recap, we recall that the structures we have are, category, monoidal, symmetry, complete, cocomplete and closedness. Luckily for us, the limits and colimits are not actually a structure of the category, but more like a property that we have internally. It says something about which objects exists, but not about structure. So these fit together with the other ones for free!
 
-From both the monoidal structure and from the closedness, we have a unit object, $I$. If we want a nice category that makes sense these two unit objects should of course be the same. Some of the structure is motivated, or at least inspired from the category of sets, where we have $[X,Y]=\{ f:X\rightarrow Y\}$, and $Hom(S, [X, Y])\cong Hom(S\times X, Y)$. So to carry this motivation further, we require that the internal hom functor $[X,-]$ is right adjoint to the monoidal product functor $-\otimes X$ . Hence, in a closed and monoidal category we have a bijection $Hom(A, [X, Y])\rightarrow Hom(A\otimes X, Y)$, that is natural in all three variables. This map is often called “currying”, and is used in for example $\lambda$-calculus, type theory and categorical logic. When this is the case, we concatenate the two structures and call the category a closed monoidal category, or sometimes a monoidal closed category.
+From both the monoidal structure and from the closedness, we have a unit object, $I$. If we want a nice category that makes sense these two unit objects should of course be the same. Some of the structure is motivated, or at least inspired from the category of sets, where we have $[X,Y]=\{ f:X\rightarrow Y\}$ and 
+
+$$Hom(S, [X, Y])\cong Hom(S\times X, Y).$$ 
+
+So to carry this motivation further, we require that the internal hom functor $[X,-]$ is right adjoint to the monoidal product functor $-\otimes X$ . Hence, in a closed and monoidal category we have a bijection $Hom(A, [X, Y])\rightarrow Hom(A\otimes X, Y)$, that is natural in all three variables. This map is often called “currying”, and is used in for example $\lambda$-calculus, type theory and categorical logic. When this is the case, we concatenate the two structures and call the category a closed monoidal category, or sometimes a monoidal closed category.
 
 ## Definition
 

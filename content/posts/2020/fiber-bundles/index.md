@@ -5,7 +5,7 @@ draft: false
 tags: ["Fiber bundles", "Fibrations", "Möbius band"]
 categories: ["Algebraic topology", "Homotopy theory"]
 series: ["The fibration series"]
-math: true
+katex: true
 cover:
     image: "images/mobius1.png"
 ---

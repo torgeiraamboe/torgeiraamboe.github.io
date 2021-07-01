@@ -23,24 +23,24 @@ Last time we ended by giving a definition of a homotopy between maps on the coll
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.1" />
 <head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
-  </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
 
 
 
@@ -294,7 +294,7 @@ Last time we ended by giving a definition of a homotopy between maps on the coll
 <p>where $A^{cf}$ means we have taken both a cofibrant followed by a fibrant replacement of $X$. I include this as a picture since this article had none, and I need a coverphoto… Also pictures are more fun.</p>
 <p>The reader might be confused as to why the naive homotopy category of topological spaces exists, and why we don’t really need to pass down to only CW complexes. Recall that in the Strøm model structure on the category of topological spaces, all objects are both fibrant and cofibrant, hence localization at the homotopy equivalences results in the same category as just taking homotopy classes of maps. Hence, the naive homotopy category is the Quillen homotopy category of topological spaces with the Strøm model structure, while the “true” homotopy category is the Quillen homotopy category of topological spaces with the Serre model structure. This shows in my opinion that the Serre model structure is a bit nicer, but also more restrictive.</p>
 <h2 id="derived-categories">Derived categories<a hidden class="anchor" aria-hidden="true" href="#derived-categories">#</a></h2>
-<p>The algebraically inclined reader familiar with homological algebra will recognize the definition of the Quillen homotopy category as very similar to the derived category of a ring, or in general the derived category of an abelian category. As mentioned in part 7, an example of a model category is the category of chain complexes of modules over some ring, and localizing this category at its weak equivalences, namely the quasi isomorphisms gives the derived category of the ring, i.e. $D(R)=Q^{-1}C(ModR)$ where $Q$ is the class of quasi isomorphisms. Usually the reason for introducing the derived category in homological algebra is that working with chain homotopy classes of maps in chain complexes does not work nicely with the triangulated structure that naturally arises. In particular, a short exact sequence in the category of chain complexes may not be a distinguished triangle in the “homotopy category”. By homotopy category I here mean the category of chain complexes of modules over a ring with maps being chain homotopy classes of chain maps. This should rather be called the naive homotopy category, since it is exactly the same construction that we did for topological spaces. Passing to the derived category rectifies this, since every exact sequence gives a distinguished triangle. We will probably explore triangulated categories more in the fall, as I am going to follow a course focusing on them.</p>
+<p>The algebraically inclined reader familiar with homological algebra will recognize the definition of the Quillen homotopy category as very similar to the derived category of a ring, or in general the derived category of an abelian category. As mentioned in <a href="https://torgeiraamboe.github.io/posts/2020/model-categories/">part 7</a>, an example of a model category is the category of chain complexes of modules over some ring, and localizing this category at its weak equivalences, namely the quasi isomorphisms gives the derived category of the ring, i.e. $D(R)=Q^{-1}C(ModR)$ where $Q$ is the class of quasi isomorphisms. Usually the reason for introducing the derived category in homological algebra is that working with chain homotopy classes of maps in chain complexes does not work nicely with the triangulated structure that naturally arises. In particular, a short exact sequence in the category of chain complexes may not be a distinguished triangle in the “homotopy category”. By homotopy category I here mean the category of chain complexes of modules over a ring with maps being chain homotopy classes of chain maps. This should rather be called the naive homotopy category, since it is exactly the same construction that we did for topological spaces. Passing to the derived category rectifies this, since every exact sequence gives a distinguished triangle. We will probably explore triangulated categories more in the fall, as I am going to follow a course focusing on them.</p>
 <p>In the model structure on chain complexes of modules over a ring, the injective and projective resolutions are the fibrant and cofibrant replacements. We have showed that homotopy classes of maps between bifibrant objects gives an equivalent naive homotopy category to the Quillen homotopy category of the entire category, hence if we take an Abelian category with enough projectives and enough injectives, all objects have nice replacements that we can work with, and if we restrict ourselves to just these projective and injective chain complexes we have an equivalent category to the derived category that is more workable.</p>
 <p>Next time we will study functors between model categories, and what it means to preserve the model structure. We will also study what type of functor we need to make sure that both model categories have an equivalent homotopy category. As a teaser, derived functors will be an example of functors between model categories.</p>
 

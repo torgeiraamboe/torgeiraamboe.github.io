@@ -23,24 +23,24 @@ Through the series so far we have covered the basic uses of fibrations and relat
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.1" />
 <head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
-  </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
 
 
 
@@ -311,7 +311,7 @@ Through the series so far we have covered the basic uses of fibrations and relat
 <p>$$\leftarrow [X, K(\mathbb{Z}, n)] \leftarrow [Y, K(\mathbb{Z}, n)] \leftarrow [C(f), K(\mathbb{Z}, n)] \leftarrow [X, K(\mathbb{Z}, n-1)] \leftarrow ,$$</p>
 <p>we have, under the isomorphisms discussed above, the long exact sequence</p>
 <p>$$\leftarrow H^n(X;\mathbb{Z}) \leftarrow H^n(Y;\mathbb{Z}) \leftarrow H^n(Y,X;\mathbb{Z}) \leftarrow H^{n-1}(X;\mathbb{Z}) \leftarrow .$$</p>
-<p>This is not the standard, and should not be the standard way to produce this exact sequence, but I still find it cool that it works this way. Cohomology doesn’t feel dual to homotopy, but in a way, this construction shows that they are, at least for some notion of dual. Maybe thinking of them as adjoint constructions is better, I don’t know. This was all I wanted to do for this post. There is another way to characterize cofibrations, namely through neighbourhood deformation retracts. The only reason i mention this is to have a relevant artwork by Fomenko to end the article with, so here is “A retraction of a space onto a subspace of it“.</p>
+<p>This is not the standard, and should not be the standard way to produce this exact sequence, but I still find it cool that it works this way. Cohomology doesn’t feel dual to homotopy, but in a way, this construction shows that they are, at least for some notion of dual. Maybe thinking of them as adjoint constructions is better, I don’t know. This was all I wanted to do for this post. There is another way to characterize cofibrations, namely through neighbourhood deformation retracts. The only reason i mention this is to have a relevant artwork by Fomenko to end the article with, so here is <a href="http://chronologia.org/en/math_impressions/poster128.html">“A retraction of a space onto a subspace of it“</a>.</p>
 
 </div>
   <footer class="post-footer">
@@ -330,7 +330,7 @@ Through the series so far we have covered the basic uses of fibrations and relat
   <a class="next" href="https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/">
     <span class="title">Next Page »</span>
     <br>
-    <span>Hanging Pictures With Homotopy</span>
+    <span>Hanging pictures with homotopy</span>
   </a>
 </nav>
 

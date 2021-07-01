@@ -4,7 +4,7 @@ date: 2020-06-24
 draft: false
 tags: ["Fiber bundles", "Projective modules", "Swan's theorem", "Vector bundles"]
 categories: ["Algebraic topology", "Category theory"]
-math: true
+katex: true
 cover:
     image: "images/section.png"
 ---
