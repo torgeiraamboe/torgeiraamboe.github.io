@@ -6,7 +6,16 @@
     <description>Recent content in Homotopy on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/homotopy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/homotopy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On formal DG-algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/</guid>
+      <description>My five years of studying mathematics at NTNU has finally culminated in my master thesis, now handed in and defended. So, I thought I would explain my thesis, and a couple of the interesting pieces. Luckily we have already covered a lot of the background material, so I will rely on that as much as possible in order to not reproduce the thesis in its full details. I have a suspicion that this post will be long enough already&amp;hellip; Ok, lets begin.</description>
+    </item>
+    
     <item>
       <title>Sha Algebras</title>
       <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>

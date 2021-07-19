@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algebras</title>
+      <link>https://torgeiraamboe.github.io/tags/algebras/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/algebras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homotopy</title>
+      <link>https://torgeiraamboe.github.io/tags/homotopy/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/homotopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Massey products</title>
+      <link>https://torgeiraamboe.github.io/tags/massey-products/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/massey-products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model categories</title>
+      <link>https://torgeiraamboe.github.io/tags/model-categories/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/model-categories/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Derived categories</title>
       <link>https://torgeiraamboe.github.io/tags/derived-categories/</link>
@@ -53,15 +89,6 @@
     </item>
     
     <item>
-      <title>Algebras</title>
-      <link>https://torgeiraamboe.github.io/tags/algebras/</link>
-      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/algebras/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Noether normalization</title>
       <link>https://torgeiraamboe.github.io/tags/noether-normalization/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
@@ -94,15 +121,6 @@
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/a_infinity-algebras/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Homotopy</title>
-      <link>https://torgeiraamboe.github.io/tags/homotopy/</link>
-      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/homotopy/</guid>
       <description></description>
     </item>
     
@@ -445,15 +463,6 @@
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/homotopy-category/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model categories</title>
-      <link>https://torgeiraamboe.github.io/tags/model-categories/</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/model-categories/</guid>
       <description></description>
     </item>
     
