@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://torgeiraamboe.github.io/categories/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/fundamental-group/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/higher-category-theory/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/homotopy/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/homotopy-hypothesis/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/homotopy-theory/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/infinity-groupoids/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/2021/traveling/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/categories/algebraic-topology/</loc>
     <lastmod>2021-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/algebras/</loc>
-    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/</loc>
-    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/homotopy/</loc>
     <lastmod>2021-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/massey-products/</loc>
@@ -21,15 +48,6 @@
     <lastmod>2021-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/</loc>
-    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/posts/</loc>
-    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/</loc>
-    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/</loc>
     <lastmod>2021-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/category-theory/</loc>
@@ -75,9 +93,6 @@
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/a_infinity-algebras/</loc>
-    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/homotopy-theory/</loc>
     <lastmod>2021-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</loc>
@@ -137,16 +152,7 @@
     <loc>https://torgeiraamboe.github.io/tags/reidemeister-moves/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/higher-category-theory/</loc>
-    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/homotopy-hypothesis/</loc>
-    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/tags/infinity-categories/</loc>
-    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/infinity-groupoids/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</loc>
@@ -286,9 +292,6 @@
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/the-puppe-sequence/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/fundamental-group/</loc>
-    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</loc>
     <lastmod>2020-05-29T00:00:00+00:00</lastmod>

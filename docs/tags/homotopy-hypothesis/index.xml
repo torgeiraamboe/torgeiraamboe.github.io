@@ -6,7 +6,16 @@
     <description>Recent content in Homotopy hypothesis on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/homotopy-hypothesis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/homotopy-hypothesis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traveling</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/traveling/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/traveling/</guid>
+      <description>How can we use travel-journaling to study some highly abstract and highly complicated mathematical machinery? Can we get anything out of such an analogy? In this post we do just that, study the homotopy hypothesis and infinity groupoids through the lens of a travel ledger.</description>
+    </item>
+    
     <item>
       <title>Quasi Categories</title>
       <link>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</link>

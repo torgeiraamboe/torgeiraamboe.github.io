@@ -6,22 +6,49 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Mon, 19 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algebras</title>
-      <link>https://torgeiraamboe.github.io/tags/algebras/</link>
-      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Fundamental group</title>
+      <link>https://torgeiraamboe.github.io/tags/fundamental-group/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://torgeiraamboe.github.io/tags/algebras/</guid>
+      <guid>https://torgeiraamboe.github.io/tags/fundamental-group/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homotopy</title>
       <link>https://torgeiraamboe.github.io/tags/homotopy/</link>
-      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/homotopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homotopy hypothesis</title>
+      <link>https://torgeiraamboe.github.io/tags/homotopy-hypothesis/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/homotopy-hypothesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infinity-groupoids</title>
+      <link>https://torgeiraamboe.github.io/tags/infinity-groupoids/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/infinity-groupoids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algebras</title>
+      <link>https://torgeiraamboe.github.io/tags/algebras/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/algebras/</guid>
       <description></description>
     </item>
     
@@ -224,29 +251,11 @@
     </item>
     
     <item>
-      <title>Homotopy hypothesis</title>
-      <link>https://torgeiraamboe.github.io/tags/homotopy-hypothesis/</link>
-      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/homotopy-hypothesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Infinity-categories</title>
       <link>https://torgeiraamboe.github.io/tags/infinity-categories/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/infinity-categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Infinity-groupoids</title>
-      <link>https://torgeiraamboe.github.io/tags/infinity-groupoids/</link>
-      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/infinity-groupoids/</guid>
       <description></description>
     </item>
     
@@ -508,15 +517,6 @@
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/the-puppe-sequence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fundamental group</title>
-      <link>https://torgeiraamboe.github.io/tags/fundamental-group/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/fundamental-group/</guid>
       <description></description>
     </item>
     

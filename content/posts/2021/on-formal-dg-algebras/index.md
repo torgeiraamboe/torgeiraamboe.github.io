@@ -7,6 +7,7 @@ categories: ["Algebraic topology"]
 katex: true
 cover:
     image: "images/borromean.svg"
+summary: "I have recently handed in and defended my master thesis in mathematics, so I though I would go through its abstract and try to explain what it's all about. We look at formality of DG-algebras, Massey products, A_infinity-algebras and how we can use these to some interesting results."
 ---
 
 
