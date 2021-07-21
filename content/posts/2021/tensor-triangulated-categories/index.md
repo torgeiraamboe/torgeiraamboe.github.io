@@ -34,9 +34,9 @@ We covered fibrations quite extensively in the [the fibration series]({{< ref "/
 
 Ok, so how do we generalize these into a common framework? When we looked a cofibrations and cofiber sequences in the fibration series, we constructed a longer sequence of topological spaces from each cofiber sequence. We expanded the cofiber sequence into 
 
-$$A \overset{f}\longrightarrow B\longrightarrow  C(f)\longrightarrow \Sigma A$$
+$$A \overset{f}\longrightarrow B\longrightarrow  C(f)\longrightarrow \Sigma A, $$
 
-where, $\Sigma A$ is the suspension of $A$. For fibrations we did this in the opposite direction, i.e. constructed the mapping fiber (homotopy fiber), and a map from the loop space into it to get a sequence
+where $\Sigma A$ is the suspension of $A$. For fibrations we did this in the opposite direction, i.e. constructed the mapping fiber (homotopy fiber), and a map from the loop space into it to get a sequence
 
 $$\Omega B \longrightarrow F(f)\longrightarrow A\overset{f}\longrightarrow B.$$
 
@@ -106,7 +106,7 @@ then this is again exact. The same should hold for a rotation in the other direc
 
 $$\Sigma^{-1}C\overset{-\Sigma^{-1}h}\longrightarrow A \overset{f}\longrightarrow B\overset{g}\longrightarrow  C$$
 
-is again an exact triangle. Notice here that we used the inverse $\Sigma^{-1}$ of $\Sigma$, which exists as it is assumed to be an automorphism. Some authors only require auto-equivalence, which means that there is only a natural transformation from the composition $\Sigma\circ \Sigma^{-1}$ to the identity functor, meaning that the above axiom needs a bit more care and attention. The object $\Sigma^{-1}C$ is called the fiber of $f$. Notice the similarity to the mapping fiber briefly mentioned above. 
+is again an exact triangle. Notice here that we used the inverse $\Sigma^{-1}$ of $\Sigma$, which exists as it is assumed to be an automorphism. Some authors only require auto-equivalence, which means that there is only a natural transformation from the composition $\Sigma\circ \Sigma^{-1}$ to the identity functor, meaning that the above axiom needs a bit more care and attention. The object $\Sigma^{-1}C$ is called the fiber of $f$. Notice the similarity to the mapping fiber briefly mentioned above, where we had $\Omega$ instead of $\Sigma^{-1}$. The suspension and the loop space functors are not inverses in the normal category of topological spaces, but become so in the homotopy category of spectra, mentioned a bit later. We will do an entire post about these soon. 
 
 **TC3:** Given two exact triangles,
 
@@ -132,17 +132,19 @@ $$B \overset{g}\longrightarrow C\overset{h}\longrightarrow  A'\overset{f'}\longr
 
 From TC1.2 we know that we can complete the map $g\circ f:A\longrightarrow C$ into an exact triangle
 
-$$A \overset{g\circ f}\longrightarrow C\overset{i}\longrightarrow  B'\overset{j}\longrightarrow \Sigma A$$
+$$A \overset{g\circ f}\longrightarrow C\overset{i}\longrightarrow  B'\overset{j}\longrightarrow \Sigma A.$$
 
-and TC4 states that also the triangle 
+The fourth axiom TC4, states that also the triangle 
 
 $$C'\longrightarrow B'\longrightarrow A'\longrightarrow \Sigma C'$$
 
-is exact. If we for a moment interpret these exact triangles as actual exact sequences of groups, then we would have $C'\cong B/A$, $A'\cong C/B$ and $B'\cong C/A$. This last exact triangle then states precisely that we would get
+needs to be exact. 
+
+If we for a moment interpret these exact triangles as actual exact sequences of groups, then we would have $C'\cong B/A$, $A'\cong C/B$ and $B'\cong C/A$. This last exact triangle then states precisely that we would get
 
 $$B/C\cong A'\cong B'/C' \cong (C/A)/(B/A)$$
 
-also known as the first isomorphism theorem. Hence TC4 is a kind of generalization of the first isomorphism theorem to exact triangles. 
+also known as the third isomorphism theorem. Hence TC4 is a kind of generalization of the third isomorphism theorem to exact triangles. 
 
 ## Examples
 
@@ -152,7 +154,7 @@ The first one is an example where the shift is the identity functor, i.e. $\Sigm
 
 $$A\overset{f}\longrightarrow B \overset{\begin{bmatrix} 0 \\ \pi \end{bmatrix}}\longrightarrow \ker f\oplus \text{cok}\,f \overset{\begin{bmatrix} i \ 0 \end{bmatrix}}\longrightarrow A$$
 
-where $\pi$ is the projection onto the cokernel, and $i$ is the inclusion of the kernel. For a more thorough treatment of this example I recommend my friend Johan's [bachelor thesis]([https://fagkom.wordpress.com/portfolio/johan-vik-mathisen/](https://fagkom.wordpress.com/portfolio/johan-vik-mathisen/)). In this example we really get a little glimpse of why this structure is named after triangles, as the triangles are the actual diagrams we used for intuition earlier
+where $\pi$ is the projection onto the cokernel, and $i$ is the inclusion of the kernel. For a more thorough treatment of this example I recommend my friend Johan's [bachelor thesis](https://fagkom.github.io/posts/mathisen-johan-vik/). In this example we really get a little glimpse of why this structure is named after triangles, as the triangles are the actual diagrams we used for intuition earlier
 
 ![Error loading image](images/triangle1.svg)
 
