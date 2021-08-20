@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/algebraic-topology/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/categories/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/cohomology/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/pointed-topological-spaces/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/spectra/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/</loc>
+    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/fundamental-group/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
@@ -23,20 +50,8 @@
     <loc>https://torgeiraamboe.github.io/tags/infinity-groupoids/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/posts/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/traveling/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/algebraic-topology/</loc>
-    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/algebras/</loc>
     <lastmod>2021-07-19T00:00:00+00:00</lastmod>
@@ -57,9 +72,6 @@
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/monoidal-categories/</loc>
-    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/tensor-triangulated-categories/</loc>
@@ -119,7 +131,7 @@
     <loc>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</loc>
     <lastmod>2021-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/posts/2021/a-leqture-in-my-second-year/</loc>
+    <loc>https://torgeiraamboe.github.io/posts/2021/a-lecture-in-my-second-year/</loc>
     <lastmod>2021-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/cobordisms/</loc>
@@ -184,9 +196,6 @@
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/pointed-topological-spaces/</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2020/under-category/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
@@ -304,9 +313,6 @@
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/hurewicz-theorem/</loc>
     <lastmod>2020-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/cohomology/</loc>
-    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/hopf-fibration/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>

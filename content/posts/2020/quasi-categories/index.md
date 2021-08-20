@@ -2,7 +2,7 @@
 title: "Quasi Categories"
 date: 2020-11-30
 draft: false
-tags: ["Homotopy hypothesis", "Infinity-categories", "Infinity-groupoids", "quasi-categories", "Simplicial sets"]
+tags: ["Infinity-categories", "Infinity-groupoids", "quasi-categories", "Simplicial sets"]
 categories: ["Higher category theory", "Homotopy theory"]
 katex: true
 cover:

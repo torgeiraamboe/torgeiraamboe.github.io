@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cohomology</title>
+      <link>https://torgeiraamboe.github.io/tags/cohomology/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/cohomology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pointed topological spaces</title>
+      <link>https://torgeiraamboe.github.io/tags/pointed-topological-spaces/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/pointed-topological-spaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectra</title>
+      <link>https://torgeiraamboe.github.io/tags/spectra/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/spectra/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Fundamental group</title>
       <link>https://torgeiraamboe.github.io/tags/fundamental-group/</link>
@@ -314,15 +341,6 @@
     </item>
     
     <item>
-      <title>Pointed topological spaces</title>
-      <link>https://torgeiraamboe.github.io/tags/pointed-topological-spaces/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/pointed-topological-spaces/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Under category</title>
       <link>https://torgeiraamboe.github.io/tags/under-category/</link>
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
@@ -535,15 +553,6 @@
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/hurewicz-theorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cohomology</title>
-      <link>https://torgeiraamboe.github.io/tags/cohomology/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/cohomology/</guid>
       <description></description>
     </item>
     

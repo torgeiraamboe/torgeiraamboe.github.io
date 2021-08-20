@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A first look at spectra | Writing what I&#39;m learning</title>
+<meta name="keywords" content="Spectra, Cohomology, Pointed topological spaces" />
+<meta name="description" content="Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on tensor triangulated categories, namely spectra. These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology.">
+<meta name="author" content="Torgeir Aambø">
+<link rel="canonical" href="https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c40e68a68dca4b02b290eb889994cee9d437b4b85f8ae52bb2b4b945a9bf5d9b.css" integrity="sha256-xA5opo3KSwKykOuImZTO6dQ3tLhfiuUrsrS5Ram/XZs=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://torgeiraamboe.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://torgeiraamboe.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://torgeiraamboe.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.82.1" />
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4GPE516BB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z4GPE516BB');
+</script>
+</head>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4GPE516BB"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-Z4GPE516BB', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="A first look at spectra" />
+<meta property="og:description" content="Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on tensor triangulated categories, namely spectra. These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/" />
+<meta property="og:image" content="https://torgeiraamboe.github.io/images/spectrum.svg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-20T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-08-20T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://torgeiraamboe.github.io/images/spectrum.svg" />
+<meta name="twitter:title" content="A first look at spectra"/>
+<meta name="twitter:description" content="Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on tensor triangulated categories, namely spectra. These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://torgeiraamboe.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "A first look at spectra",
+      "item": "https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A first look at spectra",
+  "name": "A first look at spectra",
+  "description": "Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on tensor triangulated categories, namely spectra. These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology.",
+  "keywords": [
+    "Spectra", "Cohomology", "Pointed topological spaces"
+  ],
+  "articleBody": "Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on tensor triangulated categories, namely spectra. These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology. This intimate connection is the study of todays blog post1.\nThis post also serves as my entry into Grant Sanderson’s (of 3 Blue 1 Brown) contest/request for more mathematical explainer content on the internet, so be on the lookout for the other participants as well!\nCohomology The language most of modern abstract mathematics use is category theory, which we have seen numerous times on this blog. Categories are important frameworks for studying all objects of a certain type at once, instead of studying them one-by-one. Categories consists of two things: objects and morphisms. The objects we are interested in today is topological spaces2, and to start off, the morphisms are continuous functions. These functions are dear to most mathematicians hearts because continuity is a central backbone feature of many areas of mathematics, and the topological spaces are what allows us to define continuity. Hence these are important to understand.\nOne hugely successful approach to understanding topological spaces is cohomology theory. We have only seen one such theory on this blog as of yet, called singular cohomology, but this is not the only one. We have seen hints of other theories, through vector bundles and through cobordisms, but we have not seen how to make cohomology out of these constructions. We won’t see this today either, but we will use the fact that there exists several different ones. For a nice list of different cohomology theories, see this wikipedia page.\nSo, as we will use these theories, lets define what we actually mean by “a cohomology theory”. Some of the readers have perhaps seen such theories defined through the Eilenberg-Steenrod axioms, but here we take a similar, but different and yet equivalent route. This is to use just based topological spaces instead of pairs of topological spaces. The approach is equivalent, as each cohomology theory for pairs determines, and is determined by, a reduced cohomology theory for pointed topological spaces.\nDefinition (Reduced cohomology theory): A reduced cohomology theory $\\widetilde{E}^\\ast$ is a contravariant functor from the category of pointed topological spaces, $Top_\\ast$, to the category of graded abelian groups, $Ab_\\ast$,satisfying the four axioms below. We let $X$ be a topological space and for simpler notation we write $f^\\ast = \\widetilde{E}^\\ast(f)$ where $f:X\\longrightarrow Y$ is a continuous map to some topological space $Y$.\n  If $f\\simeq g$ then $f^\\ast = g^\\ast$, i.e. homotopic maps get sent to equivalent homomorphisms\n  For any subspace $A\\subseteq X$ there is a map $\\partial^\\ast: \\widetilde{E}^\\ast(X/A)\\longrightarrow \\widetilde{E}^{\\ast+1}(A)$, called the coboundary, which is natural in $A$ and $X$.\n  For any subspace $A\\subseteq X$ there is a long exact sequence\n$$\\cdots\\overset{\\partial_{n-1}}\\longrightarrow \\widetilde{E}^n(A)\\overset{i_n}\\longrightarrow \\widetilde{E}^n(X)\\overset{q_n}\\longrightarrow \\widetilde{E}^n(X/A)\\overset{\\partial_n}\\longrightarrow \\widetilde{E}^{n+1}(A)\\overset{i_{n+1}}\\longrightarrow \\cdots$$\nwhere $i:A\\longrightarrow X$ is the inclusion map and $q:X\\longrightarrow X/A$ is the quotient map.\n  For a collection of spaces ${X_\\alpha}_{\\alpha\\in \\Alpha}$ the maps $i_\\alpha:X_\\alpha\\longrightarrow \\bigvee_{\\alpha\\in\\Alpha} X_\\alpha$ induces isomorphisms\n$$\\prod_{\\alpha\\in \\Alpha} (i_\\alpha)^\\ast : \\widetilde{E}^\\ast(\\bigvee_{\\alpha\\in\\Alpha} X_\\alpha)\\longrightarrow \\prod_{\\alpha\\in\\Alpha}\\widetilde{E}^\\ast(X_\\alpha).$$\n  If you don’t understand the details of the definition, don’t worry, it is not really important for us today. We have included it more for completion sake. The important part is that a reduced cohomology theory is a contravariant functor $\\widetilde{E}^\\ast : Top_\\ast\\longrightarrow Ab_\\ast$.\nAn important feature of reduced cohomology theories is the following result.\nTheorem 1: Let $\\widetilde{E}^\\ast$ be a reduced cohomology theory. Then for any pointed space $X$ we have an isomorphism $\\widetilde{E}^\\ast(X)\\cong \\widetilde{E}^{\\ast+1}(\\Sigma X)$ induced by the coboundry map.\nThis is an important result for several reasons. The suspension functor is the central feature of stable homotopy theory, where the spectra — our objects of interest — is one of the main players. The above result states that reduced cohomology is stable, or invariant under suspension. Another reason for its importance will become clear soon, as we will use it as part of a construction regarding spectra.\nRepresentability For us today the most important feature of reduced cohomology theories is that they are representable. We don’t yet know what this means precisely, but intuitively it means that the functor behaves very much like regular morphisms in our category. Let’s see a bit more rigorously what this means.\nOne of the most important functors in the whole of category theory is the hom-functors. There are two kinds of such functors — the covariant and the contravariant. These functors take some object in the category, and sends it to the set of morphisms to, or from, that object. To make this work we need to fix an object $X$, and then define the covariant hom-functor to be $\\text{Hom}(X, -)$, i.e. the functor that takes an object $Y$ and sends it to the set $\\text{Hom}(X, Y)$ or morphisms from $X$ into $Y$. The contravariant hom-functor is defined similarly as $\\text{Hom}(-, X)$.\nAs morphisms are one of the fundamental ideas of category theory, having a functor that sends objects to morphisms is very important. This also allow us the following definition.\nDefinition (Representable functor): A functor $F:\\mathcal{C}\\longrightarrow Set$ for some category $\\mathcal{C}$ is called representable if $F$ is naturally isomorphic to $\\text{Hom}(-, X)$ for some object $X$ in $\\mathcal{C}$. The object $X$ is called a representing object of $F$.\nAs mentioned, the central feature (for us today) of reduced cohomology theories is that they are representable. We have defined our reduced cohomology theories to be functors into the category of graded abelian groups, so for each degree $n$ we have a corresponding “part” of our functor, i.e. $\\widetilde{E}^n:Top_* \\longrightarrow Ab$. The fact that these functors are representable is due to the following famous theorem.\nTheorem (Brown representability): Let $\\widetilde{E}^\\ast$ be a reduced cohomology theory. Then for each $n$, there is a pointed connected space $K_n$ such that for any pointed connected space $X$ there is a natural isomorphism $\\widetilde{E}^n(X)\\cong [X, K_n]$, where the set on the right is the set of homotopy classes of maps in the category of pointed topological spaces. The spaces $K_n$ are unique up to homotopy equivalence.\nWe don’t really need the connectedness criteria for this theorem to hold, but for the spaces $K_n$ to be unique, we do need it. The above result means that every degree of our reduced cohomology functor is representable, meaning that there is some space that represents it. We might wonder why we don’t see the hom-functor in the above theorem, but remember that the set $[X, K_n]$ is the set $\\text{Hom}(X, K_n)$ in the homotopy category of spaces, so this theorem in fact states that the functor is representable as defined previously.\nA first look at spectra When we see the result above we might wonder if we can determine a reduced cohomology theory simply by defining the collection $\\{K_n\\}_ {n\\in \\mathbb{Z}}$ of representing objects? The answer to this turns out to be no in general. There are no canonical way of defining the coboundary map we need in the reduced cohomology theory just by having the representing spaces. There is however a fix for this, but we need to introduce some requirements and extra structure on these collections of representing objects $\\{K_n\\}_{n\\in \\mathbb{Z}}$.\nLet $\\widetilde{E}^\\ast$ be a reduced cohomology theory, and let it be represented by the sequence of pointed connected spaces $\\{K_n\\}_{n\\in \\mathbb{Z}}$. Recall that this means that for any pointed connected space $X$, we have an isomorphism\n$$[X, K_n] \\cong \\widetilde{E}^n(X)$$\nRecall also from Thorem 1 that we have an isomorphism $\\widetilde{E}^n(X)\\cong \\widetilde{E}^{n+1}(\\Sigma X)$. By the $n+1$‘st part of $\\widetilde{E}^\\ast$ also being representable, we know that we have an isomorphism $\\widetilde{E}^{n+1}(\\Sigma X)\\cong [\\Sigma X, K_{n+1}]$. A central fact from algebraic topology is the fact that on homotopy classes of pointed continuous functions the suspension functor $\\Sigma$ is adjoint to the loop space functor $\\Omega$. We encountered this adjunction in the fibration series when we constructed the Puppe sequence. This fact means that we have a last isomorphism $[\\Sigma X, K_{n+1}]\\cong [X, \\Omega K_{n+1}]$. Putting all these together we get\n$$[X, K_n]\\cong \\widetilde{E}^n(X)\\cong \\widetilde{E}^{n+1}(\\Sigma X)\\cong [X, \\Omega K_{n+1}],$$\nwhich are all natural in $X$. Hence we see that also $\\Omega K_{n+1}$ seems to be a representing object for $\\widetilde{E}^n$, hence there should be a homotopy equivalence $K_n\\longrightarrow \\Omega K_{n+1}$. Due to the fact that loop space functor does not preserve connectedness very well[^3] this is not in general a representing object, so we should not in general expect there to be a homotopy equivalence $K_n\\longrightarrow \\Omega K_{n+1}$. But, we can get something almost so by letting $X=K_n$ which results in an isomorphism $[K_n, K_n]\\cong [K_n, \\Omega K_{n+1}]$. The image of the identity map $id:K_n\\longrightarrow K_n$ gives for all $n$ a map $$\\alpha_n:K_n\\longrightarrow \\Omega K_{n+1}$$ which we call the structure maps of the collection of spaces $\\{K_n\\}_ {n\\in \\mathbb{Z}}$. By naturality of the sequence of isomorphisms above, we get that a map $f:X\\longrightarrow K_n$ gets sent to the map $f\\circ \\alpha_n$ by the isomorphism. By now letting $X=S^m$ for, we see that $\\alpha_n$ must be a weak homotopy equivalence. This is actually what we need to define a spectrum, more specifically an $\\Omega$-spectrum.\nDefinition ($\\Omega$-spectrum): An omega spectrum $K$ is a collection $\\{K_n\\}_ {n\\in\\mathbb{Z}}$ of pointed connected spaces, together with weak homotopy equivalences $\\alpha_n:K_n\\longrightarrow \\Omega K_{n+1}$.\nSuch an object can be visualized in the following manner, i.e. as an infinite sequence of spaces, together with structure maps to the loop space of the “shifted space”\nSo, what happens then to the earlier statement regarding the representation of the reduced cohomology theories? The failure of the spaces themselves to uniquely determine a cohomology theory is remedied by the following theorem.\nTheorem: An $\\Omega$-spectrum $K$ determines a reduced cohomology theory $\\widetilde{E}^\\ast$ by defining $\\widetilde{E}^n(X) = [X, K_n]$. The coboundary maps are induced by the structure maps $\\alpha_n$.\nMoreover, if between two $\\Omega$-spectrums $K$ and $L$ representing two reduced cohomology theories $\\widetilde{E}^\\ast$ and $\\widetilde{F}^\\ast$ there are pointed weak homotopy equivalences $$f_n:K_n\\longrightarrow L_n$$ that respect the structure maps, then the maps $f_n$ induce a natural isomorphism of reduced cohomology theories $\\widetilde{E}^\\ast\\longrightarrow \\widetilde{F}^\\ast.$\nHence, a reduced cohomology theory $\\widetilde{E}^\\ast$ determines, and is determined by, a unique (up to weak homotopy equivalence) $\\Omega$-spectrum $K$.\nTo give an example perhaps some of he readers are familiar with, the standard reduced singular cohomology theory with coefficients in an abelian group $G$ is represented by the so called Eilenberg-Mac Lane spectrum. This consists of the Eilenberg-Mac Lane spaces of the group $G$, often denoted $K(G, n)$ for $n\\geq 0$ and of a singleton space for $ncofibrations and the coexact Puppe sequence in the fibration series! Then we also more explicitly developed the long exact sequence in singular cohomology from a cofibration sequence.\nSummary So, what have we done today? We took the important category of topological spaces and tried to understand its objects using reduced cohomology theories. These we discovered were representable, which allowed us to look at maps into certain spaces. This representation was not unique, meaning that given a sequence of spaces it didn’t uniquely determine a reduced cohomology theory, but if we added some extra structure, i.e. turned the sequence of spaces into an $\\Omega$-spectrum, then we had a one-to-one correspondence between reduced cohomology theories and $\\Omega$-spectra!\nHopefully next time we will look into spectra more generally, and try to construct a category containing them as objects. We will then hopefully see that we need to be a bit careful by how we go about doing this.\n  This introduction, and most of the theory in his post is inspired heavily by the book “Foundations of stable homotopy theory” by Barnes and Roitzheim. ↩︎\n Note that for simplicity we define topological space to mean CW-complex. This will not affect the theory (I think) as cohomology theories of topological spaces are determined by their restriction to CW-complexes. ↩︎\n   ",
+  "wordCount" : "2053",
+  "inLanguage": "en",
+  "image":"https://torgeiraamboe.github.io/images/spectrum.svg","datePublished": "2021-08-20T00:00:00Z",
+  "dateModified": "2021-08-20T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Torgeir Aambø"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Writing what I'm learning",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://torgeiraamboe.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://torgeiraamboe.github.io/" accesskey="h" title="Writing what I&#39;m learning (Alt + H)">Writing what I&#39;m learning</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://folk.ntnu.no/torgeaam/" title="My homepage">
+                    <span>My homepage</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/series/" title="Series">
+                    <span>Series</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://torgeiraamboe.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://torgeiraamboe.github.io/posts/">Posts</a></div>
+    <h1 class="post-title">
+      A first look at spectra
+    </h1>
+    <div class="post-meta">August 20, 2021&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Torgeir Aambø
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <div class="details">Table of Contents</div>
+        </summary>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#cohomology" aria-label="Cohomology">Cohomology</a></li>
+                <li>
+                    <a href="#representability" aria-label="Representability">Representability</a></li>
+                <li>
+                    <a href="#a-first-look-at-spectra" aria-label="A first look at spectra">A first look at spectra</a></li>
+                <li>
+                    <a href="#summary" aria-label="Summary">Summary</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on <a href="https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/">tensor triangulated categories</a>, namely <em>spectra.</em> These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology. This intimate connection is the study of todays blog post<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>This post also serves as my entry into Grant Sanderson&rsquo;s (of <a href="https://www.3blue1brown.com/">3 Blue 1 Brown</a>) contest/request for more mathematical explainer content on the internet, so be on the lookout for the other participants as well!</p>
+<h2 id="cohomology">Cohomology<a hidden class="anchor" aria-hidden="true" href="#cohomology">#</a></h2>
+<p>The language most of modern abstract mathematics use is category theory, which we have seen numerous times on this blog. Categories are important frameworks for studying all objects of a certain type at once, instead of studying them one-by-one. Categories consists of two things: objects and morphisms. The objects we are interested in today is topological spaces<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, and to start off, the morphisms are continuous functions. These functions are dear to most mathematicians hearts because continuity is a central backbone feature of many areas of mathematics, and the topological spaces are what allows us to define continuity. Hence these are important to understand.</p>
+<p>One hugely successful approach to understanding topological spaces is cohomology theory. We have only seen one such theory on this blog as of yet, called singular cohomology, but this is not the only one. We have seen hints of other theories, through <a href="https://torgeiraamboe.github.io/posts/2020/swans-theorem/">vector bundles</a> and through <a href="https://torgeiraamboe.github.io/posts/2021/a-lecture-in-my-second-year/">cobordisms</a>, but we have not seen how to make cohomology out of these constructions. We won&rsquo;t see this today either, but we will use the fact that there exists several different ones. For a nice list of different cohomology theories, see this <a href="https://en.wikipedia.org/wiki/List_of_cohomology_theories">wikipedia page</a>.</p>
+<p>So, as we will use these theories, lets define what we actually mean by &ldquo;a cohomology theory&rdquo;. Some of the readers have perhaps seen such theories defined through the Eilenberg-Steenrod axioms, but here we take a similar, but different and yet equivalent route. This is to use just based topological spaces instead of pairs of topological spaces. The approach is equivalent, as each cohomology theory for pairs determines, and is determined by, a reduced cohomology theory for pointed topological spaces.</p>
+<p><strong>Definition (Reduced cohomology theory):</strong> A reduced cohomology theory $\widetilde{E}^\ast$ is a contravariant functor from the category of pointed topological spaces, $Top_\ast$, to the category of graded abelian groups, $Ab_\ast$,satisfying the four axioms below. We let $X$ be a topological space and for simpler notation we write $f^\ast = \widetilde{E}^\ast(f)$ where $f:X\longrightarrow Y$ is a continuous map to some topological space $Y$.</p>
+<ol>
+<li>
+<p>If $f\simeq g$ then $f^\ast = g^\ast$, i.e. homotopic maps get sent to equivalent homomorphisms</p>
+</li>
+<li>
+<p>For any subspace $A\subseteq X$ there is a map $\partial^\ast: \widetilde{E}^\ast(X/A)\longrightarrow \widetilde{E}^{\ast+1}(A)$, called the coboundary, which is natural in $A$ and $X$.</p>
+</li>
+<li>
+<p>For any subspace $A\subseteq X$ there is a long exact sequence</p>
+<p>$$\cdots\overset{\partial_{n-1}}\longrightarrow \widetilde{E}^n(A)\overset{i_n}\longrightarrow \widetilde{E}^n(X)\overset{q_n}\longrightarrow \widetilde{E}^n(X/A)\overset{\partial_n}\longrightarrow \widetilde{E}^{n+1}(A)\overset{i_{n+1}}\longrightarrow \cdots$$</p>
+<p>where $i:A\longrightarrow X$ is the inclusion map and $q:X\longrightarrow X/A$ is the quotient map.</p>
+</li>
+<li>
+<p>For a collection of spaces ${X_\alpha}_{\alpha\in \Alpha}$ the maps $i_\alpha:X_\alpha\longrightarrow \bigvee_{\alpha\in\Alpha} X_\alpha$ induces isomorphisms</p>
+<p>$$\prod_{\alpha\in \Alpha} (i_\alpha)^\ast : \widetilde{E}^\ast(\bigvee_{\alpha\in\Alpha} X_\alpha)\longrightarrow \prod_{\alpha\in\Alpha}\widetilde{E}^\ast(X_\alpha).$$</p>
+</li>
+</ol>
+<p>If you don&rsquo;t understand the details of the definition, don&rsquo;t worry, it is not really important for us today. We have included it more for completion sake. The important part is that a reduced cohomology theory is a contravariant functor $\widetilde{E}^\ast : Top_\ast\longrightarrow Ab_\ast$.</p>
+<p>An important feature of reduced cohomology theories is the following result.</p>
+<p><strong>Theorem 1:</strong> Let $\widetilde{E}^\ast$ be a reduced cohomology theory. Then for any pointed space $X$ we have an isomorphism $\widetilde{E}^\ast(X)\cong \widetilde{E}^{\ast+1}(\Sigma X)$ induced by the coboundry map.</p>
+<p>This is an important result for several reasons. The suspension functor is the central feature of stable homotopy theory, where the spectra — our objects of interest — is one of the main players. The above result states that reduced cohomology is stable, or invariant under suspension. Another reason for its importance will become clear soon, as we will use it as part of a construction regarding spectra.</p>
+<h2 id="representability">Representability<a hidden class="anchor" aria-hidden="true" href="#representability">#</a></h2>
+<p>For us today the most important feature of reduced cohomology theories is that they are representable. We don&rsquo;t yet know what this means precisely, but intuitively it means that the functor behaves very much like regular morphisms in our category. Let&rsquo;s see a bit more rigorously what this means.</p>
+<p>One of the most important functors in the whole of category theory is the hom-functors. There are two kinds of such functors — the covariant and the contravariant. These functors take some object in the category, and sends it to the set of morphisms to, or from, that object. To make this work we need to fix an object $X$, and then define the covariant hom-functor to be $\text{Hom}(X, -)$, i.e. the functor that takes an object $Y$ and sends it to the set $\text{Hom}(X, Y)$ or morphisms from $X$ into $Y$. The contravariant hom-functor is defined similarly as $\text{Hom}(-, X)$.</p>
+<p>As morphisms are one of the fundamental ideas of category theory, having a functor that sends objects to morphisms is very important. This also allow us the following definition.</p>
+<p><strong>Definition (Representable functor):</strong> A functor $F:\mathcal{C}\longrightarrow Set$ for some category $\mathcal{C}$ is called representable if $F$ is naturally isomorphic to $\text{Hom}(-, X)$ for some object $X$ in $\mathcal{C}$. The object $X$ is called a representing object of $F$.</p>
+<p>As mentioned, the central feature (for us today) of reduced cohomology theories is that they are representable. We have defined our reduced cohomology theories to be functors into the category of graded abelian groups, so for each degree $n$ we have a corresponding &ldquo;part&rdquo; of our functor, i.e. $\widetilde{E}^n:Top_* \longrightarrow Ab$. The fact that these functors are representable is due to the following famous theorem.</p>
+<p><strong>Theorem (Brown representability):</strong> Let $\widetilde{E}^\ast$ be a reduced cohomology theory. Then for each $n$, there is a pointed connected space $K_n$ such that for any pointed connected space $X$ there is a natural isomorphism $\widetilde{E}^n(X)\cong [X, K_n]$, where the set on the right is the set of homotopy classes of maps in the category of pointed topological spaces. The spaces $K_n$ are unique up to homotopy equivalence.</p>
+<p>We don&rsquo;t really need the connectedness criteria for this theorem to hold, but for the spaces $K_n$ to be unique, we do need it. The above result means that every degree of our reduced cohomology functor is representable, meaning that there is some space that represents it. We might wonder why we don&rsquo;t see the hom-functor in the above theorem, but remember that the set $[X, K_n]$ is the set $\text{Hom}(X, K_n)$ in the homotopy category of spaces, so this theorem in fact states that the functor is representable as defined previously.</p>
+<h2 id="a-first-look-at-spectra">A first look at spectra<a hidden class="anchor" aria-hidden="true" href="#a-first-look-at-spectra">#</a></h2>
+<p>When we see the result above we might wonder if we can determine a reduced cohomology theory simply by defining the collection $\{K_n\}_ {n\in \mathbb{Z}}$ of representing objects? The answer to this turns out to be no in general. There are no canonical way of defining the coboundary map we need in the reduced cohomology theory just by having the representing spaces. There is however a fix for this, but we need to introduce some requirements and extra structure on these collections of representing objects $\{K_n\}_{n\in \mathbb{Z}}$.</p>
+<p>Let $\widetilde{E}^\ast$ be a reduced cohomology theory, and let it be represented by the sequence of pointed connected spaces $\{K_n\}_{n\in \mathbb{Z}}$. Recall that this means that for any pointed connected space $X$, we have an isomorphism</p>
+<p>$$[X, K_n] \cong \widetilde{E}^n(X)$$</p>
+<p>Recall also from <strong>Thorem 1</strong> that we have an isomorphism $\widetilde{E}^n(X)\cong \widetilde{E}^{n+1}(\Sigma X)$. By the $n+1$&lsquo;st part of $\widetilde{E}^\ast$ also being representable, we know that we have an isomorphism $\widetilde{E}^{n+1}(\Sigma X)\cong [\Sigma X, K_{n+1}]$. A central fact from algebraic topology is the fact that on homotopy classes of pointed continuous functions the suspension functor $\Sigma$ is adjoint to the loop space functor $\Omega$. We encountered this adjunction in <a href="https://torgeiraamboe.github.io/series/the-fibration-series/">the fibration series</a> when we constructed the Puppe sequence. This fact means that we have a last isomorphism $[\Sigma X, K_{n+1}]\cong [X, \Omega K_{n+1}]$. Putting all these together we get</p>
+<p>$$[X, K_n]\cong \widetilde{E}^n(X)\cong \widetilde{E}^{n+1}(\Sigma X)\cong [X, \Omega K_{n+1}],$$</p>
+<p>which are all natural in $X$. Hence we see that also $\Omega K_{n+1}$ seems to be a representing object for $\widetilde{E}^n$, hence there should be a homotopy equivalence $K_n\longrightarrow \Omega K_{n+1}$. Due to the fact that loop space functor does not preserve connectedness very well[^3] this is not in general a representing object, so we should not in general expect there to be a homotopy equivalence $K_n\longrightarrow \Omega K_{n+1}$. But, we can get something almost so by letting $X=K_n$ which results in an isomorphism $[K_n, K_n]\cong [K_n, \Omega K_{n+1}]$. The image of the identity map $id:K_n\longrightarrow K_n$ gives for all $n$ a map $$\alpha_n:K_n\longrightarrow \Omega K_{n+1}$$ which we call the structure maps of the collection of spaces $\{K_n\}_ {n\in \mathbb{Z}}$. By naturality of the sequence of isomorphisms above, we get that a map $f:X\longrightarrow K_n$ gets sent to the map $f\circ \alpha_n$ by the isomorphism. By now letting $X=S^m$ for, we see that $\alpha_n$ must be a weak homotopy equivalence. This is actually what we need to define a spectrum, more specifically an $\Omega$-spectrum.</p>
+<p><strong>Definition ($\Omega$-spectrum):</strong> An omega spectrum $K$ is a collection $\{K_n\}_ {n\in\mathbb{Z}}$ of pointed connected spaces, together with weak homotopy equivalences $\alpha_n:K_n\longrightarrow \Omega K_{n+1}$.</p>
+<p>Such an object can be visualized in the following manner, i.e. as an infinite sequence of spaces, together with structure maps to the loop space of the &ldquo;shifted space&rdquo;</p>
+<p><img loading="lazy" src="images/spectrum.svg" alt="Error loading image"  />
+</p>
+<p>So, what happens then to the earlier statement regarding the representation of the reduced cohomology theories? The failure of the spaces themselves to uniquely determine a cohomology theory is remedied by the following theorem.</p>
+<p><strong>Theorem:</strong> An $\Omega$-spectrum $K$ determines a reduced cohomology theory $\widetilde{E}^\ast$ by defining $\widetilde{E}^n(X) = [X, K_n]$. The coboundary maps are induced by the structure maps $\alpha_n$.</p>
+<p>Moreover, if between two $\Omega$-spectrums $K$ and $L$ representing two reduced cohomology theories $\widetilde{E}^\ast$ and $\widetilde{F}^\ast$ there are pointed weak homotopy equivalences $$f_n:K_n\longrightarrow L_n$$ that respect the structure maps, then the maps $f_n$ induce a natural isomorphism of reduced cohomology theories $\widetilde{E}^\ast\longrightarrow \widetilde{F}^\ast.$</p>
+<p>Hence, a reduced cohomology theory $\widetilde{E}^\ast$ determines, and is determined by, a unique (up to weak homotopy equivalence) $\Omega$-spectrum $K$.</p>
+<p>To give an example perhaps some of he readers are familiar with, the standard reduced singular cohomology theory with coefficients in an abelian group $G$ is represented by the so called Eilenberg-Mac Lane spectrum. This consists of the Eilenberg-Mac Lane spaces of the group $G$, often denoted $K(G, n)$ for $n\geq 0$ and of a singleton space for $n&lt;0$. The structure maps come from an universal property of these spaces, which is that $\Omega K(G, n)$ is an $(n-1)$-Eilenberg-Mac Lane space for $G$, hence $$\Omega K(G, n)\simeq K(G, n-1).$$ We did in fact already see this connection when we studied <a href="https://torgeiraamboe.github.io/posts/2020/cofibrations/">cofibrations and the coexact Puppe sequence</a> in the fibration series! Then we also more explicitly developed the long exact sequence in singular cohomology from a cofibration sequence.</p>
+<h2 id="summary">Summary<a hidden class="anchor" aria-hidden="true" href="#summary">#</a></h2>
+<p>So, what have we done today? We took the important category of topological spaces and tried to understand its objects using reduced cohomology theories. These we discovered were representable, which allowed us to look at maps into certain spaces. This representation was not unique, meaning that given a sequence of spaces it didn&rsquo;t uniquely determine a reduced cohomology theory, but if we added some extra structure, i.e. turned the sequence of spaces into an $\Omega$-spectrum, then we had a one-to-one correspondence between reduced cohomology theories and $\Omega$-spectra!</p>
+<p>Hopefully next time we will look into spectra more generally, and try to construct a category containing them as objects. We will then hopefully see that we need to be a bit careful by how we go about doing this.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This introduction, and most of the theory in his post is inspired heavily by the book &ldquo;Foundations of stable homotopy theory&rdquo; by Barnes and Roitzheim. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Note that for simplicity we define topological space to mean CW-complex. This will not affect the theory (I think) as cohomology theories of topological spaces are determined by their restriction to CW-complexes. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://torgeiraamboe.github.io/tags/spectra/">Spectra</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/cohomology/">Cohomology</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/pointed-topological-spaces/">Pointed topological spaces</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://torgeiraamboe.github.io/posts/2021/traveling/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>Traveling</span>
+  </a>
+</nav>
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A first look at spectra on twitter"
+        href="https://twitter.com/intent/tweet/?text=A%20first%20look%20at%20spectra&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fa-first-look-at-spectra%2f&amp;hashtags=Spectra%2cCohomology%2cPointedtopologicalspaces">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A first look at spectra on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fa-first-look-at-spectra%2f&amp;title=A%20first%20look%20at%20spectra&amp;summary=A%20first%20look%20at%20spectra&amp;source=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fa-first-look-at-spectra%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A first look at spectra on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fa-first-look-at-spectra%2f&title=A%20first%20look%20at%20spectra">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A first look at spectra on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fa-first-look-at-spectra%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A first look at spectra on whatsapp"
+        href="https://api.whatsapp.com/send?text=A%20first%20look%20at%20spectra%20-%20https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fa-first-look-at-spectra%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A first look at spectra on telegram"
+        href="https://telegram.me/share/url?text=A%20first%20look%20at%20spectra&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fa-first-look-at-spectra%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <span></span>
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+
+
+
+</html>
+
