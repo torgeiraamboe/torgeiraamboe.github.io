@@ -76,7 +76,7 @@ All fun and mockery aside, the reason I read about formal group laws was because
 
 [Last time]({{<ref "posts/2021/a-first-look-at-spectra">}}) we studied reduced cohomology theories, but this additional adjective — reduced —  implies the existence of "unreduced" cohomology theories, more often named simply *cohomology theories*. Luckily, these are roughly the "same", in the sense that the category of reduced cohomology theories is equivalent to the category of unreduced cohomology theories. A difference to note is that we usually define unreduced cohomology theories on pairs $(X, A)$ of topological spaces, i.e. spaces $X$ with a designated subspace $A$.  If we have a reduced cohomology theory $\widetilde{E}^\ast$ then we can define its corresponding cohomology theory by $E^\ast(X, A) = \widetilde{E}^\ast(X_+\cup Cone (A_+))$, where $X_+$ denotes taking the space $X$ and adding a disjoint base point. We have the following decomposition of a cohomology theory:
 
-$$E^\ast(X) = \widetilde{E}^\ast(X)\otimes E^\ast(pt),$$
+$$E^\ast(X) = \widetilde{E}^\ast(X)\oplus E^\ast(pt),$$
 
 which means that as long as we know what the unreduced cohomology of a point is, we can simply use the reduced theory if we wish. Above $E^\ast(X) = E^\ast(X, \empty)$. To go from a cohomology theory $E^\ast$  to a reduced one we can define $\widetilde{E}^\ast(X) = E^\ast(X, \\{x\\})$, where $x$ is the base point of $X$.
 
