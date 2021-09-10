@@ -10,7 +10,7 @@
 <meta name="description" content="In the two last posts we have been discussing operations that are associative up to homotopy, and where such operations might arise naturally in topology. One claim I made, which I later realized was maybe a bit unmotivated and in need of some clarification was how some higher arity maps actually defined (or were defined by) homotopies between combinations of the lower arity maps. We also purely looked at this in a topological setting, but in algebraic topology we often translate to algebraic structures, so I also wanted to see clearly that the same constructions hold in that setting.">
 <meta name="author" content="Torgeir Aambø">
 <link rel="canonical" href="https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c40e68a68dca4b02b290eb889994cee9d437b4b85f8ae52bb2b4b945a9bf5d9b.css" integrity="sha256-xA5opo3KSwKykOuImZTO6dQ3tLhfiuUrsrS5Ram/XZs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.e8b115e42db3ff8cc3f357cd011578eb3c0bc34de1a7eef0793774c4f2566d8f.css" integrity="sha256-6LEV5C2z/4zD81fNARV46zwLw03hp&#43;7weTd0xPJWbY8=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
@@ -20,7 +20,7 @@
 <link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.82.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 <head>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   
@@ -308,8 +308,8 @@ if (!doNotTrack) {
 <p>This is the reason why I wanted to make this post, to actually calculate this and see that it holds. If you believe me when I say it is true, then you can stop reading now, as the rest will be mostly just calculation.</p>
 <h2 id="shut-up-and-calculate---my-friend-karl">&ldquo;Shut up and calculate&rdquo; - My friend Karl<a hidden class="anchor" aria-hidden="true" href="#shut-up-and-calculate---my-friend-karl">#</a></h2>
 <p>We denote $id$ by $1$ to make it more distinguishable from $d_A$ – which we denote by just $d$ – and eventual copies of $i\circ d$. We also skip writing $\circ$, and denote it instead just by concatenation, so $d\circ m_3 = dm_3$. Since $m_3$ consists of $i, p$ – which are degree $0$ – and $h$ – which has degree $-1$, we have $|m_3|=-1$. The boundary of $m_3$ is then</p>
-<p>\begin{aligned} 
-\partial m_3 
+<p>\begin{aligned}
+\partial m_3
 &amp;= dm_3+m_3(d,1,1)+m_3(1,d,1)+m_3(1,1,d) \\<br>
 &amp;= dm_3 +p((-1)^{|1||d|}m(hm(id\otimes i)\otimes i) -(-1)^{|hm||d|}m(id\otimes hm(i\otimes i))) \\<br>
 &amp;\hspace{13mm} +p((-1)^{|1||1|}m(hm(i\otimes id)\otimes i) -(-1)^{|hm||1|}m(i\otimes hm(id\otimes i))) \\<br>
@@ -322,25 +322,25 @@ if (!doNotTrack) {
 &amp; \hspace{17mm} +m(hm\otimes d) -m(1\otimes hm(1\otimes d))(i\otimes i\otimes i)
 \end{aligned}</p>
 <p>We haven’t touched the $dm_3$ part yet, so lets see what this gives us. We get</p>
-<p>\begin{aligned} 
+<p>\begin{aligned}
 dm_3 &amp;= d(p(m(hm\otimes 1) -m(1\otimes hm))(i\otimes i\otimes i)) \\<br>
-&amp;= p(dm(hm\otimes 1) -dm(1\otimes hm))(i\otimes i\otimes i) 
+&amp;= p(dm(hm\otimes 1) -dm(1\otimes hm))(i\otimes i\otimes i)
 \end{aligned}</p>
 <p>Since $A$ is a dg-algebra we can use the graded Leibniz rule to expand $dm$ into $m(d\otimes 1)+m(1\otimes d)$. Doing that both places they appear above we get</p>
-<p>\begin{aligned} 
+<p>\begin{aligned}
 dm_3 &amp;= p((m(d\otimes 1) +m(1\otimes d))(hm\otimes 1) \\<br>
 &amp;\quad -(m(d\otimes 1) +m(1\otimes d))(1\otimes hm))(i\otimes i\otimes i) \\<br>
 &amp;= p((m(d\otimes 1) +m(1\otimes d))(hm\otimes 1) \\<br>
 &amp;\quad -m(d\otimes 1) -m(1\otimes d)(1\otimes hm))(i\otimes i\otimes i) \end{aligned}</p>
 <p>To contract this we need to apply the Koszul grading rule. For the individual pieces in the above equation we get</p>
-<p>\begin{aligned} 
+<p>\begin{aligned}
 m(d\otimes 1)(hm\otimes 1) &amp;= (-1)^{|1||hm|}m(dhm\otimes 1) \\<br>
 m(1\otimes d)(hm\otimes 1) &amp;= (-1)^{|d||hm|}m(hm\otimes d) \\<br>
 m(d\otimes 1)(1\otimes hm) &amp;= (-1)^{|1||1|}m(d\otimes hm) \\<br>
 m(1\otimes d)(1\otimes hm) &amp;= (-1)^{|d||1|}m(1\otimes dhm) \end{aligned}</p>
 <p>where as before all signs are $1$ except $(-1)^{|d||hm|}=-1$. Thus we have</p>
-<p>\begin{aligned} 
-dm_3 &amp;= p(m(dhm\otimes 1)-m(hm\otimes d)-m(d\otimes hm)-m(1\otimes dhm))(i\otimes i\otimes i) 
+<p>\begin{aligned}
+dm_3 &amp;= p(m(dhm\otimes 1)-m(hm\otimes d)-m(d\otimes hm)-m(1\otimes dhm))(i\otimes i\otimes i)
 \end{aligned}</p>
 <p>We know that $h$ is a homotopy between $i\circ p$ and $id_A$, and for chain complexes this means that $dh+hd=i\circ p - id_A$. This gives us that we can replace $dh$ by $id_A-i\circ p-hd$ in the equation above. Doing this gives us</p>
 <p>\begin{aligned}
@@ -349,7 +349,7 @@ dm_3
 &amp;\quad -m(1\otimes (1-ip-hd)m))(i\otimes i\otimes i) \\<br>
 &amp;= p(m(m\otimes 1)-m(ipm\otimes 1)-m(hdm\otimes 1) \\<br>
 &amp;\quad -m(hm\otimes d)-m(d\otimes hm) \\<br>
-&amp;\quad -m(1\otimes m)+m(1\otimes ipm)+m(1\otimes hdm))(i\otimes i\otimes i) 
+&amp;\quad -m(1\otimes m)+m(1\otimes ipm)+m(1\otimes hdm))(i\otimes i\otimes i)
 \end{aligned}</p>
 <p>Notice that we have both $m(m\otimes 1)$ and $m(1\otimes m)$ present, with the opposite signs. These two are just repeated products in $A$, so their difference form the associatior $m(m\otimes 1)-m(1\otimes m)$ in $A$, which is of course just $0$ as we know $A$ is associative.</p>
 <p>After canceling the associator in $A$, and rearranging the terms a bit nicer, we can venture further by again applying the graded Leibniz rule to the $dm$‘s. This gives us</p>
@@ -365,8 +365,8 @@ dm_3
 &amp;\quad +m(1\otimes hm(d\otimes 1))+m(1\otimes hm(1\otimes d)))(i\otimes i\otimes i)
 \end{aligned}</p>
 <p>Now we are finally ready to put everything together. Recall we wanted to find $\partial m_3 = dm_3 + m_3d_{A^{\otimes 3}}$. The calculation has been so long that is hard to remember what we actually were doing. We have found both parts of this equation, and putting them together we have</p>
-<p>\begin{aligned} 
-\partial m_3 
+<p>\begin{aligned}
+\partial m_3
 &amp;= p(m(1\otimes ipm)-m(ipm\otimes 1) \\<br>
 &amp;\quad - m(hm(d\otimes 1)\otimes 1) - m(hm(1\otimes d)\otimes 1) \\<br>
 &amp;\quad -m(hm\otimes d)-m(d\otimes hm) \\<br>
@@ -473,26 +473,7 @@ dm_3
             <path d="M12 6H0l6-6z" />
         </svg>
     </button>
-</a><div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "torgeiraamboe" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</a>
 
 <script>
     let menu = document.getElementById('menu')
