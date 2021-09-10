@@ -1,5 +1,5 @@
 ---
-title: "A Lecture in My Second Year"
+title: "A lecture in my second year"
 date: 2021-01-19
 draft: false
 tags: ["Algebras", "Cobordisms", "Monoidal categories", "Topological quantum field theories"]

@@ -1,5 +1,5 @@
 ---
-title: "Swans Theorem"
+title: "Swan's theorem"
 date: 2020-06-24
 draft: false
 tags: ["Fiber bundles", "Projective modules", "Swan's theorem", "Vector bundles"]

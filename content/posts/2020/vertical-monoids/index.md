@@ -1,5 +1,5 @@
 ---
-title: "Vertical Monoids"
+title: "Vertical monoids"
 date: 2020-10-16
 draft: false
 tags: ["2-categories", "Bicategories", "Monads", "Monoidal categories"]

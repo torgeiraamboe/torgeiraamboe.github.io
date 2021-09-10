@@ -1,5 +1,5 @@
 ---
-title: "Quasi Categories"
+title: "Quasi-categories"
 date: 2020-11-30
 draft: false
 tags: ["Infinity-categories", "Infinity-groupoids", "quasi-categories", "Simplicial sets"]

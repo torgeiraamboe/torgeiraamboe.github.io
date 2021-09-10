@@ -1,5 +1,5 @@
 ---
-title: "Are There Knots?"
+title: "Are there knots?"
 date: 2020-12-02
 draft: false
 tags: ["Knot theory", "Reidemeister moves", "Tricolorability"]

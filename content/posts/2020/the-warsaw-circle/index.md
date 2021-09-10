@@ -1,5 +1,5 @@
 ---
-title: "The Warsaw Circle"
+title: "The Warsaw circle"
 date: 2020-07-31
 draft: false
 tags: ["Homotopy", "Homotopy groups", "Shape theory", "Warsaw circle"]

@@ -1,5 +1,5 @@
 ---
-title: "Geometric Intuition"
+title: "Geometric intuition"
 date: 2020-05-12
 tags: ["Noether normalization"]
 categories: ["Algebraic geometry"]

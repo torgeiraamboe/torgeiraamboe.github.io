@@ -5,6 +5,7 @@ theme: PaperMod
 copyright: " "
 publishDir: docs
 googleAnalytics: G-Z4GPE516BB
+disqusShortname: torgeiraamboe
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -70,7 +71,7 @@ params:
         responsiveImages: false
         hiddenInSingle: true 
     # hidesummary: true
-    # comments: true
+    comments: true
     # images: ["papermod-cover.png"]
 
     #profileMode:

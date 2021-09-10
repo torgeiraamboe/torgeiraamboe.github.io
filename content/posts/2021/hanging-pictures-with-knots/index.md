@@ -1,5 +1,5 @@
 ---
-title: "Hanging Pictures With Knots"
+title: "Hanging pictures with knots"
 date: 2021-01-06
 draft: false
 tags: ["Knot theory", "Link theory", "Tricolorability", "The Borromean link"]

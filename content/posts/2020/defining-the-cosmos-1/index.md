@@ -1,5 +1,5 @@
 ---
-title: "Defining the Cosmos: Enriched category theory"
+title: "Defining the cosmos: Enriched category theory"
 date: 2020-08-04
 draft: false
 tags: ["Cosmos", "Enriched categories", "Monoidal categories"]

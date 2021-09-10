@@ -1,5 +1,5 @@
 ---
-title: "Sha Algebras"
+title: "Sha-algebras"
 date: 2021-04-19
 draft: false
 tags: ["A_infinity algebras", "Homotopy", "Stasheff associahedra"]

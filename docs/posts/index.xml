@@ -72,7 +72,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Sha Algebras</title>
+      <title>Sha-algebras</title>
       <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -90,7 +90,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Spaces With Operations</title>
+      <title>Spaces with operations</title>
       <link>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</link>
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -99,7 +99,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Homotopy Associativity</title>
+      <title>Homotopy associativity</title>
       <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
@@ -108,7 +108,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>A Lecture in My Second Year</title>
+      <title>A lecture in my second year</title>
       <link>https://torgeiraamboe.github.io/posts/2021/a-lecture-in-my-second-year/</link>
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -117,7 +117,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Hanging Pictures With Knots</title>
+      <title>Hanging pictures with knots</title>
       <link>https://torgeiraamboe.github.io/posts/2021/hanging-pictures-with-knots/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -126,7 +126,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Are There Knots?</title>
+      <title>Are there knots?</title>
       <link>https://torgeiraamboe.github.io/posts/2020/there-are-knots/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -135,7 +135,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Quasi Categories</title>
+      <title>Quasi-categories</title>
       <link>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -144,7 +144,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Vertical Monoids</title>
+      <title>Vertical monoids</title>
       <link>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -153,7 +153,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Equivalence of Categories</title>
+      <title>Equivalence of categories</title>
       <link>https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -162,7 +162,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>The Homotopy Litmus Test</title>
+      <title>The homotopy litmus test</title>
       <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -171,7 +171,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Under Category</title>
+      <title>Under category</title>
       <link>https://torgeiraamboe.github.io/posts/2020/under-category/</link>
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -180,7 +180,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Defining the Cosmos: Properties and definition</title>
+      <title>Defining the cosmos: Properties and definition</title>
       <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -189,7 +189,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>Defining the Cosmos: Enriched category theory</title>
+      <title>Defining the cosmos: Enriched category theory</title>
       <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/</link>
       <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -198,7 +198,7 @@ Introduction and definition To not just spew out the definition straight away, w
     </item>
     
     <item>
-      <title>The Warsaw Circle</title>
+      <title>The Warsaw circle</title>
       <link>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -226,7 +226,7 @@ In a previous post we discussed both weak homotopy equivalences and regular homo
     </item>
     
     <item>
-      <title>Swans Theorem</title>
+      <title>Swan&#39;s theorem</title>
       <link>https://torgeiraamboe.github.io/posts/2020/swans-theorem/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -344,7 +344,7 @@ One useful result that is often stated as a corollary to Noether’s normalizati
     </item>
     
     <item>
-      <title>Geometric Intuition</title>
+      <title>Geometric intuition</title>
       <link>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       

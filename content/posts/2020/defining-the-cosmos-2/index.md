@@ -1,5 +1,5 @@
 ---
-title: "Defining the Cosmos: Properties and definition"
+title: "Defining the cosmos: Properties and definition"
 date: 2020-08-19
 draft: false
 tags: ["Closed category", "Cosmos", "Enriched categories", "Monoidal categories"]

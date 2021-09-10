@@ -1,5 +1,5 @@
 ---
-title: "Under Category"
+title: "Under category"
 date: 2020-09-08
 draft: false
 tags: ["Algebras", "Under category", "Pointed topological spaces"]

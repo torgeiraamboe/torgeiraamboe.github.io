@@ -1,5 +1,5 @@
 ---
-title: "Homotopy Associativity"
+title: "Homotopy associativity"
 date: 2021-02-12
 draft: false
 tags: ["A_infinity algebras", "Homotopy", "Operads", "Stasheff associahedra"]

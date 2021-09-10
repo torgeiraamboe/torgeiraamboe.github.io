@@ -1,5 +1,5 @@
 ---
-title: "Equivalence of Categories"
+title: "Equivalence of categories"
 date: 2020-10-08
 draft: false
 tags: ["2-categories", "Bicategories", "Category theory"]

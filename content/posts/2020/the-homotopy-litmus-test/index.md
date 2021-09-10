@@ -1,5 +1,5 @@
 ---
-title: "The Homotopy Litmus Test"
+title: "The homotopy litmus test"
 date: 2020-09-30
 draft: false
 tags: ["2-categories", "Bicategories", "Homotopy hypothesis", "Infinity groupoids"]

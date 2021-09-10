@@ -1,5 +1,5 @@
 ---
-title: "Spaces With Operations"
+title: "Spaces with operations"
 date: 2021-03-04
 draft: false
 tags: ["A_infinity algebras", "H-spaces", "Loop spaces", "Operads"]
