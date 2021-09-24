@@ -24,15 +24,15 @@ is called exact at $A_n$ if $\text{Ker}(d_n)=\text{Im}(d_{n+1})$ . The sequence 
 
 There are several ways to develop the long exact sequence of homotopy groups, but we will do it through the Puppe sequence, and for that we first need to look at the loop space $\Omega X$ of a topological space $X$. This is, as the name says, the topological space consisting of all loops in $X$ , i.e. the space of all pointed maps from the pointed sircle $(S^1, \infty)$ to $X$ . We also need the notion of the homotopy fiber of a map $f: X\rightarrow Y$ . Intuitively, this is the fiber of $f$ , except we are allowed to move thing around by a homotopy. To be more precise, the homotopy fiber of a point $y\in Y$ consists of pairs $(x,\omega)$ such that $\omega$ is a path from $f(x)$ to $y$ in $Y$ . We call the collection of the fibers of all the points for the homotopy fiber of $f$, denoted $hofib(f)$.
 
-Now, let $f:X\longrightarrow Y$ be a map of topological spaces. We can turn this into an exact sequence by including the homotopy fiber into the picture, namely $hofib(f)\rightarrow X\rightarrow Y$ . The loop space of $Y$ injects nicely into the homotopy fiber, because it consists of the paths that both start and end at the same points. We can even include $\Omega X$ , and get an exact sequence
+Now, let $f:X\longrightarrow Y$ be a map of topological spaces. We can turn this into an exact sequence by including the homotopy fiber into the picture, namely $hofib(f)\rightarrow X\rightarrow Y$ . The loop space of $Y$ injects nicely into the homotopy fiber, because it consists of the paths that both start and end at the same points. We can even include $\Omega X$ , and get a sequence
 
 $$\Omega X \rightarrow \Omega Y \rightarrow hofib(f)\rightarrow X\rightarrow Y.$$ 
 
-Iterating this process further by doing the same construction on the map $\Omega X \rightarrow \Omega Y$ , we get a long exact sequence consisting of iterated loop spaces $\Omega^n X, \Omega^n Y$ and homotopy fibers. This long exact sequence is called the Puppe sequence, and as you may have guessed, it is going to give us the exact sequence of homotopy groups that we are after.
+Iterating this process further by doing the same construction on the map $\Omega X \rightarrow \Omega Y$ , we get a long sequence consisting of iterated loop spaces $\Omega^n X, \Omega^n Y$ and homotopy fibers. This long sequence is called the Puppe sequence, and as you may have guessed, it is going to give us the exact sequence of homotopy groups that we are after.
 
 ## The long exact sequence in homotopy
 
-If we assume that the map in the Puppe sequence is a fibration, say $p: E\rightarrow B$ , then we get an exact sequence
+If we assume that the map in the Puppe sequence is a fibration, say $p: E\rightarrow B$ , then we get a sequence
 
 $$\cdots \rightarrow \Omega^n X \rightarrow \Omega^n Y \rightarrow \Omega^{n-1} hofib(p) \rightarrow \cdots .$$
 

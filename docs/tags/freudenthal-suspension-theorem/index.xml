@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freudenthal suspension theorem on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/freudenthal-suspension-theorem/</link>
+    <description>Recent content in Freudenthal suspension theorem on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> </copyright>
+    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/freudenthal-suspension-theorem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stable homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/stable-homotopy/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/stable-homotopy/</guid>
+      <description>For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It&amp;rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series.</description>
+    </item>
+    
+  </channel>
+</rss>

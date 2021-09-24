@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Stable homotopy | Writing what I&#39;m learning</title>
+<meta name="keywords" content="Homotopy groups, Freudenthal suspension theorem, Spectra" />
+<meta name="description" content="For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It&rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series.">
+<meta name="author" content="Torgeir Aambø">
+<link rel="canonical" href="https://torgeiraamboe.github.io/posts/2021/stable-homotopy/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.e8b115e42db3ff8cc3f357cd011578eb3c0bc34de1a7eef0793774c4f2566d8f.css" integrity="sha256-6LEV5C2z/4zD81fNARV46zwLw03hp&#43;7weTd0xPJWbY8=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://torgeiraamboe.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://torgeiraamboe.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://torgeiraamboe.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.87.0" />
+<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4GPE516BB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z4GPE516BB');
+</script>
+</head>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4GPE516BB"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-Z4GPE516BB', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Stable homotopy" />
+<meta property="og:description" content="For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It&rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://torgeiraamboe.github.io/posts/2021/stable-homotopy/" />
+<meta property="og:image" content="https://torgeiraamboe.github.io/images/Freudenthal.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-24T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-09-24T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://torgeiraamboe.github.io/images/Freudenthal.png" />
+<meta name="twitter:title" content="Stable homotopy"/>
+<meta name="twitter:description" content="For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It&rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://torgeiraamboe.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Stable homotopy",
+      "item": "https://torgeiraamboe.github.io/posts/2021/stable-homotopy/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Stable homotopy",
+  "name": "Stable homotopy",
+  "description": "For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It\u0026rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series.",
+  "keywords": [
+    "Homotopy groups", "Freudenthal suspension theorem", "Spectra"
+  ],
+  "articleBody": "For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It’s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series. In fact, we actually used it, or at least almost when we said: “Hence the suspension functor should shift the degrees of the homotopy groups up by one” in this post. Today we make this precise, and look at a cool thing that happens as a consequence of this.\nThe first thing to note is that we will not cover the definition and elementary theory of homotopy groups of topological spaces, as we have already done so in the past. We assume forward that topological space means pointed CW-complex, because this is where we define things. We can then define things generally for all topological spaces through the CW-approximation theorem and adding a disjoint base point, but this is not that important for us today.\nMotivation and preliminaries There are several ways to motivate the Freudenthal suspension theorem, which is this posts main star. I have chosen the one below as it highlights some duality and some questions that doesn’t often get asked. It is not a standard motivation, and it shouldn’t be, because it comes from not the best and most correct place. Nonetheless I like it because it connects to some theory we did on this blog over a year ago. This means in particular that any reader should not use this as some rigorous motivation. Anyway…\nRecall that a fiber sequence is a sequence $F\\overset{i}\\longrightarrow E\\overset{f}\\longrightarrow B$ of topological spaces $F, E, B$, where $f$ is a fibration and $i$ is the inclusion of the fiber of $f$. Such a sequence induces a long exact sequence of homotopy groups\n$$\\cdots\\to \\pi_{n+1}(B)\\to \\pi_n(F)\\to \\pi_n(E)\\to \\pi_n(B)\\to \\cdots$$\nIf we use the loop space fibration $\\Omega X\\longrightarrow PX\\longrightarrow X$ we get the exact sequence\n$$\\cdots\\to \\pi_{n+1}(X)\\to \\pi_n(\\Omega X)\\to 0\\to \\pi_n(X)\\to \\cdots$$\nbecause the path space $PX$ is contractible. This means in particular that we have isomorphisms\n$$\\pi_{n+1}(X)\\cong \\pi_n(\\Omega X)$$\nIn the post about cofibrations we uncovered the dual statement, using cohomology. But, we might wonder if we have even more “duality” or similarities, for example dual isomorphisms $\\pi_{n+1}(\\Sigma X)\\cong \\pi_n(X)$? I need to state firmly that this is not just the dual statement of the above isomorphisms. The dual statement really is that $H^{n+1}(\\Sigma X)\\cong H^n(X)$, and we can’t reason by duality inside the homotopy groups themselves. Asking for such an isomorphism would be dual to asking wether $H^{n}(\\Omega X) \\cong H^{n+1}(X)$, which is not at all true in general. That said, it is perhaps natural to still wonder.. And we will see that this wondering — this duality dream — is in fact true, at least if our space $X$ is highly connected. Let’s recap what this means.\nDefinition ($k$-connected): A topological space $X$ is called $k$-connected if $\\pi_i(X)=0$ for all $0\\leq i\\leq k$.\nThis generalizes the more standard notions of being connected and simply connected, as these now simply become $0$-connected and $1$-connected respectively.\nRecall that suspensions of spheres are again spheres, i.e. that $\\Sigma S^n \\simeq S^{n+1}$. If we now take a topological space $X$, this means that we have an isomorphism $[\\Sigma S^n, \\Sigma X]\\cong [S^{n+1}, \\Sigma X]$ between the sets of homotopy classes of maps. As we implicitly are working with pointed CW complexes, the set on the right is actually the $(n+1)$‘st homotopy group of $\\Sigma X$. This means that we have a map\n$$\\pi_n(X) = [S^n, X]\\overset{\\Sigma}\\longrightarrow [\\Sigma S^n, \\Sigma X]\\cong [S^{n+1}, \\Sigma X] = \\pi_{n+1}(\\Sigma X)$$\ndefined by sending a homotopy class $[f]$ to the class $[\\Sigma f]$. Notice that this is exactly what we wanted, which means that the uncertain duality statement above at least makes some sense!\nThe Freudenthal suspension theorem Now all we need in order to have our dream pseudo-duality mentioned above, is that these maps are isomorphisms in the case of highly connected spaces, which is exactly what the Freudenthal suspension theorem tells us.\nThe Freudenthal suspension theorem: Let $X$ be a $k$-connected topological space. Then the above map $\\pi_n(X)\\longrightarrow \\pi_{n+1}(\\Sigma X)$ is an isomorphism for $nIn particular this means that the suspension of a space always has higher connectivity than the space itself, i.e. suspension increases connectivity. We won’t give a proof of the theorem here, as it would require to go into much other details, and this is not what we are interested in. We are interested in what we can use the theorem for.\nThe immediate thing to always look into when we discover some relation on homotopy groups is wether it can give us homotopy groups of spheres. This seems very much to be the case with the Freudenthal suspension theorem. For example $S^3$ is $2$-connected, so for $n$$\\pi_4(S^3)\\overset{\\cong}\\longrightarrow \\pi_5(S^4),$$\nwhere we have used the fact mentioned earlier that $\\Sigma S^3 \\simeq S^4$. Recall that we computed $\\pi_4(S^3)$ last year by a lot of machinery: long exact sequences, spectral sequences, the universal coefficient theorem and the Hurewicz theorem. In the end we got that $\\pi_4(S^3)\\cong \\mathbb{Z}/2$, which means that we now also know that $\\pi_5(S^4)\\cong \\mathbb{Z}/2$. This means that we have computed three non-trivial homotopy groups of spheres on this blog, not a bad feat considering their notoriety!\nAs the suspension increases connectivity, and $S^1$ is $0$-connected, this means that $S^{k+1}$ is $k$-connected. This allows us to compute $\\pi_k(S^k)$ for all $k$ by using the Freudenthal suspension theorem! From the theorem we get isomorphisms\n$$\\pi_k(S^k)\\overset{\\cong}\\longrightarrow \\pi_{k+1}(S^{k+1})$$\nfor all $k0$. Since we know that $\\pi_1(S^1) \\cong \\mathbb{Z}$ we get that $\\pi_k(S^k)\\cong \\mathbb{Z}$ for all $k$. As the spheres are suspensions of lower spheres we can even state this in terms of $S^0$:\n$$\\pi_k(\\Sigma^k S^0)\\overset{\\cong}\\longrightarrow \\pi_{k+1}(\\Sigma^{k+1}S^0)$$\nNow that is interesting! We can even extend this further, as the Freudenthal suspension theorem actually gives us isomorphisms for all $n $$\\pi_n(\\Sigma^k S^0)\\overset{\\cong}\\longrightarrow \\pi_{n+1}(\\Sigma^{k+1}S^0)$$\nfor all $n$$\\pi_n(\\Sigma^k X)\\overset{\\cong}\\longrightarrow \\pi_{n+1}(\\Sigma^{k+1}X)$$\nfor all $n$$\\pi_{a+b}(\\Sigma^a X)\\overset{\\cong}\\longrightarrow \\pi_{a+b+1}(\\Sigma^{a+1}X).$$\nThe stable homotopy groups The above isomorphism is very important for algebraic topology, as it allows us to define the notion of stable homotopy. If we fix the natural number $b$ in the description above and allow the natural number $a$ to slowly increase from say $0$, we see that the homotopy groups $\\pi_{a+b}(\\Sigma^a X)$ and $\\pi_{a+b+1}(\\Sigma^{a+1} X)$ can vary wildly — until $a$ passes the “critical value”. This critical point happens when $a b+1$. For all natural numbers higher than this critical value, the groups are forever after isomorphic. This is called the “stable behaviour” of the homotopy groups, and motivates the following definition.\nDefinition (Stable homotopy groups): Let $X$ be a topological space and $n\\in \\mathbb{N}$. The $n$'th stable homotopy group of $X$ is defined to be the group\n$$\\pi^S_n (X) := colim_a \\pi_{n+a}(\\Sigma^a X)$$\nwhich we know by the above discussion is equal to $\\pi_{2n+2}(\\Sigma^{n+2}X)$.\nThe name comes from the intuition, i.e. that if we apply enough suspensions, the homotopy groups will stabilize and become the stable homotopy groups. A second intuition for the name is that stable homotopy groups are stable under suspension, i.e. $\\pi^S_n(X) \\cong \\pi^S_{n+1}(\\Sigma X)$. A cool feature of stable homotopy groups is that because the spaces $\\Sigma^a X$ are all path connected, we don’t have to worry or bother about base points when working with stable homotopy groups. This is in stark contrast to normal homotopy groups, where they are important. But as we have hidden this feature of the homotopy groups in this blog post (as we said topological space would mean pointed CW-complex) this doesn’t really add anything for this post.\nSo, why is this even interesting? We saw above that the stable homotopy groups of the spheres are much better behaved than the general homotopy groups, so this is one reason we are interested in them as they are simply easier to calculate and often easier to understand. The second thing relates more to the several other posts we have had lately, namely trying to define the stable homotopy category as the homotopy category of spectra. From the fibration series we know that to create a homotopy category we need a model structure on our category. We want the homotopy category of this model category — the stable homotopy category — to be a tensor triangulated category, as we mentioned this category as an example in the post where we defined them. To make it so we need to have a so called stable model structure on it. Because, as a general fact, the homotopy category of a stable model category is always canonically triangulated. The tensor structure is a bit more involved and difficult, so we need to work up to it a bit, but very soon we will define the stable model category of spectra. This stable model structure actually requires the use of stable homotopy groups, hence also the interest in defining them here today.\nThe last reason we will mention today — there are of course many more — as for why these groups are interesting is that they give us very nice functors\n$$\\pi^S_n:CW_\\ast\\longrightarrow Ab.$$\nThese functors are so nice that they make up a reduced homology theory! When first encountering homology and homotopy one learns very quickly that these are similar, but still very different invariants. Normal homotopy does not satisfy all the Eilenberg-Steenrod axioms for a homology theory, but, now that we look at stable homotopy instead, it actually satisfies them all. This has some nice benefits, for example the theory of stable homotopy now corresponds to a spectrum. This spectrum is of course the sphere spectrum $\\mathbb{S}$, which we will meet again later.\nNext time we will hopefully be ready to define the stable homotopy category, and maybe even look at its triangulated structure. There are many interesting things to look at further into stable homotopy theory, which we absolutely will do, so stay tuned!\n",
+  "wordCount" : "1790",
+  "inLanguage": "en",
+  "image":"https://torgeiraamboe.github.io/images/Freudenthal.png","datePublished": "2021-09-24T00:00:00Z",
+  "dateModified": "2021-09-24T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Torgeir Aambø"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://torgeiraamboe.github.io/posts/2021/stable-homotopy/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Writing what I'm learning",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://torgeiraamboe.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://torgeiraamboe.github.io/" accesskey="h" title="Writing what I&#39;m learning (Alt + H)">Writing what I&#39;m learning</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://folk.ntnu.no/torgeaam/" title="My homepage">
+                    <span>My homepage</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/series/" title="Series">
+                    <span>Series</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://torgeiraamboe.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://torgeiraamboe.github.io/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Stable homotopy
+    </h1>
+    <div class="post-meta">September 24, 2021&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Torgeir Aambø
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <div class="details">Table of Contents</div>
+        </summary>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#motivation-and-preliminaries" aria-label="Motivation and preliminaries">Motivation and preliminaries</a><ul>
+                        
+                <li>
+                    <a href="#the-freudenthal-suspension-theorem" aria-label="The Freudenthal suspension theorem">The Freudenthal suspension theorem</a></li>
+                <li>
+                    <a href="#the-stable-homotopy-groups" aria-label="The stable homotopy groups">The stable homotopy groups</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It&rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series. In fact, we actually used it, or at least almost when we said: &ldquo;Hence the suspension functor should shift the degrees of the homotopy groups up by one&rdquo; in <a href="https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/">this post</a>. Today we make this precise, and look at a cool thing that happens as a consequence of this.</p>
+<p>The first thing to note is that we will not cover the definition and elementary theory of homotopy groups of topological spaces, as we have already done so in the <a href="https://torgeiraamboe.github.io/posts/2020/homotopy-groups/">past</a>. We assume forward that topological space means pointed CW-complex, because this is where we define things. We can then define things generally for all topological spaces through the CW-approximation theorem and adding a disjoint base point, but this is not that important for us today.</p>
+<p><img loading="lazy" src="images/CW-complex.png" alt="Error loading image"  />
+</p>
+<h2 id="motivation-and-preliminaries">Motivation and preliminaries<a hidden class="anchor" aria-hidden="true" href="#motivation-and-preliminaries">#</a></h2>
+<p>There are several ways to motivate the Freudenthal suspension theorem, which is this posts main star. I have chosen the one below as it highlights some duality and some questions that doesn&rsquo;t often get asked. It is not a standard motivation, and it shouldn&rsquo;t be, because it comes from not the best and most correct place. Nonetheless I like it because it connects to some theory we did on this blog over a year ago. This means in particular that any reader should not use this as some rigorous motivation. Anyway&hellip;</p>
+<p>Recall that a fiber sequence is a sequence $F\overset{i}\longrightarrow E\overset{f}\longrightarrow B$ of topological spaces $F, E, B$, where $f$ is a fibration and $i$ is the inclusion of the fiber of $f$. Such a sequence induces a long exact sequence of homotopy groups</p>
+<p>$$\cdots\to \pi_{n+1}(B)\to \pi_n(F)\to \pi_n(E)\to \pi_n(B)\to \cdots$$</p>
+<p>If we use the loop space fibration $\Omega X\longrightarrow PX\longrightarrow X$ we get the exact sequence</p>
+<p>$$\cdots\to \pi_{n+1}(X)\to \pi_n(\Omega X)\to 0\to \pi_n(X)\to \cdots$$</p>
+<p>because the path space $PX$ is contractible. This means in particular that we have isomorphisms</p>
+<p>$$\pi_{n+1}(X)\cong \pi_n(\Omega X)$$</p>
+<p>In the post about <a href="https://torgeiraamboe.github.io/posts/2020/cofibrations/">cofibrations</a> we uncovered the dual statement, using cohomology. But, we might wonder if we have even more &ldquo;duality&rdquo; or similarities, for example dual isomorphisms $\pi_{n+1}(\Sigma X)\cong \pi_n(X)$? I need to state firmly that this is not just the dual statement of the above isomorphisms. The dual statement really is that $H^{n+1}(\Sigma X)\cong H^n(X)$, and we can&rsquo;t reason by duality inside the homotopy groups themselves. Asking for such an isomorphism would be dual to asking wether $H^{n}(\Omega X) \cong H^{n+1}(X)$, which is not at all true in general. That said, it is perhaps natural to still wonder.. And we will see that this wondering — this duality dream — is in fact true, at least if our space $X$ is highly connected. Let&rsquo;s recap what this means.</p>
+<p><strong>Definition ($k$-connected):</strong> A topological space $X$ is called $k$-<em>connected</em> if $\pi_i(X)=0$ for all $0\leq i\leq k$.</p>
+<p>This generalizes the more standard notions of being connected and simply connected, as these now simply become $0$-connected and $1$-connected respectively.</p>
+<p><img loading="lazy" src="images/Connected.png" alt="Error loading image"  />
+</p>
+<p>Recall that suspensions of spheres are again spheres, i.e. that $\Sigma S^n \simeq S^{n+1}$. If we now take a topological space $X$, this means that we have an isomorphism $[\Sigma S^n, \Sigma X]\cong [S^{n+1}, \Sigma X]$ between the sets of homotopy classes of maps. As we implicitly are working with pointed CW complexes, the set on the right is actually the $(n+1)$&lsquo;st homotopy group of $\Sigma X$. This means that we have a map</p>
+<p>$$\pi_n(X) = [S^n, X]\overset{\Sigma}\longrightarrow [\Sigma S^n, \Sigma X]\cong [S^{n+1}, \Sigma X] = \pi_{n+1}(\Sigma X)$$</p>
+<p>defined by sending a homotopy class $[f]$ to the class $[\Sigma f]$. Notice that this is exactly what we wanted, which means that the uncertain duality statement above at least makes some sense!</p>
+<h3 id="the-freudenthal-suspension-theorem">The Freudenthal suspension theorem<a hidden class="anchor" aria-hidden="true" href="#the-freudenthal-suspension-theorem">#</a></h3>
+<p>Now all we need in order to have our dream pseudo-duality mentioned above, is that these maps are isomorphisms in the case of highly connected spaces, which is exactly what the Freudenthal suspension theorem tells us.</p>
+<p><strong>The Freudenthal suspension theorem:</strong> Let $X$ be a $k$-connected topological space. Then the above map $\pi_n(X)\longrightarrow \pi_{n+1}(\Sigma X)$ is an isomorphism for $n&lt;2k+1$ and a surjection for $n=2k+1$.</p>
+<p>In particular this means that the suspension of a space always has higher connectivity than the space itself, i.e. suspension increases connectivity. We won&rsquo;t give a proof of the theorem here, as it would require to go into much other details, and this is not what we are interested in. We are interested in what we can use the theorem for.</p>
+<p><img loading="lazy" src="images/Freudenthal.png" alt="Error loading image"  />
+</p>
+<p>The immediate thing to always look into when we discover some relation on homotopy groups is wether it can give us homotopy groups of spheres. This seems very much to be the case with the Freudenthal suspension theorem. For example $S^3$ is $2$-connected, so for $n&lt;5$, say $n=4$ the theorem gives us an isomorphism</p>
+<p>$$\pi_4(S^3)\overset{\cong}\longrightarrow \pi_5(S^4),$$</p>
+<p>where we have used the fact mentioned earlier that $\Sigma S^3 \simeq S^4$. Recall that we <a href="https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/">computed</a> $\pi_4(S^3)$ last year by a lot of machinery: long exact sequences, spectral sequences, the universal coefficient theorem and the Hurewicz theorem. In the end we got that $\pi_4(S^3)\cong \mathbb{Z}/2$, which means that we now also know that $\pi_5(S^4)\cong \mathbb{Z}/2$. This means that we have computed three non-trivial homotopy groups of spheres on this blog, not a bad feat considering their notoriety!</p>
+<p>As the suspension increases connectivity, and $S^1$ is $0$-connected, this means that $S^{k+1}$ is $k$-connected. This allows us to compute $\pi_k(S^k)$ for all $k$ by using the Freudenthal suspension theorem! From the theorem we get isomorphisms</p>
+<p>$$\pi_k(S^k)\overset{\cong}\longrightarrow \pi_{k+1}(S^{k+1})$$</p>
+<p>for all $k&gt;0$. Since we know that $\pi_1(S^1) \cong \mathbb{Z}$ we get that $\pi_k(S^k)\cong \mathbb{Z}$ for all $k$. As the spheres are suspensions of lower spheres we can even state this in terms of $S^0$:</p>
+<p>$$\pi_k(\Sigma^k S^0)\overset{\cong}\longrightarrow \pi_{k+1}(\Sigma^{k+1}S^0)$$</p>
+<p>Now that is interesting! We can even extend this further, as the Freudenthal suspension theorem actually gives us isomorphisms for all $n &lt; 2k-1$ as $\Sigma^k S^0$ is $(k-1)$-connected. Hence we have isomorphisms</p>
+<p>$$\pi_n(\Sigma^k S^0)\overset{\cong}\longrightarrow \pi_{n+1}(\Sigma^{k+1}S^0)$$</p>
+<p>for all $n&lt;2k-1$. This is not a result that holds only for spheres. Notice that as long as we suspend a space $X$ enough times, say $\Sigma^k X$, then it must be $(k-1)$-connected. Hence we have isomorphisms</p>
+<p>$$\pi_n(\Sigma^k X)\overset{\cong}\longrightarrow \pi_{n+1}(\Sigma^{k+1}X)$$</p>
+<p>for all $n&lt;2k-1$ for all topological spaces $X$. This is often reformulated as the following: For any topological space and natural numbers $a, b$ such that $b&lt;a-1$, we have an isomorphism</p>
+<p>$$\pi_{a+b}(\Sigma^a X)\overset{\cong}\longrightarrow \pi_{a+b+1}(\Sigma^{a+1}X).$$</p>
+<h3 id="the-stable-homotopy-groups">The stable homotopy groups<a hidden class="anchor" aria-hidden="true" href="#the-stable-homotopy-groups">#</a></h3>
+<p>The above isomorphism is very important for algebraic topology, as it allows us to define the notion of stable homotopy. If we fix the natural number $b$ in the description above and allow the natural number $a$ to slowly increase from say $0$, we see that the homotopy groups $\pi_{a+b}(\Sigma^a X)$ and $\pi_{a+b+1}(\Sigma^{a+1} X)$ can vary wildly — until $a$ passes the &ldquo;critical value&rdquo;. This critical point happens when $a&gt; b+1$. For all natural numbers higher than this critical value, the groups are forever after isomorphic. This is called the &ldquo;stable behaviour&rdquo; of the homotopy groups, and motivates the following definition.</p>
+<p><strong>Definition (Stable homotopy groups):</strong> Let $X$ be a topological space and $n\in \mathbb{N}$. The $n$'<em>th stable homotopy group</em> of $X$ is defined to be the group</p>
+<p>$$\pi^S_n (X) := colim_a \pi_{n+a}(\Sigma^a X)$$</p>
+<p>which we know by the above discussion is equal to $\pi_{2n+2}(\Sigma^{n+2}X)$.</p>
+<p>The name comes from the intuition, i.e. that if we apply enough suspensions, the homotopy groups will stabilize and become the stable homotopy groups. A second intuition for the name is that stable homotopy groups are stable under suspension, i.e. $\pi^S_n(X) \cong \pi^S_{n+1}(\Sigma X)$. A cool feature of stable homotopy groups is that because the spaces $\Sigma^a X$ are all path connected, we don&rsquo;t have to worry or bother about base points when working with stable homotopy groups. This is in stark contrast to normal homotopy groups, where they are important. But as we have hidden this feature of the homotopy groups in this blog post (as we said topological space would mean pointed CW-complex) this doesn&rsquo;t really add anything for this post.</p>
+<p>So, why is this even interesting? We saw above that the stable homotopy groups of the spheres are much better behaved than the general homotopy groups, so this is one reason we are interested in them as they are simply easier to calculate and often easier to understand. The second thing relates more to the several other posts we have had lately, namely trying to define the stable homotopy category as the homotopy category of spectra. From <a href="https://torgeiraamboe.github.io/series/the-fibration-series/">the fibration series</a> we know that to create a homotopy category we need a model structure on our category. We want the homotopy category of this model category — the stable homotopy category — to be a tensor triangulated category, as we mentioned this category as an example in the post where we defined <a href="https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/">them</a>. To make it so we need to have a so called stable model structure on it. Because, as a general fact, the homotopy category of a stable model category is always canonically triangulated. The tensor structure is a bit more involved and difficult, so we need to work up to it a bit, but very soon we will define the stable model category of spectra. This stable model structure actually requires the use of stable homotopy groups, hence also the interest in defining them here today.</p>
+<p>The last reason we will mention today — there are of course many more — as for why these groups are interesting is that they give us very nice functors</p>
+<p>$$\pi^S_n:CW_\ast\longrightarrow Ab.$$</p>
+<p>These functors are so nice that they make up a reduced homology theory! When first encountering homology and homotopy one learns very quickly that these are similar, but still very different invariants. Normal homotopy does not satisfy all the Eilenberg-Steenrod axioms for a homology theory, but, now that we look at stable homotopy instead, it actually satisfies them all. This has some nice benefits, for example the theory of stable homotopy now corresponds to a spectrum. This spectrum is of course the sphere spectrum $\mathbb{S}$, which we will meet again later.</p>
+<p><img loading="lazy" src="images/Sphere-spectrum.png" alt="Error loading image"  />
+</p>
+<p>Next time we will hopefully be ready to define the stable homotopy category, and maybe even look at its triangulated structure. There are many interesting things to look at further into stable homotopy theory, which we absolutely will do, so stay tuned!</p>
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://torgeiraamboe.github.io/tags/homotopy-groups/">Homotopy groups</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/freudenthal-suspension-theorem/">Freudenthal suspension theorem</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/spectra/">Spectra</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://torgeiraamboe.github.io/posts/2021/formal-group-laws/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>Formal group laws</span>
+  </a>
+</nav>
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Stable homotopy on twitter"
+        href="https://twitter.com/intent/tweet/?text=Stable%20homotopy&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fstable-homotopy%2f&amp;hashtags=Homotopygroups%2cFreudenthalsuspensiontheorem%2cSpectra">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Stable homotopy on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fstable-homotopy%2f&amp;title=Stable%20homotopy&amp;summary=Stable%20homotopy&amp;source=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fstable-homotopy%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Stable homotopy on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fstable-homotopy%2f&title=Stable%20homotopy">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Stable homotopy on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fstable-homotopy%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Stable homotopy on whatsapp"
+        href="https://api.whatsapp.com/send?text=Stable%20homotopy%20-%20https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fstable-homotopy%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Stable homotopy on telegram"
+        href="https://telegram.me/share/url?text=Stable%20homotopy&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2021%2fstable-homotopy%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <span></span>
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+
+
+
+</html>
+
