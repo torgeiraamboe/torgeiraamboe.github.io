@@ -45,7 +45,7 @@ $$\pi_n(X) = [S^n, X]\overset{\Sigma}\longrightarrow [\Sigma S^n, \Sigma X]\cong
 
 defined by sending a homotopy class $[f]$ to the class $[\Sigma f]$. Notice that this is exactly what we wanted, which means that the uncertain duality statement above at least makes some sense! 
 
-### The Freudenthal suspension theorem
+## The Freudenthal suspension theorem
 
 Now all we need in order to have our dream pseudo-duality mentioned above, is that these maps are isomorphisms in the case of highly connected spaces, which is exactly what the Freudenthal suspension theorem tells us. 
 
@@ -81,7 +81,7 @@ for all $n<2k-1$ for all topological spaces $X$. This is often reformulated as t
 
 $$\pi_{a+b}(\Sigma^a X)\overset{\cong}\longrightarrow \pi_{a+b+1}(\Sigma^{a+1}X).$$
 
-### The stable homotopy groups
+## The stable homotopy groups
 
 The above isomorphism is very important for algebraic topology, as it allows us to define the notion of stable homotopy. If we fix the natural number $b$ in the description above and allow the natural number $a$ to slowly increase from say $0$, we see that the homotopy groups $\pi_{a+b}(\Sigma^a X)$ and $\pi_{a+b+1}(\Sigma^{a+1} X)$ can vary wildly — until $a$ passes the "critical value". This critical point happens when $a> b+1$. For all natural numbers higher than this critical value, the groups are forever after isomorphic. This is called the "stable behaviour" of the homotopy groups, and motivates the following definition.
 
