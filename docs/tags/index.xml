@@ -6,22 +6,40 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homotopy groups</title>
+      <link>https://torgeiraamboe.github.io/tags/homotopy-groups/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/homotopy-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hopf fibration</title>
+      <link>https://torgeiraamboe.github.io/tags/hopf-fibration/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/hopf-fibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Link theory</title>
+      <link>https://torgeiraamboe.github.io/tags/link-theory/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/link-theory/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Eilenberg-Mac Lane spaces</title>
       <link>https://torgeiraamboe.github.io/tags/eilenberg-mac-lane-spaces/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/eilenberg-mac-lane-spaces/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Homotopy groups</title>
-      <link>https://torgeiraamboe.github.io/tags/homotopy-groups/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/homotopy-groups/</guid>
       <description></description>
     </item>
     
@@ -274,15 +292,6 @@
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/knot-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Link theory</title>
-      <link>https://torgeiraamboe.github.io/tags/link-theory/</link>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/link-theory/</guid>
       <description></description>
     </item>
     
@@ -580,15 +589,6 @@
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/hurewicz-theorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hopf fibration</title>
-      <link>https://torgeiraamboe.github.io/tags/hopf-fibration/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/hopf-fibration/</guid>
       <description></description>
     </item>
     

@@ -17,7 +17,7 @@ We won't cover all the above today, and most likely never. At least not in full 
 
 The crucial fact about these different notions of spectra, is that they all come equipped with nice model structures, and to top it all off, their homotopy categories are all equivalent. This means that — from the perspective of homotopy — it does not matter which definition of a spectrum we use. This is why we focus on the simplest one today, namely the category of sequential spectra. 
 
-## Symmetric spectra
+## Sequential spectra
 
 As we have already seen when looking briefly at $\Omega$-spectra, a spectrum should somehow be a sequence of topological spaces, all connected through certain structure maps. This is still the central idea, and we will see quickly how it related back to the $\Omega$-spectra. As we have [previously covered]({{<ref "posts/2021/a-first-look-at-spectra">}}) motivation for spectra and why they are interesting, we won't do that here as well, so instead we just jump into the definition. 
 
