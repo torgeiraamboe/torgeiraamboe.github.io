@@ -6,7 +6,16 @@
     <description>Recent content in Stable homotopy theory on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/stable-homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/stable-homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The homotopy groups of the spheres. Part 2</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</guid>
+      <description>In the previous post we studied some &amp;ldquo;easy&amp;rdquo; cases of homotopy groups of spheres. We focused most on the group $\pi_3(S^2)$ and its computation from the Hopf fibration. All groups calculated last time were part of the so-called unstable range, meaning that they are not invariant under suspension. Due to the Freudenthal suspension theorem we know precicely the stable range for homotopy groups of spheres, and these are given by the stable homotopy groups.</description>
+    </item>
+    
     <item>
       <title>The stable homotopy category</title>
       <link>https://torgeiraamboe.github.io/posts/2021/the-stable-homotopy-category/</link>
