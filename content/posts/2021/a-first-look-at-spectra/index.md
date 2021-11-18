@@ -21,7 +21,7 @@ One hugely successful approach to understanding topological spaces is cohomology
 
 So, as we will use these theories, lets define what we actually mean by "a cohomology theory". Some of the readers have perhaps seen such theories defined through the Eilenberg-Steenrod axioms, but here we take a similar, but different and yet equivalent route. This is to use just based topological spaces instead of pairs of topological spaces. The approach is equivalent, as each cohomology theory for pairs determines, and is determined by, a reduced cohomology theory for pointed topological spaces. 
 
-**Definition (Reduced cohomology theory):** A reduced cohomology theory $\widetilde{E}^\ast$ is a contravariant functor from the category of pointed topological spaces, $Top_\ast$, to the category of graded abelian groups, $Ab_\ast$,satisfying the four axioms below. We let $X$ be a topological space and for simpler notation we write $f^\ast = \widetilde{E}^\ast(f)$ where $f:X\longrightarrow Y$ is a continuous map to some topological space $Y$.  
+<span style="color:orange"> **Definition:** </span> A *reduced cohomology theory* $\widetilde{E}^\ast$ is a contravariant functor from the category of pointed topological spaces, $Top_\ast$, to the category of graded abelian groups, $Ab_\ast$,satisfying the four axioms below. We let $X$ be a topological space and for simpler notation we write $f^\ast = \widetilde{E}^\ast(f)$ where $f:X\longrightarrow Y$ is a continuous map to some topological space $Y$.  
 
 1. If $f\simeq g$ then $f^\ast = g^\ast$, i.e. homotopic maps get sent to equivalent homomorphisms
 2. For any subspace $A\subseteq X$ there is a map $\partial^\ast: \widetilde{E}^\ast(X/A)\longrightarrow \widetilde{E}^{\ast+1}(A)$, called the coboundary, which is natural in $A$ and $X$. 
@@ -39,7 +39,7 @@ If you don't understand the details of the definition, don't worry, it is not re
 
 An important feature of reduced cohomology theories is the following result. 
 
-**Theorem 1:** Let $\widetilde{E}^\ast$ be a reduced cohomology theory. Then for any pointed space $X$ we have an isomorphism $\widetilde{E}^\ast(X)\cong \widetilde{E}^{\ast+1}(\Sigma X)$ induced by the coboundry map. 
+<span style="color:orange"> **Theorem:** </span> Let $\widetilde{E}^\ast$ be a reduced cohomology theory. Then for any pointed space $X$ we have an isomorphism $\widetilde{E}^\ast(X)\cong \widetilde{E}^{\ast+1}(\Sigma X)$ induced by the coboundry map. 
 
 This is an important result for several reasons. The suspension functor is the central feature of stable homotopy theory, where the spectra — our objects of interest — is one of the main players. The above result states that reduced cohomology is stable, or invariant under suspension. Another reason for its importance will become clear soon, as we will use it as part of a construction regarding spectra. 
 
@@ -51,11 +51,11 @@ One of the most important functors in the whole of category theory is the hom-fu
 
 As morphisms are one of the fundamental ideas of category theory, having a functor that sends objects to morphisms is very important. This also allow us the following definition. 
 
-**Definition (Representable functor):** A functor $F:\mathcal{C}\longrightarrow Set$ for some category $\mathcal{C}$ is called representable if $F$ is naturally isomorphic to $\text{Hom}(-, X)$ for some object $X$ in $\mathcal{C}$. The object $X$ is called a representing object of $F$. 
+<span style="color:orange"> **Definition:** </span> A functor $F:\mathcal{C}\longrightarrow Set$ for some category $\mathcal{C}$ is called *representable* if $F$ is naturally isomorphic to $\text{Hom}(-, X)$ for some object $X$ in $\mathcal{C}$. The object $X$ is called a representing object of $F$. 
 
 As mentioned, the central feature (for us today) of reduced cohomology theories is that they are representable. We have defined our reduced cohomology theories to be functors into the category of graded abelian groups, so for each degree $n$ we have a corresponding "part" of our functor, i.e. $\widetilde{E}^n:Top_* \longrightarrow Ab$. The fact that these functors are representable is due to the following famous theorem. 
 
-**Theorem (Brown representability):** Let $\widetilde{E}^\ast$ be a reduced cohomology theory. Then for each $n$, there is a pointed connected space $K_n$ such that for any pointed connected space $X$ there is a natural isomorphism $\widetilde{E}^n(X)\cong [X, K_n]$, where the set on the right is the set of homotopy classes of maps in the category of pointed topological spaces. The spaces $K_n$ are unique up to homotopy equivalence. 
+<span style="color:orange"> **Theorem (Brown representability):** </span> Let $\widetilde{E}^\ast$ be a reduced cohomology theory. Then for each $n$, there is a pointed connected space $K_n$ such that for any pointed connected space $X$ there is a natural isomorphism $\widetilde{E}^n(X)\cong [X, K_n]$, where the set on the right is the set of homotopy classes of maps in the category of pointed topological spaces. The spaces $K_n$ are unique up to homotopy equivalence. 
 
 We don't really need the connectedness criteria for this theorem to hold, but for the spaces $K_n$ to be unique, we do need it. The above result means that every degree of our reduced cohomology functor is representable, meaning that there is some space that represents it. We might wonder why we don't see the hom-functor in the above theorem, but remember that the set $[X, K_n]$ is the set $\text{Hom}(X, K_n)$ in the homotopy category of spaces, so this theorem in fact states that the functor is representable as defined previously. 
 
@@ -73,7 +73,7 @@ $$[X, K_n]\cong \widetilde{E}^n(X)\cong \widetilde{E}^{n+1}(\Sigma X)\cong [X, \
 
 which are all natural in $X$. Hence we see that also $\Omega K_{n+1}$ seems to be a representing object for $\widetilde{E}^n$, hence there should be a homotopy equivalence $K_n\longrightarrow \Omega K_{n+1}$. Due to the fact that loop space functor does not preserve connectedness very well, this is not in general a representing object, so we should not in general expect there to be a homotopy equivalence $K_n\longrightarrow \Omega K_{n+1}$. But, we can get something almost so by letting $X=K_n$ which results in an isomorphism $[K_n, K_n]\cong [K_n, \Omega K_{n+1}]$. The image of the identity map $id:K_n\longrightarrow K_n$ gives for all $n$ a map $$\alpha_n:K_n\longrightarrow \Omega K_{n+1}$$ which we call the structure maps of the collection of spaces $\\{K_n\\}_ {n\in \mathbb{Z}}$. By naturality of the sequence of isomorphisms above, we get that a map $f:X\longrightarrow K_n$ gets sent to the map $f\circ \alpha_n$ by the isomorphism. By now letting $X=S^m$ for, we see that $\alpha_n$ must be a weak homotopy equivalence. This is actually what we need to define a spectrum, more specifically an $\Omega$-spectrum. 
 
-**Definition ($\Omega$-spectrum):** An omega spectrum $K$ is a collection $\\{K_n\\}_ {n\in\mathbb{Z}}$ of pointed connected spaces, together with weak homotopy equivalences $\alpha_n:K_n\longrightarrow \Omega K_{n+1}$.
+<span style="color:orange"> **Definition:** </span> An $\Omega$*-spectrum* (omega-spectrum) $K$ is a collection $\\{K_n\\}_ {n\in\mathbb{Z}}$ of pointed connected spaces, together with weak homotopy equivalences $\alpha_n:K_n\longrightarrow \Omega K_{n+1}$.
 
 Such an object can be visualized in the following manner, i.e. as an infinite sequence of spaces, together with structure maps to the loop space of the "shifted space"
 
@@ -81,7 +81,7 @@ Such an object can be visualized in the following manner, i.e. as an infinite se
 
 So, what happens then to the earlier statement regarding the representation of the reduced cohomology theories? The failure of the spaces themselves to uniquely determine a cohomology theory is remedied by the following theorem.  
 
-**Theorem:** An $\Omega$-spectrum $K$ determines a reduced cohomology theory $\widetilde{E}^\ast$ by defining $\widetilde{E}^n(X) = [X, K_n]$. The coboundary maps are induced by the structure maps $\alpha_n$. 
+<span style="color:orange"> **Theorem:** </span> An $\Omega$-spectrum $K$ determines a reduced cohomology theory $\widetilde{E}^\ast$ by defining $\widetilde{E}^n(X) = [X, K_n]$. The coboundary maps are induced by the structure maps $\alpha_n$. 
 
 Moreover, if between two $\Omega$-spectrums $K$ and $L$ representing two reduced cohomology theories $\widetilde{E}^\ast$ and $\widetilde{F}^\ast$ there are pointed weak homotopy equivalences $$f_n:K_n\longrightarrow L_n$$ that respect the structure maps, then the maps $f_n$ induce a natural isomorphism of reduced cohomology theories $\widetilde{E}^\ast\longrightarrow \widetilde{F}^\ast.$
 

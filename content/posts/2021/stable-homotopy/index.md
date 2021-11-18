@@ -33,7 +33,7 @@ $$\pi_{n+1}(X)\cong \pi_n(\Omega X)$$
 
 In the post about [cofibrations]({{<ref "posts/2020/cofibrations">}}) we uncovered the dual statement, using cohomology. But, we might wonder if we have even more "duality" or similarities, for example dual isomorphisms $\pi_{n+1}(\Sigma X)\cong \pi_n(X)$? I need to state firmly that this is not just the dual statement of the above isomorphisms. The dual statement really is that $H^{n+1}(\Sigma X)\cong H^n(X)$, and we can't reason by duality inside the homotopy groups themselves. Asking for such an isomorphism would be dual to asking wether $H^{n}(\Omega X) \cong H^{n+1}(X)$, which is not at all true in general. That said, it is perhaps natural to still wonder.. And we will see that this wondering — this duality dream — is in fact true, at least if our space $X$ is highly connected. Let's recap what this means. 
 
-**Definition ($k$-connected):** A topological space $X$ is called $k$-*connected* if $\pi_i(X)=0$ for all $0\leq i\leq k$. 
+<span style="color:orange"> **Definition:** </span> A topological space $X$ is called $k$-*connected* if $\pi_i(X)=0$ for all $0\leq i\leq k$. 
 
 This generalizes the more standard notions of being connected and simply connected, as these now simply become $0$-connected and $1$-connected respectively. 
 
@@ -49,7 +49,7 @@ defined by sending a homotopy class $[f]$ to the class $[\Sigma f]$. Notice that
 
 Now all we need in order to have our dream pseudo-duality mentioned above, is that these maps are isomorphisms in the case of highly connected spaces, which is exactly what the Freudenthal suspension theorem tells us. 
 
-**The Freudenthal suspension theorem:** Let $X$ be a $k$-connected topological space. Then the above map $\pi_n(X)\longrightarrow \pi_{n+1}(\Sigma X)$ is an isomorphism for $n<2k+1$ and a surjection for $n=2k+1$. 
+<span style="color:orange"> **Theorem (Freudenthal):** </span> Let $X$ be a $k$-connected topological space. Then the above map $\pi_n(X)\longrightarrow \pi_{n+1}(\Sigma X)$ is an isomorphism for $n<2k+1$ and a surjection for $n=2k+1$. 
 
 In particular this means that the suspension of a space always has higher connectivity than the space itself, i.e. suspension increases connectivity. We won't give a proof of the theorem here, as it would require to go into much other details, and this is not what we are interested in. We are interested in what we can use the theorem for. 
 
@@ -85,7 +85,7 @@ $$\pi_{a+b}(\Sigma^a X)\overset{\cong}\longrightarrow \pi_{a+b+1}(\Sigma^{a+1}X)
 
 The above isomorphism is very important for algebraic topology, as it allows us to define the notion of stable homotopy. If we fix the natural number $b$ in the description above and allow the natural number $a$ to slowly increase from say $0$, we see that the homotopy groups $\pi_{a+b}(\Sigma^a X)$ and $\pi_{a+b+1}(\Sigma^{a+1} X)$ can vary wildly — until $a$ passes the "critical value". This critical point happens when $a> b+1$. For all natural numbers higher than this critical value, the groups are forever after isomorphic. This is called the "stable behaviour" of the homotopy groups, and motivates the following definition.
 
-**Definition (Stable homotopy groups):** Let $X$ be a topological space and $n\in \mathbb{N}$. The $n$'*th stable homotopy group* of $X$ is defined to be the group
+<span style="color:orange"> **Definition:** </span> Let $X$ be a topological space and $n\in \mathbb{N}$. The $n$'*th stable homotopy group* of $X$ is defined to be the group
 
 $$\pi^S_n (X) := colim_a \pi_{n+a}(\Sigma^a X)$$
 

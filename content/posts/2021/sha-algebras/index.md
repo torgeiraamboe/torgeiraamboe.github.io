@@ -15,7 +15,7 @@ This is part four in a sort of connected story about operations in mathematics t
 
 Our goal is to formalize the property of being homotopy associative in the way we have been exploring in the previous posts. Not only that, but we want to have the object being algebraic, as it will allow us to study both algebra and topology at the same time. It is, I think, easier to assign algebraic invariants to topological objects, than topological invariants to algebraic objects. The algebra also helps us formalize topological information in a very rigorous and insightful way, so studying topology through the lens of algebraic information is often not too limiting. Ok, lets jump into the definition, and then explain afterwards how it rigorizes the different things we have discussed in these previous blog posts.
 
-**Definition ($A_\infty$-algebra):** An $A_\infty$-algebra $(A, m)$ is a graded vector space $A = \bigoplus_{i\in \mathbb{Z}} A^i$ together with a family of morphisms $m=\{m_n\}$ consisting of maps $m_n\colon A^{\otimes n}\longrightarrow A$ of degree $2-n$ such that
+<span style="color:orange"> **Definition:** </span> An $A_\infty$*-algebra* $(A, m)$ is a graded vector space $A = \bigoplus_{i\in \mathbb{Z}} A^i$ together with a family of morphisms $m=\{m_n\}$ consisting of maps $m_n\colon A^{\otimes n}\longrightarrow A$ of degree $2-n$ such that
 
 $$\displaystyle\sum_{r+s+t=n}(-1)^{r+st}m_{r+1+t}(id^{\otimes r}\otimes m_s \otimes id^{\otimes t}) = 0$$
 

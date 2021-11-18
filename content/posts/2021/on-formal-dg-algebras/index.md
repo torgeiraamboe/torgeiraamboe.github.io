@@ -25,7 +25,7 @@ Luckily I was smart enough to highlight the four central themes in the thesis by
 
 We have already learned a bit about DG-algebras when we learned about [homotopy associativity]({{<ref "/posts/2021/the-associating-homotopy">}}). There we tried deform a DG-algebra through a homotopy equivalence and see whether the result was still a DG-algebra. It turned out not to be the case as the product was no longer associative, only associative up to a special homotopy, which we later discovered was part of an $A_\infty$-structure. More on this later. Let's start by recalling the definition. 
 
-**Definition (DG-algebra):** A DG-algebra is a graded vector space $A=\bigoplus A^i$ over a field $k$ together with two operations, $d:A\longrightarrow A$ called the differential and $m:A\otimes A\longrightarrow A$ called multiplication, such that
+<span style="color:orange"> **Definition:** </span> A *DG-algebra* is a graded vector space $A=\bigoplus A^i$ over a field $k$ together with two operations, $d:A\longrightarrow A$ called the differential and $m:A\otimes A\longrightarrow A$ called multiplication, such that
 
 1. $|d|=1, |m|=0$, meaning that $d$ has degree $1$ and $m$ has degree $0$
 2. $d^2=0$, meaning that $d$ makes $\bigoplus A^i$ into a cochain complex
@@ -44,7 +44,7 @@ In the [fibration series]({{<ref "/series/the-fibration-series">}}) we learned a
 
 Recall that localizing inverts the quasi-isomorphisms, so they become isomorphisms in the homotopy category. Hence, being isomorphic in the homotopy category is the same as being weakly equivalent in $DGA_k$. Two DG-algebras $A, B$ as weakly equivalent if there exists a span of quasi-isomorphisms $A\longleftarrow C\longrightarrow B$ between them. The reason this is not a single quasi-isomorphisms $A\longrightarrow B$, is that quasi-isomorphisms are not in general homotopy-invertible. Thus, a single isomorphism in $HoDGA_k$ does not always come from a single quasi-isomorphism in $DGA_k$. This now defines what we mean by formal DG-algebras, so lets wrap the above discussion up in a nice package.
 
-**Definition (Formal DG-algebra):** A DG-algebra $A$ is said to be formal if there exists a DG-algebra $C$  forming a span $H(A)\overset{p}\longleftarrow C \overset{q}\longrightarrow A$, where $p$ and $q$ are quasi-isomorphisms. 
+<span style="color:orange"> **Definition:** </span> A DG-algebra $A$ is said to be *formal* if there exists a DG-algebra $C$  forming a span $H(A)\overset{p}\longleftarrow C \overset{q}\longrightarrow A$, where $p$ and $q$ are quasi-isomorphisms. 
 
 As we will see in a bit, the cohomology algebra itself does not contain a whole lot of homotopical information, so formal DG-algebras are sort of simple objects, at least in the eyes of homotopy. 
 
@@ -52,7 +52,7 @@ As we will see in a bit, the cohomology algebra itself does not contain a whole 
 
 We said that these formal DG-algebras were the ones that contained the same homotopical information as their cohomology, but we don't yet know what this homotopical information is, or even what it can be. One example of such information is the Massey products. Intuitively, Massey products detect higher order linking inside the space — we will see a bit better what this means in an example soon. First of, lets define these. We will do this through what is called defining systems. 
 
-**Definition (Defining system):** Let $\bar{x} = (-1)^{|x|}x$. A defining system for a set of cohomology classes $x_1, \ldots, x_n$ in  $H(A)$  is a collection $\{ a_{i,j}\}$  of cochains in $A$ such that
+<span style="color:orange"> **Definition:** </span> Let $\bar{x} = (-1)^{|x|}x$. A *defining system* for a set of cohomology classes $x_1, \ldots, x_n$ in  $H(A)$  is a collection $\{ a_{i,j}\}$  of cochains in $A$ such that
 
 - $[a_{i-1, i}] = x_i$
 - $d(a_{i, j}) = \displaystyle\sum_{i<k<j}\overline{a_{i, k}}a_{k, j}$
@@ -61,7 +61,7 @@ for all pairs $(i,j)\neq (0,n)$ where $i\leq j$.
 
 Massey products will then be a set where the elements are indexed by the possible defining systems we have available. More precisely we have the following definition. 
 
-**Definition (Massey $n$-product):** The Massey $n$-product of $n$ cohomology classes $x_1, \ldots, x_n$, denoted $\langle x_1, \ldots, x_n\rangle$, is defined to be the set of all $[a_{0,n}]$, where
+<span style="color:orange"> **Definition:** </span> The *Massey* $n$*-product* of $n$ cohomology classes $x_1, \ldots, x_n$, denoted $\langle x_1, \ldots, x_n\rangle$, is defined to be the set of all $[a_{0,n}]$, where
 
 $$a_{0,n} = \sum_{0<k<n}\overline{a_{0, k}}a_{k, n}$$
 
@@ -122,7 +122,7 @@ This is good. We now have a test for recognizing non-formal DG-algebras, but is 
 
 In order for this post not to be as long as the thesis it self we will mostly outsource the information on $A_\infty$-algebras to the 4 posts we have already made on them ([1]({{<ref "posts/2021/homotopy-associativity">}}), [2]({{<ref "posts/2021/spaces-with-operations">}}), [3]({{<ref "posts/2021/the-associating-homotopy">}}), [4]({{<ref "posts/2021/sha-algebras">}}), where number 4 is the most important for this post). We will however recall the definition, and connect it to the above story on homotopical information in DG-algebras.  
 
-**Definition ($A_\infty$-algebra):** An $A_\infty$-algebra $(A, m)$ is a graded vector space $A = \bigoplus_{i\in \mathbb{Z}} A^i$ together with a family of morphisms $m=\{m_n\}$ consisting of maps $m_n\colon A^{\otimes n}\longrightarrow A$ of degree $2-n$ such that
+<span style="color:orange"> **Definition:** </span> An $A_\infty$*-algebra* $(A, m)$ is a graded vector space $A = \bigoplus_{i\in \mathbb{Z}} A^i$ together with a family of morphisms $m=\{m_n\}$ consisting of maps $m_n\colon A^{\otimes n}\longrightarrow A$ of degree $2-n$ such that
 
 $$\displaystyle\sum_{r+s+t=n}(-1)^{r+st}m_{r+1+t}(id^{\otimes r}\otimes m_s \otimes id^{\otimes t}) = 0$$
 
@@ -134,13 +134,13 @@ As with DG-algebras we also have morphisms between $A_\infty$-algebras such that
 
 The whole reason we introduce $A_\infty$-algebras in order to study DG-algebras is the following theorem.
 
-**Kadeishvili's theorem:** Let $A$ be a DG-algebra and $H(A)$ its cohomology. There exists an $A_\infty$-structure $\{m_i\}$ on $H(A)$ such that $A$ and $H(A)$ are related by an $A_\infty$-quasi-isomorphism $H(A)\rightsquigarrow A$. 
+<span style="color:orange"> **Theorem (Kadeishvili):** </span> Let $A$ be a DG-algebra and $H(A)$ its cohomology. There exists an $A_\infty$-structure $\{m_i\}$ on $H(A)$ such that $A$ and $H(A)$ are related by an $A_\infty$-quasi-isomorphism $H(A)\rightsquigarrow A$. 
 
 In [post 3]({{<ref "posts/2021/the-associating-homotopy">}}) about $A_\infty$-algebras we constructed such an $A_\infty$-structure by deforming a DG-algebra through a homotopy equivalence. The above theorem can be proven by constructing such a deformation retraction from $A$ onto $H(A)$. 
 
 So, this means that not every DG-algebra is formal, i.e. quasi-isomorphic to its cohomology, but, with the added $A_\infty$-structure on $H(A)$ it is in fact $A_\infty$-quasi-isomorphic! Intuitively, we have now created a homotopical structure on $H(A)$ that tells us all relevant homotopical information about $A$. What we mean by this is that passing from DG-algebras to $A_\infty$-algebras does not create more homotopy types, just showcases the relevant information more explicitly, or in a different way. This means that two DG-algebras $A$ and $B$ are DG-quasi-isomorphic if and only if they are $A_\infty$-quasi-isomorphic. For us this is really important, as we get the following result.
 
-**Theorem:** Let $A$ be a DG-algebra and $H(A)$ its cohomology $A_\infty$-algebra. Then $A$ is formal if and only in $m_i=0$ for all $i\geq 3$, i.e. $H(A)$ is a DG-algebra. 
+<span style="color:orange"> **Theorem:** </span> Let $A$ be a DG-algebra and $H(A)$ its cohomology $A_\infty$-algebra. Then $A$ is formal if and only in $m_i=0$ for all $i\geq 3$, i.e. $H(A)$ is a DG-algebra. 
 
 This is the ultimate conclusion about formality in the thesis, as we have a clear cut way to figure out if something is formal or not. The operations $m_i$ are inductively defined, so all we need to do is check that these product are all trivial in order to have a definite proof that a DG-algebra $A$ is formal. This was the goal of the thesis after all, to understand formality, or equivalently, when a DG-algebra contains the same homotopical information as its cohomology. 
 
@@ -150,7 +150,7 @@ These products behave a lot like the Massey products we discussed earlier, but t
 
 So, the goal of the thesis is reached as we have a way of checking whether a DG-algebra is formal or not. But, after finishing up the above story I had a sort of uneasy feeling. I felt we did not use the Massey products enough in the end result. We abstracted away from them, and in a not entirely perfect way.. So, is there a way to more nicely fuse the Massey products, the $A_\infty$-structure and formality? It turns out that this is possible, at least in a special case. 
 
-**Theorem:** Let $A$ be a DG-algebra. If the induced product on $H(A)$ is trivial, and all Massey products are vanishing, then $A$ is formal. 
+<span style="color:orange"> **Theorem:** </span> Let $A$ be a DG-algebra. If the induced product on $H(A)$ is trivial, and all Massey products are vanishing, then $A$ is formal. 
 
 This result falls out as a corollary to the following [paper](https://arxiv.org/abs/1801.03408), showing exactly the failures of the $A_\infty$-structure on $H(A)$ to recover the Massey products. What I found interesting about this result is that it serves as another test of formality, and the last part of my thesis is spent on using the above result to show formality of certain DG-algebras in a new way. These algebras are the cochain algebras of some interesting topological spaces that I had never encountered before, called the Lusternik-Schnirelman category 1 spaces. We will not go into details about these spaces here, but to be brief they are spaces that can be covered by two contractible subsets. An example is the suspension of any path connected topological space, as it can be covered by two cones, each contractible. 
 

@@ -21,7 +21,7 @@ The crucial fact about these different notions of spectra, is that they all come
 
 As we have already seen when looking briefly at $\Omega$-spectra, a spectrum should somehow be a sequence of topological spaces, all connected through certain structure maps. This is still the central idea, and we will see quickly how it related back to the $\Omega$-spectra. As we have [previously covered]({{<ref "posts/2021/a-first-look-at-spectra">}}) motivation for spectra and why they are interesting, we won't do that here as well, so instead we just jump into the definition. 
 
-**Definition (Sequential spectra):** A sequential spectrum $X$ is a sequence of pointed topological spaces[^1] $\{ X_n\}$ for all $n\in \mathbb{N}$ together with pointed continuous maps $\sigma_n^X:\Sigma X_n\longrightarrow X_{n+1}$ called the structure maps. Here $\Sigma$  denotes the reduced suspension functor on the category of pointed topological spaces, $Top_\ast$. 
+<span style="color:orange"> **Definition:** </span> A *sequential spectrum* $X$ is a sequence of pointed topological spaces[^1] $\{ X_n\}$ for all $n\in \mathbb{N}$ together with pointed continuous maps $\sigma_n^X:\Sigma X_n\longrightarrow X_{n+1}$ called the structure maps. Here $\Sigma$  denotes the reduced suspension functor on the category of pointed topological spaces, $Top_\ast$. 
 
 Since the functor $\Sigma$ has a right adjoint, namely the based loop space functor $\Omega$, we have natural isomorphisms
 
@@ -29,7 +29,7 @@ $$Hom(\Sigma X_n, X_{n+1}) \cong Hom(X_n, \Omega X_{n+1})$$
 
 for all $n$. Hence we could alternatively define the structure maps in the sequential spectra by their adjoint maps, $\widetilde{\sigma} _n^X:X _n\longrightarrow \Omega X _{n+1}$. This is starting to look a lot like the definition we had of an $\Omega$-spectrum last time — the only thing missing is the requirement that this adjoint structure map is a weak homotopy equivalence. So, to be precise we include the definition here as well.
 
-**Definition ($\Omega$-spectrum):** A sequential spectrum $X$ is called an $\Omega$-spectrum if the adjoint structure maps $\widetilde{\sigma}_n^X$ are weak homotopy equivalences, meaning that they induce isomorphisms on all homotopy groups. 
+<span style="color:orange"> **Definition:** </span> A sequential spectrum $X$ is called an $\Omega$*-spectrum* if the adjoint structure maps $\widetilde{\sigma}_n^X$ are weak homotopy equivalences, meaning that they induce isomorphisms on all homotopy groups. 
 
 Let's see some examples. The most fundamental — and hugely important — example is the sphere spectrum $\mathbb{S}$. This is defined by $\mathbb{S}_n = S^n$ and the structure maps being given by the canonical homeomorphisms $\sigma_n:\Sigma S^n \overset{\simeq}\longrightarrow S^{n+1}$. We won't say why in this post, but the sphere spectrum acts among spectra a lot like the integers $\mathbb{Z}$ acts among abelian groups. Stay tuned for more about this in the future as it is rather interesting! Note that the sphere spectrum is not an $\Omega$-spectrum. 
 
@@ -41,7 +41,7 @@ The third example we have in fact already seen, namely the Eilenberg-Mac Lane sp
 
 Our goal is to make these sequential spectra into a category, specifically a stable model category, and to do that we need to know what maps between spectra should be. 
 
-**Definition (Maps of spectra):** Let $X$ and $Y$ be two sequential spectra. A map $f:X\longrightarrow Y$, sometimes also called a morphism or a homomorphism, is a collection of pointed continuous maps $f_n:X_n\longrightarrow Y_n$ commuting with the structure maps in $X$ and $Y$, i.e. 
+<span style="color:orange"> **Definition:** </span> Let $X$ and $Y$ be two sequential spectra. A *map* $f:X\longrightarrow Y$, sometimes also called a morphism or a homomorphism, is a collection of pointed continuous maps $f_n:X_n\longrightarrow Y_n$ commuting with the structure maps in $X$ and $Y$, i.e. 
 
 $$f_{n+1}\circ \sigma_n^X = \sigma_n^Y\circ f_n. $$
 
@@ -57,7 +57,7 @@ $$\pi_n^S(X) = colim_k \pi_{n+k}(\Sigma^k X).$$
 
 By the Freudenthal suspension theorem this colimit actually exists. To make sense of the connection to sequential spectra we must define homotopy groups of spectra. 
 
-**Definition (Homotopy groups of spectra):** Let $X = \{X_n\}$ be a sequential spectrum. We define its $n$'th homotopy group to be 
+<span style="color:orange"> **Definition:** </span> Let $X = \{X_n\}$ be a sequential spectrum. We define its $n$'*th homotopy group* to be 
 
 $$\pi_n(X) = colim_k \pi_{n+k}(X_k)$$
 
@@ -79,7 +79,7 @@ This is because the Eilenberg-Mac Lane spaces are defined by their unique homoto
 
 As we have covered [model categories]({{<ref "posts/2020/model-categories">}}) earlier we wont do that again here. But, we are interested in a particularly nice type of model category, namely a so-called stable model category. This we must define as we have not yet seen these. 
 
-**Definition (Stable model category):** A model category $C$ is said to be stable if it has a zero-object $0$, i.e. the initial and terminal object in $C$ is the the same object, and if the induced suspension functor $\Sigma: HoC\longrightarrow HoC$ is an equivalence. 
+<span style="color:orange"> **Definition:** </span> A model category $C$ is said to be *stable* if it has a zero-object $0$, i.e. the initial and terminal object in $C$ is the the same object, and if the induced suspension functor $\Sigma: HoC\longrightarrow HoC$ is an equivalence. 
 
 In a general model category the suspension is defined to be the following homotopy pushout
 
@@ -87,7 +87,7 @@ In a general model category the suspension is defined to be the following homoto
 
 In order to define a model structure on $Sp$ we need to define three classes of maps: weak equivalences, fibrations and cofibrations. The natural first thing to attempt is to use the model structure on topological spaces. There we already have a nice model structure, called the Serre model structure. Since sequential spectra are built from topological spaces we can try to define a model structure on spectra by using the model structure on their building blocks, for example letting a weak equivalence of spectra be a map $w:X\longrightarrow Y$ such that at each level $w_n:X_n\longrightarrow Y_n$ the map of topological spaces $w_n$ is a weak equivalence, i.e. a map that induces isomorphisms on all homotopy groups. This attempt works perfectly — at least almost. We can let the weak equivalences be the "level-wise" weak equivalences and the fibrations be the "level-wise" fibrations, but we need to fix the cofibrations a bit. We could of course just let them be induced by the two other classes — as being the maps that have the left lifting property with respect to acyclic fibrations — but describing them explicitly will help us when constructing the stable model structure. It is also nicer to know what they are explicitly.
 
-**Definition (Level-wise cofibration):** We say a map $c:X\longrightarrow Y$ between two sequential spectra $X$ and $Y$ is a level-wise cofibration if the map $c_0:X_0\longrightarrow Y_0$ and the maps 
+<span style="color:orange"> **Definition:** </span> We say a map $c:X\longrightarrow Y$ between two sequential spectra $X$ and $Y$ is a *level-wise cofibration* if the map $c_0:X_0\longrightarrow Y_0$ and the maps 
 
 $$X_{n+1}\coprod_{\Sigma X_n} \Sigma Y_n \longrightarrow Y_{n+1}$$
 

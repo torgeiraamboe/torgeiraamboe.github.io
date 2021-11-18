@@ -23,15 +23,15 @@ To not just spew out the definition straight away, we look at a situation where 
 
 These axioms are not at all satisfied by all power series, so these are actually something interesting to look at. Coincidentally, such power series are exactly what we are going to look into today, because this is exactly what a formal group law is. 
 
-**Definition (Formal group law):** A *formal group law*[^1] over a commutative ring $R$ is a power series $F\in R[[u,v]]$ satisfying the above three axioms 1, 2 and 3. 
+<span style="color:orange"> **Definition:** </span> A *formal group law*[^1] over a commutative ring $R$ is a power series $F\in R[[u,v]]$ satisfying the above three axioms 1, 2 and 3. 
 
 Hence, we can think of formal group laws as a sort of generalization of the above case of the Lie-group, i.e. some power series with coefficients in a ring that behaves like if it was the product on a Lie group. In the Lie group case our ring was the field of real numbers $\mathbb{R}$, but in general it could be any commutative ring. For the rest of the post any ring will be commutative with an identity. 
 
 We did not mention anything about inverses, which always are somewhere close when talking about groups or group like things. The reason we didn't include it as an axiom is because it isn't needed, due to the following result. 
 
-**Proposition (Inverses):** Let $F$ be a formal group law over a ring $R$. Then there is a power series $i$ in one variable, such that $F(u, i(u))=0$. 
+<span style="color:orange"> **Proposition:** </span> Let $F$ be a formal group law over a ring $R$. Then there is a power series $i$ in one variable, such that $F(u, i(u))=0$. This power series $i$ is often called the formal inverse of $F$, or sometimes just the inverse. By commutativity this is a two-sided inverse. 
 
-By commutativity this is a two-sided inverse. This power series $i$ is often called the formal inverse of $F$, or sometimes just the inverse. Let's see some examples.
+Let's see some examples.
 
 ### Examples
 
@@ -44,13 +44,13 @@ Just to mention a couple more; there are ways to associate to an elliptic curve 
 
 A nice feature of formal group laws is that they naturally come with easily definable morphisms between them. These are defined as follows. 
 
-**Definition (Morphism):** Let $F$ and $G$ be formal group laws over a ring $R$. A *morphism* $f:F\longrightarrow G$ is a power series $f$ in one variable with vanishing constant term, such that $f(F(u,v)) = G(f(u), f(v))$. 
+<span style="color:orange"> **Definition:** </span> Let $F$ and $G$ be formal group laws over a ring $R$. A *morphism* $f:F\longrightarrow G$ is a power series $f$ in one variable with vanishing constant term, such that $f(F(u,v)) = G(f(u), f(v))$. 
 
 We can of course use this to define isomorphisms of formal group laws by being the morphisms with inverses. We also define a *strict isomorphism* $I$ to be an isomorphism where the coefficient of the variable is $1$, i.e. the derivative evaluated at $0$, $I'(u) = 1$. Morphisms of formal group laws are sometimes called *substitutions* and strict isomorphisms of formal group laws are also called *coordinate changes*, as this is essentially what they do. 
 
 These notions of morphisms allow us to understand how certain formal group laws behave, and how they are related. It can be shown that over the rational numbers every formal group law is strictly isomorphic to the additive formal group law, i.e. is the additive one up to a coordinate change. Over other rings this is not true, so most of the interesting theory comes from trying to understand formal group laws over more general rings or fields of positive characteristic. As these notions of strict isomorphisms to the additive formal group law is important, as is is the simplest formal group law we also make the following definition.
 
-**Definition (Logarithm):** Let $F$ be a formal group law over a ring $R$. A strict isomorphism $I$ from $F$ to $F_a$ — the additive formal group law — is called a logarithm of $F$, denoted $I(u) = log_F(u)$.
+<span style="color:orange"> **Definition:** </span> Let $F$ be a formal group law over a ring $R$. A strict isomorphism $I$ from $F$ to $F_a$ — the additive formal group law — is called a *logarithm* of $F$, denoted $I(u) = log_F(u)$.
 
 The name comes from the equation defining the morphism, as it becomes 
 
@@ -90,7 +90,7 @@ Just to sure we are clear on notation going forward, we recall that
 
 Ok, let's add some more structure to our cohomology theories. 
 
-**Definition (Complex-orientable cohomology theory):** We say that a multiplicative cohomology theory $E^\ast$ is *complex-orientable* if there exists an element $t\in E^\ast(\mathbb{C}P^\infty)$ such that under the map $g:\widetilde{E}^\ast(\mathbb{C}P^\infty)\longrightarrow \widetilde{E}^\ast(S^2)$, $t$ gets sent to the canonical generator $\bar t$ of $\widetilde{E}^\ast(S^2)$. In other words, the map $E^\ast(\mathbb{C}P^\infty)\longrightarrow E^\ast(S^2)$ must be surjective. 
+<span style="color:orange"> **Definition:** </span> We say that a multiplicative cohomology theory $E^\ast$ is *complex-orientable* if there exists an element $t\in E^2(\mathbb{C}P^\infty)$ such that under the map $g:\widetilde{E}^2(\mathbb{C}P^\infty)\longrightarrow \widetilde{E}^2(S^2)$, $t$ gets sent to the canonical generator $\bar t$ of $\widetilde{E}^2(S^2)$. In other words, the map $E^2(\mathbb{C}P^\infty)\longrightarrow E^2(S^2)$ must be surjective. 
 
 A choice of such a $t$ is called a *complex orientation*, and a multiplicative cohomology theory together with a complex orientation is called a *complex-oriented cohomology theory*. Examples of such theories are ordinary singular cohomology and complex $K$-theory as well as other more exotic theories we will meet in the future, like complex cobordism cohomology and Morava $K$-theory. For ordinary singular cohomology the natural choice of $t$ is given by the first Chern class $c_1(O(1))$, where $O(1)$ is the universal line bundle. This prompts us to actually define this element $t$ for some general cohomology theory $E^\ast$ to be named its first generalized Chern class, or the first Connor-Floyd Chern class. We denote it by $c_1^E$. More specifically we define for a line bundle $L$ over a space $X$, the first generalized Chern class to be $c^E_1(L) = f^\ast t \in E^2(X)$, where $f:L\longrightarrow \mathbb{C}P^\infty$ is the map given by the fact that $\mathbb{C}P^\infty$ is the classifying space for complex line bundles. 
 
@@ -100,7 +100,7 @@ $$c_1^{KU}(L_1\otimes L_2) = c_1^{KU}(L_1) + c_1^{KU}(L_2) + c_1^{KU}(L_1)\cdot 
 
 It is a bit more complicated, as it features some more elements than just the standard addition featured in the formula for singular cohomology theory. But, this more complicated formula should also look awfully familiar. These two formulas, for singular cohomology and for complex $K$-theory, are in fact the additive and the multiplicative formal group laws that we saw earlier! In fact we have the following theorem.
 
-**Theorem:** Every complex-oriented cohomology theory $E^\ast$ determines a formal group law $F$ over the ring $E^{\ast}(pt)$, i.e. of the $E$-cohomology of a point. 
+<span style="color:orange"> **Theorem:** </span> Every complex-oriented cohomology theory $E^\ast$ determines a formal group law $F$ over the ring $E^{\ast}(pt)$, i.e. of the $E$-cohomology of a point. 
 
 As usual when we have one concepts that leads to another, we ask if the reverse holds, i.e. given a formal group law, does it determine a complex-oriented cohomology theory? This does not hold in general. We will not cover these now, but there are procedures for turning a formal group law $F$ over a ring $R$ into a functor that is almost a cohomology theory with coefficient ring $R$ and which determines the formal group law $F$. This *almost* part is removable by adding some restrictions. 
 
@@ -124,7 +124,7 @@ By universal complex-oriented cohomology theory we mean the following: A complex
 
 So, finally, the theorem of Quillen states the following. 
 
-**Theorem (Qilllen):** There is a natural isomorphism from the coefficient ring $\pi_\ast MU$ of the complex cobordism cohomology theory $MU^\ast$ to the Lazard ring $L$, such that the formal group law determined by $MU^\ast$ is the universal group law over $L$. 
+<span style="color:orange"> **Theorem (Quillen):** </span> There is a natural isomorphism from the coefficient ring $\pi_\ast MU$ of the complex cobordism cohomology theory $MU^\ast$ to the Lazard ring $L$, such that the formal group law determined by $MU^\ast$ is the universal group law over $L$. 
 
 This is a remarkable connection between algebra and number theory to topology and homotopy theory. Due to Milnor and Novikov it was known that the complex cobordism ring is also a polynomial ring in infinitely even degree variables, but that these are these two are isomorphic in some natural way, and that their formal group laws correspond is truly amazing. As formal group law structures are modelled on Lie groups, there is also some analysis in this picture. So this theorem really is a nice meeting point for a lot of interesting mathematics. This result is also often cited as the birth of the field of chromatic homotopy theory, which we will learn more about during the coming years. For now this is what I wanted to say about formal group laws and their relation to algebraic topology, but there is a lot more to explore further on this topic. 
 

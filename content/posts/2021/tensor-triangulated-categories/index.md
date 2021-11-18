@@ -64,7 +64,7 @@ So our definition of a triangle is a sort of generalization of this image to all
 
 Lets now look at the definition we are interested in. 
 
-**Definition (Triangulated category):** A triangulated category is an additive category $T$, together with an additive automorphism $\Sigma:T\longrightarrow T$ often called the shift, and a class of triangles, $\Delta$, called the exact or sometimes distinguished triangles, such that the following four axioms are satisfied.
+<span style="color:orange"> **Definition:** </span> A *triangulated category* is an additive category $T$, together with an additive automorphism $\Sigma:T\longrightarrow T$ often called the shift, and a class of triangles, $\Delta$, called the exact or sometimes distinguished triangles, such that the following four axioms are satisfied.
 
 This first axiom consist of three parts. 
 
@@ -174,7 +174,7 @@ In general, the Quillen homotopy category (the localization at the weak equivale
 
 Ok, we now understand a tiny bit about triangulated categories, or at least some intuitive and motivating examples. This post has gotten long enough, so let us finish off by defining the joint tensor and triangulated structure. There are several versions of this structure in the literature, often adding stronger requirements to fit specific needs. 
 
-**Definition (Tensor triangulated category):** A tensor triangulated category (tt-category) is a tuple $(H, \Sigma, \Delta, \otimes, 1, e)$ where $H$ is an additive category, such that 
+<span style="color:orange"> **Definition:** </span> A *tensor triangulated category* (tt-category) is a tuple $(H, \Sigma, \Delta, \otimes, 1, e)$ where $H$ is an additive category, such that 
 
 - $(H, \Sigma, \Delta)$ is a triangulated category
 - $(H, \otimes, 1)$ is a symmetric monoidal category

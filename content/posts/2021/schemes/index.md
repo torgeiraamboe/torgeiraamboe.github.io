@@ -13,7 +13,7 @@ The first two posts ([[1]]({{<ref "/posts/2020/geometric-intuition" >}}),[[2]]({
 
 The goal of the post is to be able to understand the definition of a scheme. So in order to do that we first make a quite extensive recap on algebraic varieties in order to get some motivation and intuition, and then make sure we understand all the components of the definition. As we have done before, we start with the definition we want to understand, and then unravel it as we go along. So, here it is, the definition of a scheme. 
 
-**Definition (Scheme):** A scheme is a locally ringed space $(X, \mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \mathcal{O}_{X|U_i})$ is isomorphic to $\text{Spec }A_i$, the spectrum of some ring $A_i$. 
+<span style="color:orange"> **Definition:** </span> A *scheme* is a locally ringed space $(X, \mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \mathcal{O}_{X|U_i})$ is isomorphic to $\text{Spec }A_i$, the spectrum of some ring $A_i$. 
 
 There are many ways to package the information in the above definition, so just be aware that not all definitions of a scheme will look like this, but, this is the definition an formulation we are going to cover in this post. 
 
@@ -30,7 +30,7 @@ We must of course explain what the above words mean more mathematically and rigo
 
 The main schtick in algebraic geometry is the correspondence and correlation between algebraic and geometric information. The geometric information will be curves, surfaces and shapes in $k^n$ for some field $k$ (most often algebraically closed), while the algebraic information are prime ideals in the polynomial ring $k[X_1, \ldots, X_n]$. In order to have this nice correspondence we have two constructions that allow us to translate back and forth between these two seemingly separate worlds. 
 
-**Definition:** Let $S$ be a subset of $k[X_1, \ldots, X_n]$. We define the *zero-set* of $S$, also called the *vanishing set*, to be $V(S)=\\{ x\in k^n | f(x)=0, \forall f\in S \\}$. 
+<span style="color:orange"> **Definition:** </span> Let $S$ be a subset of $k[X_1, \ldots, X_n]$. We define the *zero-set* of $S$, also called the *vanishing set*, to be $V(S)=\\{ x\in k^n | f(x)=0, \forall f\in S \\}$. 
 
 Notice that the set $S$ generates an ideal $(S)$, and that the zero-set of $(S)$ is the same as the zero set of $S$. This means we can restrict our selves to studying ideals instead of all sets. We call a subset $V\subseteq k^n$ an *affine algebraic set* if $V=V(I)$ for some ideal $I\subseteq k[X_1, \ldots, X_n]$. 
 
@@ -54,7 +54,7 @@ But, if we for example scale the radius of the circle a bit, i.e. instead use $F
 
 Ok, we need to be able to produce algebraic information from geometric one, so we also need the sort of "reverse" construction. 
 
-**Definition:** Let $W$ be a subset of $k^n$. We define the ideal of $W$ to be $I(W) = \\{ f\in k[X_1, \ldots, X_n] | f(x) = 0, \forall x\in W \\}$. Note that $I(W)$ is in fact an ideal. 
+<span style="color:orange"> **Definition:** </span> Let $W$ be a subset of $k^n$. We define the *ideal* of $W$ to be $I(W) = \\{ f\in k[X_1, \ldots, X_n] | f(x) = 0, \forall x\in W \\}$. Note that $I(W)$ is in fact an ideal. 
 
 If we take some subset $W\subseteq k^n$, then we define its coordinate ring (also called the ring of regular functions) to be $k[X_1, \ldots, X_n]/I(W)$. 
 
@@ -86,13 +86,13 @@ We have not covered stalks and germs of sheaves yet, but intuitively stalks are 
 
 This means that we can turn any affine algebraic set into a ringed space by letting the associated sheaf be the sheaf of regular functions. We can then define what an affine algebraic variety is. 
 
-**Definition (Affine algebraic variety):** An affine algebraic variety is a ringed space $(X, \mathcal{O}_X)$ that is isomorphic to $(V, \mathcal{O}_V)$ for some affine algebraic set $V$. 
+<span style="color:orange"> **Definition:** </span> An *affine algebraic variety* is a ringed space $(X, \mathcal{O}_X)$ that is isomorphic to $(V, \mathcal{O}_V)$ for some affine algebraic set $V$. 
 
 As we above noted that the stalks of the sheaf of regular functions are in fact local rings, we call an affine algebraic variety a locally ringed space. 
 
 The only difference between an affine algebraic variety and a general algebraic variety is that we allow algebraic varieties to be sewn together by these affine algebraic varieties. Like manifolds, who locally look like Euclidean $n$-space, an algebraic variety locally looks like an affine algebraic variety. To be precise we include a proper formulation. 
 
-**Definition (Algebraic variety):** An algebraic variety is a locally ringed space $(X, \mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \mathcal{O}_{X|U_i})$ is an affine algebraic variety. 
+<span style="color:orange"> **Definition:** </span> An *algebraic variety* is a locally ringed space $(X, \mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \mathcal{O}_{X|U_i})$ is an affine algebraic variety. 
 
 Here $\mathcal{O}_{X|U}$ means that we restrict our sheaf to only consider open subsets of $U$, instead of open sets on all of $X$. The above definition seemingly looks very much like the definition of a scheme we introduced in the beginning, so we conclude that we are on the right track. 
 
@@ -104,7 +104,7 @@ One of the things that stick out as a difference between the definition of an al
 
 This is the gadget that makes a scheme more general than an algebraic variety, so lets define it. 
 
-**Definition:** Let $A$ be a commutative unital ring. We define the spectrum of $A$ (as a topological space) to be the set $\text{Spec } A = \\{ p\subseteq A | p \text{ prime}\\}$, i.e. the set of prime ideals in $A$, together with the topology defined by letting the closed sets be of the form $V(a)=\\{ p\in \text{Spec } A| a\subseteq p \\}$, where $a$ is any ideal in $A$. 
+<span style="color:orange"> **Definition:** </span> Let $A$ be a commutative unital ring. We define the *spectrum* of $A$ (as a topological space) to be the set $\text{Spec } A = \\{ p\subseteq A | p \text{ prime}\\}$, i.e. the set of prime ideals in $A$, together with the topology defined by letting the closed sets be of the form $V(a)=\\{ p\in \text{Spec } A| a\subseteq p \\}$, where $a$ is any ideal in $A$. 
 
 We won't prove that this is a topology on $\text{Spec } A$, but it should remind us of the topology we had on an affine algebraic set, namely the Zariski topology. These are in fact the same topology, hence they also get the same name for both algebraic varieties and spectrums. As for affine algebraic varieties, we have a nice basis for this topology, defined by the sets
 
@@ -116,13 +116,13 @@ Here we start to see why using $\text{Spec }A$ is a generalization of affine alg
 
 We saw all the way back in the introduction that a scheme was defined as a ringed space, so it should hopefully come as no surprise that we also need to give $\text{Spec }A$ a sheaf of rings. This sheaf will hopefully look familiar.
 
-**Definition (Structure sheaf on $\text{Spec }A$):** Let $A$ be a commutative unital ring and $\text{Spec } A$ its spectrum. We define a sheaf on $\text{Spec }A$, called its structure sheaf, by
+<span style="color:orange"> **Definition:** </span> Let $A$ be a commutative unital ring and $\text{Spec } A$ its spectrum. We define a sheaf on $\text{Spec }A$, called its *structure sheaf*, by
 
 $$\mathcal{O}_{\text{Spec }A}(D(f)) = A_f$$
 
 This means that we can turn any ring $A$ into a ringed space by letting the topological space be $\text{Spec }A$, and the sheaf be the structure sheaf $\mathcal{O}_{\text{Spec }A}$. This ringed space is called its spectrum. As for affine algebraic varieties, these ringed spaces are in fact locally ringed spaces, i.e. ringed spaces where the stalk at every point is a local ring. To be precise, and to sum up, we give the definition properly.  
 
-**Definition (Spectrum of a ring):** Let $A$ be a commutative unital ring. We define the spectrum of $A$ to be the locally ringed space $(\text{Spec }A, \mathcal{O}_ {\text{Spec }A})$, where $\mathcal{O}_{\text{Spec }A}$ is the structure sheaf defined above. By abuse of notation we often denote this ringed space by just $\text{Spec } A$. 
+<span style="color:orange"> **Definition:** </span> Let $A$ be a commutative unital ring. We define the *spectrum* of $A$ to be the locally ringed space $(\text{Spec }A, \mathcal{O}_ {\text{Spec }A})$, where $\mathcal{O}_{\text{Spec }A}$ is the structure sheaf defined above. By abuse of notation we often denote this ringed space by just $\text{Spec } A$. 
 
 These spaces are actually schemes, and we will see below that they are the basic building blocks for all schemes. This is maybe not surprising, as in the introduction we defined schemes to be locally ringed spaces that locally looked like these spectra of rings. 
 
@@ -130,11 +130,11 @@ These spaces are actually schemes, and we will see below that they are the basic
 
 Phew! That was a lot of construction. Luckily, we are now ready to define our objects of interest - schemes. As with algebraic varieties, we will first define an affine scheme, and then define a general scheme to be a ringed space that is locally affine. This means simply that the affine schemes are the building blocks of general schemes, just as affine algebraic varieties formed the building blocks of algebraic varieties. 
 
-**Definition (Affine scheme):** An affine scheme is a locally ringed space $(X, \mathcal{O}_X)$ that is isomorphic to $\text{Spec }A$ for some commutative unital ring $A$. 
+<span style="color:orange"> **Definition:** </span> An *affine scheme* is a locally ringed space $(X, \mathcal{O}_X)$ that is isomorphic to $\text{Spec }A$ for some commutative unital ring $A$. 
 
 Here we see what we stated above, i.e. that the spectra of rings actually form the building blocks we wanted. But we allow some isomorphisms in order to not be too strict in our definitions. Thus we can finally restate the definition from the introduction, and say that we understand the parts.  
 
-**Definition (Scheme):** A scheme is a locally ringed space $(X, \mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \mathcal{O}_{X|U_i})$ is an affine scheme.
+<span style="color:orange"> **Definition:** </span> A *scheme* is a locally ringed space $(X, \mathcal{O}_ X)$ that admits an open cover $\\{U_i\\}$ such that $(U_i, \mathcal{O}_{X|U_i})$ is an affine scheme.
 
 By the definition of an affine scheme, this definition is really the definition we presented in the introduction, even though it looks slightly different. The reason we did not use the word affine scheme in the introduction is that using affine schemes to define schemes is not very enlightening without first understanding the whole affine construction. 
 

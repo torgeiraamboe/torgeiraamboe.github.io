@@ -13,7 +13,7 @@ In the [previous post]({{<ref "posts/2021/homotopy-groups-of-spheres">}}) we stu
 
 We have already looked at [stable homotopy groups]({{<ref "posts/2021/stable-homotopy">}}), but let's recall the definition anyway. 
 
-**Definition:** The $k$'th stable homotopy group of the spheres is defined as 
+<span style="color:orange"> **Definition:** </span> The $k$'th stable homotopy group of the spheres is defined as 
 
 $$\pi_k^S=colim_n(\pi_{k+n}(S^n))$$
 
@@ -39,7 +39,7 @@ From the table we can see what the zero'th and the first stable homotopy groups 
 
 If you have ever studied a table of the homotopy groups of spheres, you will maybe start to see some weak patterns, in particular some repeating behaviour. One of these repeating behaviours comes precisely from the $J$-homomorphism, which is a group homomorphism from the homotopy groups of the infinite orthogonal group to the stable homotopy groups of spheres. 
 
-**Definition:** The space $O(n)$, called the $n$'th orthogonal group, is the set of orthogonal $n\times n$ matrices, i.e. 
+<span style="color:orange"> **Definition:** </span> The space $O(n)$, called the $n$'th orthogonal group, is the set of orthogonal $n\times n$ matrices, i.e. 
 
 $$O(n) = \\{A\in M(n):AA^T = I = A^TA\\}$$
 
@@ -136,7 +136,7 @@ which you can remember by singing them to the tune of "Twinkle, twinkle little s
 
 Luckily for us, Adams described these groups in the 60's, using a conjectured result (called the Adams conjecture) later proved by Quillen. Hence the following theorem is usually credited to them both. 
 
-**Theorem (Adams-Quillen):** Let $k>0$. The image of the $J$-homomorphism, $ImJ_k$ is given by 
+<span style="color:orange"> **Theorem (Adams-Quillen):** </span> Let $k>0$. The image of the $J$-homomorphism, $ImJ_k$ is given by 
 
 - $0$ when $k=2,4,5,6 \,(mod\,8)$ and
 - a cyclic group or order $2$ when $k= 0,1 \,(mod\, 8)$.
@@ -152,7 +152,7 @@ But, as you may have noticed, the image of the $J$-homomorphism only gives us su
 
 Recall that we have talked a bit about [cobordisms before]({{<ref "posts/2021/a-lecture-in-my-second-year">}}). These give a very general and weak equivalence relation between manifolds. A cobordism between two manifolds can be thought of as being a way to deform one space into the other, except we allow the deformation to be non-continuous at finitely many discrete points. More specifically, a cobordism is another smooth manifold that has the disjoint union of the two original manifolds as its boundary. 
 
-**Definition:** Let $M$ and $N$ be smooth $n$-manifolds. A cobordism $W:M\longrightarrow N$ is a smooth $n+1$ dimensional manifold $W$ such that $\partial W = M\coprod N$. We call $W$ an $h$-cobordism if the inclusions $M\hookrightarrow W$ and $N\hookrightarrow W$ are both homotopy equivalences. If $M$ and $N$ are smooth manifolds such that there exists an $h$-cobordism between them, we say they are $h$-cobordant. 
+<span style="color:orange"> **Definition:** </span> Let $M$ and $N$ be smooth $n$-manifolds. A cobordism $W:M\longrightarrow N$ is a smooth $n+1$ dimensional manifold $W$ such that $\partial W = M\coprod N$. We call $W$ an $h$-cobordism if the inclusions $M\hookrightarrow W$ and $N\hookrightarrow W$ are both homotopy equivalences. If $M$ and $N$ are smooth manifolds such that there exists an $h$-cobordism between them, we say they are $h$-cobordant. 
 
 An $h$-cobordism can be visualized as something like: 
 
@@ -160,7 +160,7 @@ An $h$-cobordism can be visualized as something like:
 
 We see that a cylinder between two manifolds is an $h$-cobordism, and we can wonder wether these are the only ones. This leads to the $h$-cobordism theorem, an infamous and important result, proved by Stephen Smale in the 60's. 
 
-**Theorem (Smale):** Let $W:M\longrightarrow N$ be a compact $h$-cobordism between two simply connected smooth manifolds of dimension at least $5$. Then $W$ is diffeomorphic to a cylinder $M\times I$. 
+<span style="color:orange"> **Theorem (Smale):** </span> Let $W:M\longrightarrow N$ be a compact $h$-cobordism between two simply connected smooth manifolds of dimension at least $5$. Then $W$ is diffeomorphic to a cylinder $M\times I$. 
 
 By Donaldson we know that this theorem does not hold for smooth manifolds of dimension $4$, but it does hold in dimension $3$, as it is equivalent to the Poincaré conjecture, proved in 2003 by Perelman. It also is trivially true in dimension $2$ and $1$. Hence the $h$-cobordism theorem holds for all $n\neq 4$. 
 

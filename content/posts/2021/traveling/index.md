@@ -44,7 +44,7 @@ You're probably wondering what this has to do with mathematics at all, and why a
 
 As you hopefully know we live on a sphere — or possibly a disk, there seem to be some disagreement in the scientific community. Either way, we live on a topological space. Points on this topological space are given by places one could visit. Traveling from one point of the earth to another traces a continuous path between the two points. If we chose a fixed starting point (the place we call home), and only look at (homotopy classes of) paths starting and ending in that point, together with the above-mentioned notion of adding paths together, we get a structure of a group. This group is the famous fundamental group of a topological space. But, this is sometimes very restricting. What if we want to move our start and end point? What if we move to another city? To be more general than looking at closed loops from a single starting point, we could instead consider all points and all (homotopy classes of) paths between them. This has the structure of a category, a nice type of category called a groupoid. Intuitively, a groupoid is a group "with more than one object", or the "categorified" version of a group. This just means that it is a category where all morphisms are invertible, i.e. there are only objects and isomorphisms. There is a way to associate such a category to any topological space, called the fundamental groupoid. 
 
-**Definition (Fundamental groupoid):** Let $X$ be a topological space. The fundamental groupoid of $X$, denoted $\Pi_1 X$, is the category whos objects are the points of $X$ and morphisms are the homotopy classes of paths between those points. 
+<span style="color:orange"> **Definition:** </span> Let $X$ be a topological space. The *fundamental groupoid* of $X$, denoted $\Pi_1 X$, is the category whos objects are the points of $X$ and morphisms are the homotopy classes of paths between those points. 
 
 As the composition of a path and its inverse path is homotopic to the constant path we get that this category is in fact a groupoid, i.e. a category where all morphisms are invertible. 
 
@@ -60,7 +60,7 @@ In the ledger this homotopy is given by some choice of more information, for exa
 
 Choosing to remember the entire infinite tower of information about how paths between points relate to each other, creates what is called an $\infty$-groupoid. 
 
-**Definition ($\infty$-groupoid):** An $\infty$-groupoid is an $\infty$-category where all $k$-morphisms are invertible up to an invertible $(k+1)$-morphism, for all $k$. 
+<span style="color:orange"> **Definition:** </span> An $\infty$*-groupoid* is an $\infty$-category where all $k$-morphisms are invertible up to an invertible $(k+1)$-morphism, for all $k$. 
 
 This definition is a bit unsatisfactory as it requires the notion of an $\infty$-category, which is not an easy feat to define. We could take the definition of an $\infty$-category to mean [quasi-category]({{<ref "posts/2020/quasi-categories">}}), which would make the $\infty$-groupoids be the Kan-complexes, but this is not the only choice. We have in fact previously discussed these choices in another blog post, when we looked at the so-called [Homotopy hypothesis]({{<ref "posts/2020/the-homotopy-litmus-test">}}). This *very* roughly states that any sufficiently good definition of an $\infty$-groupoid should generate an $\infty$-category, $\infty grpd$, that is equivalent (as $\infty$-categories) to the category of topological spaces. 
 

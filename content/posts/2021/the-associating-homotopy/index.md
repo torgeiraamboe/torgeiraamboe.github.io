@@ -17,15 +17,15 @@ Before we start I want to warn that this post might be a bit long and possibly q
 
 Lets start of by defining the key players that we need. I will assume some more general theory to be known, i.e. some algebraic topology and some homological algebra. Let’s kick it off by recalling what the hell a homotopy is in our algebraic setting of chain complexes.
 
-**Definition (Chain homotopy):** Let $A$ and $B$ be chain complexes and $f, g\colon A\longrightarrow B$ be two morphisms between them. A homotopy between $f$ and $g$ is a degree $-1$ map $h\colon A\longrightarrow B$ such that $f-g = d_B\circ h + h\circ d_A$.
+<span style="color:orange"> **Definition:** </span> Let $A$ and $B$ be chain complexes and $f, g\colon A\longrightarrow B$ be two morphisms between them. A *chain homotopy* between $f$ and $g$ is a degree $-1$ map $h\colon A\longrightarrow B$ such that $f-g = d_B\circ h + h\circ d_A$.
 
 With this in hand we jump straight to looking at the system we will be in for the rest of the post, namely the deformation retraction.
 
-**Definition (Deformation retraction):** Let $(A, d_A)$ and $(B, d_B)$ be cochain complexes, and let $p\colon A\longrightarrow B$ and $i\colon B\longrightarrow A$ be morphisms between them. We call $p$ a deformation retraction if $p\circ i = id_B$ and there exists a homotopy $i\circ p\overset{h}\sim id_A$. If there exists a deformation retraction $A\longrightarrow B$, then we say $A$ is a deformation retract of $B$. We sometimes denote a deformation retraction by $(A, B, i, p, h)$.
+<span style="color:orange"> **Definition:** </span> Let $(A, d_A)$ and $(B, d_B)$ be cochain complexes, and let $p\colon A\longrightarrow B$ and $i\colon B\longrightarrow A$ be morphisms between them. We call $p$ a *deformation retraction* if $p\circ i = id_B$ and there exists a homotopy $i\circ p\overset{h}\sim id_A$. If there exists a deformation retraction $A\longrightarrow B$, then we say $A$ is a deformation retract of $B$. We sometimes denote a deformation retraction by $(A, B, i, p, h)$.
 
 Note that a deformation retraction is in particular a homotopy equivalence. In fact, it can be shown that two cochain complexes are homotopy equivalent if and only if they are both deformation retracts of another cochain complex. Hence these deformation retracts are intimately linked with the homotopy theory of complexes. In the first post we tried to transfer a product on a topological space through a homotopy equivalence, so if we want to look at the same setting in this more algebraic case we need to know what a “space” with an operation is.
 
-**Definition (dg-algebra):** A differential graded algebra $A=(\bigoplus_{i\in \mathbb{Z}} A_i, m, d)$, often called just a dg-algebra or a DGA, is a graded associative algebra $(A, m)$  together with a degree $+1$ map $d: A\rightarrow A$, often called the differential, such that
+<span style="color:orange"> **Definition:** </span> A *differential graded algebra* $A=(\bigoplus_{i\in \mathbb{Z}} A_i, m, d)$, often called just a dg-algebra or a DGA, is a graded associative algebra $(A, m)$  together with a degree $+1$ map $d: A\rightarrow A$, often called the differential, such that
 
 1. $d\circ d = 0$
 2. $d(a\cdot b) = d(a)\cdot b + (-1)^{|a|}a\cdot d(b)$.

@@ -71,7 +71,8 @@ params:
         responsiveImages: false
         hiddenInSingle: true 
     # hidesummary: true
-    comments: true
+    # comments: true
+
     # images: ["papermod-cover.png"]
 
     #profileMode:

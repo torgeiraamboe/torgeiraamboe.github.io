@@ -17,7 +17,7 @@ The first place to start could maybe be Lie groups. These are manifolds with gro
 
 In topology we are fortunate enough to have a nice notion of homotopy. This we have discussed at length in the [fibration series]({{<ref "/series/the-fibration-series">}}), which resulted in exploring some theory about model categories. In the homotopy category of topological spaces we argued that we can study homotopy classes of maps instead of inverted weak equivalences. This allows us to make some nice definitions of algebraic structures in the category of topological spaces. For example we can define a H-group to be a topological space with operations such that it is a group in the homotopy category. This allows for the operations to be invertible, associative and unital up to homotopy instead of on the nose. Here the “H” stands for Hopf, as in the mathematician Heinz Hopf, as the maybe intuitive name, homotopy group, is already occupied. We said we would look at the bare minimum, so instead of a H-group, we look at an H-space.
 
-**Definition:** An H-space is a topological space $X$, together with a binary operation $m$, that has a unit up to homotopy. Alternatively, it can be described as a space with the operation m such that it is a unital magma in the homotopy category.
+<span style="color:orange"> **Definition:** </span> An *H-space* is a topological space $X$, together with a binary operation $m$, that has a unit up to homotopy. Alternatively, it can be described as a space with the operation m such that it is a unital magma in the homotopy category.
 
 Some of the most famous examples are the spheres $S^0$, $S^1$, $S^3$ and $S^7$. These are H-spaces as they inherit an operation from the real division algebra they are the unit-length subset of. For example $S^3$ sits as the vectors in $\mathbb{H}$, the quaternions, with length 1, and the other ones in $\mathbb{R}$, $\mathbb{C}$ and $\mathbb{O}$ respectively. The first three are actually groups, making them Lie groups, but $\mathbb{O}$ is non-associative, and hence $S^7$ is as well, so its not a group. The interesting fact that these four spheres are the only H-spaces is related to the famous Hopf invariant one problem, solved by Frank Adams.
 
@@ -25,7 +25,7 @@ We said we wanted to stay away from groups, but here we are, back again.. Let’
 
 ## Loop spaces
 
-**Definition:** Let $(X, x)$ be a pointed topological space, abusively denoted just by $X$. The loop space of $X$, denoted $\Omega X$, is defined to be the set of continuous maps $\Omega X = \\{ f\colon I\longrightarrow X \vert f(1)=x=f(0)\\}$, where $I$ is the unit interval. As the endpoints of the interval gets mapped to the same point we get a loop, hence the name.
+<span style="color:orange"> **Definition:** </span> Let $(X, x)$ be a pointed topological space, abusively denoted just by $X$. The *loop space* of $X$, denoted $\Omega X$, is defined to be the set of continuous maps $\Omega X = \\{ f\colon I\longrightarrow X \vert f(1)=x=f(0)\\}$, where $I$ is the unit interval. As the endpoints of the interval gets mapped to the same point we get a loop, hence the name.
 
 ![Error loading image](images/loop.png)
 

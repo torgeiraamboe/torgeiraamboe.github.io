@@ -12,7 +12,7 @@ cover:
 
 Recently I gave a talk about the homotopy groups of spheres, and as usual, I try to collect my thoughts on this blog before (or after) presenting. The homotopy groups of spheres have featured several times on this blog, and we have made some effort into calculating them for some small dimensions. In the talk I wanted to showcase some methods used to calculate these groups, as well as doing some of the "calculations". We have met several of the tools before, like the long exact sequence from a fibration and the Freudenthal suspension theorem, but we will also meet some new ones, like the $J$-homomorphism and the $h$-cobordism group. These two are methods for calculating the stable homotopy groups of spheres, or at least some of their subgroups. For the low dimensional cases, these subgroups will luckily be the entire groups. Due to the length of the post I have split it into two: one covering the unstable homotopy groups, mostly focusing on the Hopf fibration, and one covering the stable groups, mostly focusing on the image of the $J$-homomorphism. Before we start we recall the definition of the homotopy groups of spheres. 
 
-**Definition:** Let $m$'th homotopy group of the $n$'sphere is defined to be the set of homotopy classes of pointed continuous maps $S^m\longrightarrow S^n$ , denoted $$\pi_m(S^n)=[S^m, S^n].$$ 
+<span style="color:orange"> **Definition:** </span> Let $m$'th homotopy group of the $n$'sphere is defined to be the set of homotopy classes of pointed continuous maps $S^m\longrightarrow S^n$ , denoted $$\pi_m(S^n)=[S^m, S^n].$$ 
 
 ### Motivation
 

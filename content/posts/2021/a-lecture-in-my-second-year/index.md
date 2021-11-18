@@ -21,7 +21,7 @@ Introduction to topology, 19.04.18
 
 A topological quantum field theory (TQFT) is a very rich topological gadget with many use cases. These objects encode many of the fundamental invariants that we associate to manifolds. More precisely, an n-dimensional TQFT is a symmetric monoidal functor $Z:nCob\longrightarrow Vect_{\mathbb{C}}$. Here the category $nCob$ is the category of $n$-dimensional manifolds and cobordisms, and the category $Vect_\mathbb{C}$ is the category of complex vector spaces. The latter can be substituted by another linear category if wanted. When $n=2$ we have the following theorem.
 
-**Theorem:** There is an equivalence of categories $2TQFT\simeq cFA_{\mathbb{C}}$, where $2TQFT$  is the category of 2-dimensional TQFTs and $cFA_\mathbb{C}$ is the category of commutative Frobenius algebras.
+<span style="color:orange"> **Theorem:** </span> There is an equivalence of categories $2TQFT\simeq cFA_{\mathbb{C}}$, where $2TQFT$  is the category of 2-dimensional TQFTs and $cFA_\mathbb{C}$ is the category of commutative Frobenius algebras.
 
 The goal of the lecture, and hence this blog post, will be to understand the statement of this theorem. We will not present a proof. To make sense of the statement of the theorem we will need to do two things.
 
@@ -32,7 +32,7 @@ The goal of the lecture, and hence this blog post, will be to understand the sta
 
 We begin with understanding the formalism used to present the theorem, namely category theory. We only present the few bits we actually need, but a proper understanding of this theory would probably be useful for all readers.
 
-**Definition (Category):** A category $\mathcal{C}$ consists of *objects* $A, B, C, \ldots$ , and *morphisms* $A\rightarrow B$. We write $A\in \mathcal{C}$ for objects and $f\in \mathcal{C}(A, B)$ or $f\in Hom_{\mathcal{C}}(A, B)$ alternatively for morphisms. These objects and morphisms must subject to the following axioms:
+<span style="color:orange"> **Definition:** </span> A *category* $\mathcal{C}$ consists of *objects* $A, B, C, \ldots$ , and *morphisms* $A\rightarrow B$. We write $A\in \mathcal{C}$ for objects and $f\in \mathcal{C}(A, B)$ or $f\in Hom_{\mathcal{C}}(A, B)$ alternatively for morphisms. These objects and morphisms must subject to the following axioms:
 
 1. Given $A\rightarrow B$, $B\rightarrow C$ we can compose them to get $A\rightarrow C$
 2. Composition is associative, i.e. for morphisms $A\rightarrow B\rightarrow C\rightarrow D$ we have $h\circ(g\circ f) = (h\circ g)\circ f$
@@ -42,14 +42,14 @@ Examples are $Vect_\mathbb{C}$, the category of vector spaces over $\mathbb{C}$ 
 
 In mathematics we are often, or almost always more interested in maps between things instead of the things themselves. Hence we need maps between categories, which are called functors.
 
-**Definition (Functor):** A functor $F:\mathcal{C}\longrightarrow \mathcal{D}$ between two categories, consists of a map from the objects of $\mathcal{C}$ to the objects of $\mathcal{D}$, and a map $F_{A, B}: \mathcal{C}(A, B)\longrightarrow \mathcal{D}(A, B)$, such that:
+<span style="color:orange"> **Definition:** </span> A *functor* $F:\mathcal{C}\longrightarrow \mathcal{D}$ between two categories, consists of a map from the objects of $\mathcal{C}$ to the objects of $\mathcal{D}$, and a map $F_{A, B}: \mathcal{C}(A, B)\longrightarrow \mathcal{D}(A, B)$, such that:
 
 1. Given $A\rightarrow B\rightarrow C$ in $\mathcal{C}$, then $F_{A, C}(g\circ f) = F_{B,C}(g)\circ F_{A, B}(f)$
 2. For every $A\in \mathcal{C}$ we have $F_{A,A}(id_A) = id_{F(A)}$.
 
 As said, we are often interested in maps instead of objects, and the wonderful thing about category theory is that we can make sense of maps between other maps. If you are interested in such things I have a couple blog posts about higher category theory that flesches out this idea. Here we define maps between functors, which are called natural transformations.
 
-**Definition (Natural transformation):** Let $F, G: \mathcal{C}\longrightarrow \mathcal{D}$ be two functors. A natural transformation $\eta:F\Longrightarrow G$ assigns to each object $A\in \mathcal{C}$ a morphism $\eta(A):F(A)\longrightarrow G(A)$ in $\mathcal{D}$, such that for each morphism $f:A\longrightarrow B$ in $\mathcal{C}$, we have $G_{A, B}(f)\circ \eta(A) = \eta(B)\circ F_{A,B}(f)$. We say $\eta$ is a natural isomorphism if $\eta(A)$ is an isomorphism for all  $A$.
+<span style="color:orange"> **Definition:** </span> Let $F, G: \mathcal{C}\longrightarrow \mathcal{D}$ be two functors. A *natural transformation* $\eta:F\Longrightarrow G$ assigns to each object $A\in \mathcal{C}$ a morphism $\eta(A):F(A)\longrightarrow G(A)$ in $\mathcal{D}$, such that for each morphism $f:A\longrightarrow B$ in $\mathcal{C}$, we have $G_{A, B}(f)\circ \eta(A) = \eta(B)\circ F_{A,B}(f)$. We say $\eta$ is a natural isomorphism if $\eta(A)$ is an isomorphism for all  $A$.
 
 The reason we introduce these maps between maps, is because we want a way to compare categories to see if they are similar. In other fields of mathematics we usually define isomorphisms between objects to satisfy this need. These are usually defined to be maps $f:A\longrightarrow B$ such that there exists a two sided inverse. In category theory however, it turns out that such isomorphisms between categories is a too strong notion of comparison, as they leave out categories we intuitively want to consider “the same”. In topology we also run into this problem, and we then can define homotopy equivalences instead. The following definition will hopefully be reminiscent of such types of “weaker” equivalences.
 
@@ -60,11 +60,11 @@ If you want some more information on equivalences of categories I also have a [p
 
 We now have the basics covered, and will now start to add on more structure which we want later. We said that a TQFT was a symmetric monoidal functor, so we need to explain what we mean by that.
 
-**Definition (Strict monoidal category):** A strict monoidal category $(\mathcal{C}, \otimes , I)$ is a category $\mathcal{C}$  together with a functor $\otimes:\mathcal{C}\times \mathcal{C}\longrightarrow \mathcal{C}$ and an object $I\in \mathcal{C}$, such that $\otimes$ is associative and  $I$ is a left and a right unit for $\otimes.$
+<span style="color:orange"> **Definition:** </span> A *strict monoidal category* $(\mathcal{C}, \otimes , I)$ is a category $\mathcal{C}$  together with a functor $\otimes:\mathcal{C}\times \mathcal{C}\longrightarrow \mathcal{C}$ and an object $I\in \mathcal{C}$, such that $\otimes$ is associative and  $I$ is a left and a right unit for $\otimes.$
 
 This should be thought of as a not necessarily commutative product on the category. To make it nicer, i.e. introduce a notion of commutativity, we need the following definition.
 
-**Definition (Symmetric strict monoidal category):** We say a strict monoidal category is symmetric if for each pair $A, B\in \mathcal{C}$  there is a twist map (also sometimes called a braid map) $\tau_{A, B}:A\otimes B\longrightarrow B\otimes A$ such that
+<span style="color:orange"> **Definition:** </span> We say a strict monoidal category is *symmetric* if for each pair $A, B\in \mathcal{C}$  there is a twist map (also sometimes called a braid map) $\tau_{A, B}:A\otimes B\longrightarrow B\otimes A$ such that
 
 1. for any two maps $f:A\longrightarrow A'$ and $g:B\longrightarrow B'$ we have $g\otimes f \circ \tau_{A. B} = \tau_{A', B'}\circ f\otimes g$
 2. for any triple $A, B, C \in \mathcal{C}$ we have $\tau_{A, B\otimes C} = \tau_{A, B}\otimes id_C \circ id_B\otimes \tau_{A, C}$
@@ -82,7 +82,7 @@ Let $M, N$ be two oriented manifolds of dimension $n$. For example:
 
 ![Error loading image](images/cobordism0.png)
 
-A **cobodism** $W:M\longrightarrow N$ is an oriented manifold $W$ of dimension $n+1$ such that $\partial W = M\coprod N$, for example
+A *cobodism* $W:M\longrightarrow N$ is an oriented manifold $W$ of dimension $n+1$ such that $\partial W = M\coprod N$, for example
 
 ![Error loading image](images/cobordism1.png)
 
@@ -112,17 +112,17 @@ Recall that all closed connected oriented 1-dimensional manifolds are equivalent
 
 In the drawings we have presented we notice that all the cobordisms seem to be built up from similar parts. They mostly seem to consist of tubes, splitting into more tubes or joining into fewer tubes. We will see that this is actually the case, but first we need a precise formulation of what this means.
 
-**Definition (Generating set):** A generating set for a monoidal category $(\mathcal{C}, \otimes, I)$ is a set $S$ such that all morphisms in $\mathcal{C}$ can be obtained from the elements in $S$ by composition or by $\otimes$. If $S$ is a generating set, then we say $\mathcal{C}$ is generated by $S$.
+<span style="color:orange"> **Definition:** </span> A *generating set* for a monoidal category $(\mathcal{C}, \otimes, I)$ is a set $S$ such that all morphisms in $\mathcal{C}$ can be obtained from the elements in $S$ by composition or by $\otimes$. If $S$ is a generating set, then we say $\mathcal{C}$ is generated by $S$.
 
 The point of the discussion we now go into is the fact that we can use the classification of surfaces to give an explicit description of $2Cob$ by generators and relations. This will allow us to say explicitly how the image of a functor $2Cob\rightarrow Vect_\mathbb{C}$ behaves.
 
-**Theorem:** The category $2Cob$ is generated by the following six cobordisms, often called the basic cobordisms.
+<span style="color:orange"> **Theorem:** </span> The category $2Cob$ is generated by the following six cobordisms, often called the basic cobordisms.
 
 ![Error loading image](images/generators.png)
 
 This means that we can build any cobordism from these easy to handle pieces! This also extends to the following definition, which just described a decomposition of a cobordism into elements of the generating set above. For simplicity of notation we say a cobordism $W:m\longrightarrow n$ has $m$ in-boundaries, and $n$ out-boundaries. From a drawing standpoint this just means we have $m$ circles as boundaries on the left, and $n$ circles as boundaries on the right.
 
-**Definition (Normal form):** The normal form of a connected surface with $m$ in-boundaries, $n$ out-boundaries and genus $g$, is the decomposition of the surface into a number of basic cobordisms. We can for example decompose the following cobordism
+<span style="color:orange"> **Definition:** </span> The *normal form* of a connected surface with $m$ in-boundaries, $n$ out-boundaries and genus $g$, is the decomposition of the surface into a number of basic cobordisms. We can for example decompose the following cobordism
 
 ![Error loading image](images/decomposition.png)
 
@@ -164,11 +164,11 @@ Together the six basic cobordisms and the above relations make $2Cob$ into a rea
 
 We have now almost arrived at the statement of the theorem. To remind ourselves we again state the definitions of the main components in the theorem.
 
-**Definition (TQFT):** A 2-dimentional topological quantum field theory (2-dim TQFT) is a symmetric monoidal functor $Z: 2Cob\longrightarrow Vect_{\mathbb{C}}$.
+<span style="color:orange"> **Definition:** </span> A 2-dimentional *topological quantum field theory* (2-dim TQFT) is a symmetric monoidal functor $Z: 2Cob\longrightarrow Vect_{\mathbb{C}}$.
 
 These functors form a category where the objects are the 2-dim TQFTs and the morphisms are natural transformations between them. Denote this category by $2TQFT$. The other category we need is the category of commutative Frobenius algebras. We haven’t actually defined what we mean by this yet, so lets do that.
 
-**Definition (Commutative Frobenius algebra):** A commutative Frobenius algebra consists of a complex vector space A together with a commutative and associative product $m:A\times A\longrightarrow A$ and a non-degenerate bilinear form $\mu: A\times A\longrightarrow \mathcal{C}$ such that $\mu(m(a, b), c) = \mu(a, m(b, c))$. We often write $m(a, b)$ as just $a\cdot b$, and then the relation becomes $\mu(a\cdot b, c)=\mu(a, b\cdot c)$.
+<span style="color:orange"> **Definition:** </span> A *commutative Frobenius algebra* consists of a complex vector space $A$ together with a commutative and associative product $m:A\times A\longrightarrow A$ and a non-degenerate bilinear form $\mu: A\times A\longrightarrow \mathcal{C}$ such that $\mu(m(a, b), c) = \mu(a, m(b, c))$. We often write $m(a, b)$ as just $a\cdot b$, and then the relation becomes $\mu(a\cdot b, c)=\mu(a, b\cdot c)$.
 
 The most used examples of such algebras are matrix algebras $M_n(\mathbb{C})$ where $\mu(a, b)$ is the trace of their product, i.e. $\mu(a, b)=tr(a\cdot b)$.
 
@@ -194,6 +194,6 @@ which we can denote by $\mu$, is non-degenerate bilinear form on $A$. This means
 
 Hence $A$ is a commutative Frobenius algebra! This means that any vector space in the image of our 2-dim TQFT is in fact a commutative Frobenius algebra, and that we have a functor $F: 2TQFT\longrightarrow cFA_\mathbb{C}$ given by $F(Z) = Z(S^1$). The fact that every commutative Frobenius algebra arises this way is a lot harder to show and we will not cover it here. But it can be done, and once it is, we finally have our theorem:
 
-**Theorem:** The category of 2-dimentional topological quantum field theories, $2TQFT$, is equivalent to the category of commutative Frobenius algebras, i.e.
+<span style="color:orange"> **Theorem:** </span> The category of 2-dimentional topological quantum field theories, $2TQFT$, is equivalent to the category of commutative Frobenius algebras, i.e.
 
 $$2TQFT \simeq cFA_\mathbb{C}.$$
