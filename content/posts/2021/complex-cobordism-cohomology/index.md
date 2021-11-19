@@ -1,7 +1,7 @@
 ---
 title: "Complex cobordism cohomology"
 date: 2021-11-18
-draft: true
+draft: false
 katex: true
 categories: ["Stable homotopy theory", "Algebraic topology"]
 tags: ["Vector bundles", "Cobordisms", "Cohomology", "Spectra"]
@@ -23,29 +23,23 @@ We have already seen cobordisms a couple of times already, and each time it has 
 
 ![Error loading image](images/Cobordism.png)
 
-The name of the cobordism theory we are interested in is called complex cobordism, so due to the name one might expect that we simply consider cobordisms of complex manifolds. But, as you might see, if $M$ and $N$ are complex manifolds, then they have dimension $2n$ for some $n$. A cobordism would then have dimension $2n+1$, but then it can't have a complex structure. We can work around this by introducing so-called stably complex structures instead. These are a simple enough generalization that allow complex-like structures in odd dimensions. 
+The name of the cobordism theory we are interested in is called complex cobordism, so due to the name one might expect that we simply consider cobordisms of complex manifolds. But as you might see, if $M$ and $N$ are complex manifolds, then they have real dimension $2n$ for some $n$. A cobordism would then have dimension $2n+1$, but then it can't have a complex structure. We can work around this by introducing so-called stably complex structures instead. These are a simple enough generalization that allow complex-like structures in odd dimensions. 
 
-Given a manifold $M$, we can study its tangent bundle $TM$. As a set this consists of all tangent spaces $T_pM$ at each point $p\in M$. We define an almost complex manifold to be a $2n$-dimensional manifold $M$ together with a choice of an isomorphism $TM\overset{\cong}\longrightarrow \xi$ for some complex vector bundle $\xi$ over $M$. This is the same as a choice of complex structure on $\xi$. In order to generalize this to manifolds of odd dimensions we simply add the option to have extra dimensions in the tangent bundle, i.e. $TM\oplus \underline{\R}^k$ instead of just $TM$. Here $\underline{\R}^k$ is the trivial real vector bundle $M\times \R^k$. 
+Let $Gr_k(\mathbb{R}^n$ denote the real $k$-Grassmannian of euclidean $n$-space, i.e. the space of all $k$-dimensional subspaces of $\mathbb{R}^n$, and denote the limit $lim Gr_k(\mathbb{R}) = BO(k)$. As the orthogonal group $O(k)$ is the structure group of real vector bundles and $BO(k)$ is the classifying space of $O(k)$, we get that vector bundles of dimension $k$ over a manifold $M$ is classified by maps $M\longrightarrow BO(k)$. For complex vector bundles we would get $BU(k)$ instead, the classifying space of the unitary group. But, we want something "weaker" than complex structure, which we build from something real. 
 
-<span style="color:orange"> **Definition:** </span> A *stably complex manifold* is a manifold $M$ together with a choice of isomorphism 
+Let $M$ be an $n$-dimensional manifold and $i:M\longrightarrow \mathbb{R}^{n+k}$ be an embedding into some euclidean space. By the Whitney embeddign theorem such a map always exists. The normal bundle of $M$ in $\mathbb{R}^{n+k}$ is the orthogonal complement of the tangent bundle, i.e. all vectors that are normal to $M$. We can also generalize this to embeddings into other spaces by defining the normal bundle of an embedding $i:M\longrightarrow N$, denoted $N(i)$ to be the quotient of the tangent bundle of $N$ by the tangent bundle of $M$. These are the objects we use to define the stable complex structures. We do see that the dimension of the normal bundle is dependent on the embedding, so this must be fixed later. 
 
-$$c:TM\oplus \underline{\R}^k \overset{\cong}\longrightarrow \xi$$
+Let $i:M\longrightarrow \mathbb{R}^{n+k}$ be an embedding and $N(i): E(i) \overset{\pi}\longrightarrow M$ the associated $k$-dimensional normal bundle. It is classified by a map $v:M\longrightarrow BO(k)$, which is the Gauss map. A $BU(k)$ structure on $M$ is a choice of lift of $v$ through the fibration $f:BU(k)\longrightarrow BO(k)$. Given a $BU(k)$ structure on $M$ we get by composing the embedding with the inclusion $\mathbb{R}^k\hookrightarrow \mathbb{R}^{k+1}$, an essentially unique $BU(k+1)$ structure on $M$. This means that we can define an equivalence relation on $BU(k)$ structures by defining them to be equivalent if they become equivalent in a high enough dimension. This is the idea behind the term "stable". 
 
-for some complex vector bundle $\xi$. As this requires a choice we sometimes denote these by a pair $(M, c)$. If there is no confusion we just use $M$.  
+<span style="color:orange"> **Definition:** </span> A stable complex structure on a manifold $M$ is an equivalence class of $BU(k)$ structures under the equivalence relation described above. A stably complex manifold is then a pair $(M, v)$ where $M$ is a compact manifold and $v$ a stable complex structure on it. 
 
-Now we have complex-like structures for manifolds in all dimensions, which allows us to define complex cobordism. 
+We see that this does not depend on having even dimension, hence we have complex-like structures for manifolds in all dimensions. This is the generalization that allows us to define complex cobordism. 
 
 <span style="color:orange"> **Definition:** </span> Let $M$ and $N$ be two stably complex manifolds of dimension $n$. We say they are *complex cobordant* if there is a stably complex manifold $W$ of dimension $n+1$ such that $\partial W = M\sqcup N$. 
 
-Here $\sqcup$ denotes disjoint union. We sometimes split the boundary $\partial W$ into an "in-boundary" and an "out-boundary", which is simply a way to assign a direction to the cobordism. We then write $\partial W_+ = M$ and $\partial W_- = N$, which intuitively means that the cobordism "goes from" $M$ to $N$. A picture might help:
+Here $\sqcup$ denotes disjoint union, hence this is just the cobordism relation on stably complex manifolds. We sometimes split the boundary $\partial W$ into an "in-boundary" and an "out-boundary", which is simply a way to assign a direction to the cobordism. We then write $\partial W_+ = M$ and $\partial W_- = N$, which intuitively means that the cobordism "goes from" $M$ to $N$. A picture might help:
 
 ![Error loading image](images/Boundary.png)
-
-This can also be described in the context of $B$-cobordisms, i.e. cobordisms with some extra structure in the form of a [fibration]({{<ref "posts/2020/fibrations">}}) $\beta: B\longrightarrow BO$, where $BO$ is the classifying space of the infinite orthogonal group $O(\infty)$ that we met [last time]({{<ref "posts/2021/homotopy-groups-of-spheres-2">}}). A vector bundle $\xi$ over a manifold $M$ is classified by a map $M\longrightarrow BO$. We say it is a $B$-manifold if there is a lift through the fibration $\beta$. Complex cobordism theory then corresponds to the cobordism theory of $BU$-manifolds, where $BU$ is the classifying space of the infinite unitary group. This is maybe better described by a diagram:
-
-![Error loading image](images/B-manifold.png)
-
-We will not need this language of $B$-cobordisms, but it is a nice generalization of the story presented here today. 
 
 ## Cohomology from geometry
 

@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://torgeiraamboe.github.io/categories/algebraic-topology/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/categories/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/cobordisms/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/cohomology/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/spectra/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/vector-bundles/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/</loc>
+    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/differential-topology/</loc>
     <lastmod>2021-11-08T00:00:00+00:00</lastmod>
@@ -17,23 +44,8 @@
     <loc>https://torgeiraamboe.github.io/tags/j-homomorphism/</loc>
     <lastmod>2021-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/posts/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</loc>
     <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/</loc>
-    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/algebraic-topology/</loc>
-    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/homotopy-theory/</loc>
     <lastmod>2021-10-26T00:00:00+00:00</lastmod>
@@ -53,9 +65,6 @@
     <loc>https://torgeiraamboe.github.io/tags/model-categories/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/spectra/</loc>
-    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/tags/tensor-triangulated-categories/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -70,9 +79,6 @@
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/stable-homotopy/</loc>
     <lastmod>2021-09-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/cohomology/</loc>
-    <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/formal-group-laws/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
@@ -291,9 +297,6 @@
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2020/swans-theorem/</loc>
-    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/vector-bundles/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/homotopy-category/</loc>
