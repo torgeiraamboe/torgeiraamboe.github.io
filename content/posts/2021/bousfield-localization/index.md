@@ -12,7 +12,7 @@ cover:
 
 Topology, particularly homotopy theory, is hard. The scenes where these kind of mathematics happen are immensely complicated; the category of topological spaces; the category of spectra. The problem is that there is simply too much information to try to capture by using simple tools that we can actually understand properly. Trying to classify topological spaces or spectra is a feat that many deem impossible, it is simply too difficult. 
 
-So, how can we solve this? We take inspiration from other fields, where similar situations occur and then try to translate into our own situation. Take for example abelian groups. We have no classification of all abelian groups, but there are certain constructions that help us study them. We have a classification of finitely generated abelian groups, where we can decompose any abelian group $A$ into understandable pieces: a free part $\Z^r$ and a torsion part $\Z/p_1^{k_1}\oplus \ldots \oplus \Z/p_t^{k_t}$. For all abelian groups things get more complicated, but there are nice groups that have classifications, like divisible groups, which are direct sums of copies of $\mathbb{Q}$ and Prüfer groups $\Z(p^\infty)$. The general approach seems to be to split the complicated groups into smaller pieces, or to study them via some easier groups. If we just consider $\Z$ for a moment, we can for a prime $p$ study
+So, how can we try to fix this? We take inspiration from other fields, where similar situations occur and then try to translate into our own situation. Take for example abelian groups. We have no classification of all abelian groups, but there are certain constructions that help us study them. We have a classification of finitely generated abelian groups, where we can decompose any abelian group $A$ into understandable pieces: a free part $\Z^r$ and a torsion part $\Z/p_1^{k_1}\oplus \ldots \oplus \Z/p_t^{k_t}$. For all abelian groups things get more complicated, but there are nice groups that have classifications, like divisible groups, which are direct sums of copies of $\mathbb{Q}$ and Prüfer groups $\Z(p^\infty)$. The general approach seems to be to split the complicated groups into smaller pieces, or to study them via some easier groups. If we just consider $\Z$ for a moment, we can for a prime $p$ study
 
 - $\Z/p$, the $p$-torsion integers
 - $\Z_{(p)}$, the $p$-local integers
@@ -70,7 +70,7 @@ We are now ready for our initial definition of Bousfield localization.
 - the cofibrations being the same
 - the fibrations being induced, i.e. they are the maps satisfying the lifting property with respect to acyclic cofibrations.
 
-Equivalently we can use its universal property, that the Bousfield localization of $C$ is a category $L_W C$ such that for any left Quillen functor $F:C\longrightarrow D$ whose left derived functor sends $W$ to weak equivalences in $D$, the functor uniquely through $C\longrightarrow L_WC$. In summary the following diagram:
+Equivalently we can use its universal property, that the Bousfield localization of $C$ is a category $L_W C$ such that for any left Quillen functor $F:C\longrightarrow D$ whose left derived functor sends $W$ to weak equivalences in $D$, then the functor factors uniquely through $C\longrightarrow L_WC$. We can summarize with the following diagram:
 
 <img src="images/universal.png" alt="Error loading image" width="300"/>
 
