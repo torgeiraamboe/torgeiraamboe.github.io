@@ -4,7 +4,7 @@ paginate: 10
 theme: PaperMod
 copyright: " "
 publishDir: docs
-googleAnalytics: G-Z4GPE516BB
+googleAnalytics: G-BNDEZXCLMF
 disqusShortname: torgeiraamboe
 
 enableInlineShortcodes: true
