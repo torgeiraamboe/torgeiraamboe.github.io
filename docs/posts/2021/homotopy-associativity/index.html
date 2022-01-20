@@ -10,7 +10,7 @@
 <meta name="description" content="Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures.">
 <meta name="author" content="Torgeir Aambø">
 <link rel="canonical" href="https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.e8b115e42db3ff8cc3f357cd011578eb3c0bc34de1a7eef0793774c4f2566d8f.css" integrity="sha256-6LEV5C2z/4zD81fNARV46zwLw03hp&#43;7weTd0xPJWbY8=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c40e68a68dca4b02b290eb889994cee9d437b4b85f8ae52bb2b4b945a9bf5d9b.css" integrity="sha256-xA5opo3KSwKykOuImZTO6dQ3tLhfiuUrsrS5Ram/XZs=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
@@ -20,7 +20,7 @@
 <link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.82.1" />
 <head>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   
@@ -275,12 +275,12 @@ if (!doNotTrack) {
 <h2 id="isomorphic-transfer">Isomorphic transfer<a hidden class="anchor" aria-hidden="true" href="#isomorphic-transfer">#</a></h2>
 <p>Let’s assume for now that $G$ is a group and that $f$ is an isomorphism. This allows us to also make $T$ into a group by transferring the group structure through $f$. We get this by defining the multiplication on $T$ to be $t_1\cdot t_2 = f^{-1}(f(t_1)\cdot f(t_2))$. Let’s prove that this is a group structure on $T$.</p>
 <p>Since $f$ is an isomorphism, we have a unique element that gets sent to the identity element in $G$, which we define to be the identity element of $T$, i.e. $1_T = f^{-1}(1_G)$. This is in fact an identity element since</p>
-<p>\begin{aligned}
+<p>\begin{aligned} 
 t\cdot 1_T &amp;= f^{-1}(f(t)\cdot f(1_T)) \\<br>
 &amp;= f^{-1}(f(t)\cdot f(f^{-1}(1_G))) \\<br>
 &amp;= f^{-1}(f(t)\cdot 1_G) \\<br>
 &amp;= f^{-1}(f(t)) \\<br>
-&amp;= t .
+&amp;= t . 
 \end{aligned}</p>
 <p>The same holds for $1_T\cdot t = t$. We define the inverse of an element to be $t^{-1} = f^{-1}((f(t)^{-1})$. Which we see is an inverse because</p>
 <p>\begin{aligned}
@@ -305,8 +305,8 @@ t_1\cdot (t_2\cdot t_3)
 <p>Hence we have a binary operation on $T$ which is associative, has an identity element and has all inverses, which makes $T$ into a group.</p>
 <h2 id="homotopy-equivalent-transfer">Homotopy equivalent transfer<a hidden class="anchor" aria-hidden="true" href="#homotopy-equivalent-transfer">#</a></h2>
 <p>A crucial part in the above proof is that $f$ is an isomorphism, so what happens when this is not the case? We need some sort of way to pass from $G$ back to $T$ in order to have an algebraic structure on $T$, so we need a morphism that has a weaker type of inverse than an isomorphism. We do this by choosing $f$ be a homotopy equivalence. This means we have an homotopy inverse, i.e. a map $g: G\longrightarrow T$ such that $f\circ g \sim id_G$ and $g\circ f \sim id_T$. In this situation, what happens to the same kind of transferred structure on $T$? We do the same thing as last time and define our operation to be given by $m_2(t_1, t_2)=t_1\cdot t_2 = g(f(t_1)\cdot f(t_2))$. Why we also denote it by $m_2$ will be clearer later. This is a map $T\times T\longrightarrow T$. One thing we can check is weather this map is associative. We have</p>
-<p>\begin{aligned}
-t_1\cdot (t_2 \cdot t_3)
+<p>\begin{aligned} 
+t_1\cdot (t_2 \cdot t_3) 
 &amp;= t_1\cdot g(f(t_2)\cdot f(t_3)) \\<br>
 &amp;= g(f(t_1)\cdot fg(f(t_2)\cdot f(t_3)))
 \end{aligned}</p>

@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 02 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cohomology</title>
+      <link>https://torgeiraamboe.github.io/tags/cohomology/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/cohomology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectra</title>
+      <link>https://torgeiraamboe.github.io/tags/spectra/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/spectra/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Homology</title>
       <link>https://torgeiraamboe.github.io/tags/homology/</link>
@@ -26,29 +44,11 @@
     </item>
     
     <item>
-      <title>Spectra</title>
-      <link>https://torgeiraamboe.github.io/tags/spectra/</link>
-      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/spectra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cobordisms</title>
       <link>https://torgeiraamboe.github.io/tags/cobordisms/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/cobordisms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cohomology</title>
-      <link>https://torgeiraamboe.github.io/tags/cohomology/</link>
-      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/cohomology/</guid>
       <description></description>
     </item>
     
