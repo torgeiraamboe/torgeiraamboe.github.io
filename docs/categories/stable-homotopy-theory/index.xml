@@ -6,7 +6,16 @@
     <description>Recent content in Stable homotopy theory on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/stable-homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/stable-homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Adams spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</guid>
+      <description>Recently my friend Elias started his own math blog adventure, and his first post gave a nice introduction to spectral sequences. Reading it I remembered that I should really understand some of the parts better myself, because a lot of the arguments one makes in chromatic homotopy theory are based on spectral sequences. There is a framework for constructing spectral sequences that are not covered in my old post on them, as well as Elias’ post, and that is creating spectral sequences from exact couples.</description>
+    </item>
+    
     <item>
       <title>Brown-Peterson cohomology</title>
       <link>https://torgeiraamboe.github.io/posts/2022/brown-peterson-cohomology/</link>

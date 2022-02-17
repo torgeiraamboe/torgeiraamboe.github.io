@@ -6,22 +6,40 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cohomology</title>
-      <link>https://torgeiraamboe.github.io/tags/cohomology/</link>
-      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <title>Homotopy groups</title>
+      <link>https://torgeiraamboe.github.io/tags/homotopy-groups/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://torgeiraamboe.github.io/tags/cohomology/</guid>
+      <guid>https://torgeiraamboe.github.io/tags/homotopy-groups/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spectra</title>
       <link>https://torgeiraamboe.github.io/tags/spectra/</link>
-      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/spectra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral sequences</title>
+      <link>https://torgeiraamboe.github.io/tags/spectral-sequences/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/spectral-sequences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cohomology</title>
+      <link>https://torgeiraamboe.github.io/tags/cohomology/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/cohomology/</guid>
       <description></description>
     </item>
     
@@ -58,15 +76,6 @@
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/vector-bundles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Homotopy groups</title>
-      <link>https://torgeiraamboe.github.io/tags/homotopy-groups/</link>
-      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/homotopy-groups/</guid>
       <description></description>
     </item>
     
@@ -616,15 +625,6 @@
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/hurewicz-theorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spectral sequences</title>
-      <link>https://torgeiraamboe.github.io/tags/spectral-sequences/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/spectral-sequences/</guid>
       <description></description>
     </item>
     

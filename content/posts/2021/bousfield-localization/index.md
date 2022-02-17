@@ -6,7 +6,7 @@ katex: true
 categories: ["Stable homotopy theory", "Algebraic topology"]
 tags: ["Localization", "Homology", "Spectra"]
 cover:
-    image: "images/universal.png"
+    image: "images/Localisation.png"
 ---
 
 
