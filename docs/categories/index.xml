@@ -6,22 +6,31 @@
     <description>Recent content in Categories on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algebraic topology</title>
-      <link>https://torgeiraamboe.github.io/categories/algebraic-topology/</link>
-      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      <title>Higher category theory</title>
+      <link>https://torgeiraamboe.github.io/categories/higher-category-theory/</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://torgeiraamboe.github.io/categories/algebraic-topology/</guid>
+      <guid>https://torgeiraamboe.github.io/categories/higher-category-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stable homotopy theory</title>
       <link>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</link>
-      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algebraic topology</title>
+      <link>https://torgeiraamboe.github.io/categories/algebraic-topology/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/categories/algebraic-topology/</guid>
       <description></description>
     </item>
     
@@ -40,15 +49,6 @@
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/categories/homotopy-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Higher category theory</title>
-      <link>https://torgeiraamboe.github.io/categories/higher-category-theory/</link>
-      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/categories/higher-category-theory/</guid>
       <description></description>
     </item>
     
