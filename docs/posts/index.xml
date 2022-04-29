@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Johnson-Wilson theory</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</link>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</guid>
+      <description>It has been some time since we studied at the correlation between formal group laws, which were certain power series that looked like Taylor expansion of multiplication on a Lie group, and complex oriented cohomology theories. In particular, we learned that these two completely separate notions had a common universal object. The universal formal group law over the Lazard ring was the same as the formal group law determined by the universal complex oriented cohomology theory — complex cobordism cohomology.</description>
+    </item>
+    
     <item>
       <title>Stable infinity-categories</title>
       <link>https://torgeiraamboe.github.io/posts/2022/stable-infinity-categories/</link>
