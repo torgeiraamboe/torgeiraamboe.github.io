@@ -1,7 +1,7 @@
 
 ---
 title: "Periodic torsion is torsion periodic"
-date: 2022-09-15
+date: 2022-10-11
 draft: false
 math: true
 categories: ["Chromatic homotopy theory"]
