@@ -29,7 +29,9 @@ This is also called the telescope of $v_n$. This is a spectrum, and we can take 
 
 In 2016 Hahn [proved](https://arxiv.org/abs/1612.04386) that any $T(n)$-acyclic $\mathbb{E}_ \infty$-ring is also $T(n+1)$-acyclic, giving us that if $L_{T(n)}R \simeq 0$ then $L_{T(n+1)}R\simeq 0$. So, this tells us that if $R$ is an $\mathbb{E}_ \infty$-ring spectrum with height $n$, then $L_{T(h)}R$ vanishes for all $h> n$. The idea is that if the higher chromatic information for some $\mathbb{E}_ \infty$-ring spectrum $R$ is zero, then the chromatic information is truncated at that level, i.e. there is no *even higher* information either. 
 
-This means that we can also think of height through the definition, $n = \max\\{k\mid T(k)_*(R)=0\\}$; these two are equivalent. This definition is also used commonly throughout the litterature. 
+This means that we can also think of height through the definition, 
+$$height(R) = \max\\{k\mid T(k)_*(R)=0\\}$$ 
+These two are equivalent. This definition is also used commonly throughout the litterature. 
 
 I like to think about this in the following (perhaps too simple) analogy. Say I go to the store and try to buy some really nice expensive ice cream; say it costs  $100$ nok, or about $10$  dollars. I have contactless payment on my card, so I just *beep* my card on the machine to pay. Dreadfully, the card is rejected, I don’t have enough money. In the old days there used to be physical cash; not everything was digital and based solely on credit and debit cards. Then you would have more control of the money you had with you, as they were physical tangible things. I’m not claiming this is good, but it can avoid the current situation — I can’t afford this $100$ nok payment. I go back into the store, put the expensive ice cream back and look for another ice cream to buy. What information do I now have that can help me select which one to buy? The key piece of information I got was that I cannot select an even more expensive ice cream, as then my card will surely be rejected. All of the ice creams in the freezer that have a higher prize tag are unavailable to me and my quest for ice cream. But, I can of course try to buy a cheaper ice cream, which what I do, and live happily ever after. In this sense, $\mathbb{E}_ \infty$-rings are a lot like ice cream, and $T(n)$-localization is a lot like the action of checking how much money you have. In light of this amazing intuition, the height is then the most expensive ice cream I can afford. This is truly the optimal way to view these things. 
 
@@ -181,13 +183,13 @@ We did a [write-up](https://raw.githubusercontent.com/torgeiraamboe/hilberts_nul
 So what does this actually mean? The zero locus of the ideal $J$ is the set of all common roots of the polynomials in $J$, i.e.
 
 $$
-V(J)=\{x\in L^n \mid f(x)=0,  \forall f\in J\}.
+V(J)=\\{x\in L^n \mid f(x)=0,  \forall f\in J\\}.
 $$
 
 These are the affine algebraic varieties in algebraic geometry. We have [written a bit about these before]({{<ref "posts/2021/schemes#algebraic-varieties">}}), so we don’t go into any more detail here. The vanishing ideal $I(V)$ for some algebraic variety $V\subseteq L^n$ is defined to be the set of polynomials in $L[X_1, \ldots, X_n]$ that vanish on all points in $V$, i.e. 
 
 $$
-I(V)=\{f\in L[X_1, \ldots, X_n]\mid f(x)=0, \forall x\in V\}.
+I(V)=\\{f\in L[X_1, \ldots, X_n]\mid f(x)=0, \forall x\in V\\}.
 $$
 
 A point in an affine algebraic variety $V$, i.e. a map $\ast\longrightarrow V$, corresponds to a map of $L$-algebras $\Gamma(V)\longrightarrow \Gamma(\ast)\simeq L$, where $\Gamma$  denotes the coordinate ring of the variety. In the case $V=V(J)$ we have $\Gamma(V(I)) = L[X_1, \ldots, X_n]/J$, hence a point in $V(J)$ corresponds to a map 
