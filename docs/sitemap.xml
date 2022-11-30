@@ -47,10 +47,16 @@
     <loc>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://torgeiraamboe.github.io/series/</loc>
+    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/tags/spectra/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
+    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/series/the-road-to-morava-k-theory/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/higher-category-theory/</loc>
@@ -206,6 +212,9 @@
     <loc>https://torgeiraamboe.github.io/tags/a_infinity-algebras/</loc>
     <lastmod>2021-04-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://torgeiraamboe.github.io/series/homotopy-algebras/</loc>
+    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</loc>
     <lastmod>2021-04-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -348,9 +357,6 @@
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/homotopy-category/</loc>
-    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/series/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/series/the-fibration-series/</loc>

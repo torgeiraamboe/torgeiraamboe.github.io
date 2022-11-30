@@ -1,4 +1,3 @@
-
 ---
 title: "Brown-Peterson cohomology"
 date: 2022-01-20
@@ -6,6 +5,7 @@ draft: false
 katex: true
 categories: ["Stable homotopy theory"]
 tags: ["Spectra", "Cohomology"]
+series: ["The road to Morava K-theory"]
 ---
 
 Over the holidays sadly Edgar H. Brown passed away. He was one of the influential men behind many of the concepts this blog has featured and will feature in the future. This post is in particular focused on one of these concepts, namely Brown-Peterson cohomology and the Brown-Peterson spectrum. 

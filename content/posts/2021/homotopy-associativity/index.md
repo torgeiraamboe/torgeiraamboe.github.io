@@ -4,6 +4,7 @@ date: 2021-02-12
 draft: false
 tags: ["A_infinity algebras", "Homotopy", "Operads", "Stasheff associahedra"]
 categories: ["Algebraic topology", "Homotopy theory"]
+series: ["Homotopy algebras"]
 math: true
 cover:
     image: "images/K5.png"

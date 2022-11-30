@@ -56,7 +56,7 @@ Since our base space is a sphere, we naturally get two columns, and since $\math
 
 ![Error loading image](images/Computing_H^5(X)1.png)
 
-When we flip to the fourth page, all of the differentials are too long to pass between the columns, and hence we get that $E_4 = E_{\infty}$ which means that $H^4(X)=Ker(d_4)=Ker(\cdot 2) = 0$ and latex $H^5(X) = Cok(d_4)= Cok(\cdot 2) = \mathbb{Z}/2$. Now we’re getting somewhere! We see the first evidence of what is to become $\pi_4(S^3)$ after translating with the Rosetta stone. As described earlier, we need to translate into homology first, which we do by cUCT. We get the short exact sequence
+When we flip to the fourth page, all of the differentials are too long to pass between the columns, and hence we get that $E_4 = E_{\infty}$ which means that $H^4(X)=Ker(d_4)=Ker(\cdot 2) = 0$ and $H^5(X) = Cok(d_4)= Cok(\cdot 2) = \mathbb{Z}/2$. Now we’re getting somewhere! We see the first evidence of what is to become $\pi_4(S^3)$ after translating with the Rosetta stone. As described earlier, we need to translate into homology first, which we do by cUCT. We get the short exact sequence
 
 $$0\rightarrow Ext_{\mathbb{Z}}(H_{3}(X), \mathbb{Z})\rightarrow H^4(X) \rightarrow Hom_{\mathbb{Z}}(H_4(X), \mathbb{Z})\rightarrow 0.$$
 
@@ -66,7 +66,7 @@ $$0\rightarrow Ext_{\mathbb{Z}}(H_{4}(X), \mathbb{Z})\rightarrow H^5(X) \rightar
 
 Since $H_4(X)$ is finitely generated we know $Hom_{\mathbb{Z}}(H_5(X), \mathbb{Z}) = 0$, because it is either this or it is equal to $\mathbb{Z}/2$ and that option disappears since it is free. Now this means that $Ext_{\mathbb{Z}}(H_{4}(X), \mathbb{Z}) \cong H^5(X) \cong \mathbb{Z}/2$ and since we know that $H_4(X)$ is a finite group, we get that $H_4(X)\cong \mathbb{Z}/2$. Phew… Almost done now.
 
-Thankfully, the last part of the translation from homology to homotopy is easier in this case. Recall that we figured out that $\pi_3(X) \cong \pi_2(X) \cong \pi_1(X) \cong \pi_0(X) \cong 0$ in the beginning when constructing our fibrations. Hence we know that X is 3-connected, and by the Hurewicz theorem we have an isomorphism $H_4(X)\cong \pi_4(X)$ which means that we have $\pi_4(X) \cong \mathbb{Z}/2$. Our whole reason for doing this calculation with the space $X$ was that we figured out from the long exact sequence from the fibration that $\pi_4(X) \cong \pi_4(S^3)$, and by this we finally have our result, $\mathbb{Z}/2\cong H_4(X)\cong \pi_4(X) \cong \pi_4(S^3)$, or in short
+Thankfully, the last part of the translation from homology to homotopy is easier in this case. Recall that we figured out that $\pi_3(X) \cong \pi_2(X) \cong \pi_1(X) \cong \pi_0(X) \cong 0$ in the beginning when constructing our fibrations. Hence we know that $X$ is 3-connected, and by the Hurewicz theorem we have an isomorphism $H_4(X)\cong \pi_4(X)$ which means that we have $\pi_4(X) \cong \mathbb{Z}/2$. Our whole reason for doing this calculation with the space $X$ was that we figured out from the long exact sequence from the fibration that $\pi_4(X) \cong \pi_4(S^3)$, and by this we finally have our result, $\mathbb{Z}/2\cong H_4(X)\cong \pi_4(X) \cong \pi_4(S^3)$, or in short
 
 $$\pi_4(S^3) \cong \mathbb{Z}/2 .$$
 

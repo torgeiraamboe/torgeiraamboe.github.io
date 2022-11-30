@@ -5,6 +5,7 @@ draft: false
 katex: true
 categories: ["Algebraic topology", "Stable homotopy theory"]
 tags: ["Spectra", "Cohomology", "Formal group laws"]
+series: ["The road to Morava K-theory"]
 cover:
     image: "images/cobordant.png"
 ---

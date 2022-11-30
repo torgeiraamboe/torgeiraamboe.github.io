@@ -5,6 +5,7 @@ draft: false
 katex: true
 categories: ["Algebraic topology", "Stable homotopy theory"]
 tags: ["Spectra", "Cohomology", "Pointed topological spaces"]
+series: ["The road to Morava K-theory"]
 cover:
     image: "images/spectrum.svg"
 ---

@@ -4,6 +4,7 @@ date: 2021-03-04
 draft: false
 tags: ["A_infinity algebras", "H-spaces", "Loop spaces", "Operads"]
 categories: ["Algebraic topology"]
+series: ["Homotopy algebras"]
 math: true
 cover:
     image: "images/composition.png"

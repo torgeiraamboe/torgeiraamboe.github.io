@@ -4,6 +4,7 @@ date: 2021-04-19
 draft: false
 tags: ["A_infinity algebras", "Homotopy", "Stasheff associahedra"]
 categories: ["Homotopy theory"]
+series: ["Homotopy algebras"]
 math: true
 cover:
     image: "images/K4_header.png"

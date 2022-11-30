@@ -4,6 +4,7 @@ date: 2021-04-03
 draft: false
 tags: ["A_infinity algebras", "Algebras", "Homotopy"]
 categories: ["Algebraic topology", "Homotopy theory"]
+series: ["Homotopy algebras"]
 math: true
 cover:
     image: "images/K3.png"

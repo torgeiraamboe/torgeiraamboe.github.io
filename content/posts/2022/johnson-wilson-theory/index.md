@@ -1,4 +1,3 @@
-
 ---
 title: "Johnson-Wilson theory"
 date: 2022-04-29
@@ -6,6 +5,7 @@ draft: false
 katex: true
 categories: ["Stable homotopy theory"]
 tags: ["Formal group laws", "cohomology", "Spectra"]
+series: ["The road to Morava K-theory"]
 cover:
     image: "images/"
 ---

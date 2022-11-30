@@ -5,6 +5,7 @@ draft: false
 katex: true
 categories: ["Stable homotopy theory", "Algebraic topology"]
 tags: ["Vector bundles", "Cobordisms", "Cohomology", "Spectra"]
+series: ["The road to Morava K-theory"]
 cover:
     image: "images/Cobordism.png"
 ---
