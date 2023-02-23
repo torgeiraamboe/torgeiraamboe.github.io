@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homology</title>
+      <link>https://torgeiraamboe.github.io/tags/homology/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/homology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectra</title>
+      <link>https://torgeiraamboe.github.io/tags/spectra/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/spectra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Triangulated categories</title>
+      <link>https://torgeiraamboe.github.io/tags/triangulated-categories/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/tags/triangulated-categories/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>K-theory</title>
       <link>https://torgeiraamboe.github.io/tags/k-theory/</link>
@@ -71,15 +98,6 @@
     </item>
     
     <item>
-      <title>Spectra</title>
-      <link>https://torgeiraamboe.github.io/tags/spectra/</link>
-      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/spectra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Infinity-categories</title>
       <link>https://torgeiraamboe.github.io/tags/infinity-categories/</link>
       <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
@@ -98,15 +116,6 @@
     </item>
     
     <item>
-      <title>Triangulated categories</title>
-      <link>https://torgeiraamboe.github.io/tags/triangulated-categories/</link>
-      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/triangulated-categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Homotopy groups</title>
       <link>https://torgeiraamboe.github.io/tags/homotopy-groups/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
@@ -121,15 +130,6 @@
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://torgeiraamboe.github.io/tags/spectral-sequences/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Homology</title>
-      <link>https://torgeiraamboe.github.io/tags/homology/</link>
-      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/tags/homology/</guid>
       <description></description>
     </item>
     

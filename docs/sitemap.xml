@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://torgeiraamboe.github.io/series/adapted-homology/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://torgeiraamboe.github.io/categories/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/homology/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/series/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/spectra/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/tags/triangulated-categories/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/posts/2023/universal-homology/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://torgeiraamboe.github.io/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/chromatic-homotopy-theory/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
@@ -14,19 +44,10 @@
     <loc>https://torgeiraamboe.github.io/tags/k-theory/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/posts/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/tags/redshift/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/ring-spectra/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/periodic-derived-category/</loc>
@@ -47,15 +68,6 @@
     <loc>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/series/</loc>
-    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/spectra/</loc>
-    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/categories/stable-homotopy-theory/</loc>
-    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/series/the-road-to-morava-k-theory/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -69,9 +81,6 @@
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2022/stable-infinity-categories/</loc>
-    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/triangulated-categories/</loc>
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/categories/algebraic-topology/</loc>
@@ -90,9 +99,6 @@
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/posts/2021/bousfield-localization/</loc>
-    <lastmod>2021-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/tags/homology/</loc>
     <lastmod>2021-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://torgeiraamboe.github.io/tags/cobordisms/</loc>
