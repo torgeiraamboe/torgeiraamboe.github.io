@@ -67,7 +67,7 @@ We will repeatedly use this lemma for the rest of the proof.
 
 ### 2. Crazy increases can’t occur
 
-The next part of the puzzle is to understand and restrict what can actually occur in regards to the height when we apply algebraic K-theory to an $\mathbb{E}_ \infty$-ring spectrum $R.$ In theory we don’t know what can happen; we could have any increase or decrease in height after applying $K$-theory. In 2020 Clausen-Mathew-Naumann-Noel [proved](https://arxiv.org/abs/2011.08233) the first big step towards the chromatic redshift conjecture, where they proved that crazy increases in height can’t occur. In particular they proved the following theorem, which essentially states that the K-theory of a height $n$ ring can be greater than $n+1$. 
+The next part of the puzzle is to understand and restrict what can actually occur in regards to the height when we apply algebraic K-theory to an $\mathbb{E}_ \infty$-ring spectrum $R.$ In theory we don’t know what can happen; we could have any increase or decrease in height after applying $K$-theory. In 2020 Clausen-Mathew-Naumann-Noel [proved](https://arxiv.org/abs/2011.08233) the first big step towards the chromatic redshift conjecture, where they proved that crazy increases in height can’t occur. In particular they proved the following theorem, which essentially states that the K-theory of a height $n$ ring can't be greater than $n+1$. 
 
 <span style="color:orange"> **Theorem** ([**4.12**](https://arxiv.org/abs/2011.08233)) **:** </span> Let $R$ be an $\mathbb{E}_ \infty$-ring spectrum s.t. $height(R)=n$. Then $height(K(R))\leq n+1$. 
 
@@ -116,7 +116,7 @@ $$
 K(r^{tC_p})\longrightarrow THH(r^{tC_p})^{tS^1}\longrightarrow (r^{tC_p})^{tS^1/C_p}
 $$
 
-using properties of $THH$ -- topological Hochschild homology -- and an extension of the trivial action of $C_p$ to a trivial action of $S^1$. By the Tate orbit lemma the spectrum on the right is equivalent to the $p$-completion of $r^{tS^1}$. If we have $L_{T(n)}r \not\simeq 0$ then also $L_{T(n)}r^{tS^1}\not\simeq 0$, i.e. taking the Tate construction with this $S^1$ action does not shift the chromatic heigh down, as the Tate construction with $C_p$ usually does. Also, taking the $p$-completion of a spectrum also gives a $T(n)$-local equivalence. This means that the spectrum $L_{T(n)}(r^{tC_p})^{tS^1/C_p}$ is non trivial! Thus $L_{T(n)}K(R^{tC_p})\not\simeq 0$, as we have a map into some non-trivial $\mathbb{E}_\infty$-ring spectrum. 
+using properties of $THH$ -- topological Hochschild homology -- and an extension of the trivial action of $C_p$ to a trivial action of $S^1$. By the Tate orbit lemma the spectrum on the right is equivalent to the $p$-completion of $r^{tS^1}$. If $r$ is $T(n)$-local, by definition $L_{T(n)}r {\not\simeq} 0$, then also $L_{T(n)}r^{tS^1}{\not\simeq} 0$, i.e. taking the Tate construction with this $S^1$ action does not shift the chromatic heigh down, as the Tate construction with $C_p$ usually does. Also, taking the $p$-completion of a spectrum also gives a $T(n)$-local equivalence. This means that the spectrum $L_{T(n)}(r^{tC_p})^{tS^1/C_p}$ is non trivial! Thus $L_{T(n)}K(R^{tC_p})\not\simeq 0$, as we have a map into some non-trivial $\mathbb{E}_\infty$-ring spectrum. 
 
 The idea again is that the Tate-construction shifts the height down by one, and the K-theory shifts it back up again, hence we get something non-trivial. In the next section we will use the fact that since some spectrum $E_n$ has height $n$, then also $K(E_n^{tC_p})$ has height $n$, so this will also pop up again below. 
 

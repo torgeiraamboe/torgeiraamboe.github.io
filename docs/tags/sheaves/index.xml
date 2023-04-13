@@ -6,7 +6,18 @@
     <description>Recent content in Sheaves on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/sheaves/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/sheaves/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adapted homology</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</guid>
+      <description>Introduction In the last post we studied homology theories as abstract functors from stable $\infty$-categories to abelian categories. We showed that for every stable $\infty$-category $\mathcal{C}$ there is a universal homology theory which all others factor through, namely the Yoneda embedding into the Freyd envelope,
+$$ y\colon \mathcal{C}\longrightarrow A(\mathcal{C}). $$
+The fact that this is universal means that for any homology theory $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ there is an essentially unique factorization</description>
+    </item>
+    
     <item>
       <title>Schemes</title>
       <link>https://torgeiraamboe.github.io/posts/2021/schemes/</link>
