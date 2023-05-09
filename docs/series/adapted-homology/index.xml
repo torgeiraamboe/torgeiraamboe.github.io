@@ -6,7 +6,18 @@
     <description>Recent content in Adapted homology on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/series/adapted-homology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/series/adapted-homology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hopf algebroids</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</guid>
+      <description>Introduction In the last blog post we introduced and studied adapted homology theories. Given a stable $\infty$-category $\mathcal{C}$ and $\mathcal{A}$ an abelian category with enough injectives together with a local grading $[1]\colon \mathcal{A}\longrightarrow \mathcal{A}$, an adapted homology theory is a functor
+$$ H\colon \mathcal{C}\longrightarrow \mathcal{A} $$
+such that $H$ is additive, sends fiber sequences to long exact sequences, sends the suspension $\Sigma$ of $\mathcal{C}$ to the shift $[1]$ of $\mathcal{A}$ and such that we can lift injectives in $\mathcal{A}$ into $\mathcal{C}$ through $H$.</description>
+    </item>
+    
     <item>
       <title>Adapted homology</title>
       <link>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</link>

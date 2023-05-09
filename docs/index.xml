@@ -6,7 +6,18 @@
     <description>Recent content on Writing what I&#39;m learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> </copyright>
-    <lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hopf algebroids</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</guid>
+      <description>Introduction In the last blog post we introduced and studied adapted homology theories. Given a stable $\infty$-category $\mathcal{C}$ and $\mathcal{A}$ an abelian category with enough injectives together with a local grading $[1]\colon \mathcal{A}\longrightarrow \mathcal{A}$, an adapted homology theory is a functor
+$$ H\colon \mathcal{C}\longrightarrow \mathcal{A} $$
+such that $H$ is additive, sends fiber sequences to long exact sequences, sends the suspension $\Sigma$ of $\mathcal{C}$ to the shift $[1]$ of $\mathcal{A}$ and such that we can lift injectives in $\mathcal{A}$ into $\mathcal{C}$ through $H$.</description>
+    </item>
+    
     <item>
       <title>Adapted homology</title>
       <link>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</link>
@@ -480,15 +491,6 @@ One useful result that is often stated as a corollary to Noether’s normalizati
       
       <guid>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</guid>
       <description>Introduction This spring I have been taking a graduate class in commutative algebra, and I have yet to do algebraic geometry in a proper way, and have only gotten a small taste while writing my bachelor thesis. So this entire semester, I have felt this hinting at a geometric picture from the algebra itself, but i didn&amp;rsquo;t have the insight to figure it out. That said, I now think I have the geometric picture for Noether normalization, which in term implies a geometric picture of Hilbert nullstellensatz and some other results.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</guid>
-      <description></description>
     </item>
     
     

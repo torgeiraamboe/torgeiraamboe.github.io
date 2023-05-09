@@ -84,7 +84,7 @@ This means that our motivating example fails to be an adapted homology theory, w
 
 Anyway, combining the above facts we get an alternative and more approachable definition of an adapted homology theory. 
 
-**Definition:** Let $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ be a homology theory where $\mathcal{C}$ is a stable $\infty$-category and $\mathcal{A}$ an abelian category with enough injectives. Then we say $H$ is adapted if any injective $i\in \mathcal{A}$ has a lift $i_\mathcal{C}\in \mathcal{C}$ such that the comparison map $H(i_\mathcal{C})\longrightarrow i$ is an isomorphism. 
+<span style="color:orange"> **Definition:** </span> Let $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ be a homology theory where $\mathcal{C}$ is a stable $\infty$-category and $\mathcal{A}$ an abelian category with enough injectives. Then we say $H$ is adapted if any injective $i\in \mathcal{A}$ has a lift $i_\mathcal{C}\in \mathcal{C}$ such that the comparison map $H(i_\mathcal{C})\longrightarrow i$ is an isomorphism. 
 
 One can run a similar argument as above in reverse in order to prove that the two definitions we have given are equivalent, i.e. that if a homology theory $H$ has lifts for injectives and the comparison map is an isomorphism, then the adjoint $R$ exists and is fully faithful, i.e. presenting the category $\mathcal{A}$ as a sheafification of the Freyd envelope. Note that $H$ being adapted is sometimes referred to as $H$ possessing Eilenberg-MacLane objects for injectives, precisely due to the example above, where the lifts are the traditional Eilenberg-MacLane spectra. 
 
@@ -92,9 +92,9 @@ One can run a similar argument as above in reverse in order to prove that the tw
 
 We claimed above that adapted homology theories are exactly the ones who have a corresponding Adams spectral sequence. Some time ago we made a blog post about the Adams spectral sequence, but this was only in the specific case of homology theories on spectra, and not in general. Let’s quickly recap what spectral sequences are, and how to create them using exact couples. Readers be warned that we explicitly use bigraded exact couples, which makes the mathematics look complicated even though it is just a feat of book-keeping indices. Hopefully the bigradings are correct throughout, but if not it is a simple exercise to correct it. 
 
-**Definition:** A spectral sequence $(E^{s,t}_ r, d_r)$ is a sequence of bigraded abelian groups $\{E^{\bullet, \bullet}_r\}$, for $1\leq r\in \mathbb{N}$, together with differentials $\{d_r\colon E_r^{s,t}\longrightarrow E_r^{s+r, t+r-1}\}$ such that $E_{r+1}^{s,t}\cong H(E^{s,t}_r, d_r)$, i.e the $(r+1)$’st bigraded groups are the chain homology of the $r$’th ones under the differentials $d_r$. 
+<span style="color:orange"> **Definition:** </span> A spectral sequence $(E^{s,t}_ r, d_r)$ is a sequence of bigraded abelian groups $\{E^{\bullet, \bullet}_r\}$, for $1\leq r\in \mathbb{N}$, together with differentials $\{d_r\colon E_r^{s,t}\longrightarrow E_r^{s+r, t+r-1}\}$ such that $E_{r+1}^{s,t}\cong H(E^{s,t}_r, d_r)$, i.e the $(r+1)$’st bigraded groups are the chain homology of the $r$’th ones under the differentials $d_r$. 
 
-**Definition:** An exact couple is a collection of two bigraded abelian groups $D^{\bullet,\bullet}$, $E^{\bullet,\bullet}$ and three bigraded maps $i^{s,t}\colon D^{s,t}\to D^{s-1,t-1}$, $j^{s,t}\colon D^{s,t}\to E^{s,t}$ and $k^{s,t}\colon E^{s,t}\to D^{s+1,t}$ such that the diagram
+<span style="color:orange"> **Definition:** </span> An exact couple is a collection of two bigraded abelian groups $D^{\bullet,\bullet}$, $E^{\bullet,\bullet}$ and three bigraded maps $i^{s,t}\colon D^{s,t}\to D^{s-1,t-1}$, $j^{s,t}\colon D^{s,t}\to E^{s,t}$ and $k^{s,t}\colon E^{s,t}\to D^{s+1,t}$ such that the diagram
 
 <img src="images/Exact_couple.png" alt="Error loading image" width="500"/>
 
@@ -104,7 +104,7 @@ Note that the bidegree of the map $k$ can vary depending if one uses homological
 
 The composition $d^{s,t}:= j^{s+1,t}\circ k^{s,t}\colon E^{s,t}\to E^{s+1,t}$ is a differential on $E^{\bullet, \bullet}$, in the sense that $d\circ d = 0$. We can create a new exact couple from the original one using the homology of this differential, in the following way. 
 
-**Defintion:** Let $(D^{\bullet, \bullet},E^{\bullet, \bullet},i^{\bullet, \bullet},j^{\bullet, \bullet},k^{\bullet, \bullet})$ be an exact couple. Its derived exact couple $(D^{\bullet, \bullet}_2, E^{\bullet, \bullet}_2, i_2^{\bullet, \bullet}, j^{\bullet, \bullet}_2, k^{\bullet, \bullet}_2)$ is the exact couple defined by 
+<span style="color:orange"> **Definition:** </span> Let $(D^{\bullet, \bullet},E^{\bullet, \bullet},i^{\bullet, \bullet},j^{\bullet, \bullet},k^{\bullet, \bullet})$ be an exact couple. Its derived exact couple $(D^{\bullet, \bullet}_2, E^{\bullet, \bullet}_2, i_2^{\bullet, \bullet}, j^{\bullet, \bullet}_2, k^{\bullet, \bullet}_2)$ is the exact couple defined by 
 
 - $D_2^{s,t} = i^{s,t}D^{s,t}$
 - $E_2^{s,t} = H(E^{s,t}, d^{s,t}) = ker(d^{s,t})/im (d^{s-1,t})$
@@ -114,7 +114,7 @@ The composition $d^{s,t}:= j^{s+1,t}\circ k^{s,t}\colon E^{s,t}\to E^{s+1,t}$ is
 
 This is in fact again an exact couple, a fact one can quite easily check by diagram chasing. Since this is again an exact couple, we can iterate this procedure, creating for any exact couple $(D,E,i,j,k)$ a sequence of exact couples $(D_r, E_r, i_r, j_r, k_r)$. The bidegrees of the maps $i_r, j_r, k_r$ are respectively $(-1,-1)$, $(r-1,r-1)$ and $(1,0)$. The differential given by the composition $d_r = j_r\circ k_r$ has bidegree equal to the sum of the bidegrees of its components, hence $(r,r-1)$. 
 
-**Definition:** Let $(D_1,E_1,i_1,j_1,k_1)$ be an exact couple. The associated spectral sequence is the sequence of bigraded groups $\{E^{s,t}_r\}$ coming from the sequence of derived exact couples, together with the associated differentials
+<span style="color:orange"> **Definition:** </span> Let $(D_1,E_1,i_1,j_1,k_1)$ be an exact couple. The associated spectral sequence is the sequence of bigraded groups $\{E^{s,t}_r\}$ coming from the sequence of derived exact couples, together with the associated differentials
 
 $$
 d_r^{s,t}=j_r^{s+1,t}\circ k_r^{s,t}\colon E^{s,t}_r\to E^{s+r,t+r-1}_r.
@@ -178,7 +178,7 @@ Let’s recap. The adapted homology theory $H$ is completely determined by the k
 
 To see that this in fact produces the intended sheafification we first define what a Grothendieck pretopology is. In spirit, this is supposed to be a basis for a Grothendieck topology, which is the best way to mimic a topology in the setting of categories. A category with a Grothendieck topology is called a site. These are precisely the categories where we can define sheaves, and thus sheafification. 
 
-**Definition:** Let $\mathcal{C}$ be a category. A Grothendieck pretopology on $\mathcal{C}$ is an assignment to each object $d\in \mathcal{C}$ a collection of famililies of maps $\{c_i\to d\}$ — called covering families — such that
+<span style="color:orange"> **Definition:** </span> Let $\mathcal{C}$ be a category. A Grothendieck pretopology on $\mathcal{C}$ is an assignment to each object $d\in \mathcal{C}$ a collection of famililies of maps $\{c_i\to d\}$ — called covering families — such that
 
 1. The collection of covering families is stable under pullback
 2. Any family consisting of a single isomorphism is a covering family
@@ -188,7 +188,7 @@ We then define the $H$-epimorphism pretopology by letting a family of maps $\{c_
 
 The Grothendieck topology allows us to define the sheaf condition, i.e. the gluing property, and thus the category of sheaves. The following result shows that the sheaves with respect to the $H$-epimorphism topology are precisely the ones associated to the category $\mathcal{A}$. 
 
-**Proposition:** Let $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ be an adapted homology theory, which in particular means that we have a factorization of $H$ as $\mathcal{C}\overset{y}\to A(\mathcal{C})\underset{R}{\overset{L}\rightleftarrows} \mathcal{A}$ where $R$ is fully faithfull, presenting $\mathcal{A}$ as a subcategory of $A(\mathcal{C})$. A presheaf $x\in A(\mathcal{C})$ is a sheaf with respect to the $H$-epimorphism topology on $\mathcal{C}$ if and only if it is in the image of the right adjoint $R$. 
+<span style="color:orange"> **Proposition:** </span> Let $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ be an adapted homology theory, which in particular means that we have a factorization of $H$ as $\mathcal{C}\overset{y}\to A(\mathcal{C})\underset{R}{\overset{L}\rightleftarrows} \mathcal{A}$ where $R$ is fully faithfull, presenting $\mathcal{A}$ as a subcategory of $A(\mathcal{C})$. A presheaf $x\in A(\mathcal{C})$ is a sheaf with respect to the $H$-epimorphism topology on $\mathcal{C}$ if and only if it is in the image of the right adjoint $R$. 
 
 This is exactly what it means for $\mathcal{A}$ to be the sheafification of $A(\mathcal{C})$ with respect to the $H$-epimorphism topology! 
 
