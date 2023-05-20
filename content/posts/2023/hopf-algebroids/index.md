@@ -1,6 +1,6 @@
 ---
 title: "Hopf algebroids"
-date: 2023-04-21
+date: 2023-05-09
 draft: false
 math: true
 categories: ["Stable homotopy theory"]
