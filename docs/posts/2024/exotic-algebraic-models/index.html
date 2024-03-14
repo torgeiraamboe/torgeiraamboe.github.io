@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Exotic algebraic models | Writing what I&#39;m learning</title>
+<meta name="keywords" content="Spectra, Homology, Triangulated categories, Algebraicity" />
+<meta name="description" content="As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think.">
+<meta name="author" content="Torgeir Aambø">
+<link rel="canonical" href="https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.a1eeeda6e784196e37e722a47d42d7700cb45ab6319c25db704ad6e7029e4fbd.css" integrity="sha256-oe7tpueEGW435yKkfULXcAy0WrYxnCXbcErW5wKeT70=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://torgeiraamboe.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://torgeiraamboe.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://torgeiraamboe.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.87.0" />
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+    integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+    integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4GPE516BB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z4GPE516BB');
+</script>
+</head>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNDEZXCLMF"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-BNDEZXCLMF', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Exotic algebraic models" />
+<meta property="og:description" content="As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/" />
+<meta property="og:image" content="https://torgeiraamboe.github.io/images/chromatic_algebraic.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-14T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2024-03-14T00:00:00&#43;00:00" />
+<meta property="og:see_also" content="https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/" /><meta property="og:see_also" content="https://torgeiraamboe.github.io/posts/2023/adapted-homology/" /><meta property="og:see_also" content="https://torgeiraamboe.github.io/posts/2023/universal-homology/" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://torgeiraamboe.github.io/images/chromatic_algebraic.png" />
+<meta name="twitter:title" content="Exotic algebraic models"/>
+<meta name="twitter:description" content="As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://torgeiraamboe.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Exotic algebraic models",
+      "item": "https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Exotic algebraic models",
+  "name": "Exotic algebraic models",
+  "description": "As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think.",
+  "keywords": [
+    "Spectra", "Homology", "Triangulated categories", "Algebraicity"
+  ],
+  "articleBody": "As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think. This post has been a long time coming and features the precise area of mathematics where I do most of my research, namely exotic algebraic models. I will throughout this post, and its sequels, explain what these are and connect it to almost all the previous blog posts I have made for the last couple of years. This will also set up some of the needed background for presenting my own research, which I will do once I am done writing the paper presenting it.\nLet’s start with some overarching motivation for the problem at hand, and then dive into theory and constructions afterwards. The overarching claim we want to justify in this blog-post is the following.\n “Chromatic homotopy theory is algebraic at large primes”.\n This blog-post is dedicated to this day, $\\pi_*$-day, where $\\pi_*$ obviously referrs to stable homotopy groups.\nMotivation I have stated several times on this blog that my main mathematical interest, and thus also my research, is about finding and understanding connections between topology and algebra (I am also including geometry here). To paraphrase last year’s Abel prize winner, Dennis Sullivan, ‘mathematics consists of two seemingly distinct areas, the area of numbers and the area of shapes’. I, and also he, find the intersection of these areas to be where the most interesting mathematics happens. The kind of mathematics that hits me the hardest is the study of structure, symmetry, and connections. Mathematical structure is in my opinion best described using categories, or in the modern world, $\\infty$-categories.\nSo, given this information, we should perhaps expect to see that this blog post is about some connection or structural similarities between structure in topology and structure in algebra. The topological part will be some category of spectra and the algebraic part will be some derived category. A simple example we can use to get some feeling for what type of results we are after is the following.\nLet $R$ be a ring. This is in particular an algebraic object, and it has an associated derived category, $D(R)$, which naturally is a stable $\\infty$-category. We have a construction that maps algebraic objects into topological ones, called the Eilenberg-MacLane construction. This takes a group $G$ and produces a spectrum $HG$. For a ring $R$ this produces a ring spectrum $HR$, which is a sort of homotopical version of $R$. This construction turns out to not lose, or gain, any particularly important information, which gives us a symmetric monoidal equivalence of stable $\\infty$-categories\n$$ Mod_{HR}\\simeq D(R). $$\nFor example, if $R=\\mathbb{Q}$, then $Mod_{H\\mathbb{Q}} \\simeq Sp_\\mathbb{Q}$, the category of rational spectra. Hence, there is an equivalence of stable $\\infty$-categories $Sp_\\mathbb{Q}\\simeq D(\\mathbb{Q})$. This means essentially that the category of rational spectra is fully describable using only algebraic information.\nOur goal is then to see ‘how far’ we can generalize such an equivalence. The relevant questions are: does there exist other ring spectra $S$ such that $Mod_S \\simeq D(R)$ for some ring $R$? If not, what about some abelian category $\\mathcal{A}$ such that $Mod_S\\simeq D(\\mathcal{A})$? More generally, given some subcategory $\\mathcal{C}\\subseteq Sp$, does there exist an equivalence $\\mathcal{C}\\simeq D(\\mathcal{A})$? If yes, then $\\mathcal{A}$ is called an algebraic model for $\\mathcal{C}$. The above example then states that $Mod_R$ is an algebraic model for $Mod_{HR}$.\nAs it turns out, having an algebraic model is extremely rare. In fact, the above example is the only one — no other subcategory of spectra is equivalent to a derived category. Categories of spectra, that are not made to explicitly model algebra, are simply too complicated and have too much homotopical structure.\nDefinition 1. Let $\\mathcal{C}$ be an $\\infty$-category. The homotopy category of $\\mathcal{C}$, is the $1$-category $h\\mathcal{C}$ obtained by $1$-truncating all the mapping spaces, i.e. letting\n$$ Hom_{h\\mathcal{C}}(X,Y):= \\pi_ 0Hom_ \\mathcal{C}(X,Y). $$\nIt is well known that if the $\\infty$-category $\\mathcal{C}$ is stable, then the homotopy category is triangulated. If the category $\\mathcal{C}$ is a symmetric monoidal stable $\\infty$-category, then the homotopy category is a tensor-triangulated category.\nFor a stable $\\infty$-category $\\mathcal{C}$ we can then instead ask whether there is an equivalence of $1$-categories $h\\mathcal{C} \\simeq hD(\\mathcal{A})$. This is a much weaker statement than asking for an equivalence of $\\infty$-categories. If a category $\\mathcal{C}$ has such an equivalence, that is not just the restriction of an equivalence of $\\infty$-categories to the homotopy category, then we say $\\mathcal{C}$ is exotically algebraic, with exotic algebraic model $\\mathcal{A}$.\nExamples and non-examples We can again look at the case of modules over some ring spectrum, but now some spectrum that is not the Eilenberg-MacLane spectrum of a ring. One such fairly simple spectrum is $KU$, the spectrum representing complex topological $K$-theory. Via Bott periodicity it is a $2$-periodic spectrum, with homotopy groups $\\Z[u^{\\pm}]$, where $|u|$ is the Bott-class in degree $2$.\nThere is an equivalence of $1$-categories $hMod_{KU}\\simeq hD(\\Z[u^\\pm])$.\nSince both $Mod_{KU}$ and $D(\\Z[u^\\pm])$ are stable we know that their homotopy categories are triangulated. A natural question arises: Is the above equivalence an equivalence of triangulated categories? As of right now, that question is still an open problem, but, there is a nice way to tell if such equivalences are triangulated.\nDefinition 2. Let $\\mathcal{C}$ be a stable $\\infty$-category. The homotopy $2$-category, denoted $h_2\\mathcal{C}$, is defined as the $2$-category with the same objects as $\\mathcal{C}$, $1$-morphisms given by $\\pi_0 Map(-,-)$ and $2$-morphisms given by $\\pi_1Map(-,-)$.\nAnother way to say this is that it is the $2$-category obtained by $3$-truncating the mapping spaces in $\\mathcal{C}$.\nProposition 3. Let $\\mathcal{C}$ and $\\mathcal{D}$ be stable $\\infty$-categories admitting an equivalence $h_2\\mathcal{C}\\simeq h_2\\mathcal{D}$. Then the induced equivalence $h\\mathcal{C}\\simeq h\\mathcal{D}$ is triangulated.\nThe reason we don’t know whether the equivalence $hMod_{KU}\\simeq hD(\\Z[u^\\pm])$ is triangulated, is precisely because we don’t know whether there is an equivalence $h_2 Mod_{KU}\\simeq h_2 D(\\Z[u^\\pm])$.\nSo what is an example of an equivalence that is triangulated? One example comes from an old friend of the blog, the Johnson-Wilson spectrum. Recall that this is a ring spectrum $E(n)$ with coefficients $\\pi_* E(n) = \\Z_{(p)}[v_1, v_2, \\ldots, v_{n-1}, v_{n}^{\\pm}]$ that is complex oriented with associated formal group law of height $n$. It is also implicitly dependent on a prime $p$. As for $KU$, the exotic algebraic equivalence comes from comparing $E(n)$ and $\\pi_* E(n)$. Letting for example $p=3$ and $n=1$ we have an equivalence\n$$ h_2 Mod_{E(1)}\\simeq h_2 D(\\pi_*E(1)), $$\nmeaning there is a triangulated equivalence $hMod_{E(1)}\\simeq hD(\\pi_* E(1))$.\nIn fact, for choices of a bigger prime $p$ this equivalence gets “stronger”, in the sense that we actually loose less homotopical information. Instead of using the homotopy $2$-category we can use the more general homotopy $k$-category.\nDefinition 4. Let $\\mathcal{C}$ be a stable $\\infty$-category. The homotopy $k$-category $h_k\\mathcal{C}$ is obtained by $k+1$ truncating the mapping spaces of $\\mathcal{C}$.\nIn words this means that we “cut off” all homotopical information above dimension $k$.\nLemma 5. Let $p$ be a prime, $n$ a natural number, and $E=E(n)$ the associated Johnson—Wilson theory. If $2p-2n$ then there is an equiovalence of $2p-2-n$-categories\n$$ h_{2p-2-n}Mod_{E(n)}\\simeq h_{2p-2-n}D(\\pi_*E(n)). $$\nChoosing a prime $p$ that is large compared to the chromatic height $n$ then makes this equivalence “better”. For a fixed height $n$ we can then choose a sufficiently large prime $p$ such that there is an equivalence as above. This fits in line with the claim that chromatic homotopy is algebraic at large primes.\nFranke’s algebraicity theorem In an earlier blogpost from last year we covered adapted homology theories. These were essentially the homology theories one could obtain by sheafifying the universal homology theory $y\\colon \\mathcal{C}\\longrightarrow A(\\mathcal{C})$, i.e. the Yoneda embedding into the Freyd envelope. More specifically, they are functors $H$ from a stable $\\infty$-category to a locally graded abelian category with enough injectives, admitting certain lifts.\nIn the previous post on Hopf algebroids we fixed the category $\\mathcal{C}=Sp$ and constructed a class of adaped homology theories as follows:\nProposition 6. Let $R$ be a nice1 flat ring spectrum and $R_*=\\pi_*(R\\otimes -)$ its associated homology theory. Then\n$$ R_*\\colon Sp\\longrightarrow Comod_{R_*R} $$\nis an adapted homology theory.\nWe will look closer at these examples later in the post, but let us first cover the general machinery that we will use: Franke’s algebraicity theorem.\nEssentially, the theorem states that a category $\\mathcal{C}$, admitting a certain very nice adapted homology theory, is automatically exotically algebraic. The statement was conjectured and attempted proved in a specific setting in spectra by Jens Franke, but several years later a subtle mistake was found in the proof by Irakli Patchkoria. However, the general form of the theorem, which we now present, was proven by Patchkoria in joint work with Piotr Pstragowski.\nTheorem 7. Let $H\\colon \\mathcal{C}\\longrightarrow \\mathcal{A}$ be an adapted homology theory such that\n $H$ is conservative, $\\mathcal{A}$ has a splitting of order $q$ $\\mathcal{A}$ has cohomological dimension $d  Then there is an equivalence of $(q-d)$-categories $h_{q-d}\\mathcal{C}\\simeq h_{q-d}D^{per}(\\mathcal{A})$, where the latter denotes the periodic derived category of $\\mathcal{A}$ (which we encountered in an earlier blog post).\nThis is a very nice and general theorem. It allows us to take a proposed example, check a small well-defined list of criteria, and conclude with nice algebraicity statements. One of my own research results, which will be presented hopefully on this blog soon, is precisely proving that a certain homology theory satisfied the above criteria.\nNow, if I recall correctly, we have not seen any of the three above criteria on this blog before, so let’s go through them one by one.\nConservativity The first condition, conservativity, is a condition on $H$ being able to detect isomorphisms in $\\mathcal{C}$. In some sense, it is not allowed to ‘create’ any new isomorphisms out of non-isomorphisms. This can be defined precisely as follows.\nDefinition 8. A functor $F\\colon \\mathcal{C}\\longrightarrow \\mathcal{D}$ is conservative if it reflects isomorphisms. In other words, given a map $f\\colon X\\longrightarrow Y$ in $\\mathcal{C}$, then $F(f)$ is an isomorphism if and only if $f$ is an isomorphism.\nA nice example is the homotopy groups functor $\\pi_*\\colon Mod_R\\longrightarrow Mod_{R_*}$ for a homotopy commutative ring spectrum $R$. By the examples presented earlier, this is perhaps to be expected. This is also a general phenomena in stable homotopy theory, where equivalences of spectra can be checked on homotopy groups.\nLet’s consider our favorite example $R_*\\colon Sp\\longrightarrow Comod_{R_*R}$. Is this conservative? No. Notice that the functor $R_*$ is a composition of two functors:\n$$ Sp\\overset{R\\otimes(-)}\\longrightarrow Mod_R\\overset{\\pi_*}\\longrightarrow Comod_{R_*R} $$\nWe just explained that the latter functor $\\pi_*$ is conservative, but the former, $R\\otimes(-)$ is not. Thinking back to Bousfield localizations, we defined $R_*$-equivalences to be those maps $f\\colon X\\longrightarrow Y$ such that $R_*f$ was an equivalence. Since $\\pi_*$ is conservative, also $R\\otimes f$ is an equivalence. But, we have also seen that Bousfield localization is not just the identity functor, so the class of $R$-equivalences cannot just be the $\\pi_*$-equivalences, otherwise there would be no non-trivial Bousfield localization.\nA fix for this is then to precisely use just the $R$-equivalences, i.e. passing from $Sp$ to $Sp_R$. The induced functor $R_*\\colon Sp_R\\longrightarrow Comod_{R_*R}$ is then a conservative adapted homology theory! When we talk about $R$-homology for the rest of this post, this is the functor we mean.\nSplitting The splitting condition is a technical condition that makes sure the functor $H$, restricted to injective objects, has a partial inverse. The only thing the theorem needs to work is this partial inverse, but as there is currently no other known way of constructing it, using the splitting condition is usually the preferred way of stating the theorem.\nDefinition 9. Let $\\mathcal{A}$ be an abelian category with a local grading $[1]$. A splitting of order $q$, is a collection of $q$ Serre subcategories $\\mathcal{A}_\\phi \\subseteq \\mathcal{A}$, where $\\phi \\in \\Z/q$, such that\n $\\coprod_{\\phi\\in \\Z/q} \\mathcal{A}_\\phi \\simeq \\mathcal{A}$, i.e. the subcategories form a decomposition of $\\mathcal{A}$, and $[k]\\mathcal{A}_ \\phi\\subseteq \\mathcal{A}_{\\phi+k \\text{ mod } q}$.  The objects in $\\mathcal{A}_\\phi$ are said to be of pure weight $\\phi$.\nA condition of this type was first described by Franke, but it looked a bit different. Let us see this ‘original’ splitting.\nLet $p$ be an odd prime and $Ab_{(p)}$ the category of $p$-local abelian groups. This is the category of modules over the $p$-local integers, which are obtained from $\\Z$ by inverting every prime except $p$. For any $M\\in Mod_{\\Z_{(p)}}$, there is a rational eigenspace decomposition\n$$ M\\otimes \\mathbb{Q} \\cong \\bigoplus_{j\\in \\Z}W_{j(p-1)}. $$\nWe have a set of operations $\\psi^k$ for $k\\in \\Z_{(p)}^\\times$, called Adams operations, that act on $M$ via this decomposition in the following manner: For any $w\\in W_{j(p-1)}$ we have\n$$ (\\psi^k\\otimes Id_\\mathbb{Q})(w) = k^{j(p-1)}w. $$\nWe let $Ad_{(p)}$ be the category of $p$-local abelian groups together with these Adams operations. There is an auto-equivalence $T\\colon Ad_{(p)}\\longrightarrow Ad_{(p)}$ that sends a module $M$ to itself, but the Adams operation $\\psi^k$ now acts on $TM$ as $k^{p-1}\\psi^k$.\nNow we define a category $\\mathcal{A}$, consisting of collections of objects $(M_n)$ where $M_n\\in Ad_{(p)}$ together with a specified isomorphism $T(M_n)\\overset{\\cong}{\\longrightarrow} (M_{n+2p-2})$ for each $n$. This category is isomorphic to the sum of $2p-2$ shifted copies of $Ad_{(p)}$, which we can recognize as a full subcategory of objects $(M_n)$ such that $M_n \\cong 0$ whenever $n \\neq 0\\mod 2p-2$.\nThis precicely means that we can recognize the copies of $Ad_{(p)}$ as the pure weight $\\phi$ components of a splitting of $\\mathcal{A}$. In fact, there is an equivalence of categories $\\mathcal{A}\\simeq Comod_{E(1)_*E(1)}$, where $E(1)$ is the height $1$ Johnson-Wilson spectrum! This shows that the category $Comod_{E(1)_*E(1)}$ has a splitting of order $2p-2$.\nA natural question is then, can we generalize this construction to other ring spectra? In other words, is there a sufficient condition we can place upon a ring spectrum $R$ such that the category $Comod_{R_*R}$ has a splitting of order $q$?\nThe answer turns out to be yes, and it should not be that hard to convince ourselves of this. The ring spectrum $E(1)$ from the example above has homotopy groups $\\pi_*E(1) \\cong \\Z_{(p)}[v_1^{\\pm}]$ with $|v_1|=2p-2$. In other words, it is a graded ring concentrated in degrees divisible by $2p-2$. This condition allowed us to take the module category over the copy of $\\Z_{(p)}$ that exists in the degree $2j(p-1)$ and construct a splitting based on these. They are precisely sewn together as a coherent whole by the shift operation $T$. The added Adams operations, which the shift $T$ acted on essentially by degree shifting, is what gives the modules the extra structure of comodules.\nWe can then hope that whenever we have a nice ring spectrum $R$, such that $\\pi_*R$ is concentrated in degrees divisible by $q$, that we get a similar splitting of order $q$ on $Comod_{R_*R}$. This is precisely the case.\nLemma 10. Let $R$ be a nice ring spectrum such that $\\pi_*R$ is concentrated in degrees divisible by $q$ as a graded ring. Let further $\\phi \\in \\Z/q$ and denote by $Comod_{R_*R}^\\phi$ the full subcategory spanned by the graded comodules $M_*$ such that $M_n = 0$ unless $n\\equiv 0\\mod q$. The collection of subcategories defined by this constitutes a splitting of order $q$ of $Comod_{R_*R}$.\nNote that this also works for the category of modules over $R$, not just comodules.\nThis means in particular that if $R$ is a nice ring spectrum such that $\\pi_*R$ is concentrated in degrees divisible by $q$, then the functor\n$$ R_*\\colon Sp_R\\longrightarrow Comod_{R_*R} $$\nis a conservative adapted homology theory, where $Comod_{R_*R}$ has a splitting of order $q$. This looks very promising for our favorite example.\nCohomological dimension There are several types of “dimensions” throughout mathematics. In algebra there is usually no very geometric definition one could make, corresponding with some sort of visual intuition. For vector spaces, this is ok, as it corresponds roughly with intuition, but what should the dimension of $\\Z[x]$ be? What about $\\mathbb{F}_p$, or some abelian group $G$? There are several ways of answering these questions, all depending on what type of structure one is interested in studying. For us, the dimension will be a certain “resolution dimension”, or the longest chain of certain objects one can create starting from another. For categories of modules over a ring this is relatively straightforward.\nLet $R$ be a commutative ring and $M$ an $R$-module. The projective dimension of $M$, denoted $p.dim(M)$, is defined as the minimal length of a finite projective resolution of $M$. If no such number exists, then we say $p.dim(M)=\\infty$.\nDefinition 11. Let $R$ be a commutative ring. The global dimension of $R$ is defined as\n$$ gl.dim(R) = \\sup\\{p.dim(M)\\mid M\\in Mod_R\\}. $$\nThe global dimension measures in a way the complexity of the representation theory of $R$. Having a finite global dimension is then a way of saying that the complexity is “manageable”.\nThere is another way of approximating the projective dimension of an $R$-module, which is done using $Ext$-groups. Recall that these are the derived functors of the $Hom$-functor.\nLemma 12. Let $R$ be a commutative ring and $M$ an $R$-module. Then $Ext^n_R(M,N)=0$ for all $R$-modules, if and only if $p.dim(M)This gives rise to another definition of a dimension for the whole category of $R$-modules, which lends itself to a better generalization.\nDefinition 13. Let $R$ be a commutative ring. The cohomological dimension of $R$, denoted $c.dim(R)$, is defined to be the minimal integer $d$ such that $Ext_R^n(-,-)=0$ for all $nd$.\nThese two notions of dimensions do in fact coincide.\nLemma 14. Let $R$ be a commutative ring. Then $c.dim(R)=gl.dim(R)$.\nThe construction of $Ext$-groups uses injective resolutions, which for us works much better than projective ones. This is because being an adapted homology theory assumed from the start that we had enough injectives, which means in particular that we can construct injective resolutions and thus also $Ext$-groups. Hence, for any abelian category $\\mathcal{A}$ admitting an adapted homology theory $H\\colon \\mathcal{C}\\longrightarrow \\mathcal{A}$, we can talk about the cohomological dimension of $\\mathcal{A}$. This might be either finite or $\\infty$. We repeat the definition of cohomological dimension again in the general case, just to be precice. Note that for adapted homology theories we have an internal grading $[1]\\colon \\mathcal{A}\\to \\mathcal{A}$, hence our $Ext$-groups are in fact bigraded.\nDefinition 15. Let $\\mathcal{A}$ be a locally graded abelian category with enough injectives. The cohomological dimension of $\\mathcal{A}$, denoted $c.dim(\\mathcal{A})$, is defined to be the minimal integer $d$ such that $Ext_\\mathcal{A}^{s,t}(-,-)=0$ for all $sd$.\nSo, what are some examples of this? Let us return to the first example we saw, namely $\\pi_*KU = \\Z[u^\\pm]$, where $u$ is the degree $2$ Bott-class. The global dimension of $\\Z$ is $1$, and adding a generator increases the dimension by $1$. By again inverting that class the dimension is again reduced by $1$, hence $c.dim(\\Z[u^\\pm])=1$. In summary for the category of modules we have the following.\nLemma 16. The cohomological dimension of the category $Mod_{\\pi_*KU}$ is $1$.\nWe also say the Johnson—Wilson spectrum $E(n)$, especially at height $1$. The ring $\\Z_{(p)}$ is a regular Noetherian local ring, with global dimension $1$. By adding $n$ generators, and then inverting one of them to get $\\pi_*E(n)=\\Z_{(p)}[v_1, \\ldots, v_{n-1}, v_n^\\pm]$ we get the following.\nLemma 17. The cohomological dimension of the category $Mod_{\\pi_*E(n)}$ is $n$.\nFranke algebraicity for certain spectra We can summarize the above discussion for our favorite example by the following version of Franke’s algebraicity theorem for localized categories of spectra and for module categories over ring spectra. We start with the latter.\nTheorem 19 [Patchkoria-Pstragowski]. Let $R$ be a ring spectrum such that\n $\\pi_*R$ is concentrated in degrees divisible by $q$, and $Mod_{\\pi_*R}$ has finite cohomological dimension $d  Then the conservative adapted homology theory $\\pi_*\\colon Mod_R\\longrightarrow Mod_{\\pi_*R}$ induces an equivalence $h_{q-d}Mod_R\\simeq h_{q-d}D(\\pi_*R)$.\nNotice that we have used a slightly different statement than the direct implication from Franke’s algebraicity theorem. Instead of phrasing the result via $D^{per}(Mod_{R_*})$ on can instead note that whenever Franke’s algebraicity theorem applies for $R$ is also applies for $HR_*$. Hence we can splice together three equivalences, and get $$h_{q-d}D^{per}(\\pi_*R)\\simeq h_{q-d}Mod_{H\\pi_*R}\\simeq h_{q-d}D(\\pi_*R).$$\nLet us see some examples of this theorem. We can now prove our first claim: the algebraicity for $KU$-modules.\nCorollary 20. Let $KU$ be the complex topological $K$-theory spectrum. Then $hMod_{KU}\\simeq hD(\\Z[u^\\pm])$.\nProof. By Lemma 10 the category $Mod_{\\pi_*KU}$ has a splitting of order $2$, as it is an even $2$-periodic ring spectrum. By Lemma 16 the cohomological dimension of $Mod_{\\pi_*KU}$ is $1$. Since $1Corollary 21. Let $E(n)$ be the height $n$ Johnson—Wilson spectrum at a prime $p$. If $2p-2n$ then there is an equivalence $h_{2p-2-n}Mod_{E(n)}\\simeq h_{2p-2-n}D(\\pi_*E(n))$.\nProof. By Lemma 17 the cohomological dimension is $n$, and by Lemma 10 there is a splitting of order $2p-2$. By Theorem 19 we obtain the wanted equivalence.\nThis again exemplifies the overarching claim that chromatic homotopy theory is algebraic at large primes. But, so far we have only seen that this claim holds for modules, not for the bigger more complicated category $Sp_n$ of all $E(n)$-local spectra. We now turn to this example. To do that we present a version of Theorem 19 in the more specific case of $R$-homology functors.\nTheorem 22 [Patchkoria-Pstragowski]. Let $R$ be a nice flat ring spectrum such that\n $Comod_{R_*R}$ has finite cohomological dimension $d$, and $\\pi_*R$ is concentrated in degrees divisible by $qd$.  Then the conservative adapted homology theory $R_*\\colon Sp_R\\longrightarrow Comod_{R_*R}$ induces an equivalence $h_{q-d}Sp_R\\simeq h_{q-d}Fr_R$.\nThere are, unfortunately, not that many ring spectra $R$ where we know precisely the cohomological dimension $d$ of $Comod_{R_*R}$. These categories are rather complicated, and in the examples we know, many have infinite cohomological dimension, hence the results don’t apply. This is the case for example for $R=MU$ or $R=\\mathbb{F}_p$.\nBut, one ring spectrum that we have fairly good control over is $E(n)$. And it turns out that this has a nice finite cohomological dimension that is purely dependent on the height $n$!\nLemma 23 [Pstragowski]. Let $E=E(n)$ be height $n$ Johnson-Wilson theory at a prime $p$ such that $p+1n$. Then the category $Comod_{E_*E}$ has finite cohomological dimension $n^2+n$.\nNotice that the dimension for the category of modules was simply $n$, which means that the category of comodules is substantially more cohomologically complex than the module category. But, it is still just a finite number, hence quite manageable!\nWe learned earlier that $E(1)$ was a nice ring spectrum concentrated in degrees divisible by $2p-2$. So, choosing a large prime makes sure that the degree of the splitting is larger than the cohomological dimension. In this case $n=1$, which gives cohomological dimension $2$. Choosing $p2$, in other words any odd prime, then means that $qd$. In particular, all the criteria for applying Franke’s algebraicity theorem are satisfied! This was originally proved without this general machinery by Bousfield, so this approach unifies his result with a more general phenomenon.\nTheorem 24 [Bousfield]. Let $p$ be an odd prime. Then there is an equivalence of categories\n$$ hSp_{1,p} \\simeq hFr_{1,p} $$\nHere $Fr_{n,p}$ denotes the “Franke category” which is the periodic derived category, $D^{per}(Comod_{E(n)_*E(n)})$.\nThe ring spectrum $E(n)$ is concentrated in degrees divisible by $2p-2$ not only in the case $n=1$, but for all $n$. Hence we can make a similar more general algebraicity statement by again choosing big enough primes.\nTheorem 25 [Patchkoria-Pstragowski]. Let $p$ be a prime and $n$ a natural number. If $2p-2n^2+n$, then there is an equivalence of categories\n$$ h_{2p-2-n^2-n}Sp_{n,p}\\simeq h_{2p-2-n^2-n}Fr_{n,p}. $$\nThis is one of the reasons that chromatic homotopy theory simplifies drastically at large primes compared to the height. Our overarching claim, that chromatic homotopy theory (the study of $Sp_{n,p}$) is asymptotically algebraic, or algebraic at large primes, is now sufficiently justified!\nOutro This story is a nice contained version of the claim that chromatic homotopy theory is algebraic at large primes, but there is also another category that shows up all over the place in chromatic homotopy theory, namely the category of $K(n)$-local spectra $Sp_{K(n)}$. To properly justify the claim that things et more algebraic at large primes, one should also have a similar proof for this category. Unfortunately, there are some issues by doing this directly. My research over the last couple years has focused exactly on proving this fact, that $K(n)$-local stable homotopy theory is algebraic at large primes. The paper, called “Algebraicity in monochromatic homotopy theory” was put on the ArXiv yesterday, and I will try to make a blog-post about it soon. For now the interested reader can find it on ArXiv.\n  Nice here means Adams type. A technical condition that forces some nice properties on the functor, like the associated Hopf algebroid being a Grothendieck abelian category. ↩︎\n   ",
+  "wordCount" : "4164",
+  "inLanguage": "en",
+  "image":"https://torgeiraamboe.github.io/images/chromatic_algebraic.png","datePublished": "2024-03-14T00:00:00Z",
+  "dateModified": "2024-03-14T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Torgeir Aambø"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Writing what I'm learning",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://torgeiraamboe.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://torgeiraamboe.github.io/" accesskey="h" title="Writing what I&#39;m learning (Alt + H)">Writing what I&#39;m learning</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://folk.ntnu.no/torgeaam/" title="My homepage">
+                    <span>My homepage</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/series/" title="Series">
+                    <span>Series</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://torgeiraamboe.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://torgeiraamboe.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://torgeiraamboe.github.io/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Exotic algebraic models
+    </h1>
+    <div class="post-meta">March 14, 2024&nbsp;·&nbsp;20 min&nbsp;·&nbsp;Torgeir Aambø
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <div class="details">Table of Contents</div>
+        </summary>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#motivation" aria-label="Motivation">Motivation</a></li>
+                <li>
+                    <a href="#examples-and-non-examples" aria-label="Examples and non-examples">Examples and non-examples</a></li>
+                <li>
+                    <a href="#frankes-algebraicity-theorem" aria-label="Franke’s algebraicity theorem">Franke’s algebraicity theorem</a><ul>
+                        
+                <li>
+                    <a href="#conservativity" aria-label="Conservativity">Conservativity</a></li>
+                <li>
+                    <a href="#splitting" aria-label="Splitting">Splitting</a></li>
+                <li>
+                    <a href="#cohomological-dimension" aria-label="Cohomological dimension">Cohomological dimension</a></li></ul>
+                </li>
+                <li>
+                    <a href="#franke-algebraicity-for-certain-spectra" aria-label="Franke algebraicity for certain spectra">Franke algebraicity for certain spectra</a></li>
+                <li>
+                    <a href="#outro" aria-label="Outro">Outro</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think. This post has been a long time coming and features the precise area of mathematics where I do most of my research, namely exotic algebraic models. I will throughout this post, and its sequels, explain what these are and connect it to almost all the previous blog posts I have made for the last couple of years. This will also set up some of the needed background for presenting my own research, which I will do once I am done writing the paper presenting it.</p>
+<p>Let’s start with some overarching motivation for the problem at hand, and then dive into theory and constructions afterwards. The overarching claim we want to justify in this blog-post is the following.</p>
+<blockquote>
+<p>“Chromatic homotopy theory is algebraic at large primes”.</p>
+</blockquote>
+<p>This blog-post is dedicated to this day, $\pi_*$-day, where $\pi_*$ obviously referrs to stable homotopy groups.</p>
+<h2 id="motivation">Motivation<a hidden class="anchor" aria-hidden="true" href="#motivation">#</a></h2>
+<p>I have stated several times on this blog that my main mathematical interest, and thus also my research, is about finding and understanding connections between topology and algebra (I am also including geometry here). To paraphrase last year’s Abel prize winner, Dennis Sullivan, ‘mathematics consists of two seemingly distinct areas, the area of numbers and the area of shapes’. I, and also he, find the intersection of these areas to be where the most interesting mathematics happens. The kind of mathematics that hits me the hardest is the study of structure, symmetry, and connections. Mathematical structure is in my opinion best described using categories, or in the modern world, $\infty$-categories.</p>
+<p>So, given this information, we should perhaps expect to see that this blog post is about some connection or structural similarities between structure in topology and structure in algebra. The topological part will be some category of spectra and the algebraic part will be some derived category. A simple example we can use to get some feeling for what type of results we are after is the following.</p>
+<p>Let $R$ be a ring. This is in particular an algebraic object, and it has an associated derived category, $D(R)$, which naturally is a <a href="https://torgeiraamboe.github.io/posts/2022/stable-infinity-categories/">stable $\infty$-category</a>. We have a construction that maps algebraic objects into topological ones, called the Eilenberg-MacLane construction. This takes a group $G$ and produces a spectrum $HG$. For a ring $R$ this produces a ring spectrum $HR$, which is a sort of homotopical version of $R$. This construction turns out to not lose, or gain, any particularly important information, which gives us a symmetric monoidal equivalence of stable $\infty$-categories</p>
+<p>$$
+Mod_{HR}\simeq D(R).
+$$</p>
+<p>For example, if $R=\mathbb{Q}$, then $Mod_{H\mathbb{Q}} \simeq Sp_\mathbb{Q}$, the category of rational spectra. Hence, there is an equivalence of stable $\infty$-categories $Sp_\mathbb{Q}\simeq D(\mathbb{Q})$. This means essentially that the category of rational spectra is fully describable using only algebraic information.</p>
+<p>Our goal is then to see ‘how far’ we can generalize such an equivalence. The relevant questions are: does there exist other ring spectra $S$ such that $Mod_S \simeq D(R)$ for some ring $R$? If not, what about some abelian category $\mathcal{A}$ such that $Mod_S\simeq D(\mathcal{A})$? More generally, given some subcategory $\mathcal{C}\subseteq Sp$, does there exist an equivalence $\mathcal{C}\simeq D(\mathcal{A})$? If yes, then $\mathcal{A}$ is called an algebraic model for $\mathcal{C}$. The above example then states that $Mod_R$ is an algebraic model for $Mod_{HR}$.</p>
+<p>As it turns out, having an algebraic model is extremely rare. In fact, the above example is the only one — no other subcategory of spectra is equivalent to a derived category. Categories of spectra, that are not made to explicitly model algebra, are simply too complicated and have too much homotopical structure.</p>
+<p><strong>Definition 1.</strong> Let $\mathcal{C}$ be an $\infty$-category. The homotopy category of $\mathcal{C}$, is the $1$-category $h\mathcal{C}$ obtained by $1$-truncating all the mapping spaces, i.e. letting</p>
+<p>$$
+Hom_{h\mathcal{C}}(X,Y):= \pi_ 0Hom_ \mathcal{C}(X,Y).
+$$</p>
+<p>It is well known that if the $\infty$-category $\mathcal{C}$ is stable, then the homotopy category is triangulated. If the category $\mathcal{C}$ is a symmetric monoidal stable $\infty$-category, then the homotopy category is a <a href="https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/">tensor-triangulated category</a>.</p>
+<p>For a stable $\infty$-category $\mathcal{C}$ we can then instead ask whether there is an equivalence of $1$-categories $h\mathcal{C} \simeq hD(\mathcal{A})$. This is a much weaker statement than asking for an equivalence of $\infty$-categories. If a category $\mathcal{C}$ has such an equivalence, that is not just the restriction of an equivalence of $\infty$-categories to the homotopy category, then we say $\mathcal{C}$ is exotically algebraic, with exotic algebraic model $\mathcal{A}$.</p>
+<h2 id="examples-and-non-examples">Examples and non-examples<a hidden class="anchor" aria-hidden="true" href="#examples-and-non-examples">#</a></h2>
+<p>We can again look at the case of modules over some ring spectrum, but now some spectrum that is not the Eilenberg-MacLane spectrum of a ring. One such fairly simple spectrum is $KU$, the spectrum representing complex topological $K$-theory. Via Bott periodicity it is a $2$-periodic spectrum, with homotopy groups $\Z[u^{\pm}]$, where $|u|$ is the Bott-class in degree $2$.</p>
+<p>There is an equivalence of $1$-categories $hMod_{KU}\simeq hD(\Z[u^\pm])$.</p>
+<p>Since both $Mod_{KU}$ and $D(\Z[u^\pm])$ are stable we know that their homotopy categories are triangulated. A natural question arises: Is the above equivalence an equivalence of triangulated categories? As of right now, that question is still an open problem, but, there is a nice way to tell if such equivalences are triangulated.</p>
+<p><strong>Definition 2.</strong> Let $\mathcal{C}$ be a stable $\infty$-category. The homotopy $2$-category, denoted $h_2\mathcal{C}$, is defined as the $2$-category with the same objects as $\mathcal{C}$, $1$-morphisms given by $\pi_0 Map(-,-)$ and $2$-morphisms given by $\pi_1Map(-,-)$.</p>
+<p>Another way to say this is that it is the $2$-category obtained by $3$-truncating the mapping spaces in $\mathcal{C}$.</p>
+<p><strong>Proposition 3.</strong> Let $\mathcal{C}$ and $\mathcal{D}$ be stable $\infty$-categories admitting an equivalence $h_2\mathcal{C}\simeq h_2\mathcal{D}$. Then the induced equivalence $h\mathcal{C}\simeq h\mathcal{D}$ is triangulated.</p>
+<p>The reason we don’t know whether the equivalence $hMod_{KU}\simeq hD(\Z[u^\pm])$ is triangulated, is precisely because we don’t know whether there is an equivalence $h_2 Mod_{KU}\simeq h_2 D(\Z[u^\pm])$.</p>
+<p>So what is an example of an equivalence that is triangulated? One example comes from an old friend of the blog, the <a href="https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/">Johnson-Wilson spectrum</a>. Recall that this is a ring spectrum $E(n)$ with coefficients $\pi_* E(n) = \Z_{(p)}[v_1, v_2, \ldots, v_{n-1}, v_{n}^{\pm}]$ that is complex oriented with associated <a href="https://torgeiraamboe.github.io/posts/2021/formal-group-laws/">formal group law</a> of height $n$. It is also implicitly dependent on a prime $p$. As for $KU$, the exotic algebraic equivalence comes from comparing $E(n)$ and $\pi_* E(n)$. Letting for example $p=3$ and $n=1$ we have an equivalence</p>
+<p>$$
+h_2 Mod_{E(1)}\simeq h_2 D(\pi_*E(1)),
+$$</p>
+<p>meaning there is a triangulated equivalence $hMod_{E(1)}\simeq hD(\pi_* E(1))$.</p>
+<p>In fact, for choices of a bigger prime $p$ this equivalence gets “stronger”, in the sense that we actually loose less homotopical information. Instead of using the homotopy $2$-category we can use the more general homotopy $k$-category.</p>
+<p><strong>Definition 4.</strong> Let $\mathcal{C}$ be a stable $\infty$-category. The homotopy $k$-category $h_k\mathcal{C}$ is obtained by $k+1$ truncating the mapping spaces of $\mathcal{C}$.</p>
+<p>In words this means that we “cut off” all homotopical information above dimension $k$.</p>
+<p><strong>Lemma 5.</strong> Let $p$ be a prime, $n$ a natural number, and $E=E(n)$ the associated Johnson—Wilson theory. If $2p-2&gt;n$ then there is an equiovalence of $2p-2-n$-categories</p>
+<p>$$
+h_{2p-2-n}Mod_{E(n)}\simeq h_{2p-2-n}D(\pi_*E(n)).
+$$</p>
+<p>Choosing a prime $p$ that is large compared to the chromatic height $n$ then makes this equivalence “better”. For a fixed height $n$ we can then choose a sufficiently large prime $p$ such that there is an equivalence as above. This fits in line with the claim that chromatic homotopy is algebraic at large primes.</p>
+<h2 id="frankes-algebraicity-theorem">Franke’s algebraicity theorem<a hidden class="anchor" aria-hidden="true" href="#frankes-algebraicity-theorem">#</a></h2>
+<p>In an earlier blogpost from last year we covered <a href="https://torgeiraamboe.github.io/posts/2023/adapted-homology/">adapted homology theories</a>. These were essentially the homology theories one could obtain by sheafifying the <a href="https://torgeiraamboe.github.io/posts/2023/universal-homology/">universal homology theory</a> $y\colon \mathcal{C}\longrightarrow A(\mathcal{C})$, i.e. the Yoneda embedding into the Freyd envelope. More specifically, they are functors $H$ from a stable $\infty$-category to a locally graded abelian category with enough injectives, admitting certain lifts.</p>
+<p>In the previous post on <a href="https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/">Hopf algebroids</a> we fixed the category $\mathcal{C}=Sp$ and constructed a class of adaped homology theories as follows:</p>
+<p><strong>Proposition 6.</strong> Let $R$ be a <em>nice</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> flat ring spectrum and $R_*=\pi_*(R\otimes -)$ its associated homology theory. Then</p>
+<p>$$
+R_*\colon Sp\longrightarrow Comod_{R_*R}
+$$</p>
+<p>is an adapted homology theory.</p>
+<p>We will look closer at these examples later in the post, but let us first cover the general machinery that we will use: Franke’s algebraicity theorem.</p>
+<p>Essentially, the theorem states that a category $\mathcal{C}$, admitting a certain very nice adapted homology theory, is automatically exotically algebraic. The statement was conjectured and attempted proved in a specific setting in spectra by Jens Franke, but several years later a subtle mistake was found in the proof by Irakli Patchkoria. However, the general form of the theorem, which we now present, was proven by Patchkoria in joint work with Piotr Pstragowski.</p>
+<p><strong>Theorem 7.</strong> Let $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ be an adapted homology theory such that</p>
+<ol>
+<li>$H$ is conservative,</li>
+<li>$\mathcal{A}$ has a splitting of order $q$</li>
+<li>$\mathcal{A}$ has cohomological dimension $d&lt;q$.</li>
+</ol>
+<p>Then there is an equivalence of $(q-d)$-categories $h_{q-d}\mathcal{C}\simeq h_{q-d}D^{per}(\mathcal{A})$, where the latter denotes the periodic derived category of $\mathcal{A}$ (which we encountered in an <a href="https://torgeiraamboe.github.io/posts/2022/periodic-torsion/">earlier blog post</a>).</p>
+<p>This is a very nice and general theorem. It allows us to take a proposed example, check a small well-defined list of criteria, and conclude with nice algebraicity statements. One of my own research results, which will be presented hopefully on this blog soon, is precisely proving that a certain homology theory satisfied the above criteria.</p>
+<p>Now, if I recall correctly, we have not seen any of the three above criteria on this blog before, so let’s go through them one by one.</p>
+<h3 id="conservativity">Conservativity<a hidden class="anchor" aria-hidden="true" href="#conservativity">#</a></h3>
+<p>The first condition, conservativity, is a condition on $H$ being able to detect isomorphisms in $\mathcal{C}$. In some sense, it is not allowed to ‘create’ any new isomorphisms out of non-isomorphisms. This can be defined precisely as follows.</p>
+<p><strong>Definition 8.</strong> A functor $F\colon \mathcal{C}\longrightarrow \mathcal{D}$ is conservative if it reflects isomorphisms. In other words, given a map $f\colon X\longrightarrow Y$ in $\mathcal{C}$, then $F(f)$ is an isomorphism if and only if $f$ is an isomorphism.</p>
+<p>A nice example is the homotopy groups functor $\pi_*\colon Mod_R\longrightarrow Mod_{R_*}$ for a homotopy commutative ring spectrum $R$. By the examples presented earlier, this is perhaps to be expected. This is also a general phenomena in stable homotopy theory, where equivalences of spectra can be checked on homotopy groups.</p>
+<p>Let’s consider our favorite example $R_*\colon Sp\longrightarrow Comod_{R_*R}$. Is this conservative? No. Notice that the functor $R_*$ is a composition of two functors:</p>
+<p>$$
+Sp\overset{R\otimes(-)}\longrightarrow Mod_R\overset{\pi_*}\longrightarrow Comod_{R_*R}
+$$</p>
+<p>We just explained that the latter functor $\pi_*$ is conservative, but the former, $R\otimes(-)$ is not. Thinking back to <a href="https://torgeiraamboe.github.io/posts/2021/bousfield-localization/">Bousfield localizations</a>, we defined $R_*$-equivalences to be those maps $f\colon X\longrightarrow Y$ such that $R_*f$ was an equivalence. Since $\pi_*$ is conservative, also $R\otimes f$ is an equivalence.  But, we have also seen that Bousfield localization is not just the identity functor, so the class of $R$-equivalences cannot just be the $\pi_*$-equivalences, otherwise there would be no non-trivial Bousfield localization.</p>
+<p>A fix for this is then to precisely use just the $R$-equivalences, i.e. passing from $Sp$ to $Sp_R$. The induced functor $R_*\colon Sp_R\longrightarrow Comod_{R_*R}$ is then a conservative adapted homology theory! When we talk about $R$-homology for the rest of this post, this is the functor we mean.</p>
+<h3 id="splitting">Splitting<a hidden class="anchor" aria-hidden="true" href="#splitting">#</a></h3>
+<p>The splitting condition is a technical condition that makes sure the functor $H$, restricted to injective objects, has a partial inverse. The only thing the theorem needs to work is this partial inverse, but as there is currently no other known way of constructing it, using the splitting condition is usually the preferred way of stating the theorem.</p>
+<p><strong>Definition 9.</strong> Let $\mathcal{A}$ be an abelian category with a local grading $[1]$. A splitting of order $q$, is a collection of $q$ Serre subcategories $\mathcal{A}_\phi \subseteq \mathcal{A}$, where $\phi \in \Z/q$, such that</p>
+<ol>
+<li>$\coprod_{\phi\in \Z/q} \mathcal{A}_\phi \simeq \mathcal{A}$, i.e. the subcategories form a decomposition of $\mathcal{A}$, and</li>
+<li>$[k]\mathcal{A}_ \phi\subseteq \mathcal{A}_{\phi+k \text{ mod } q}$.</li>
+</ol>
+<p>The objects in $\mathcal{A}_\phi$ are said to be of pure weight $\phi$.</p>
+<p>A condition of this type was first described by Franke, but it looked a bit different. Let us see this ‘original’ splitting.</p>
+<p>Let $p$ be an odd prime and $Ab_{(p)}$ the category of $p$-local abelian groups. This is the category of modules over the $p$-local integers, which are obtained from $\Z$ by inverting every prime except $p$. For any $M\in Mod_{\Z_{(p)}}$, there is a rational eigenspace decomposition</p>
+<p>$$
+M\otimes \mathbb{Q} \cong \bigoplus_{j\in \Z}W_{j(p-1)}.
+$$</p>
+<p>We have a set of operations $\psi^k$ for $k\in \Z_{(p)}^\times$, called Adams operations, that act on $M$ via this decomposition in the following manner: For any $w\in W_{j(p-1)}$ we have</p>
+<p>$$
+(\psi^k\otimes Id_\mathbb{Q})(w) = k^{j(p-1)}w.
+$$</p>
+<p>We let $Ad_{(p)}$ be the category of $p$-local abelian groups together with these Adams operations. There is an auto-equivalence $T\colon Ad_{(p)}\longrightarrow Ad_{(p)}$ that sends a module $M$ to itself, but the Adams operation $\psi^k$ now acts on $TM$ as $k^{p-1}\psi^k$.</p>
+<p>Now we define a category $\mathcal{A}$, consisting of collections of objects $(M_n)$ where $M_n\in Ad_{(p)}$ together with a specified isomorphism $T(M_n)\overset{\cong}{\longrightarrow} (M_{n+2p-2})$ for each $n$. This category is isomorphic to the sum of $2p-2$ shifted copies of $Ad_{(p)}$, which we can recognize as a full subcategory of objects $(M_n)$ such that $M_n \cong 0$ whenever $n \neq 0\mod 2p-2$.</p>
+<p>This precicely means that we can recognize the copies of $Ad_{(p)}$ as the pure weight $\phi$ components of a splitting of $\mathcal{A}$. In fact, there is an equivalence of categories $\mathcal{A}\simeq Comod_{E(1)_*E(1)}$, where $E(1)$ is the height $1$ <a href="https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/">Johnson-Wilson spectrum</a>! This shows that the category $Comod_{E(1)_*E(1)}$ has a splitting of order $2p-2$.</p>
+<p>A natural question is then, can we generalize this construction to other ring spectra? In other words, is there a sufficient condition we can place upon a ring spectrum $R$ such that the category $Comod_{R_*R}$ has a splitting of order $q$?</p>
+<p>The answer turns out to be yes, and it should not be that hard to convince ourselves of this. The ring spectrum $E(1)$ from the example above has homotopy groups $\pi_*E(1) \cong \Z_{(p)}[v_1^{\pm}]$ with $|v_1|=2p-2$. In other words, it is a graded ring concentrated in degrees divisible by $2p-2$. This condition allowed us to take the module category over the copy of $\Z_{(p)}$ that exists in the degree $2j(p-1)$ and construct a splitting based on these. They are precisely sewn together as a coherent whole by the shift operation $T$. The added Adams operations, which the shift $T$ acted on essentially by degree shifting, is what gives the modules the extra structure of comodules.</p>
+<p>We can then hope that whenever we have a nice ring spectrum $R$, such that $\pi_*R$ is concentrated in degrees divisible by $q$, that we get a similar splitting of order $q$ on $Comod_{R_*R}$. This is precisely the case.</p>
+<p><strong>Lemma 10.</strong> Let $R$ be a nice ring spectrum such that $\pi_*R$ is concentrated in degrees divisible by $q$ as a graded ring. Let further $\phi \in \Z/q$ and denote by $Comod_{R_*R}^\phi$ the full subcategory spanned by the graded comodules $M_*$ such that $M_n = 0$ unless $n\equiv 0\mod q$. The collection of subcategories defined by this constitutes a splitting of order $q$ of $Comod_{R_*R}$.</p>
+<p>Note that this also works for the category of modules over $R$, not just comodules.</p>
+<p>This means in particular that if $R$ is a nice ring spectrum such that $\pi_*R$ is concentrated in degrees divisible by $q$, then the functor</p>
+<p>$$
+R_*\colon Sp_R\longrightarrow Comod_{R_*R}
+$$</p>
+<p>is a conservative adapted homology theory, where $Comod_{R_*R}$ has a splitting of order $q$. This looks very promising for our favorite example.</p>
+<h3 id="cohomological-dimension">Cohomological dimension<a hidden class="anchor" aria-hidden="true" href="#cohomological-dimension">#</a></h3>
+<p>There are several types of “dimensions” throughout mathematics. In algebra there is usually no very geometric definition one could make, corresponding with some sort of visual intuition. For vector spaces, this is ok, as it corresponds roughly with intuition, but what should the dimension of $\Z[x]$ be? What about $\mathbb{F}_p$, or some abelian group $G$? There are several ways of answering these questions, all depending on what type of structure one is interested in studying. For us, the dimension will be a certain “resolution dimension”, or the longest chain of certain objects one can create starting from another. For categories of modules over a ring this is relatively straightforward.</p>
+<p>Let $R$ be a commutative ring and $M$ an $R$-module. The projective dimension of $M$, denoted $p.dim(M)$, is defined as the minimal length of a finite projective resolution of $M$. If no such number exists, then we say $p.dim(M)=\infty$.</p>
+<p><strong>Definition 11.</strong> Let $R$ be a commutative ring. The global dimension of $R$ is defined as</p>
+<p>$$
+gl.dim(R) = \sup\{p.dim(M)\mid M\in Mod_R\}.
+$$</p>
+<p>The global dimension measures in a way the complexity of the representation theory of $R$. Having a finite global dimension is then a way of saying that the complexity is “manageable”.</p>
+<p>There is another way of approximating the projective dimension of an $R$-module, which is done using $Ext$-groups. Recall that these are the derived functors of the $Hom$-functor.</p>
+<p><strong>Lemma 12.</strong> Let $R$ be a commutative ring and $M$ an $R$-module. Then $Ext^n_R(M,N)=0$ for all $R$-modules, if and only if $p.dim(M)&lt;n$.</p>
+<p>This gives rise to another definition of a dimension for the whole category of $R$-modules, which lends itself to a better generalization.</p>
+<p><strong>Definition 13.</strong> Let $R$ be a commutative ring. The cohomological dimension of $R$, denoted $c.dim(R)$, is defined to be the minimal integer $d$ such that $Ext_R^n(-,-)=0$ for all $n&gt;d$.</p>
+<p>These two notions of dimensions do in fact coincide.</p>
+<p><strong>Lemma 14.</strong> Let $R$ be a commutative ring. Then $c.dim(R)=gl.dim(R)$.</p>
+<p>The construction of $Ext$-groups uses injective resolutions, which for us works much better than projective ones. This is because being an adapted homology theory assumed from the start that we had enough injectives, which means in particular that we can construct injective resolutions and thus also $Ext$-groups. Hence, for any abelian category $\mathcal{A}$ admitting an adapted homology theory $H\colon \mathcal{C}\longrightarrow \mathcal{A}$, we can talk about the cohomological dimension of $\mathcal{A}$. This might be either finite or $\infty$. We repeat the definition of cohomological dimension again in the general case, just to be precice. Note that for adapted homology theories we have an internal grading $[1]\colon \mathcal{A}\to \mathcal{A}$, hence our $Ext$-groups are in fact bigraded.</p>
+<p><strong>Definition 15.</strong> Let $\mathcal{A}$ be a locally graded abelian category with enough injectives. The cohomological dimension of $\mathcal{A}$, denoted $c.dim(\mathcal{A})$, is defined to be the minimal integer $d$ such that $Ext_\mathcal{A}^{s,t}(-,-)=0$ for all $s&gt;d$.</p>
+<p>So, what are some examples of this? Let us return to the first example we saw, namely $\pi_*KU = \Z[u^\pm]$, where $u$ is the degree $2$ Bott-class. The global dimension of $\Z$ is $1$, and adding a generator increases the dimension by $1$. By again inverting that class the dimension is again reduced by $1$, hence $c.dim(\Z[u^\pm])=1$. In summary for the category of modules we have the following.</p>
+<p><strong>Lemma 16.</strong> The cohomological dimension of the category $Mod_{\pi_*KU}$ is $1$.</p>
+<p>We also say the Johnson—Wilson spectrum $E(n)$, especially at height $1$. The ring $\Z_{(p)}$ is a regular Noetherian local ring, with global dimension $1$. By adding $n$ generators, and then inverting one of them to get $\pi_*E(n)=\Z_{(p)}[v_1, \ldots, v_{n-1}, v_n^\pm]$ we get the following.</p>
+<p><strong>Lemma 17.</strong> The cohomological dimension of the category $Mod_{\pi_*E(n)}$ is $n$.</p>
+<h2 id="franke-algebraicity-for-certain-spectra">Franke algebraicity for certain spectra<a hidden class="anchor" aria-hidden="true" href="#franke-algebraicity-for-certain-spectra">#</a></h2>
+<p>We can summarize the above discussion for our favorite example by the following version of Franke’s algebraicity theorem for localized categories of spectra and for module categories over ring spectra. We start with the latter.</p>
+<p><strong>Theorem 19 [Patchkoria-Pstragowski].</strong> Let $R$ be a ring spectrum such that</p>
+<ol>
+<li>$\pi_*R$ is concentrated in degrees divisible by $q$, and</li>
+<li>$Mod_{\pi_*R}$ has finite cohomological dimension $d&lt;q$.</li>
+</ol>
+<p>Then the conservative adapted homology theory $\pi_*\colon Mod_R\longrightarrow Mod_{\pi_*R}$ induces an equivalence $h_{q-d}Mod_R\simeq h_{q-d}D(\pi_*R)$.</p>
+<p>Notice that we have used a slightly different statement than the direct implication from Franke’s algebraicity theorem. Instead of phrasing the result via $D^{per}(Mod_{R_*})$ on can instead note that whenever Franke’s algebraicity theorem applies for $R$ is also applies for $HR_*$. Hence we can splice together three equivalences, and get
+$$h_{q-d}D^{per}(\pi_*R)\simeq h_{q-d}Mod_{H\pi_*R}\simeq h_{q-d}D(\pi_*R).$$</p>
+<p>Let us see some examples of this theorem. We can now prove our first claim: the algebraicity for $KU$-modules.</p>
+<p><strong>Corollary 20.</strong> Let $KU$ be the complex topological $K$-theory spectrum. Then $hMod_{KU}\simeq hD(\Z[u^\pm])$.</p>
+<p><em>Proof.</em> By Lemma 10 the category $Mod_{\pi_*KU}$ has a splitting of order $2$, as it is an even $2$-periodic ring spectrum. By Lemma 16 the cohomological dimension of $Mod_{\pi_*KU}$ is $1$. Since $1&lt;2$ we have by Theorem 19 an equivalence $h_1Mod_{KU}\simeq h_1D(\pi_*KU)$. Taking $h_1$ is the same as taking the homotopy category $h$, and $\Z[u^\pm]$ is exactly the coefficients of $KU$.</p>
+<p><strong>Corollary 21.</strong> Let $E(n)$ be the height $n$ Johnson—Wilson spectrum at a prime $p$. If $2p-2&gt;n$ then there is an equivalence $h_{2p-2-n}Mod_{E(n)}\simeq h_{2p-2-n}D(\pi_*E(n))$.</p>
+<p><em>Proof.</em> By Lemma 17 the cohomological dimension is $n$, and by Lemma 10 there is a splitting of order $2p-2$. By Theorem 19 we obtain the wanted equivalence.</p>
+<p>This again exemplifies the overarching claim that chromatic homotopy theory is algebraic at large primes. But, so far we have only seen that this claim holds for modules, not for the bigger more complicated category $Sp_n$ of all $E(n)$-local spectra. We now turn to this example. To do that we present a version of Theorem 19 in the more specific case of $R$-homology functors.</p>
+<p><strong>Theorem 22 [Patchkoria-Pstragowski].</strong> Let $R$ be a nice flat ring spectrum such that</p>
+<ol>
+<li>$Comod_{R_*R}$ has finite cohomological dimension $d$, and</li>
+<li>$\pi_*R$ is concentrated in degrees divisible by $q&gt;d$.</li>
+</ol>
+<p>Then the conservative adapted homology theory $R_*\colon Sp_R\longrightarrow Comod_{R_*R}$ induces an equivalence $h_{q-d}Sp_R\simeq h_{q-d}Fr_R$.</p>
+<p>There are, unfortunately, not that many ring spectra $R$ where we know precisely the cohomological dimension $d$ of $Comod_{R_*R}$. These categories are rather complicated, and in the examples we know, many have infinite cohomological dimension, hence the results don’t apply. This is the case for example for $R=MU$ or $R=\mathbb{F}_p$.</p>
+<p>But, one ring spectrum that we have fairly good control over is $E(n)$. And it turns out that this has a nice finite cohomological dimension that is purely dependent on the height $n$!</p>
+<p><strong>Lemma 23 [Pstragowski].</strong> Let $E=E(n)$ be height $n$ <a href="https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/">Johnson-Wilson theory</a> at a prime $p$ such that $p+1&gt;n$. Then the category $Comod_{E_*E}$ has finite cohomological dimension $n^2+n$.</p>
+<p>Notice that the dimension for the category of modules was simply $n$, which means that the category of comodules is substantially more cohomologically complex than the module category. But, it is still just a finite number, hence quite manageable!</p>
+<p>We learned earlier that $E(1)$  was a nice ring spectrum concentrated in degrees divisible by $2p-2$. So, choosing a large prime makes sure that the degree of the splitting is larger than the cohomological dimension. In this case $n=1$, which gives cohomological dimension $2$. Choosing $p&gt;2$, in other words any odd prime, then means that $q&gt;d$. In particular, all the criteria for applying Franke’s algebraicity theorem are satisfied! This was originally proved without this general machinery by Bousfield, so this approach unifies his result with a more general phenomenon.</p>
+<p><strong>Theorem 24 [Bousfield].</strong> Let $p$ be an odd prime. Then there is an equivalence of categories</p>
+<p>$$
+hSp_{1,p} \simeq hFr_{1,p}
+$$</p>
+<p>Here $Fr_{n,p}$ denotes the “Franke category” which is the periodic derived category, $D^{per}(Comod_{E(n)_*E(n)})$.</p>
+<p>The ring spectrum $E(n)$ is concentrated in degrees divisible by $2p-2$ not only in the case $n=1$, but for all $n$. Hence we can make a similar more general algebraicity statement by again choosing big enough primes.</p>
+<p><strong>Theorem 25 [Patchkoria-Pstragowski].</strong> Let $p$ be a prime and $n$ a natural number. If $2p-2&gt;n^2+n$, then there is an equivalence of categories</p>
+<p>$$
+h_{2p-2-n^2-n}Sp_{n,p}\simeq h_{2p-2-n^2-n}Fr_{n,p}.
+$$</p>
+<p>This is one of the reasons that chromatic homotopy theory simplifies drastically at large primes compared to the height. Our overarching claim, that chromatic homotopy theory (the study of $Sp_{n,p}$) is asymptotically algebraic, or algebraic at large primes, is now sufficiently justified!</p>
+<h2 id="outro">Outro<a hidden class="anchor" aria-hidden="true" href="#outro">#</a></h2>
+<p>This story is a nice contained version of the claim that chromatic homotopy theory is algebraic at large primes, but there is also another category that shows up all over the place in chromatic homotopy theory, namely the category of $K(n)$-local spectra $Sp_{K(n)}$. To properly justify the claim that things et more algebraic at large primes, one should also have a similar proof for this category. Unfortunately, there are some issues by doing this directly. My research over the last couple years has focused exactly on proving this fact, that $K(n)$-local stable homotopy theory is algebraic at large primes. The paper, called “Algebraicity in monochromatic homotopy theory” was put on the ArXiv yesterday, and I will try to make a blog-post about it soon. For now the interested reader can find it <a href="https://arxiv.org/abs/2403.07725">on ArXiv</a>.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Nice here means Adams type. A technical condition that forces some nice properties on the functor, like the associated Hopf algebroid being a Grothendieck abelian category.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://torgeiraamboe.github.io/tags/spectra/">Spectra</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/homology/">Homology</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/triangulated-categories/">Triangulated categories</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/algebraicity/">Algebraicity</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>Hopf algebroids</span>
+  </a>
+</nav>
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Exotic algebraic models on twitter"
+        href="https://twitter.com/intent/tweet/?text=Exotic%20algebraic%20models&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2024%2fexotic-algebraic-models%2f&amp;hashtags=Spectra%2cHomology%2cTriangulatedcategories%2cAlgebraicity">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Exotic algebraic models on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2024%2fexotic-algebraic-models%2f&amp;title=Exotic%20algebraic%20models&amp;summary=Exotic%20algebraic%20models&amp;source=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2024%2fexotic-algebraic-models%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Exotic algebraic models on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2024%2fexotic-algebraic-models%2f&title=Exotic%20algebraic%20models">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Exotic algebraic models on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2024%2fexotic-algebraic-models%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Exotic algebraic models on whatsapp"
+        href="https://api.whatsapp.com/send?text=Exotic%20algebraic%20models%20-%20https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2024%2fexotic-algebraic-models%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Exotic algebraic models on telegram"
+        href="https://telegram.me/share/url?text=Exotic%20algebraic%20models&amp;url=https%3a%2f%2ftorgeiraamboe.github.io%2fposts%2f2024%2fexotic-algebraic-models%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+    <span></span>
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+
+
+
+</html>
+
