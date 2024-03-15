@@ -358,3 +358,7 @@ I think several of the players introduced in this post will make a comback in th
 [^4]: This is theorem 3.7 in the paper [$C_2$-equivariant stable homotopy from real motivic stable homotopy](https://arxiv.org/abs/1908.08378), written by Mark Behrens and Jay Shaw. 
 
 [^5]: I want to thank Greg Stevenson for helping me figure out this part of the proof. 
+
+
+
+<style>body {text-align: justify}</style>

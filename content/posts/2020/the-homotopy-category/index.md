@@ -52,3 +52,7 @@ The algebraically inclined reader familiar with homological algebra will recogni
 In the model structure on chain complexes of modules over a ring, the injective and projective resolutions are the fibrant and cofibrant replacements. We have showed that homotopy classes of maps between bifibrant objects gives an equivalent naive homotopy category to the Quillen homotopy category of the entire category, hence if we take an Abelian category with enough projectives and enough injectives, all objects have nice replacements that we can work with, and if we restrict ourselves to just these projective and injective chain complexes we have an equivalent category to the derived category that is more workable.
 
 Next time we will study functors between model categories, and what it means to preserve the model structure. We will also study what type of functor we need to make sure that both model categories have an equivalent homotopy category. As a teaser, derived functors will be an example of functors between model categories.
+
+
+
+<style>body {text-align: justify}</style>

@@ -461,3 +461,7 @@ There are several different ways we can go from here. We could explore the conec
 
 [^1]: We have omitted one of the relations, just to make the presentations simpler. 
 [^2]: Nice here means "Adams type". In the paper Devinatz mentioned it is referred to as property 1.1. It means that the spectrum $R$ is a colimit of finite spectra $R_\alpha$ such that the $R_*$-homology of $R_\alpha$ is finitely generated and projective. 
+
+
+
+<style>body {text-align: justify}</style>

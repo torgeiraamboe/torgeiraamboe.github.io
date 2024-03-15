@@ -73,3 +73,7 @@ So, we have now defined everything, and united the structures. The journey has b
 **Definition (Cosmos):** A cosmos is a bicomplete closed symmetric monoidal category $\mathcal{C}$.
 
 We havent really explored why this definition satisfies what we claimed at the introduction last time, i.e. that cosmoi are nice places to do enriched category theory, but trying to study it has made me realize it may be out of my reach as of now. I find the subject really interesting, so Ill try to visit back at this theory at a later time. Hopefully then we can explore how enriched categories over a cosmos behaves like normal category theory. Anyway, for now, this is it.
+
+
+
+<style>body {text-align: justify}</style>

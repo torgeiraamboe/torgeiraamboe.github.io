@@ -168,3 +168,6 @@ $$Sp_\mathbb{Q} \simeq K_\infty(\mathbb{Q})$$
 between rational spectra and chain complexes of rational vector spaces. But, we can ask a more nuanced question. Even though there are few of these equivalences of $\infty$-categories, there might be equivalences between them if we remove, or truncate, the higher homotopy information. We might therefore look for equivalences 
 $$h_k \mathcal{C} \simeq h_k D(\mathcal{A})$$
 for some subcategory $\mathcal{C}\subseteq Sp$ and some abelian category $\mathcal{A}$. Here $h_k$ denotes the homotopy $k$-category, and such equivalences are called exotic algebraic models. This is in fact exactly what my phd-project centres around, finding exotic algebraic models of special categories of spectra in a subfield of stable homotopy theory called chromatic homotopy theory. We will then naturally meet this topic a lot in the future, as I hopefully continue to write about what I am learning.
+
+
+<style>body {text-align: justify}</style>

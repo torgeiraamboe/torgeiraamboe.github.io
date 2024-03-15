@@ -249,3 +249,6 @@ $$
 We have already seen that the redshift conjecture holds for Lubin-Tate spectra, in other words that the algebraic K-theory of $E_n(L)$ has height $n+1$. This means that $K(R)$ has a map of $\mathbb{E}_ \infty$-rings into a height $n+1$ spectrum, and thus has height $n+1$ itself; thus redshift must hold for all $\mathbb{E}_ \infty$-ring spectra! This is a remarkable result that has a lot of moving parts, intricate details — many of them which we have glossed over — and best of all gives a lot of insight into chromatic homotopy theory and the structure of the stable homotopy category. We summarize the above outline of the proof, and thus also this blog-post, by stating the theorem again. 
 
 <span style="color:orange"> **Theorem:** </span> Let $R$ be an $\mathbb{E}_ \infty$-ring spectrum with height $n\geq 0$. Then the spectrum $K(R)$ has heigh $n+1$.
+
+
+<style>body {text-align: justify}</style>

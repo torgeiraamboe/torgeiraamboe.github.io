@@ -56,3 +56,6 @@ and
 $$f_b(aba^{-1}b^{-1})=f_b(a)f_b(b)f_b(a^{-1})f_b(b^{-1})) = id_b\cdot b \cdot id_b \cdot b^{-1} = id_b,$$
 
 and hence, removing any of the nails means that the loop no longer hangs on any of the nails, since for it to hang on one of the nails it has to have been wound around at least one time clockwise or counterclockwise! This is equivalent to saying that the picture falls to the ground, which proves that our guess actually fits the criteria. There are as you may notice very many other ways to do this, but i think the commutator way is the most simple and easiest to visualize. And by that we have successfully made a shitty way to hang a picture on a wall, but, we used homotopy, which makes it cool!
+
+
+<style>body {text-align: justify}</style>

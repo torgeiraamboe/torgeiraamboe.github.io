@@ -44,3 +44,6 @@ $$\mu: T\circ T = G\circ F\circ G\circ F \overset{id_G \circ \epsilon \circ id_F
 This monad kind of measures the failure of the adjoint pair $(F, G)$ to be an equivalence of categories.
 
 The classical definition of a monoid i.e. the one using just sets can also be reformulated in this setting by letting our $2$-category have only one object, letting $1$-morphisms be sets where composition of sets is the cartesian product, and the $2$-morphisms be morphisms of sets. A monad in this category is then just a monoid. This idea is from John Baez, who also talks about connections to Feynman diagrams in physics in his posts. I don’t know enough physics to explore this now, but maybe another time.
+
+
+<style>body {text-align: justify}</style>

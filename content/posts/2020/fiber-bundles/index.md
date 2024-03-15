@@ -35,3 +35,6 @@ Definition (fiber bundle): A map $p:E\rightarrow B$ is called a fiber bundle wit
 Now that we have an ok understanding of fiber bundles we can ask how they relate to fibrations. I said last time that in a fibration, every fiber is homotopy equivalent, and this is the generalization. In a fiber bundle, all fibers are homeomorphic. We can see this because $\pi_1^{-1}(\{b\}) \simeq F$ , and hence $p^{-1}(\{b\}) \simeq F$. If we instead require this to be a homotopy equivalence we get a fibration. Since all homeomorphisms are homotopy equivalences, all fiber bundles are fibrations.
 
 Now we know both the standard technical definition of a fibration, and we know how to visualize them and think about them. What remains is to learn how to use them, and this we will do in the upcoming posts. I will have one post for the long exact sequence of homotopy groups, and one for the spectral sequence associated to a fibration.
+
+
+<style>body {text-align: justify}</style>

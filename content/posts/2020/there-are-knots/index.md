@@ -73,3 +73,7 @@ And all we have to do to prove that it is tricolorable is to find a tricoloring.
 ![Error loading image](images/granny-tricolor.png)
 
 which by inspection satisfies all the rules of a tricoloring of the knot. Hence, we have finally showed that there are knots! So the answer to the question in the title is yes.
+
+
+
+<style>body {text-align: justify}</style>

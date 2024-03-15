@@ -191,3 +191,6 @@ $$
 As we already know that the homotopy groups of spheres are terribly complicated, we should expect this spectral sequence to also be terribly complicated. We can make it a bit simpler by using $BP$, the [Brown-Peterson spectrum]({{<ref "posts/2022/brown-peterson-cohomology">}}), instead of $MU$. This would allow us to compute the homotopy groups of $\mathbb{S}$ “one prime at the time”, which we could later use to compute the full homotopy groups. This spectral sequence is also usually called the Adams-Novikov spectral sequence, as its really exactly the same as the one above based on $MU$, just in the category of [$p$-local spectra]({{<ref "posts/2021/bousfield-localization">}}) instead of all spectra. Because the potential for computing the homotopy groups of spheres is there, we should however also expect it to be very difficult to compute. 
 
 I will leave off this blog post by stating a recurring theme of these last few paragraphs — a theme we have also encountered before. It is a statement sometimes called Mahovald’s uncertainty principle, and very informally says: Any easy to compute spectral sequence converging to the homotopy groups of spheres that can be written down using homological algebra, will be infinitely wrong.
+
+
+<style>body {text-align: justify}</style>

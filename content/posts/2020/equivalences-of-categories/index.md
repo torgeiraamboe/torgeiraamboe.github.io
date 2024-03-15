@@ -50,3 +50,6 @@ Maybe a “new” cool drawing makes things simpler, more intuitive and hopefull
 These diagrams mysteriously look very similar to the ones defining equivalences of categories. The diagrams also visualize a bit better why we call the different pieces $0$, $1$ and $2$-cells, as they operate in the same way n-cells do in topology, especially simplicial sets. If we let our $2$-category be $Cat$ with the trivial $2$-morphisms, we see that an equivalence in that $2$-category is nothing but an isomorphism, since the $2$-isomorphism connecting the composition and the identity is the “equality morphism”. In the canonical $2$-category structure on $Cat$ we see that an equivalence in that $2$-category is an equivalence of categories, since the composition is connected to the identity functors by a $2$-isomorphism, also called a natural isomorphism in the classical setting.
 
 This is the full picture, and we have explained what we set out to do!
+
+
+<style>body {text-align: justify}</style>

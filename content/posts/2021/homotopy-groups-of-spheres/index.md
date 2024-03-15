@@ -85,3 +85,6 @@ Go watch the video (and Niles [explanation of it](https://nilesjohnson.net/hopf.
 ### Part two
 
 In another [blog post]({{<ref "posts/2020/a-homotopy-group-of-a-sphere">}}) we computed the fourth homotopy group of the $3$-sphere, $\pi_4(S^3)\cong \Z/2$. This calculation used a wide array of techniques and side-steps, but is a nice comprehensive calculation. But, this is as far as I know how to compute properly (without handwaving so hard my hands fall off) the homotopy groups of spheres in the so-called unstable range. We can suspend the Hopf map or calculate some stuff from generalized Hopf fibrations, but I don't think I can properly complete a calculation using these methods properly. The plan was to then leave the unstable range and move on to the $J$-homomorphism. This allows us to calculate a couple of the lower stable homotopy group of the spheres. But, I see that this post has become long enough already. We therefore split it into two parts. The next one will therefore feature only stable homotopy groups, so perhaps it is nice and natural to have a split here anyway!
+
+
+<style>body {text-align: justify}</style>

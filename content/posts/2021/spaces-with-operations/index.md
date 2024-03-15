@@ -103,3 +103,6 @@ From [last time]({{<ref "/posts/2021/homotopy-associativity">}}) we maybe rememb
 By iteratively using this homotopy as well as higher dimensional reparametrization cubes on the different ways of using concatenation of loops on bigger and bigger sets of loops, we in fact get actions from all $Kn$. This means that a loop space is an example of an $A_\infty$-space, which we defined last post as a space with an action from the Stasheff operad.
 
 In a way it is also the only example, as a space $X$ is a loop space if and only if it is an $A_\infty$-space and its monoid $\pi_0(X)$ of connected components is a a group. We still haven’t properly defined $A_\infty$-spaces and $A_\infty$ structures, and we will not do so in this post either. Not even in the next post I think. But it is coming, sometime in the future. For now, whenever someone says $A_\infty$-space, think about loop spaces, and these actions from the Stasheff associahedra.
+
+
+<style>body {text-align: justify}</style>

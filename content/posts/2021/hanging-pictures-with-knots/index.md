@@ -91,3 +91,5 @@ We have shown that the Borromean link satisfies being a linked link, such that r
 This problem has many interesting related concepts to it from many different fields of mathematics and other fields outside it. These two blog-posts have been focused on topology and a bit on algebra, but it shows up other places as well. For example in complex analysis, where it is related to the Pochhammer contour. This contour is just the curve we got last time by using the commutator in the fundamental group. I forgot to mention it last time, but the commutator path is homologous to the trivial path, but not homotopic to it, so this problem also serves as an insight into the differences between homology and homotopy.
 
 The Borromean link we used today is also intimately connected with this problem. It is also connected to several other things, like balanced tournaments (rock, paper, scissors), higher linked atoms in physics and more. This [interesting article](https://chamberland.math.grinnell.edu/papers/rps.pdf) sheds some relatively easily digestible light on the connection with rock, paper, scissors.
+
+<style>body {text-align: justify}</style>

@@ -119,3 +119,6 @@ I stated some time ago that I would post about a project that starts next semest
 
 
 [^1]: For this to give us a coordinate ring of a variety, we actually need that the ideal is radical. This is due to the nullstellensatz. 
+
+
+<style>body {text-align: justify}</style>

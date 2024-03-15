@@ -116,3 +116,6 @@ $$\partial m_4 = m_2(1\otimes m_3) - m_3(1\otimes 1\otimes m_2) - m_3(m_2\otimes
 which is exactly the Stasheff identity for $n=4$ in the earlier described boundary interpretation! This means that an $A_\infty$-algebra is really a cochain complex with a multiplication that is associative up to homotopy. This homotopy satisfies the pentagon equality up to homotopy, and so on ad infinitum. This is what gives $A_\infty$-algebras their other name, strongly homotopy associative algebras, shortened sometimes to sha-algebras. They are not widely used throughout mathematics, but they are for example useful in stable homotopy theory, string theory (in particular open string field theory) and the deformation theory of algebras.
 
 These objects feature heavily in my master thesis, which is why I have devoted these last few blog posts to them. In my project I use these to study some properties of dg-algebras. I have about a month and a half until I hand in the thesis, so after that Ill do a blog post explaining the project in more detail, as well as the results featured in it. The next post now I think will be about another project I’m starting next semester.
+
+
+<style>body {text-align: justify}</style>

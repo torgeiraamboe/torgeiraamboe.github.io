@@ -159,3 +159,6 @@ This result falls out as a corollary to the following [paper](https://arxiv.org/
 This makes it so that the induced cup product on their cohomology algebras have trivial product — exactly what we need to use our above theorem. It turns out that these spaces also have only vanishing Massey products, hence their cochain algebras must be formal DG-algebras! 
 
 So, this is my thesis summarized — or at least the abstract somewhat explained. I tried my best to make the thesis approachable and easy to read, so any one interested is welcome to have a look at it. It can be found [here](https://github.com/torgeiraamboe/master_thesis/raw/main/master_thesis.pdf)).
+
+
+<style>body {text-align: justify}</style>

@@ -44,3 +44,6 @@ Since the Warsaw circle it is not shape equivalent to a point, it cannot be homo
 This is all very imprecise and non-rigorous, but if we think about what an element in the fundamental group would be if it was not trivial, it would be a path from the basepoint (the image of the one-point space) to itself, which is not the constant path. For such a path to exist, it has to travel through the topologist sine curve, which we know it cant do, since the topologist sine curve is not path connected. Hence it makes sense intuitively that there should be no such path, and hence that the fundamental group of the Warsaw circle is trivial.
 
 This post became a bit longer than expected, and was maybe a bit less precise than I intended, but I think it was still fun and valuable.
+
+
+<style>body {text-align: justify}</style>

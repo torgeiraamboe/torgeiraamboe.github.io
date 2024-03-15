@@ -73,3 +73,7 @@ In the definition of a pre-sheaf, we could be very general, and allow values in 
 Here we quite clearly see the two extra properties we discussed above in the motivating example. We also see that sheaves exactly capture the information needed to move between local information and global information. We can also see that we can actually define a sheaf to be a pre-sheaf with only one extra axiom, namely unique glueability. Here we only use the last of the two axioms, i.e. glueability, but require the existence of a unique map on $U$ instead of just some map. As with the pre-sheaves, the usual categories we use are sets, Abelian groups, rings and modules. The same naming conventions apply for sheaves, so an $R$-mod-valued sheaf on $X$ will instead be called a sheaf of $R$-modules on $X$.
 
 Next time we will study more examples of sheaves to build our intuition about them. Then we will study an alternative way of viewing sheaves, through étale spaces, or in proper french fashion, espace étale. This will require us to look at germs, stalks and sheafification which will be fun!
+
+
+
+<style>body {text-align: justify}</style>

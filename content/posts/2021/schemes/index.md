@@ -151,3 +151,6 @@ But, even in the world of algebraically closed fields, schemes show up as necess
 Recall that these curves are given by $F=X^2+Y^2-1$ and $G=XY-1$. These both have degree 2, but there are only 2 intersection points. As we really need these to be projective curves, we can possibly also have an intersection point "at infinity". This is still only three possible points, so we need to have at least one intersection with "multiplicity 2". If we were only allowed to use the structure of algebraic varieties here, then all these multiplicities will be 1, but if we allow for the intersection to admit a scheme structure, then we can "count correctly". In this way we get the four intersection points that Bezout's theorem tells us we should have. 
 
 Schemes are of course useful in many other situations, where algebraic varieties turn out not to be general enough, or not the right tool. In one of the next coming days we will see a generalization of the [first post i ever made]({{<ref "/posts/2020/geometric-intuition" >}}), i.e. geometric intuition about Noether normalization, to these more general schemes. Maybe we'll write a bit better what is stated in the first post as well... 
+
+
+<style>body {text-align: justify}</style>

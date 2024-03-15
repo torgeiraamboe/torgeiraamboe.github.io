@@ -193,3 +193,6 @@ is in $\Delta$ for all objects $X$, i.e. the functors $X\otimes-$ and $-\otimes 
 So, there we have it, the combined structure of a tensor category and a triangulated category. This post has gone on long enough, so we wont cover any examples in detail, just mentioning that the stable homotopy category and the naive homotopy category $K(R)$ of a Noetherian ring $R$, are both tt-categories. The most important for us will be the stable homotopy category, which as said earlier we will look more into soon. 
 
 For now this is what I wanted to present, but there will be more posts regarding this theory during the next four years, so follow along if you are interested! I have set a goal to post at least once every month, but there will probably be no regularity in when and what the posts are about. I currently have some vacation time, and thought about making a series defining mathematically what spacetime is. Hopefully this will be a more down to earth and approachable series. I also want to post a summary of my master thesis, which will be my next post I think.
+
+
+<style>body {text-align: justify}</style>

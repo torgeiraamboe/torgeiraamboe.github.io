@@ -67,3 +67,6 @@ Another example is the category of chain complexes of modules over some ring. He
 Those who know homological algebra will know about projective and injective resolutions. These objects are what is called quasi isomorphic replacements, and this can also be defined in the general setting. Any morphism in the category can be factorized, so if we factorize the unique map into the terminal object $X\rightarrow T$, into a weak equivalence and a fibration. This will make a space which is weakly equivalent to $X$ and is a fibrant object. This is called a fibrant replacement of $X$. The same can be done with the unique morphism out of the initial object, which will result in a cofibrant replacement. In the example of the category of chain complexes over a ring a projective resolution is an example of a cofibrant replacement, and an injective resolution is an example of a fibrant replacement.
 
 The notions of fibrant and cofibrant replacements will be important when we introduce homotopy in a model category and the homotopy category of a model category. There are two ways to do this, and we will explore them both. One comes from constructing homotopy classes of maps, and the other by localization at the weak equivalences. But, we will save this for next time.
+
+
+<style>body {text-align: justify}</style>

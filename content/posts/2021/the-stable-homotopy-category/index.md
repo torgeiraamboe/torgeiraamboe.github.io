@@ -136,3 +136,6 @@ On my list for the future is more stable homotopy theory. I want to describe spe
 But I think this is it for now. 
 
 [^1]: When we say topological space here we mean based compactly generated weak Hausdorff space. This is to avoid point-set topological difficulties and pathological examples. Some places might require us to restrict to pointed CW-complexes, but we will still just call these topological spaces to make everything simple.
+
+
+<style>body {text-align: justify}</style>

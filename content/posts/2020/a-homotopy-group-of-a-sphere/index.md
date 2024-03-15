@@ -71,3 +71,6 @@ Thankfully, the last part of the translation from homology to homotopy is easier
 $$\pi_4(S^3) \cong \mathbb{Z}/2 .$$
 
 I really like this computation because it is rather difficult, and has a lot of moving parts, which makes it more fun! I don’t think the next posts will be this long and detailed, because this is maybe a bit much information in one post, even though it is just one computation in essence. Onward we will discuss cofibrations and weak equivalences, and then move into model category territory. I think my goal will be to show that the homotopy category of topological spaces is equivalent to the homotopy category of simplicial sets, which also enables me to finally start reading May’s book “Simplicial objects in algebraic topology”. Anyway, as usual I will leave off with an artwork by Anatoly Fomenko, this time his piece called [“The method of killing spaces in homotopic topology”](http://chronologia.org/en/math_impressions/poster078.html), which is dually relevant.
+
+
+<style>body {text-align: justify}</style>

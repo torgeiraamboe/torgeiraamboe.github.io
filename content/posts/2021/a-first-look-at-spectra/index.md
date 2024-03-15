@@ -99,3 +99,5 @@ Hopefully next time we will look into spectra more generally, and try to constru
 [^1]: This introduction, and most of the theory in his post is inspired heavily by the book "Foundations of stable homotopy theory" by Barnes and Roitzheim. 
 
 [^2]: Note that for simplicity we define topological space to mean CW-complex. This will not affect the theory (I think) as cohomology theories of topological spaces are determined by their restriction to CW-complexes.
+
+<style>body {text-align: justify}</style>

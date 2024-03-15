@@ -70,3 +70,7 @@ and an existing lift means there exists a dotted map
 making the triangle commute up to a higher morphism. In other words, we have some weaker form of composition of composable morphisms in the quasi-category. There may be many different ways to compose the morphisms, to we can’t talk about “the” composition, but all of the different compositions are related by higher morphisms. In this way we can view a quasi-category as a weaker notion of category, where we have morphisms that compose non-uniquely, and have an infinite tower of morphisms between morphisms to relate the compositions and higher relations. If we insist that the lift in the weak Kan condition is unique, we actually have an object we can use as a definition for a category, hence quasi-categories generalize categories, which is what we wanted, and justifies the word “quasi” being put in front.
 
 That was all I wanted to say today, but we will definitely revisit quasi-categories later as the theory built by Lurie and Joyal around these objects are too interesting to not look deeper into!
+
+
+
+<style>body {text-align: justify}</style>

@@ -184,3 +184,6 @@ As $m_3$ is the homotopy of the associator, we call it the *associating homotopy
 ## Closing remarks
 
 This relation will in the next post reveal itself to be one of an infinite tower of relations that define an $A_\infty$-algebra. It will actually be the third relation, and we have already seen the first two. The first one will just give us the cochain complex rule, $d^2=0$, and the second one will give us the graded Leibniz rule. Hence we will see that the dg-algebras we defined today really are some examples of “easy” $A_\infty$-algebras. These information packed algebraic structures will the codify what we mean by “related by higher homotopies” which we sometimes throw around willy-nilly. If you hadn’t already guessed it, this is part of what I am writing about for my master thesis! When I hand it in I hope to have explained all the parts that go into it already on this blog, in that way making a summary post will be easier and will build on established older posts.
+
+
+<style>body {text-align: justify}</style>

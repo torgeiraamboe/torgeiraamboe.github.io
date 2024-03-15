@@ -199,3 +199,6 @@ Let's summarize this into a theorem.
 We will expand on this result in the next blog post, where we try to make some sensible criteria on the locally graded abelian category $\mathcal{A}$ in order to get a really nice homology theory. These are called the adapted homology theories, and are exactly the ones where we get nice [spectral sequences]({{<ref "posts/2022/the-adams-spectral-sequence">}}) allowing us to use the homology theory as an algebraic approximation to things we are interested in. 
 
 [^1]: One could go all the way down to $Set$ instead of $Ab$, but as $\mathcal{C}$ is additive — which we know means $Ab$-enriched — we want to take values in the category we are enriched over.
+
+
+<style>body {text-align: justify}</style>

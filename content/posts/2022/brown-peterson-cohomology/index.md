@@ -129,3 +129,6 @@ This was for now all I wanted to say about Brown-Peterson cohomology and the Bro
 [^2]: We are cheating a bit here. The map is actually only an idempotent up to homotopy, so considering this splitting is a bit wrong. We can fix this by using the so-called telescopes of $e$ and $(1-e)$ instead, but this theory we have chosen to save for later. 
 
 [^3]: In fact, Landweber proved that an even weaker property is sufficient, now called Landweber exactness. The result above is then formalized in the famous Landweber exact functor theorem, often called just LEFT.
+
+
+<style>body {text-align: justify}</style>

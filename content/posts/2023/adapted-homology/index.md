@@ -264,3 +264,7 @@ H_*(–;\mathbb{F}_p)\colon Sp \longrightarrow Comod_{LR}(Vect_{\mathbb{F}_p})
 $$
 
 is an adapted homology theory. Our goal will be to describe this weird comodule category in more explicit terms and then generalize to the setting of any Adams type homology theory on the category of spectra. Hopefully this will allow us to take inspiration and say something of value in the general setting of an abstract adapted homology theory.
+
+
+
+<style>body {text-align: justify}</style>

@@ -197,3 +197,6 @@ Hence $A$ is a commutative Frobenius algebra! This means that any vector space i
 <span style="color:orange"> **Theorem:** </span> The category of 2-dimentional topological quantum field theories, $2TQFT$, is equivalent to the category of commutative Frobenius algebras, i.e.
 
 $$2TQFT \simeq cFA_\mathbb{C}.$$
+
+
+<style>body {text-align: justify}</style>

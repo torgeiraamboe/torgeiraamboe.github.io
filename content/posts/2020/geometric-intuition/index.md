@@ -39,3 +39,6 @@ But, notice here that we in fact can do a linear coordinate change by rotating o
 ![error loading image](images/varietyX2.png)
 
 The coordinate change gives us $x = \frac{x'+y'}{2} $ and $y = \frac{x'-y'}{2} $, thus we get $0 = xy-1 = \frac{(x'-y')(x'+y')}{4} -1 = x'^2 - y'^2 - 4 $. Hence our coordinate ring in the new generators is $\mathbb{R}[x', y']/(x'^2 - y'^2 - 4) $. Now we see that this ring is integral over $\mathbb{R}[x'] $ since we have a monic polynomial $f(t) = t^2 - (\overline{x'}^2+4) $ which is zero at $y'$. Here $\overline{x'} $ is the image of $x' $ in the ring $\mathbb{R}[x', y']/(x'^2 - y'^2 - 4) $. Hence we have confirmed the lemma by an example. We made the integralness of $P(X) $ over $P(L) $ dependent of the projection, which is what we wanted.
+
+
+<style>body {text-align: justify}</style>

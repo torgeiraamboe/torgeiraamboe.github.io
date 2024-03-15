@@ -55,3 +55,7 @@ This is where the litmus test finally comes into play. This description of $\inf
 This also tells us that any definition, or model of $\infty$-groupoids will produce our familiar homotopy theory, which gives us many different views on the already familiar classical theory.
 
 There are already many such models, and they are used for different things. One of the more used ones are Kan complexes, which are simplicial sets where every horn has a filler. There are also globular sets, marked simplicial sets, algebraic Kan complexes, etc. We will maybe see some of these later when we discuss $(\infty, 1)$-categories. But, for now this is what I wanted to say about the homotopy hypothesis.
+
+
+
+<style>body {text-align: justify}</style>

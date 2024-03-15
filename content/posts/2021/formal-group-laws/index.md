@@ -132,3 +132,5 @@ This is a remarkable connection between algebra and number theory to topology an
 [^1]: This definition is actually of a one-dimensional commutative formal group law, and this is why we required the Lie group to be both one-dimensional and commutative. But for the purposes we are going to use them for, these are the only ones we will consider. 
 
 [^2]: We have only talked about spectra representing reduced cohomology theories, but as reduced and unreduced cohomology theories are equivalent, also unreduced theories can be represented by spectra.
+
+<style>body {text-align: justify}</style>

@@ -77,3 +77,6 @@ we have, under the isomorphisms discussed above, the long exact sequence
 $$\leftarrow H^n(X;\mathbb{Z}) \leftarrow H^n(Y;\mathbb{Z}) \leftarrow H^n(Y,X;\mathbb{Z}) \leftarrow H^{n-1}(X;\mathbb{Z}) \leftarrow .$$
 
 This is not the standard, and should not be the standard way to produce this exact sequence, but I still find it cool that it works this way. Cohomology doesn’t feel dual to homotopy, but in a way, this construction shows that they are, at least for some notion of dual. Maybe thinking of them as adjoint constructions is better, I don’t know. This was all I wanted to do for this post. There is another way to characterize cofibrations, namely through neighbourhood deformation retracts. The only reason i mention this is to have a relevant artwork by Fomenko to end the article with, so here is [“A retraction of a space onto a subspace of it“](http://chronologia.org/en/math_impressions/poster128.html).
+
+
+<style>body {text-align: justify}</style>

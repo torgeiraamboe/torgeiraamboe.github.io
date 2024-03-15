@@ -65,3 +65,6 @@ which has a lift $\overline{h}$ by the third axiom of model categories **(MC3)**
 **Definition (homotopy):** We say two maps $f,g:X\rightarrow Y$ are homotopic, denoted $f\sim g$ if they are both left homotopic and right homotopic.
 
 If we then restrict our attention to just the bifibrant objects we have a well defined notion of homotopy that is an equivalence relation for all of the morphisms between the bifibrant objects. This will allow us next time to look at homotopy equivalences of objects, homotopy classes of maps and finally the homotopy category of a model category.
+
+
+<style>body {text-align: justify}</style>

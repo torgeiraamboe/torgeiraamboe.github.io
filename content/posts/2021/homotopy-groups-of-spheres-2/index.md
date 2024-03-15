@@ -211,3 +211,6 @@ $$\Theta_6/bP_7 \cong 0 \longrightarrow \pi_6^S/ImJ_6$$
 has index $2$. The image of the $J$-homomorphism is trivial, because $\pi_6(O(\infty))\cong 0$, hence by the same reasoning as for $\pi_2^S$, we get $\pi_6^S \cong \Z/2.$
 
 This rounds up our looong post about the stable homotopy groups of the spheres. I was not this detailed in describing and defining everything in my talk (which these two twin posts are based on), but I wanted to have some proper definitions and calculations when actually putting this to the public. Calculating these groups is fun, but I think we stop here for now. Maybe some other time we will describe how we have actually just described pieces of the lowest chromatic homotopy layer of the sphere spectrum, maybe we wont...
+
+
+<style>body {text-align: justify}</style>

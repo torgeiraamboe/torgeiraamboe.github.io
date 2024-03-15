@@ -85,3 +85,6 @@ There are more than one way of constructing the pillowcase as a smooth orbifold,
 ## Motivation for further reading
 
 The theory around orbifolds seem to be very rich and interesting. The definitions I mentioned earlier, i.e. étale Lie groupoids and Deligne-Mumford stacks are objects that require some more deep insight then I have currently, but maybe they are cool to look at in the future some time. There is also a whole theory of algebraic topology, homotopy theory and differential geometry developed for orbifolds (both from the classical definition we have discussed here and from the fancy new definitions). To have such a theories one needs special definitions for orbifold coverings, orbifold fundamental groups and more generally orbifold homotopy groups, tangent orbibundles or more general orbibundles, orbifold Euler characteristics and many more. It may be fun to try to go through some of these in the future as well.
+
+
+<style>body {text-align: justify}</style>

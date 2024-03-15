@@ -30,3 +30,6 @@ Ok, that was a mouthful. But we see the idea of being able to pull the homotopy 
 The property described as you maybe have guessed is called “the homotopy lifting property”, and a Hurewicz fibration is exactly a map that satisfies this property for all topological spaces $X$ . A bit more general notion is that of a Serre fibration, which satisfies this property for all CW-complexes instead of all topological spaces, and this is what I will refer to as a fibration. A fact about fibrations that i will not prove today atleast, is that the fibers over any point in the basespace all have the same homotopy type. Hence we usually include this when writing a fibration, i.e. we write $F\rightarrow E \overset{p}\rightarrow B$ , where $F$ denotes the fiber.
 
 This fact that all of the fibers have the same homotopy type is the foundation of the next way to think about fibrations. But this exposition is getting quite long, and we have a lot to present to get to the next formulation, so I will save that formulation, and some examples for tomorrow. The definition given here is the standard and most general one, but for me at least, the one we are discussing tomorrow gives this definition a much clearer picture and more intuition.
+
+
+<style>body {text-align: justify}</style>

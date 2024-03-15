@@ -44,3 +44,7 @@ Another example is the category of algebras over a ring. To recap the definition
 commutes. Hence, the category of $R$-algebras, is the under category $R\downarrow Rings$ in the category of rings.
 
 It said I would keep this short, so I wont say anything more for now. I will mention that the semester has started again, so not much time to write on the blog… But, I have started writing my master thesis, so maybe Ill do some writing here about what I write about there, or some progress updates etc. Time will tell.
+
+
+
+<style>body {text-align: justify}</style>

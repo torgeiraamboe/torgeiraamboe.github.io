@@ -36,3 +36,6 @@ Now, what is this ring? It is the ring $k[x_1, \cdots, x_n]/I(k^0)$ , where $I(k
 Tomorrow is the oral exam, and hopefully i get a chance to ramble on about geometric interpretations of these algebraic lemmas. Later, some day, I want to make a post about the duality between algebra and geometry in commutative algebra by interpreting the strong nullstellensatz in both an algebraic and a geometric way.
 
 
+
+
+<style>body {text-align: justify}</style>

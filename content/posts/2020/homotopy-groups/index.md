@@ -75,3 +75,7 @@ $$\pi_3 S^1 \rightarrow \pi_3 S^3 \rightarrow \pi_3 S^2 \rightarrow \pi_2 S^1$$
 where $\pi_2 S^1$ is trivial as mentioned above, and for the same reason, $\pi_3 S^1 =0$ . Hence we have an exact sequence $0 \rightarrow \pi_3 S^3 \rightarrow \pi_3 S^2 \rightarrow 0$ , which means that $\pi_3 S^3 \cong \pi_3 S^2$ , and since every group $\pi_n S^n \cong \mathbb{Z}$ , we have the first non-trivial example for homotopy groups of spheres, namely $\pi_3 S^2 \cong \mathbb{Z}$ .
 
 Next time we introduce the Serre spectral sequence, and use it to compute cohomology groups of some interesting spaces. If we get far enough, we compute another non-trivial example of homotopy groups of spheres, namely $\pi_4 S^3$ . As a gift for bothering to read, I link an amazing artwork by my favorite Russian mathematical artist Anatoly Fomenko, called [“Homotopy groups of spheres”](http://chronologia.org/en/math_impressions/poster034.html).
+
+
+
+<style>body {text-align: justify}</style>

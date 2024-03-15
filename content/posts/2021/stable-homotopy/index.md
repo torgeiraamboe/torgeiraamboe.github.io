@@ -104,3 +104,6 @@ These functors are so nice that they make up a reduced homology theory! When fir
 ![Error loading image](images/Sphere-spectrum.png)
 
 Next time we will hopefully be ready to define the stable homotopy category, and maybe even look at its triangulated structure. There are many interesting things to look at further into stable homotopy theory, which we absolutely will do, so stay tuned!
+
+
+<style>body {text-align: justify}</style>

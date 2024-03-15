@@ -73,3 +73,6 @@ This is neat! Thinking about post-COVID traveling we have been able to investiga
 ## Disclaimer 2
 
 At the end I want to again point out that the entire above text is very hand wavy. I personally don't understand all the nuances of the theory of $\infty$-categories and the Homotopy hypothesis, so take all above with a grain of salt. It does however — in my opinion — feature as nice intuition and an interesting analogy.
+
+
+<style>body {text-align: justify}</style>

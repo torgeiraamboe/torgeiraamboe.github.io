@@ -66,3 +66,6 @@ This is as far as I’ll go into the proof, but we have at least covered the bas
 ## Closing remarks
 
 There are a couple facts that should be mentioned when discussing this theorem. First, the theorem also hold if we instead of real vector bundles use complex vector bundles, and complex-valued continuous functions instead of real-valued ones. It does not however work if we use totally disconnected fields, like the rational numbers $\mathbb{Q}$. Secondly, if we replace every “continuous” by “smooth”, i.e. try to have a version in differential geometry then the theorem still holds. This means replacing our topological space by a smooth manifold, the vector bundle by a smooth vector bundle, continuous functions by smooth functions and sections by smooth sections. Thirdly, there is an earlier version of the theorem in algebraic geometry instead of algebraic topology due to Serre, so the theorem is often named the Serre-Swan theorem. Serre proved that finite dimensional vector bundles over algebraic varieties are also the same as finitely generated projective modules over the similar ring of continuous functions in algebraic geometry. I am following Ravi Vakils summer course on algebraic geometry, so maybe I will cover that version of the theorem after learning some more algebraic geometry.
+
+
+<style>body {text-align: justify}</style>

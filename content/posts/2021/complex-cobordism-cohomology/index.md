@@ -150,3 +150,5 @@ In the earlier mentioned post describing these [formal group laws]({{<ref "posts
 ## Round off
 
 I think this is enough of complex cobordism for today, but we will definitely see it again. The reason we construct it in detail is because we want to use it later to construct other important cohomology theories: Brown-Peterson cohomology, Johnson-Wilson theory and Morava K-theory. The latter is especially important for my research projects, so understanding its construction properly will probably be beneficial.
+
+<style>body {text-align: justify}</style>
