@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>A_infinity Algebras on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/a_infinity-algebras/</link>
+    <description>Recent content in A_infinity Algebras on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/a_infinity-algebras/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sha-algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</guid>
+      <description>&lt;p&gt;This is part four in a sort of connected story about operations in mathematics that are associative up to homotopy. It will probably be beneficial to read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/&#34;&gt;part 1&lt;/a&gt;, &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/&#34;&gt;part 2&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/&#34;&gt;part 3&lt;/a&gt; in advance of this, but it is not required in theory. These previous posts do however build up some intuition and motivation for the object we are looking at today. To quickly recap what we already seen in these previous posts we recall that we started out by looking at how to transfer a group structure on a topological space through an isomorphism. We saw it produced the same structure, so we weakened to looking at transferring it through a homotopy equivalence instead. We then got an operation that was associative only up to homotopy, which we studied a bit through the so called Stasheff associahedra. We then introduced H-spaces and saw that some of these, in particular loop spaces, had the same type of homotopy associative operation. In the latest edition we looked at a more algebraic situation, still heavily motivated by the topology we had discussed earlier. In this situation we explicitly described a ternary operation that we proved was the associating homotopy and saw that we got a certain relation involving the associator and the boundary of the associating homotopy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The associating homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</guid>
+      <description>&lt;p&gt;In the two last posts we have been discussing operations that are associative up to homotopy, and where such operations might arise naturally in topology. One claim I made, which I later realized was maybe a bit unmotivated and in need of some clarification was how some higher arity maps actually defined (or were defined by) homotopies between combinations of the lower arity maps. We also purely looked at this in a topological setting, but in algebraic topology we often translate to algebraic structures, so I also wanted to see clearly that the same constructions hold in that setting. To be more precise I am talking about the claim that a map we denoted by $m_3$ was a homotopy between $m_2(id\otimes m_2)$ and $m_2(m_2 \otimes id)$, where $m_2$ was a product induced through a homotopy equivalence. Don’t worry if you don’t recall the definitions and this problem, we will go through it again shortly. Today we in fact upgrade this earlier homotopy equivalence slightly such as to have a bit more to work with. As said we also take a turn away from standard topology and make our choice of “space” for this post to be chain complexes of vector spaces. I will not cover in detail why this is a reasonable thing to do but I will mention that the de Rham complex of a manifold, the rational singular cochains on a topological space and the rational cohomology of a topological space are all such structures. So, if we believe that algebraic topology is a nice way to study spaces, then studying these should be highly relevant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spaces with operations</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/&#34;&gt;most recent blog post&lt;/a&gt; we discussed homotopy associativity and how to transfer algebraic structures on topological spaces. There we in particular used topological groups, which are topological spaces with group structures. That said, any group is a topological group by equipping it with the discrete topology. So if we want to study some actual topology, and not just glorified group theory, we need to look at where multiplications and binary operations arise naturally in topology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy associativity</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
+      <description>&lt;p&gt;Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures. If $G$ has an algebraic structure, for example a group structure, can we then transfer the same or some other similar structure onto $T$ through $f$?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Road to Morava K-Theory on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/series/the-road-to-morava-k-theory/</link>
+    <description>Recent content in The Road to Morava K-Theory on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/series/the-road-to-morava-k-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Johnson-Wilson theory</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</link>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</guid>
+      <description>&lt;p&gt;It has been some time since we studied at the correlation between &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/formal-group-laws/&#34;&gt;formal group laws&lt;/a&gt;, which were certain power series that looked like Taylor expansion of multiplication on a Lie group, and complex oriented cohomology theories. In particular, we learned that these two completely separate notions had a common universal object. The universal formal group law over the Lazard ring was the same as the formal group law determined by the universal complex oriented cohomology theory — complex cobordism cohomology. Ever since that time we have not encountered formal group laws in any interesting manner, but, today is the day where we do so. The continuation of studying formal group laws — and later, formal groups — will be very important in understanding the field of chromatic homotopy theory, as they are highly linked. In some sense, the algebraic geometry of formal groups corresponds to the stable homotopy theory of complex oriented cohomology theories. One very important feature of this correspondence is the concept of height. The algebraic geometry of formal groups can be filtered by a variable called height, and this — through the correspondence — gives a filtration on spectra. In this blog post we will define this concept of height, and produce some new spectra in light of this new technology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brown-Peterson cohomology</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/brown-peterson-cohomology/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/brown-peterson-cohomology/</guid>
+      <description>&lt;p&gt;Over the holidays sadly Edgar H. Brown passed away. He was one of the influential men behind many of the concepts this blog has featured and will feature in the future. This post is in particular focused on one of these concepts, namely Brown-Peterson cohomology and the Brown-Peterson spectrum.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/bousfield-localization/&#34;&gt;last post&lt;/a&gt; we developed the category of $p$-local spectra, and in &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/&#34;&gt;the post before that&lt;/a&gt; we explored complex cobordism cohomology. Today we will merge these two together, and try to understand what happens to the complex cobordism spectrum $MU$ when we travel to the $p$-local category. The spectrum $MU$ is a normal spectrum — it is not $p$-local. But, as we now know, we can create a $p$-local version of it by $p$-localizing it. We then get a spectrum $MU\wedge \Z_{(p)}$ which we simply denote by $MU_{(p)}$. This is the spectrum we want to understand today. The idea for understanding $MU_{(p)}$ will be to split it into nicer pieces which have similar — and actually better — properties.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex cobordism cohomology</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/</guid>
+      <description>&lt;p&gt;In the next couple years I will need to understand the ins and outs of different cohomology theories and the spectra that represents them. Some of the most important of these (for my research) can be described using $MU$ — the complex cobordism spectrum. We briefly met this spectrum — or at least its cohomology theory — when we discussed &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/formal-group-laws/&#34;&gt;formal group laws&lt;/a&gt;. There we explained briefly a theorem of Quillen, stating that the universal formal group law over the Lazard ring corresponds to complex cobordism cohomology. We did not cover what complex cobordism actually is, so that is the plan for this post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Formal group laws</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/formal-group-laws/</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/formal-group-laws/</guid>
+      <description>&lt;p&gt;Recently we have covered a lot of heavy topology and abstract mathematics, so today I thought we would cover something else — something maybe a bit easier to grasp. We will introduce the concept of formal group laws, and a bit on why they are interesting.&lt;/p&gt;
+&lt;h2 id=&#34;introduction-and-definition&#34;&gt;Introduction and definition&lt;/h2&gt;
+&lt;p&gt;To not just spew out the definition straight away, we look at a situation where formal group laws arise very naturally. Let $G$ be a one-dimensional commutative Lie group (Think here of the real numbers $\mathbb{R}$ or the circle group $S^1$). This group has a continuous product, $m:G\times G\longrightarrow G$, which locally can be described by a real-valued function in two variables. This function has a Taylor expansion around the origin, which is a power series in two variables. Denote this power series by $F$. This power series satisfies some axioms because of the group structure we have on $G$, these axioms are identity, commutativity and associativity. In more mathematical terms this means that the following statements hold&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A first look at spectra</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/</guid>
+      <description>&lt;p&gt;Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/&#34;&gt;tensor triangulated categories&lt;/a&gt;, namely &lt;em&gt;spectra.&lt;/em&gt; These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology. This intimate connection is the study of todays blog post&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

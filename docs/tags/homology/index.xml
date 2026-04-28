@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Homology on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/homology/</link>
+    <description>Recent content in Homology on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/homology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exotic algebraic models</title>
+      <link>https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/</guid>
+      <description>&lt;p&gt;This blog-post is dedicated to this day, $\pi$-day (14th of march), where we celebrate $\pi_*$, the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/stable-homotopy/&#34;&gt;stable homotopy groups&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think. This post has been a long time coming and features the precise area of mathematics where I do most of my research, namely exotic algebraic models. I will throughout this post, and its sequels, explain what these are and connect it to almost all the previous blog posts I have made for the last couple of years. This will also set up some of the needed background for presenting my own research, which I will do once I am done writing the paper presenting it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hopf algebroids</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the last blog post we introduced and studied &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2023/adapted-homology/&#34;&gt;adapted homology theories&lt;/a&gt;. Given a stable $\infty$-category $\mathcal{C}$ and $\mathcal{A}$ an abelian category with enough injectives together with a local grading $[1]\colon \mathcal{A}\longrightarrow \mathcal{A}$, an adapted homology theory is a functor
+&lt;/p&gt;
+$$H\colon \mathcal{C}\longrightarrow \mathcal{A}$$&lt;p&gt;such that $H$ is additive, sends fiber sequences to long exact sequences, sends the suspension $\Sigma$ of $\mathcal{C}$ to the shift $[1]$ of $\mathcal{A}$ and such that we can lift injectives in $\mathcal{A}$ into $\mathcal{C}$ through $H$. We explored which categories $\mathcal{A}$ can actually exist in this setting, and saw that they had to be closely related to the Freyd envelope $A(\mathcal{C})$ of $\mathcal{C}$. More specifically, $\mathcal{A}$ had to be the sheafification of $A(\mathcal{C})$ with respect to a topology on $\mathcal{C}$ determined by $H$, which we called the $H$-epimorphism topology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adapted homology</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the last post we studied homology theories as abstract functors from stable $\infty$-categories to abelian categories. We showed that for every stable $\infty$-category $\mathcal{C}$ there is a universal homology theory which all others factor through, namely the Yoneda embedding into the Freyd envelope,&lt;/p&gt;
+$$
+y\colon \mathcal{C}\longrightarrow A(\mathcal{C}).
+$$&lt;p&gt;The fact that this is universal means that for any homology theory $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ there is an essentially unique factorization&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Universal homology</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/universal-homology/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2023/universal-homology/</guid>
+      <description>&lt;p&gt;New year; same me; new math. During the fall I said that I wanted to post on this blog monthly, but that did not happen for some reason. I thought I’d try again this semester, but maybe I am setting this not that high bar still too high for my self. For some reason there seems to be fewer hours in the day than it used to. The cover page for the post is generated by Dalle·2 using the prompt &amp;ldquo;A man finding the universal piece, old painting&amp;rdquo; – a true work of art.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bousfield localization</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/bousfield-localization/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/bousfield-localization/</guid>
+      <description>&lt;p&gt;Topology, particularly homotopy theory, is hard. The scenes where these kind of mathematics happen are immensely complicated; the category of topological spaces; the category of spectra. The problem is that there is simply too much information to try to capture by using simple tools that we can actually understand properly. Trying to classify topological spaces or spectra is a feat that many deem impossible, it is simply too difficult.&lt;/p&gt;
+&lt;p&gt;So, how can we try to fix this? We take inspiration from other fields, where similar situations occur and then try to translate into our own situation. Take for example abelian groups. We have no classification of all abelian groups, but there are certain constructions that help us study them. We have a classification of finitely generated abelian groups, where we can decompose any abelian group $A$ into understandable pieces: a free part $\Z^r$ and a torsion part $\Z/p_1^{k_1}\oplus \ldots \oplus \Z/p_t^{k_t}$. For all abelian groups things get more complicated, but there are nice groups that have classifications, like divisible groups, which are direct sums of copies of $\mathbb{Q}$ and Prüfer groups $\Z(p^\infty)$. The general approach seems to be to split the complicated groups into smaller pieces, or to study them via some easier groups. If we just consider $\Z$ for a moment, we can for a prime $p$ study&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Miscs on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/misc/</link>
+    <description>Recent content in Miscs on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <atom:link href="https://torgeiraamboe.github.io/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talks and speaking</title>
+      <link>https://torgeiraamboe.github.io/misc/old/talks-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/old/talks-copy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://torgeiraamboe.github.io/misc/music_and_other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/music_and_other/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog posts</title>
+      <link>https://torgeiraamboe.github.io/misc/blogposts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/blogposts/</guid>
+      <description>A list of the blog posts on my blog</description>
+    </item>
+    <item>
+      <title>Other</title>
+      <link>https://torgeiraamboe.github.io/misc/writing_other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/writing_other/</guid>
+      <description>Some of my typed up notes, problems and writings.</description>
+    </item>
+    <item>
+      <title>Student seminar 2021</title>
+      <link>https://torgeiraamboe.github.io/misc/student-seminar-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/student-seminar-2021/</guid>
+      <description>A seminar I arranged during spring 2021.</description>
+    </item>
+    <item>
+      <title>Mathematical inspiration week 2021</title>
+      <link>https://torgeiraamboe.github.io/misc/inspiration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/inspiration/</guid>
+      <description>A week dedicated to showcasing interesting mathematics the week before the semester starts after summer holiday.</description>
+    </item>
+    <item>
+      <title>Lemmarick</title>
+      <link>https://torgeiraamboe.github.io/misc/lemmaricks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/lemmaricks/</guid>
+      <description>&lt;p&gt;For fun I have made some limericks centered around the main results from &lt;a href=&#34;https://torgeiraamboe.github.io/academic/articles-and-preprints/&#34;&gt;my papers&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;classification-of-localizing-subcategories-along--structures&#34;&gt;Classification of localizing subcategories along $t$-structures&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let $\mathcal{C}$ be stable with a $t$. &lt;br&gt;
+As nice as it needs to be. &lt;br&gt;
+If the heart has a localization, &lt;br&gt;
+then I have a declaration: &lt;br&gt;
+There is a unique $\pi$-exact lift to $\mathcal{C}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;positselski-duality-in-stable--categories&#34;&gt;Positselski duality in stable $\infty$-categories&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Choose a context and take your seat. &lt;br&gt;
+I have prepared the following treat. &lt;br&gt;
+The hom-tensor adjunction, &lt;br&gt;
+makes the following function: &lt;br&gt;
+Being contra is equivalent to complete&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delta-t articles</title>
+      <link>https://torgeiraamboe.github.io/misc/delta-t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/delta-t/</guid>
+      <description>A collection of articles I have written for the student newspaper Delta-t.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://torgeiraamboe.github.io/misc/old/about_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/old/about_old/</guid>
+      <description>&lt;p&gt;My name is Torgeir Aambø. I’m currently a PhD student at the Norwegian University of Science and Technology (NTNU) in Trondheim, where I am part of the project &lt;a href=&#34;https://folk.ntnu.no/drewkh/tt.html&#34;&gt;&amp;ldquo;Tensor triangulated geometry in Trondheim&amp;rdquo;&lt;/a&gt; supervised by &lt;a href=&#34;https://folk.ntnu.no/drewkh/&#34;&gt;Drew Heard&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This site is meant to host my journey through the three pillars of academia: reading, writing and speaking. Here you will find my projects, talks I have held and been to, various writings, things I read as well as my blog. On the blog you will find posts about what I have been learning (mostly mathematics).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Have read</title>
+      <link>https://torgeiraamboe.github.io/misc/have-read/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/have-read/</guid>
+      <description>A list of books that I have read.</description>
+    </item>
+    <item>
+      <title>NTNU Topology SeminarXiv</title>
+      <link>https://torgeiraamboe.github.io/misc/seminarxiv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/seminarxiv/</guid>
+      <description>&lt;p&gt;The SeminarXiv is a bi-weekly seminar in the topology group at NTNU. We choose cool papers and give turns presenting them. We usually meet at 13.00 in room 656.&lt;/p&gt;
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Date&lt;/th&gt;
+          &lt;th&gt;Speaker&lt;/th&gt;
+          &lt;th&gt;Paper&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;06.09.24&lt;/td&gt;
+          &lt;td&gt;Marius Nielsen&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.08881&#34;&gt;Abstract Goerss–Hopkins theory&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;20.09.24&lt;/td&gt;
+          &lt;td&gt;Torgeir Aambø&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.08881&#34;&gt;Abstract Goerss–Hopkins theory&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;04.10.24&lt;/td&gt;
+          &lt;td&gt;Trygve Poppe&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2404.03193&#34;&gt;Foundations of Floer homotopy theory I: Flow categories&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;18.10.24&lt;/td&gt;
+          &lt;td&gt;Alice Hedenlund&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2404.03193&#34;&gt;Foundations of Floer homotopy theory I: Flow categories&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;01.11.24&lt;/td&gt;
+          &lt;td&gt;Torgeir Aambø&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2110.03669&#34;&gt;Adams spectral sequences and Franke&amp;rsquo;s algebraicity conjecture&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;01.11.24&lt;/td&gt;
+          &lt;td&gt;Marius Nielsen&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2206.11208&#34;&gt;A motivic filtration on the topological cyclic homology of commutative ring spectra&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;29.11.24&lt;/td&gt;
+          &lt;td&gt;Tallak Manum&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2301.08650&#34;&gt;Segalification and the Boardmann-Vogt tensor product&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;??.??.??&lt;/td&gt;
+          &lt;td&gt;Fredrik Bakke&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2002.07079&#34;&gt;The Cantor-Schröder-Bernstein Theorem for $\infty$-groupoids&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Penguin&#39;s great ideas series</title>
+      <link>https://torgeiraamboe.github.io/misc/great-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/great-ideas/</guid>
+      <description>One of Penguin&amp;rsquo;s wonderful curated list of short books of influential ideas.</description>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://torgeiraamboe.github.io/misc/old/reading_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/old/reading_index/</guid>
+      <description>&lt;p&gt;I am one of those people that used to read a bit when I was younger, but fell off the reading train somewhere during my teens. During these off-years I still consumed a couple books a year, as well as some essays and writings on the internet, but not in any systematic shape or form. Luckily proper reading found its way back into my life in 2021, in a way stronger than ever before.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reading bucket list</title>
+      <link>https://torgeiraamboe.github.io/misc/booket-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/booket-list/</guid>
+      <description>Books I want to read some day.</description>
+    </item>
+    <item>
+      <title>Speaking</title>
+      <link>https://torgeiraamboe.github.io/misc/old/speaking_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/old/speaking_index/</guid>
+      <description>&lt;p&gt;Over the years I have grown more and more fond of teaching and speaking, as well as helping other people to learn. I have been fortunate to be able to practise these things during my years of being a student, and to be a part of things while being a PhD student. So, below you will find some lists containing talks, teaching and seminars etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://torgeiraamboe.github.io/misc/old/writing_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/misc/old/writing_index/</guid>
+      <description>&lt;p&gt;One of the things I enjoy the most is writing. I love presenting information and things I know in written form, and I like to think that at least some of it is decently produced. Below you will thus find collection of writing I have done over the years, both in official and unofficial settings. Most of my mathematical writing does however get posted on my &lt;a href=&#34;https://torgeiraamboe.github.io/&#34;&gt;blog&lt;/a&gt;, which is where I write about the current things I am learning and find interesting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

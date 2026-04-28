@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Homotopy on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/homotopy/</link>
+    <description>Recent content in Homotopy on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/homotopy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traveling</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/traveling/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/traveling/</guid>
+      <description>How can we use travel-journaling to study some highly abstract and highly complicated mathematical machinery? Can we get anything out of such an analogy? In this post we do just that, study the homotopy hypothesis and infinity groupoids through the lens of a travel ledger.</description>
+    </item>
+    <item>
+      <title>On formal DG-algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/</guid>
+      <description>I have recently handed in and defended my master thesis in mathematics, so I though I would go through its abstract and try to explain what it&amp;rsquo;s all about. We look at formality of DG-algebras, Massey products, A_infinity-algebras and how we can use these to some interesting results.</description>
+    </item>
+    <item>
+      <title>Sha-algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</guid>
+      <description>&lt;p&gt;This is part four in a sort of connected story about operations in mathematics that are associative up to homotopy. It will probably be beneficial to read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/&#34;&gt;part 1&lt;/a&gt;, &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/&#34;&gt;part 2&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/&#34;&gt;part 3&lt;/a&gt; in advance of this, but it is not required in theory. These previous posts do however build up some intuition and motivation for the object we are looking at today. To quickly recap what we already seen in these previous posts we recall that we started out by looking at how to transfer a group structure on a topological space through an isomorphism. We saw it produced the same structure, so we weakened to looking at transferring it through a homotopy equivalence instead. We then got an operation that was associative only up to homotopy, which we studied a bit through the so called Stasheff associahedra. We then introduced H-spaces and saw that some of these, in particular loop spaces, had the same type of homotopy associative operation. In the latest edition we looked at a more algebraic situation, still heavily motivated by the topology we had discussed earlier. In this situation we explicitly described a ternary operation that we proved was the associating homotopy and saw that we got a certain relation involving the associator and the boundary of the associating homotopy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The associating homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</guid>
+      <description>&lt;p&gt;In the two last posts we have been discussing operations that are associative up to homotopy, and where such operations might arise naturally in topology. One claim I made, which I later realized was maybe a bit unmotivated and in need of some clarification was how some higher arity maps actually defined (or were defined by) homotopies between combinations of the lower arity maps. We also purely looked at this in a topological setting, but in algebraic topology we often translate to algebraic structures, so I also wanted to see clearly that the same constructions hold in that setting. To be more precise I am talking about the claim that a map we denoted by $m_3$ was a homotopy between $m_2(id\otimes m_2)$ and $m_2(m_2 \otimes id)$, where $m_2$ was a product induced through a homotopy equivalence. Don’t worry if you don’t recall the definitions and this problem, we will go through it again shortly. Today we in fact upgrade this earlier homotopy equivalence slightly such as to have a bit more to work with. As said we also take a turn away from standard topology and make our choice of “space” for this post to be chain complexes of vector spaces. I will not cover in detail why this is a reasonable thing to do but I will mention that the de Rham complex of a manifold, the rational singular cochains on a topological space and the rational cohomology of a topological space are all such structures. So, if we believe that algebraic topology is a nice way to study spaces, then studying these should be highly relevant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy associativity</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
+      <description>&lt;p&gt;Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures. If $G$ has an algebraic structure, for example a group structure, can we then transfer the same or some other similar structure onto $T$ through $f$?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Warsaw circle</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</guid>
+      <description>&lt;p&gt;The last few posts have all been of relatively long length and have all taken some time to construct and write. I initially also wanted to produce shorter posts just discussing an example or a calculation etc, and today I tried to do just that, but failed. The post became somewhat longer than intended, but it is really informal and intuitive, so its fine in my opinion.&lt;/p&gt;
+&lt;p&gt;In a previous post we discussed both weak homotopy equivalences and regular homotopy equivalences, and we have also encountered the Whitehead theorem, which says that any weak homotopy equivalence between CW-complexes is in fact a regular homotopy equivalence. But, we did not discuss their differences, which is what we do in this post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy category</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</guid>
+      <description>&lt;p&gt;This is part 9 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting. The goal is to have a well defined workable notion of a homotopy category, and understand what it consists of.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy in model categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</guid>
+      <description>&lt;p&gt;This is part 8 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with. This structure on a category is supposed to embody where homotopy theory works, but failed to immediately convey that to me. But, that said, we will today go through the construction of homotopy, and prove that it is an equivalence relation on maps in nice cases. These cases we mentioned in the previous part, and will be maps between objects that are both fibrant and cofibrant, which I will refer to as bifibrant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hanging pictures with homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</guid>
+      <description>&lt;p&gt;Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it! Finally a real world practical useful application of homotopy theory! Take that society.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fibrations</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/fibrations/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/fibrations/</guid>
+      <description>&lt;p&gt;This is part 1 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My main mathematical interest for the last couple years has been algebraic topology. I feel it suits my needs for intuition, and graphical picturing of what happens. A concept I have been learning more rigorously recently is fibrations, and how to use them in computing homotopy groups and homology groups of different spaces. There is something fun and exciting about computing the homology and homotopy groups of new spaces, as it usually requires different techniques and insight every time, and fibrations have certainly presented some new tools for my calculation toolbox. Since fibrations gives us nice tools, it would be nice to understand them better, and that is my plan for this post. As a remark, all spaces used and mentioned will be topological spaces, and all maps will be continuous.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Noether Normalization on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/noether-normalization/</link>
+    <description>Recent content in Noether Normalization on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/noether-normalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updated geometric intuition</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/geometric-intuition/&#34;&gt;first post&lt;/a&gt; on this blog is titled &amp;ldquo;geometric intuition&amp;rdquo;, and discusses the geometry behind Noether&amp;rsquo;s normalization lemma. When I wrote it I didn&amp;rsquo;t yet understand all the pieces, as I was not very comfortable working with algebraic geometry. One year later, I&amp;rsquo;m still not comfortable, but a bit more than last year. So, I thought I would update last years post with my new knowledge, as well as generalize the intuition to schemes - which we introduced in the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/schemes/&#34;&gt;last post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geometric intuition</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This spring I have been taking a graduate class in commutative algebra, and I have yet to do algebraic geometry in a proper way, and have only gotten a small taste while writing my bachelor thesis. So this entire semester, I have felt this hinting at a geometric picture from the algebra itself, but i didn&amp;rsquo;t have the insight to figure it out. That said, I now think I have the geometric picture for Noether normalization, which in term implies a geometric picture of Hilbert nullstellensatz and some other results. It took a long time to convert the algebra into geometry for me, and i still have much to learn regarding this. What i have started to figure out is the close relationship between ideals and varieties. I have for a while known that this is one of the main reasons to introduce commutative algebra into algebraic geometry, but i couldn&amp;rsquo;t see the picture myself. Anyway, lets start with some introductory stuff.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

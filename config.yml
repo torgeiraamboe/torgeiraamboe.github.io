@@ -1,8 +1,9 @@
-baseURL: ""
+baseURL: "https://torgeiraamboe.github.io/"
 title: Torgeir Aambø
 paginate: 10
 theme: PaperMod
 copyright: " "
+publishDir: docs
 
 enableInlineShortcodes: true
 enableRobotsTXT: true

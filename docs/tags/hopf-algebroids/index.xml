@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hopf Algebroids on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/hopf-algebroids/</link>
+    <description>Recent content in Hopf Algebroids on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/hopf-algebroids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hopf algebroids</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the last blog post we introduced and studied &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2023/adapted-homology/&#34;&gt;adapted homology theories&lt;/a&gt;. Given a stable $\infty$-category $\mathcal{C}$ and $\mathcal{A}$ an abelian category with enough injectives together with a local grading $[1]\colon \mathcal{A}\longrightarrow \mathcal{A}$, an adapted homology theory is a functor
+&lt;/p&gt;
+$$H\colon \mathcal{C}\longrightarrow \mathcal{A}$$&lt;p&gt;such that $H$ is additive, sends fiber sequences to long exact sequences, sends the suspension $\Sigma$ of $\mathcal{C}$ to the shift $[1]$ of $\mathcal{A}$ and such that we can lift injectives in $\mathcal{A}$ into $\mathcal{C}$ through $H$. We explored which categories $\mathcal{A}$ can actually exist in this setting, and saw that they had to be closely related to the Freyd envelope $A(\mathcal{C})$ of $\mathcal{C}$. More specifically, $\mathcal{A}$ had to be the sheafification of $A(\mathcal{C})$ with respect to a topology on $\mathcal{C}$ determined by $H$, which we called the $H$-epimorphism topology.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

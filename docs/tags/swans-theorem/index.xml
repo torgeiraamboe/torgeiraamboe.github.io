@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Swan&#39;s Theorem on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/swans-theorem/</link>
+    <description>Recent content in Swan&#39;s Theorem on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/swans-theorem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swan&#39;s theorem</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/swans-theorem/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/swans-theorem/</guid>
+      <description>&lt;p&gt;A part of mathematics I really an starting to enjoy more is mathematics that explain or develop connections between geometry or topology, and algebra. The first two posts on this blog was focused on developing some geometrical insight to two lemmas from commutative algebra, namely Noether’s normalization lemma and Zariski’s lemma. There are many more such connections worth discussing and exploring, and today I want to focus on one of these “bridges” between geometry and algebra, namely Swan’s theorem. This theorem tells us how nice objects “over” another object in geometry relate to nice objects “over” another object in algebra.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eilenberg-Maclane Spaces on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/eilenberg-maclane-spaces/</link>
+    <description>Recent content in Eilenberg-Maclane Spaces on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/eilenberg-maclane-spaces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cofibrations</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/cofibrations/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
+      <description>&lt;p&gt;This is part 6 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations. The road we are heading with this series, as mentioned before, is to define Model categories, and discover how to use them. Up until now, and including this post, I have been pretty comfortable with the objects of study, and I feel i know them quite well. After this post tho, I think I’m entering unknown territory for me, which is good!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A homotopy group of a sphere</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</guid>
+      <description>&lt;p&gt;This is part 5 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask? Last time we developed the machinery to calculate the cohomology of the total space of a fibration, but we want to compute homotopy. Hence we need a method for translating cohmological information into homotopical information, which is what we are missing to be able to do the calculation. There may be other processes that I haven’t learned, but the process I know goes through two steps. First we must translate cohomology into homology. This is done through the so called cohomological universal coefficient theorem (cUCT). Then we need to translate from homology to homotopy. This is done through the Hurewicz theorem. I think of these two theorems together as sort of a Rosetta stone for algebraic topology. It makes us able (with some computation and restrictions of course) to move between the three fundamental theories of invariants we have in algebraic topology, which I find beautiful. There is one more thing we need, which is a starting point for our calculation. We need a good fibration to extract the information we want which we are able to translate into homotopy afterwards. Therefore we need a space in the fibration that does not complicate things when we translate into homotopy, i.e. we need a space in which we completely understand its homotopy groups. The “homotopy-easy” spaces I’m describing are called Eilenberg-MacLane spaces. In cohomology (and homology) theory we have the easy spaces being spheres because we completely understand their cohomological structure. They cam be thought of as the building blocks for (co)homology. The same type of space for homotopy is exactly theese Eilenberg-MacLane spaces, and they form the building blocks for homotopy groups in the same way as the spheres for (co)homology. Hence we can combine these spaces and spheres in a fibration and use that to compute cohomology and then relatively easily translate this to homotopy, which is exactly our plan for computing $\pi_4(S^3)$.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

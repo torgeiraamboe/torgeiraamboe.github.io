@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>J-Homomorphism on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/j-homomorphism/</link>
+    <description>Recent content in J-Homomorphism on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Mon, 08 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/j-homomorphism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The homotopy groups of the spheres. Part 2</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/&#34;&gt;previous post&lt;/a&gt; we studied some &amp;ldquo;easy&amp;rdquo; cases of homotopy groups of spheres. We focused most on the group $\pi_3(S^2)$ and its computation from the Hopf fibration. All groups calculated last time were part of the so-called unstable range, meaning that they are not invariant under suspension. Due to the Freudenthal suspension theorem we know precicely the stable range for homotopy groups of spheres, and these are given by the stable homotopy groups. These groups are what we will look at today (and what we looked at during the second part of the talk these two blog-posts are based upon). We will compute some of the low stable homotopy groups of spheres using the socalled $J$-homomorphism. But, in order to do this calculation we must cover a plethora of interesting mathematics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

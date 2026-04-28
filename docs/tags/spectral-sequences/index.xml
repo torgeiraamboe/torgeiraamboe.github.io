@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spectral Sequences on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/spectral-sequences/</link>
+    <description>Recent content in Spectral Sequences on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/spectral-sequences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Adams spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</guid>
+      <description>&lt;p&gt;Recently my friend Elias started his own &lt;a href=&#34;https://eka2499.github.io/&#34;&gt;math blog&lt;/a&gt; adventure, and his &lt;a href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/&#34;&gt;first post&lt;/a&gt; gave a nice introduction to spectral sequences. Reading it I remembered that I should really understand some of the parts better myself, because a lot of the arguments one makes in chromatic homotopy theory are based on spectral sequences. There is a framework for constructing spectral sequences that are not covered in my &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/&#34;&gt;old post&lt;/a&gt; on them, as well as Elias’ post, and that is creating spectral sequences from exact couples. So, since I will use these techniques later in my research, and probably later on this blog, I thought it worthwhile to discuss. In particular we look into producing spectral sequences from filtered spectra, as this is the part that is most relevant for my research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Serre spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</guid>
+      <description>&lt;p&gt;This is part 4 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My personal favorite part about fibrations is that they come equipped with a natural way to compute the cohomology of the total space from the cohomology of the base and the cohomology of the fibers. This process is encoded in a structure called a spectral sequence, and is a complicated object in its full generality. It consists of layers upon layers of intertwined cohomology groups, all sewn together by homomorphisms. But when I first learned their computing power, and learned how to use them, I fell in love with the structure. If you visit my homepage you will find several small write ups using spectral sequences to prove theorems and do computations of cohomology rings etc. Therefore, I want to create a nice introduction to how to use them, given a fibration. Technicalities of the structure of the spectral sequences will be omitted, but the definitions will of course be given.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

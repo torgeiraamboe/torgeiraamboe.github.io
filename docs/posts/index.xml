@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog posts on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/posts/</link>
+    <description>Recent content in Blog posts on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exotic algebraic models</title>
+      <link>https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2024/exotic-algebraic-models/</guid>
+      <description>&lt;p&gt;This blog-post is dedicated to this day, $\pi$-day (14th of march), where we celebrate $\pi_*$, the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/stable-homotopy/&#34;&gt;stable homotopy groups&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As has been the case a couple of times already, when faced with an increased workload I tend to neglect writing on this blog. It is only natural that increased amounts of work in one section lead to a decreased amount of work in another — there is, after all, only a finite amount of time given to us. But, for the remainder of my PhD I will solely focus on research and outreach, hence I will hopefully have some more time to write and think. This post has been a long time coming and features the precise area of mathematics where I do most of my research, namely exotic algebraic models. I will throughout this post, and its sequels, explain what these are and connect it to almost all the previous blog posts I have made for the last couple of years. This will also set up some of the needed background for presenting my own research, which I will do once I am done writing the paper presenting it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hopf algebroids</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2023/hopf-algebroids/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the last blog post we introduced and studied &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2023/adapted-homology/&#34;&gt;adapted homology theories&lt;/a&gt;. Given a stable $\infty$-category $\mathcal{C}$ and $\mathcal{A}$ an abelian category with enough injectives together with a local grading $[1]\colon \mathcal{A}\longrightarrow \mathcal{A}$, an adapted homology theory is a functor
+&lt;/p&gt;
+$$H\colon \mathcal{C}\longrightarrow \mathcal{A}$$&lt;p&gt;such that $H$ is additive, sends fiber sequences to long exact sequences, sends the suspension $\Sigma$ of $\mathcal{C}$ to the shift $[1]$ of $\mathcal{A}$ and such that we can lift injectives in $\mathcal{A}$ into $\mathcal{C}$ through $H$. We explored which categories $\mathcal{A}$ can actually exist in this setting, and saw that they had to be closely related to the Freyd envelope $A(\mathcal{C})$ of $\mathcal{C}$. More specifically, $\mathcal{A}$ had to be the sheafification of $A(\mathcal{C})$ with respect to a topology on $\mathcal{C}$ determined by $H$, which we called the $H$-epimorphism topology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adapted homology</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2023/adapted-homology/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the last post we studied homology theories as abstract functors from stable $\infty$-categories to abelian categories. We showed that for every stable $\infty$-category $\mathcal{C}$ there is a universal homology theory which all others factor through, namely the Yoneda embedding into the Freyd envelope,&lt;/p&gt;
+$$
+y\colon \mathcal{C}\longrightarrow A(\mathcal{C}).
+$$&lt;p&gt;The fact that this is universal means that for any homology theory $H\colon \mathcal{C}\longrightarrow \mathcal{A}$ there is an essentially unique factorization&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Universal homology</title>
+      <link>https://torgeiraamboe.github.io/posts/2023/universal-homology/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2023/universal-homology/</guid>
+      <description>&lt;p&gt;New year; same me; new math. During the fall I said that I wanted to post on this blog monthly, but that did not happen for some reason. I thought I’d try again this semester, but maybe I am setting this not that high bar still too high for my self. For some reason there seems to be fewer hours in the day than it used to. The cover page for the post is generated by Dalle·2 using the prompt &amp;ldquo;A man finding the universal piece, old painting&amp;rdquo; – a true work of art.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chromatic redshift</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/chromatic-redshift/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/chromatic-redshift/</guid>
+      <description>&lt;p&gt;In a recent lunch conversation with Nils Baas we, among a plethora of other things, discussed the chromatic redshift phenomenon in stable homotopy theory. Nils was explaining some things about the results he had published together with Bjørn Dundas and John Rognes on using $2$-vector bundles to explain the algebraic K-theory of topological K-theory, i.e. $K(ku)$. This spectrum has height $2$, and since $ku$ has height $1$ this exhibits a phenomenon called redshift. The word redshift is used due to the word “chromatic” used for the height filtration of the stable homotopy category. Since we increase the height by one, we in some sense get our electro-magnetic frequency (which in this analogy is chromatic height) “shifted” towards the red end of the spectrum. This phenomena has been studied for many years and is the background for one of the more important long-standing conjectures in chromatic homotopy theory, namely the chromatic redshift conjecture. This conjecture roughly states that the behaviour exhibited above by $ku$ is not specific to $ku$. More specifically: the algebraic K-theory of a spectrum shifts the height by $1.$  Nils knew of but had not read the recent paper proving the last piece of the puzzle of this conjecture. The paper in question is titled &lt;a href=&#34;https://arxiv.org/abs/2207.09929&#34;&gt;&amp;ldquo;The chromatic nullstellensatz&amp;rdquo;&lt;/a&gt; and is a beastly paper of over a hundred pages containing mostly highly technical proofs and computations. I sent him the arXiv link on email and added my short thoughts about the proof. After sending it I realized I could expand a bit upon the comments I made to him about the proof and post it as a blog post. I have after all claimed that I want to be better at writing and publishing blog-posts, as well as produce some shorter posts. While digging into the proof and trying to expand upon the comments I made the post turned a bit longer and more technical than planned. Perhaps this is good, as it reflects the immense technicality and complexity of both the research area, conjecture and the proof. Let me just state before we start that there are details of the proofs and explanations I have swept under the rug — a rug that contains much of the actual difficulties and technicalities. I do not claim to understand everything in the proof; any wrong interpretation or wrong idea is on me and not the authors in any of the papers mentioned.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Periodic torsion is torsion periodic</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/periodic-torsion/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/periodic-torsion/</guid>
+      <description>&lt;p&gt;Hi, long time no see. I used to be very persistent about writing at least one blog-post each month, but as one can see, I have taken a break for a couple months due to vacation and increased teaching and lecturing duties at NTNU. Incidentally it coincided exactly with the 2 year mark of having posted at least once a month, often more. I have been writing stuff, but not anything worth posting. Anyway, I wanted to get into the flow of posting once a month again, as it really helps me with learning and focusing on certain topics Im interested in, and I have been contacted by several people who find the posts illuminating and helpful for understanding a topic. This post is a long time coming, as I started writing it in March&amp;hellip; Anyway, lets get to some mathematics, but before that I want to mention that the cover image is generated by Dall-E 2 using the prompt &amp;ldquo;periodic derived category painting&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Johnson-Wilson theory</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</link>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/johnson-wilson-theory/</guid>
+      <description>&lt;p&gt;It has been some time since we studied at the correlation between &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/formal-group-laws/&#34;&gt;formal group laws&lt;/a&gt;, which were certain power series that looked like Taylor expansion of multiplication on a Lie group, and complex oriented cohomology theories. In particular, we learned that these two completely separate notions had a common universal object. The universal formal group law over the Lazard ring was the same as the formal group law determined by the universal complex oriented cohomology theory — complex cobordism cohomology. Ever since that time we have not encountered formal group laws in any interesting manner, but, today is the day where we do so. The continuation of studying formal group laws — and later, formal groups — will be very important in understanding the field of chromatic homotopy theory, as they are highly linked. In some sense, the algebraic geometry of formal groups corresponds to the stable homotopy theory of complex oriented cohomology theories. One very important feature of this correspondence is the concept of height. The algebraic geometry of formal groups can be filtered by a variable called height, and this — through the correspondence — gives a filtration on spectra. In this blog post we will define this concept of height, and produce some new spectra in light of this new technology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stable infinity-categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/stable-infinity-categories/</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/stable-infinity-categories/</guid>
+      <description>&lt;p&gt;This semester I am taking part in a &lt;a href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;&gt;seminar&lt;/a&gt; on $\infty$-categories, administered by Rune Haugseng. So far we have covered roughly: the basic definitions, fibrations, limits, colimits, Joyal’s lifting theorem, equivalences, straightening, Yoneda lemma, adjunctions and Kan extensions. This week it is my turn to give a talk on stable $\infty$-categories, and this blog post will hopefully be some sort of lecture notes for this talk. The intersection of things in this post and the contents of the talk should at least be non-empty.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Adams spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</guid>
+      <description>&lt;p&gt;Recently my friend Elias started his own &lt;a href=&#34;https://eka2499.github.io/&#34;&gt;math blog&lt;/a&gt; adventure, and his &lt;a href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/&#34;&gt;first post&lt;/a&gt; gave a nice introduction to spectral sequences. Reading it I remembered that I should really understand some of the parts better myself, because a lot of the arguments one makes in chromatic homotopy theory are based on spectral sequences. There is a framework for constructing spectral sequences that are not covered in my &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/&#34;&gt;old post&lt;/a&gt; on them, as well as Elias’ post, and that is creating spectral sequences from exact couples. So, since I will use these techniques later in my research, and probably later on this blog, I thought it worthwhile to discuss. In particular we look into producing spectral sequences from filtered spectra, as this is the part that is most relevant for my research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brown-Peterson cohomology</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/brown-peterson-cohomology/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/brown-peterson-cohomology/</guid>
+      <description>&lt;p&gt;Over the holidays sadly Edgar H. Brown passed away. He was one of the influential men behind many of the concepts this blog has featured and will feature in the future. This post is in particular focused on one of these concepts, namely Brown-Peterson cohomology and the Brown-Peterson spectrum.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/bousfield-localization/&#34;&gt;last post&lt;/a&gt; we developed the category of $p$-local spectra, and in &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/&#34;&gt;the post before that&lt;/a&gt; we explored complex cobordism cohomology. Today we will merge these two together, and try to understand what happens to the complex cobordism spectrum $MU$ when we travel to the $p$-local category. The spectrum $MU$ is a normal spectrum — it is not $p$-local. But, as we now know, we can create a $p$-local version of it by $p$-localizing it. We then get a spectrum $MU\wedge \Z_{(p)}$ which we simply denote by $MU_{(p)}$. This is the spectrum we want to understand today. The idea for understanding $MU_{(p)}$ will be to split it into nicer pieces which have similar — and actually better — properties.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bousfield localization</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/bousfield-localization/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/bousfield-localization/</guid>
+      <description>&lt;p&gt;Topology, particularly homotopy theory, is hard. The scenes where these kind of mathematics happen are immensely complicated; the category of topological spaces; the category of spectra. The problem is that there is simply too much information to try to capture by using simple tools that we can actually understand properly. Trying to classify topological spaces or spectra is a feat that many deem impossible, it is simply too difficult.&lt;/p&gt;
+&lt;p&gt;So, how can we try to fix this? We take inspiration from other fields, where similar situations occur and then try to translate into our own situation. Take for example abelian groups. We have no classification of all abelian groups, but there are certain constructions that help us study them. We have a classification of finitely generated abelian groups, where we can decompose any abelian group $A$ into understandable pieces: a free part $\Z^r$ and a torsion part $\Z/p_1^{k_1}\oplus \ldots \oplus \Z/p_t^{k_t}$. For all abelian groups things get more complicated, but there are nice groups that have classifications, like divisible groups, which are direct sums of copies of $\mathbb{Q}$ and Prüfer groups $\Z(p^\infty)$. The general approach seems to be to split the complicated groups into smaller pieces, or to study them via some easier groups. If we just consider $\Z$ for a moment, we can for a prime $p$ study&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex cobordism cohomology</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/</guid>
+      <description>&lt;p&gt;In the next couple years I will need to understand the ins and outs of different cohomology theories and the spectra that represents them. Some of the most important of these (for my research) can be described using $MU$ — the complex cobordism spectrum. We briefly met this spectrum — or at least its cohomology theory — when we discussed &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/formal-group-laws/&#34;&gt;formal group laws&lt;/a&gt;. There we explained briefly a theorem of Quillen, stating that the universal formal group law over the Lazard ring corresponds to complex cobordism cohomology. We did not cover what complex cobordism actually is, so that is the plan for this post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy groups of the spheres. Part 2</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/&#34;&gt;previous post&lt;/a&gt; we studied some &amp;ldquo;easy&amp;rdquo; cases of homotopy groups of spheres. We focused most on the group $\pi_3(S^2)$ and its computation from the Hopf fibration. All groups calculated last time were part of the so-called unstable range, meaning that they are not invariant under suspension. Due to the Freudenthal suspension theorem we know precicely the stable range for homotopy groups of spheres, and these are given by the stable homotopy groups. These groups are what we will look at today (and what we looked at during the second part of the talk these two blog-posts are based upon). We will compute some of the low stable homotopy groups of spheres using the socalled $J$-homomorphism. But, in order to do this calculation we must cover a plethora of interesting mathematics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy groups of the spheres. Part 1</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</guid>
+      <description>&lt;p&gt;Recently I gave a talk about the homotopy groups of spheres, and as usual, I try to collect my thoughts on this blog before (or after) presenting. The homotopy groups of spheres have featured several times on this blog, and we have made some effort into calculating them for some small dimensions. In the talk I wanted to showcase some methods used to calculate these groups, as well as doing some of the &amp;ldquo;calculations&amp;rdquo;. We have met several of the tools before, like the long exact sequence from a fibration and the Freudenthal suspension theorem, but we will also meet some new ones, like the $J$-homomorphism and the $h$-cobordism group. These two are methods for calculating the stable homotopy groups of spheres, or at least some of their subgroups. For the low dimensional cases, these subgroups will luckily be the entire groups. Due to the length of the post I have split it into two: one covering the unstable homotopy groups, mostly focusing on the Hopf fibration, and one covering the stable groups, mostly focusing on the image of the $J$-homomorphism. Before we start we recall the definition of the homotopy groups of spheres.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The stable homotopy category</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/the-stable-homotopy-category/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/the-stable-homotopy-category/</guid>
+      <description>&lt;p&gt;A little while ago we discussed the definition of a &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/&#34;&gt;tensor triangulated category&lt;/a&gt;, and in that post we mentioned an example that we didn&amp;rsquo;t explicitly define, namely the stable homotopy category. The goal for todays post is to fix this. There are many ways of defining it, and some are actually better than others. As the name suggests, the stable homotopy category is a homotopy category, which we have discussed before in &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the fibration series&lt;/a&gt;. But the question is, what is it the homotopy category of? As we remarked in the post on tensor triangulated categories, it is the homotopy category of the category of spectra, and it is here that the different approaches lie. What exactly is the category of spectra, and which spectra are we even talking about? Is it the sequential spectra? or maybe the orthogonal spectra? or perhaps the symmetric ones? maybe $S$-modules or excisive functors? All these names of course means nothing to us yet, as we haven&amp;rsquo;t properly looked at any of them. We did however meet the $\Omega$-spectrum in an &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/&#34;&gt;earlier post&lt;/a&gt;, but which of the above types does it belong to?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stable homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/stable-homotopy/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/stable-homotopy/</guid>
+      <description>&lt;p&gt;For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It&amp;rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series. In fact, we actually used it, or at least almost when we said: &amp;ldquo;Hence the suspension functor should shift the degrees of the homotopy groups up by one&amp;rdquo; in &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/&#34;&gt;this post&lt;/a&gt;. Today we make this precise, and look at a cool thing that happens as a consequence of this.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Formal group laws</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/formal-group-laws/</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/formal-group-laws/</guid>
+      <description>&lt;p&gt;Recently we have covered a lot of heavy topology and abstract mathematics, so today I thought we would cover something else — something maybe a bit easier to grasp. We will introduce the concept of formal group laws, and a bit on why they are interesting.&lt;/p&gt;
+&lt;h2 id=&#34;introduction-and-definition&#34;&gt;Introduction and definition&lt;/h2&gt;
+&lt;p&gt;To not just spew out the definition straight away, we look at a situation where formal group laws arise very naturally. Let $G$ be a one-dimensional commutative Lie group (Think here of the real numbers $\mathbb{R}$ or the circle group $S^1$). This group has a continuous product, $m:G\times G\longrightarrow G$, which locally can be described by a real-valued function in two variables. This function has a Taylor expansion around the origin, which is a power series in two variables. Denote this power series by $F$. This power series satisfies some axioms because of the group structure we have on $G$, these axioms are identity, commutativity and associativity. In more mathematical terms this means that the following statements hold&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A first look at spectra</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/</guid>
+      <description>&lt;p&gt;Even though this blog is not centered around a specific topic, we have during the last year looked more frequently at certain topics than others, such as (co)homology theory, homotopy theory and category theory. We will continue this trend today as we will try to find a solid reason for a particular object to exist. These objects were briefly mentioned in the earlier post on &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/&#34;&gt;tensor triangulated categories&lt;/a&gt;, namely &lt;em&gt;spectra.&lt;/em&gt; These objects are hugely important to the field of algebraic topology, one reason being that they are intimately linked to cohomology. This intimate connection is the study of todays blog post&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Traveling</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/traveling/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/traveling/</guid>
+      <description>How can we use travel-journaling to study some highly abstract and highly complicated mathematical machinery? Can we get anything out of such an analogy? In this post we do just that, study the homotopy hypothesis and infinity groupoids through the lens of a travel ledger.</description>
+    </item>
+    <item>
+      <title>On formal DG-algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/</guid>
+      <description>I have recently handed in and defended my master thesis in mathematics, so I though I would go through its abstract and try to explain what it&amp;rsquo;s all about. We look at formality of DG-algebras, Massey products, A_infinity-algebras and how we can use these to some interesting results.</description>
+    </item>
+    <item>
+      <title>Tensor triangulated categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/</guid>
+      <description>&lt;p&gt;For the last five years mathematics has been my passion, as well as my main focus in life. This passion for mathematics will hopefully not diminish, as I am now heading into four more years of studies and research through a PhD in mathematics at NTNU. I am joining a project, called Tensor triangulated geometry in Trondheim, so today I thought I would explore the definition of one of the main players in this theory, namely tensor triangulated categories. We have already met half of this structure during our several encounters of &lt;a href=&#34;https://torgeiraamboe.github.io/tags/monoidal-categories/&#34;&gt;monoidal categories&lt;/a&gt;, but the other half remains, as well as how to glue them together into a cohesive joint structure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Updated geometric intuition</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/updated-geometric-intuition/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/geometric-intuition/&#34;&gt;first post&lt;/a&gt; on this blog is titled &amp;ldquo;geometric intuition&amp;rdquo;, and discusses the geometry behind Noether&amp;rsquo;s normalization lemma. When I wrote it I didn&amp;rsquo;t yet understand all the pieces, as I was not very comfortable working with algebraic geometry. One year later, I&amp;rsquo;m still not comfortable, but a bit more than last year. So, I thought I would update last years post with my new knowledge, as well as generalize the intuition to schemes - which we introduced in the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/schemes/&#34;&gt;last post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schemes</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/schemes/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/schemes/</guid>
+      <description>&lt;p&gt;The first two posts (&lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/geometric-intuition/&#34;&gt;[1]&lt;/a&gt;,&lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/&#34;&gt;[2]&lt;/a&gt;) I ever did on this blog - now over a year ago - were posts about algebraic geometry. In particular we explored the geometric implications of some of the algebraic results I was learning in my commutative algebra class. Last summer I also wrote &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/sheaves/&#34;&gt;a post about sheaves&lt;/a&gt;, and left it off by claiming to soon write about schemes. If you scroll through the blog we have covered a bunch of different topics, but the blog post on schemes, seems to have fallen through the cracks. Today we will rectify this situation. I have my algebraic geometry exam this week, so this is both an explainer-post, and a &amp;ldquo;making sure I understand the course material&amp;rdquo;-post. These types of posts have in fact become common on this blog, but hopefully that is ok.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sha-algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</guid>
+      <description>&lt;p&gt;This is part four in a sort of connected story about operations in mathematics that are associative up to homotopy. It will probably be beneficial to read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/&#34;&gt;part 1&lt;/a&gt;, &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/&#34;&gt;part 2&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/&#34;&gt;part 3&lt;/a&gt; in advance of this, but it is not required in theory. These previous posts do however build up some intuition and motivation for the object we are looking at today. To quickly recap what we already seen in these previous posts we recall that we started out by looking at how to transfer a group structure on a topological space through an isomorphism. We saw it produced the same structure, so we weakened to looking at transferring it through a homotopy equivalence instead. We then got an operation that was associative only up to homotopy, which we studied a bit through the so called Stasheff associahedra. We then introduced H-spaces and saw that some of these, in particular loop spaces, had the same type of homotopy associative operation. In the latest edition we looked at a more algebraic situation, still heavily motivated by the topology we had discussed earlier. In this situation we explicitly described a ternary operation that we proved was the associating homotopy and saw that we got a certain relation involving the associator and the boundary of the associating homotopy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The associating homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</guid>
+      <description>&lt;p&gt;In the two last posts we have been discussing operations that are associative up to homotopy, and where such operations might arise naturally in topology. One claim I made, which I later realized was maybe a bit unmotivated and in need of some clarification was how some higher arity maps actually defined (or were defined by) homotopies between combinations of the lower arity maps. We also purely looked at this in a topological setting, but in algebraic topology we often translate to algebraic structures, so I also wanted to see clearly that the same constructions hold in that setting. To be more precise I am talking about the claim that a map we denoted by $m_3$ was a homotopy between $m_2(id\otimes m_2)$ and $m_2(m_2 \otimes id)$, where $m_2$ was a product induced through a homotopy equivalence. Don’t worry if you don’t recall the definitions and this problem, we will go through it again shortly. Today we in fact upgrade this earlier homotopy equivalence slightly such as to have a bit more to work with. As said we also take a turn away from standard topology and make our choice of “space” for this post to be chain complexes of vector spaces. I will not cover in detail why this is a reasonable thing to do but I will mention that the de Rham complex of a manifold, the rational singular cochains on a topological space and the rational cohomology of a topological space are all such structures. So, if we believe that algebraic topology is a nice way to study spaces, then studying these should be highly relevant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spaces with operations</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/&#34;&gt;most recent blog post&lt;/a&gt; we discussed homotopy associativity and how to transfer algebraic structures on topological spaces. There we in particular used topological groups, which are topological spaces with group structures. That said, any group is a topological group by equipping it with the discrete topology. So if we want to study some actual topology, and not just glorified group theory, we need to look at where multiplications and binary operations arise naturally in topology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy associativity</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
+      <description>&lt;p&gt;Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures. If $G$ has an algebraic structure, for example a group structure, can we then transfer the same or some other similar structure onto $T$ through $f$?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A lecture in my second year</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/a-lecture-in-my-second-year/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/a-lecture-in-my-second-year/</guid>
+      <description>&lt;p&gt;For those that don’t know I am a fifth year mathematics student at NTNU, meaning I am finishing my masters degree after this semester. During my time at NTNU I have had some wonderful classes, and some wonderful teachers. Since most I post about on this blog is related to topology, it is very safe to assume that some of my most memorable courses are exactly the topology courses. I very recently looked at my notes from my first topology course, or rather one of the two first, as I took two in parallel during my fourth semester. The course was focused on differential topology and the study of smooth manifolds. It was taught by my now supervisor, but on a couple of the last lectures we had some guest appearances from the other topology professors at NTNU. One of these guest lectures is the focus of todays blog post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hanging pictures with knots</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/hanging-pictures-with-knots/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/hanging-pictures-with-knots/</guid>
+      <description>&lt;p&gt;Last year I posted a &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/&#34;&gt;blog post&lt;/a&gt; where we looked at a way to use elementary homotopy theory to hang a picture on the wall in a stupid way. The task was to hang a picture on two nails in such a way that if we pull one of the nails out, the picture falls down. “That is stupid” I hear you say, but premise is as premise does, or something similar quoted from Forrest Gump. I remarked then that I had seen the problem a couple years earlier, and I actually recently found were, which is how this blog post got made. I initially came across the problem from a &lt;a href=&#34;https://www.youtube.com/watch?v=n-v6pmZzxL0&#34;&gt;video&lt;/a&gt; by a YouTube channel called GoldPlatedGoof. I watched the video again recently and decided to look around math-YouTube for other videos on the problem. There I came across one similar, and a bit less rigorous &lt;a href=&#34;https://www.youtube.com/watch?v=x5h3yTxeCew&amp;amp;t&#34;&gt;video&lt;/a&gt; by Matt Parker and Steve Mould. They solved it similarly to the original one, i.e. by using commutators, which is formalized by using the fundamental groups we did last time when posting about this. More interestingly I came across a &lt;a href=&#34;https://www.youtube.com/watch?v=-eVd2Ugk9BU&#34;&gt;video&lt;/a&gt; by Tom Scott and Jade Tan-Holmes which used a completely different (yet actually the same) method for solving it. Jade used knots and braid diagrams to produce a solution for the problem, which inspired me to make this post. We are also going to solve the problem using knots. The overall tactic will be roughly the same as Jades, but the method and the proof will be a bit different. The post has turned out to be quite long, but there are many pictures, and not that much text!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Are there knots?</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/there-are-knots/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/there-are-knots/</guid>
+      <description>&lt;p&gt;Something I have been looking into a bit lately, due to it sadly not being taught at my university is knot theory. This is something I have always known to be a part of topology, and have known to have interesting applications in physics, medicine, chemistry and more. So to rectify the situation I thought I would prove that knots exist. It was also nice to take a brake from all the higher category theory we have been looking into lately!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quasi-categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</guid>
+      <description>&lt;p&gt;A couple weeks ago I held a talk on introductory higher category theory. Most of the talk was based upon thing we already have discussed on this blog, such as the strict $2$-category $Cat$, bicategories, and why strictness fails for the category of topological spaces. The inly thing I talked about which I haven’t yet featured on this blog is the notion of quasi-categories, so I though that I would do that today. So, to see where we are headed, I just define it right away.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vertical monoids</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/vertical-monoids/</guid>
+      <description>&lt;p&gt;You may be thinking, what the heck is a monoid, and why the heck is it vertical? To explain this we will need some insight into classical categories and $2$-categories, which we luckily have been developing for the last few posts. First off, to let the familiar readers know, the objects of study today is called monads, not vertical monoids. But, I like to visualize them and think about them as somehow vertical, or at least something not strictly horizontal or one-dimensional.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equivalence of categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/equivalences-of-categories/</guid>
+      <description>&lt;p&gt;Last fall I held a &lt;a href=&#34;https://fagkom.wordpress.com/2019/11/05/kategoriteori-del-2/&#34;&gt;talk&lt;/a&gt; about functors, natural transformations and equivalences of categories. This talk was part two of five in a student seminar on introductory category theory. There was mostly second year students attending but also a couple more experienced students. To make the talk a bit interesting for them as well I said that an equivalence of categories is the correct notion of “sameness” of categories, and not isomorphisms due to the fact that categories naturally lie in a $2$-category. An isomorphism of categories would be the correct notion of sameness if the category of categories had only trivial $2$-categorical structure, and we didn’t have to worry about higher morphisms. In this post I want to look at this statement and show that it is true.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy litmus test</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</guid>
+      <description>&lt;p&gt;A litmus test is a question asked in politics to a potential candidate for high office in which the answer determines if the person gets nominated or not. If a person or a committee holds the power of nominating candidates, they can use that power to make sure that a potential candidate holds their view on a certain matter. So, what does this have to do with mathematics, or especially with homotopy theory? There is a question worth asking certain objects to check if they should be allowed to be a suitable “definition” for a certain nice structure. The question, or test, which we will look more closely at soon, first started as a conjecture by Grothendieck, named later “the homotopy hypothesis”. This conjecture is still open in the way formulated by Grothendieck, but it can be turned on its head to form this test instead. The reason this is possible is because of ambiguity in a certain definition in higher category theory, and because there is seemingly many inequivalent “definitions” for the same object. Before exploring any theory at all, the conjecture states that $\infty$-groupoids are equivalent to topological spaces. The litmus test then becomes; $X$ is considered a definition of $\infty$-groupoids if and only if all $X$s’ are equivalent to topological spaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Under category</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/under-category/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/under-category/</guid>
+      <description>&lt;p&gt;Since one of my main mathematical interests is homotopy theory, im bound to often bump into things that require the use of base-points. This has long been the classical way to study spaces, especially in terms of homotopy groups. When I was introduced to these so-called pointed spaces, I couldn’t help but feel that these we less natural, or more ad hoc, than regular spaces. I didn’t know much about categories then, but have since learned it is usually in this context that some form of naturality occur. It turns out that pointed spaces actually come from a very nice natural categorical construction, which of course is the focus of this post. I will assume introductory knowledge of categories, and I will try to keep this short for once.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Defining the cosmos: Properties and definition</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-2/</guid>
+      <description>&lt;p&gt;This post is part two of a little two-part miniseries about defining the cosmos. To learn what a cosmos is in mathematics, or rather what we want it to be, you can read the first part. There we described a cosmos as a nice place to enrich a category, or a nice place to do enriched category theory, and to quickly recap, an enriched category is a category where we have objects of morphisms instead of just a collection of them, and these objects come from some monoidal category. In this post we will continue the story, and focus more on the definition rather than the setup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Defining the cosmos: Enriched category theory</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/defining-the-cosmos-1/</guid>
+      <description>&lt;p&gt;I think there are many parts of physics worth studying for mathematicians, and the physical notion of a cosmos may be one of them, but, this post is not about physics. Even though the usual field of study one thinks of when hearing the word “cosmos” is physics, there is also a type of mathematical object with the same name. This type of object does have that name for a reason, which is not clear maybe from the object it self, but from what one can do with and in such an object. In physics, the cosmos is a word for the universe, but it includes also the universes structure. The cosmos is not just “all the stuff that exists”, but also their relations and complex interactions. It is therefore kind of the background, or the playing field of physics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Warsaw circle</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</guid>
+      <description>&lt;p&gt;The last few posts have all been of relatively long length and have all taken some time to construct and write. I initially also wanted to produce shorter posts just discussing an example or a calculation etc, and today I tried to do just that, but failed. The post became somewhat longer than intended, but it is really informal and intuitive, so its fine in my opinion.&lt;/p&gt;
+&lt;p&gt;In a previous post we discussed both weak homotopy equivalences and regular homotopy equivalences, and we have also encountered the Whitehead theorem, which says that any weak homotopy equivalence between CW-complexes is in fact a regular homotopy equivalence. But, we did not discuss their differences, which is what we do in this post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Orbifolds</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/orbifolds/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/orbifolds/</guid>
+      <description>&lt;p&gt;For quite some time I have occasionally stumbled onto the Wikipedia page for orbifolds while looking at topology related mathematics. I have always been fascinated by them, and always though that they certainly will come up during studies at university, but they never have (at least not yet). On said wikipedia page it says that the word orbifold is short for “orbit manifold” and that these orbifolds are in fact a generalization of manifolds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sheaves</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/sheaves/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/sheaves/</guid>
+      <description>&lt;p&gt;This summer I’m participating in Ravi Vakils pseudocourse on algebraic geometry, AGITTOC. Hence this summer serves as a wonderful opportunity to learn and write about cool mathematics. For long I have wanted to dive deeper into this abstract topic after just dipping my toes in during my bachelor thesis, and now it is time. Ravi though us in the first lecture that we shouldn’t study abstract objects without a cause, i.e. we need to ask ourselves &lt;strong&gt;why&lt;/strong&gt; we want to learn about the objects, or the mathematics that lies ahead. I want to study algebraic geometry because I really like algebraic topology, and a lot of the concepts and notions of algebraic topology are abstracted in algebraic geometry, and several concepts gets a new viewpoint or gets some new tools to use to study them. I thought I would start off by discussing one of the fundamental objects of study in algebraic geometry, namely sheaves. These objects abstract, concretize and formalize several other mathematical notions, some of which we already know. One of these in particular is sheaf cohomology which can be viewed to generalize both singular, deRham and Cech cohomology. We are going to look into this cohomology theory in a later post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Swan&#39;s theorem</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/swans-theorem/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/swans-theorem/</guid>
+      <description>&lt;p&gt;A part of mathematics I really an starting to enjoy more is mathematics that explain or develop connections between geometry or topology, and algebra. The first two posts on this blog was focused on developing some geometrical insight to two lemmas from commutative algebra, namely Noether’s normalization lemma and Zariski’s lemma. There are many more such connections worth discussing and exploring, and today I want to focus on one of these “bridges” between geometry and algebra, namely Swan’s theorem. This theorem tells us how nice objects “over” another object in geometry relate to nice objects “over” another object in algebra.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy category</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</guid>
+      <description>&lt;p&gt;This is part 9 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting. The goal is to have a well defined workable notion of a homotopy category, and understand what it consists of.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy in model categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</guid>
+      <description>&lt;p&gt;This is part 8 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with. This structure on a category is supposed to embody where homotopy theory works, but failed to immediately convey that to me. But, that said, we will today go through the construction of homotopy, and prove that it is an equivalence relation on maps in nice cases. These cases we mentioned in the previous part, and will be maps between objects that are both fibrant and cofibrant, which I will refer to as bifibrant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Model categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/model-categories/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/model-categories/</guid>
+      <description>&lt;p&gt;This is part 7 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally we have made it to the destination we set, namely, more abstraction. This post is focused on the definition and intuition on model categories, which abstracts the objects we have been studying for some weeks, namely fibrations and cofibrations. The main definition is that of a model structure on a category, which together with a nice category will form the definition of a model category. So, why do we want this? There are more than one reason.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cofibrations</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/cofibrations/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
+      <description>&lt;p&gt;This is part 6 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations. The road we are heading with this series, as mentioned before, is to define Model categories, and discover how to use them. Up until now, and including this post, I have been pretty comfortable with the objects of study, and I feel i know them quite well. After this post tho, I think I’m entering unknown territory for me, which is good!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hanging pictures with homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</guid>
+      <description>&lt;p&gt;Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it! Finally a real world practical useful application of homotopy theory! Take that society.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A homotopy group of a sphere</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</guid>
+      <description>&lt;p&gt;This is part 5 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask? Last time we developed the machinery to calculate the cohomology of the total space of a fibration, but we want to compute homotopy. Hence we need a method for translating cohmological information into homotopical information, which is what we are missing to be able to do the calculation. There may be other processes that I haven’t learned, but the process I know goes through two steps. First we must translate cohomology into homology. This is done through the so called cohomological universal coefficient theorem (cUCT). Then we need to translate from homology to homotopy. This is done through the Hurewicz theorem. I think of these two theorems together as sort of a Rosetta stone for algebraic topology. It makes us able (with some computation and restrictions of course) to move between the three fundamental theories of invariants we have in algebraic topology, which I find beautiful. There is one more thing we need, which is a starting point for our calculation. We need a good fibration to extract the information we want which we are able to translate into homotopy afterwards. Therefore we need a space in the fibration that does not complicate things when we translate into homotopy, i.e. we need a space in which we completely understand its homotopy groups. The “homotopy-easy” spaces I’m describing are called Eilenberg-MacLane spaces. In cohomology (and homology) theory we have the easy spaces being spheres because we completely understand their cohomological structure. They cam be thought of as the building blocks for (co)homology. The same type of space for homotopy is exactly theese Eilenberg-MacLane spaces, and they form the building blocks for homotopy groups in the same way as the spheres for (co)homology. Hence we can combine these spaces and spheres in a fibration and use that to compute cohomology and then relatively easily translate this to homotopy, which is exactly our plan for computing $\pi_4(S^3)$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Serre spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</guid>
+      <description>&lt;p&gt;This is part 4 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My personal favorite part about fibrations is that they come equipped with a natural way to compute the cohomology of the total space from the cohomology of the base and the cohomology of the fibers. This process is encoded in a structure called a spectral sequence, and is a complicated object in its full generality. It consists of layers upon layers of intertwined cohomology groups, all sewn together by homomorphisms. But when I first learned their computing power, and learned how to use them, I fell in love with the structure. If you visit my homepage you will find several small write ups using spectral sequences to prove theorems and do computations of cohomology rings etc. Therefore, I want to create a nice introduction to how to use them, given a fibration. Technicalities of the structure of the spectral sequences will be omitted, but the definitions will of course be given.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy groups</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</guid>
+      <description>&lt;p&gt;This is part 3 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For an introduction to the material, the definitions, motivation and some examples, please read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fibrations/&#34;&gt;part 1&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fiber-bundles/&#34;&gt;part 2&lt;/a&gt; about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration. In this this part, we look at the long exact sequence. This is a tool that will let us relate the homotopy groups of different kinds of spaces to each other, and ultimately, will help us compute the homotopy groups of fiberbundles from the homotopy groups of the base space, and the homotopy groups of the fibers. Forward, we always have pointed spaces, and the base spaces of our fibrations are simply connected. To be a bit more self contained, we remind ourselves what a long exact sequence is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fiber bundles</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/fiber-bundles/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/fiber-bundles/</guid>
+      <description>&lt;p&gt;This is part 2 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Yesterday we discussed the standard definition of a fibration by the homotopy lifting property, and today we are continuing that discussion, but in a more visual manner. This we will do by first looking at fiber bundles, and then generalizing them. Since fibrations are generalized fiber bundles, every fiber bundle is an example of a fibration, and they have been the most important examples for me, as they help me visualize and get intuition into the fibrations without having to really use the full generality of the definition. The main idea of a fiber bundle is that of a family of topological spaces parameterized by another topological space. This family will again form a topological space usually called the total space of the fiber bundle, while the space that parameterizes it is called the base space. Before we get rigorous and technical with definitions, we explore an example.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fibrations</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/fibrations/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/fibrations/</guid>
+      <description>&lt;p&gt;This is part 1 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My main mathematical interest for the last couple years has been algebraic topology. I feel it suits my needs for intuition, and graphical picturing of what happens. A concept I have been learning more rigorously recently is fibrations, and how to use them in computing homotopy groups and homology groups of different spaces. There is something fun and exciting about computing the homology and homotopy groups of new spaces, as it usually requires different techniques and insight every time, and fibrations have certainly presented some new tools for my calculation toolbox. Since fibrations gives us nice tools, it would be nice to understand them better, and that is my plan for this post. As a remark, all spaces used and mentioned will be topological spaces, and all maps will be continuous.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>More geometric intuition</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/more-geometric-intuition/</guid>
+      <description>&lt;p&gt;Yesterday I wrote a geometric explanation of Noether’s normalization lemma, which you can find &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/geometric-intuition/&#34;&gt;here&lt;/a&gt;. I’m going to use the geometric machinery developed in that post, so it can be useful to read that first.&lt;/p&gt;
+&lt;p&gt;One useful result that is often stated as a corollary to Noether’s normalization lemma is Zariski’s lemma. It is a corollary of the algebraic form of the normalization lemma, so i thought there ought to be a geometric version of it as well, which I think I have found. Zariski’s lemma holds true even for non algebraically closed fields, but I think the geometric picture becomes much clearer for algebraically closed fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geometric intuition</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/geometric-intuition/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This spring I have been taking a graduate class in commutative algebra, and I have yet to do algebraic geometry in a proper way, and have only gotten a small taste while writing my bachelor thesis. So this entire semester, I have felt this hinting at a geometric picture from the algebra itself, but i didn&amp;rsquo;t have the insight to figure it out. That said, I now think I have the geometric picture for Noether normalization, which in term implies a geometric picture of Hilbert nullstellensatz and some other results. It took a long time to convert the algebra into geometry for me, and i still have much to learn regarding this. What i have started to figure out is the close relationship between ideals and varieties. I have for a while known that this is one of the main reasons to introduce commutative algebra into algebraic geometry, but i couldn&amp;rsquo;t see the picture myself. Anyway, lets start with some introductory stuff.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

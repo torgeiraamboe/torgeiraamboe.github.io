@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hopf Fibration on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/hopf-fibration/</link>
+    <description>Recent content in Hopf Fibration on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/hopf-fibration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The homotopy groups of the spheres. Part 1</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</guid>
+      <description>&lt;p&gt;Recently I gave a talk about the homotopy groups of spheres, and as usual, I try to collect my thoughts on this blog before (or after) presenting. The homotopy groups of spheres have featured several times on this blog, and we have made some effort into calculating them for some small dimensions. In the talk I wanted to showcase some methods used to calculate these groups, as well as doing some of the &amp;ldquo;calculations&amp;rdquo;. We have met several of the tools before, like the long exact sequence from a fibration and the Freudenthal suspension theorem, but we will also meet some new ones, like the $J$-homomorphism and the $h$-cobordism group. These two are methods for calculating the stable homotopy groups of spheres, or at least some of their subgroups. For the low dimensional cases, these subgroups will luckily be the entire groups. Due to the length of the post I have split it into two: one covering the unstable homotopy groups, mostly focusing on the Hopf fibration, and one covering the stable groups, mostly focusing on the image of the $J$-homomorphism. Before we start we recall the definition of the homotopy groups of spheres.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Serre spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</guid>
+      <description>&lt;p&gt;This is part 4 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My personal favorite part about fibrations is that they come equipped with a natural way to compute the cohomology of the total space from the cohomology of the base and the cohomology of the fibers. This process is encoded in a structure called a spectral sequence, and is a complicated object in its full generality. It consists of layers upon layers of intertwined cohomology groups, all sewn together by homomorphisms. But when I first learned their computing power, and learned how to use them, I fell in love with the structure. If you visit my homepage you will find several small write ups using spectral sequences to prove theorems and do computations of cohomology rings etc. Therefore, I want to create a nice introduction to how to use them, given a fibration. Technicalities of the structure of the spectral sequences will be omitted, but the definitions will of course be given.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy groups</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</guid>
+      <description>&lt;p&gt;This is part 3 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For an introduction to the material, the definitions, motivation and some examples, please read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fibrations/&#34;&gt;part 1&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fiber-bundles/&#34;&gt;part 2&lt;/a&gt; about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration. In this this part, we look at the long exact sequence. This is a tool that will let us relate the homotopy groups of different kinds of spaces to each other, and ultimately, will help us compute the homotopy groups of fiberbundles from the homotopy groups of the base space, and the homotopy groups of the fibers. Forward, we always have pointed spaces, and the base spaces of our fibrations are simply connected. To be a bit more self contained, we remind ourselves what a long exact sequence is.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

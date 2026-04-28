@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Operads on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/operads/</link>
+    <description>Recent content in Operads on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/operads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spaces with operations</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/&#34;&gt;most recent blog post&lt;/a&gt; we discussed homotopy associativity and how to transfer algebraic structures on topological spaces. There we in particular used topological groups, which are topological spaces with group structures. That said, any group is a topological group by equipping it with the discrete topology. So if we want to study some actual topology, and not just glorified group theory, we need to look at where multiplications and binary operations arise naturally in topology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy associativity</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
+      <description>&lt;p&gt;Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures. If $G$ has an algebraic structure, for example a group structure, can we then transfer the same or some other similar structure onto $T$ through $f$?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

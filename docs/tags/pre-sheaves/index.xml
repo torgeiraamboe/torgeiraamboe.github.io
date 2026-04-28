@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pre-Sheaves on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/pre-sheaves/</link>
+    <description>Recent content in Pre-Sheaves on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/pre-sheaves/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sheaves</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/sheaves/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/sheaves/</guid>
+      <description>&lt;p&gt;This summer I’m participating in Ravi Vakils pseudocourse on algebraic geometry, AGITTOC. Hence this summer serves as a wonderful opportunity to learn and write about cool mathematics. For long I have wanted to dive deeper into this abstract topic after just dipping my toes in during my bachelor thesis, and now it is time. Ravi though us in the first lecture that we shouldn’t study abstract objects without a cause, i.e. we need to ask ourselves &lt;strong&gt;why&lt;/strong&gt; we want to learn about the objects, or the mathematics that lies ahead. I want to study algebraic geometry because I really like algebraic topology, and a lot of the concepts and notions of algebraic topology are abstracted in algebraic geometry, and several concepts gets a new viewpoint or gets some new tools to use to study them. I thought I would start off by discussing one of the fundamental objects of study in algebraic geometry, namely sheaves. These objects abstract, concretize and formalize several other mathematical notions, some of which we already know. One of these in particular is sheaf cohomology which can be viewed to generalize both singular, deRham and Cech cohomology. We are going to look into this cohomology theory in a later post.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Homotopy Groups on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/homotopy-groups/</link>
+    <description>Recent content in Homotopy Groups on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/homotopy-groups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Adams spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/</guid>
+      <description>&lt;p&gt;Recently my friend Elias started his own &lt;a href=&#34;https://eka2499.github.io/&#34;&gt;math blog&lt;/a&gt; adventure, and his &lt;a href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/&#34;&gt;first post&lt;/a&gt; gave a nice introduction to spectral sequences. Reading it I remembered that I should really understand some of the parts better myself, because a lot of the arguments one makes in chromatic homotopy theory are based on spectral sequences. There is a framework for constructing spectral sequences that are not covered in my &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/&#34;&gt;old post&lt;/a&gt; on them, as well as Elias’ post, and that is creating spectral sequences from exact couples. So, since I will use these techniques later in my research, and probably later on this blog, I thought it worthwhile to discuss. In particular we look into producing spectral sequences from filtered spectra, as this is the part that is most relevant for my research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy groups of the spheres. Part 2</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres-2/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/&#34;&gt;previous post&lt;/a&gt; we studied some &amp;ldquo;easy&amp;rdquo; cases of homotopy groups of spheres. We focused most on the group $\pi_3(S^2)$ and its computation from the Hopf fibration. All groups calculated last time were part of the so-called unstable range, meaning that they are not invariant under suspension. Due to the Freudenthal suspension theorem we know precicely the stable range for homotopy groups of spheres, and these are given by the stable homotopy groups. These groups are what we will look at today (and what we looked at during the second part of the talk these two blog-posts are based upon). We will compute some of the low stable homotopy groups of spheres using the socalled $J$-homomorphism. But, in order to do this calculation we must cover a plethora of interesting mathematics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy groups of the spheres. Part 1</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</guid>
+      <description>&lt;p&gt;Recently I gave a talk about the homotopy groups of spheres, and as usual, I try to collect my thoughts on this blog before (or after) presenting. The homotopy groups of spheres have featured several times on this blog, and we have made some effort into calculating them for some small dimensions. In the talk I wanted to showcase some methods used to calculate these groups, as well as doing some of the &amp;ldquo;calculations&amp;rdquo;. We have met several of the tools before, like the long exact sequence from a fibration and the Freudenthal suspension theorem, but we will also meet some new ones, like the $J$-homomorphism and the $h$-cobordism group. These two are methods for calculating the stable homotopy groups of spheres, or at least some of their subgroups. For the low dimensional cases, these subgroups will luckily be the entire groups. Due to the length of the post I have split it into two: one covering the unstable homotopy groups, mostly focusing on the Hopf fibration, and one covering the stable groups, mostly focusing on the image of the $J$-homomorphism. Before we start we recall the definition of the homotopy groups of spheres.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The stable homotopy category</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/the-stable-homotopy-category/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/the-stable-homotopy-category/</guid>
+      <description>&lt;p&gt;A little while ago we discussed the definition of a &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/tensor-triangulated-categories/&#34;&gt;tensor triangulated category&lt;/a&gt;, and in that post we mentioned an example that we didn&amp;rsquo;t explicitly define, namely the stable homotopy category. The goal for todays post is to fix this. There are many ways of defining it, and some are actually better than others. As the name suggests, the stable homotopy category is a homotopy category, which we have discussed before in &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the fibration series&lt;/a&gt;. But the question is, what is it the homotopy category of? As we remarked in the post on tensor triangulated categories, it is the homotopy category of the category of spectra, and it is here that the different approaches lie. What exactly is the category of spectra, and which spectra are we even talking about? Is it the sequential spectra? or maybe the orthogonal spectra? or perhaps the symmetric ones? maybe $S$-modules or excisive functors? All these names of course means nothing to us yet, as we haven&amp;rsquo;t properly looked at any of them. We did however meet the $\Omega$-spectrum in an &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/a-first-look-at-spectra/&#34;&gt;earlier post&lt;/a&gt;, but which of the above types does it belong to?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stable homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/stable-homotopy/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/stable-homotopy/</guid>
+      <description>&lt;p&gt;For the last few posts we have covered some theory surrounding cohomology theories, and today we want to do something else, namely again look at some homotopy theory. It&amp;rsquo;s been a long time since we have covered homotopy groups, but today we return once again. In particular I want to cover a theorem and its consequences — the Freudenthal suspension theorem. This is one of the central theorems in the homotopy theory of topological spaces, and is one of the more important theorems we left out from the fibration series. In fact, we actually used it, or at least almost when we said: &amp;ldquo;Hence the suspension functor should shift the degrees of the homotopy groups up by one&amp;rdquo; in &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/&#34;&gt;this post&lt;/a&gt;. Today we make this precise, and look at a cool thing that happens as a consequence of this.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Warsaw circle</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-warsaw-circle/</guid>
+      <description>&lt;p&gt;The last few posts have all been of relatively long length and have all taken some time to construct and write. I initially also wanted to produce shorter posts just discussing an example or a calculation etc, and today I tried to do just that, but failed. The post became somewhat longer than intended, but it is really informal and intuitive, so its fine in my opinion.&lt;/p&gt;
+&lt;p&gt;In a previous post we discussed both weak homotopy equivalences and regular homotopy equivalences, and we have also encountered the Whitehead theorem, which says that any weak homotopy equivalence between CW-complexes is in fact a regular homotopy equivalence. But, we did not discuss their differences, which is what we do in this post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hanging pictures with homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</guid>
+      <description>&lt;p&gt;Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it! Finally a real world practical useful application of homotopy theory! Take that society.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A homotopy group of a sphere</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</guid>
+      <description>&lt;p&gt;This is part 5 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask? Last time we developed the machinery to calculate the cohomology of the total space of a fibration, but we want to compute homotopy. Hence we need a method for translating cohmological information into homotopical information, which is what we are missing to be able to do the calculation. There may be other processes that I haven’t learned, but the process I know goes through two steps. First we must translate cohomology into homology. This is done through the so called cohomological universal coefficient theorem (cUCT). Then we need to translate from homology to homotopy. This is done through the Hurewicz theorem. I think of these two theorems together as sort of a Rosetta stone for algebraic topology. It makes us able (with some computation and restrictions of course) to move between the three fundamental theories of invariants we have in algebraic topology, which I find beautiful. There is one more thing we need, which is a starting point for our calculation. We need a good fibration to extract the information we want which we are able to translate into homotopy afterwards. Therefore we need a space in the fibration that does not complicate things when we translate into homotopy, i.e. we need a space in which we completely understand its homotopy groups. The “homotopy-easy” spaces I’m describing are called Eilenberg-MacLane spaces. In cohomology (and homology) theory we have the easy spaces being spheres because we completely understand their cohomological structure. They cam be thought of as the building blocks for (co)homology. The same type of space for homotopy is exactly theese Eilenberg-MacLane spaces, and they form the building blocks for homotopy groups in the same way as the spheres for (co)homology. Hence we can combine these spaces and spheres in a fibration and use that to compute cohomology and then relatively easily translate this to homotopy, which is exactly our plan for computing $\pi_4(S^3)$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy groups</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</guid>
+      <description>&lt;p&gt;This is part 3 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For an introduction to the material, the definitions, motivation and some examples, please read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fibrations/&#34;&gt;part 1&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fiber-bundles/&#34;&gt;part 2&lt;/a&gt; about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration. In this this part, we look at the long exact sequence. This is a tool that will let us relate the homotopy groups of different kinds of spaces to each other, and ultimately, will help us compute the homotopy groups of fiberbundles from the homotopy groups of the base space, and the homotopy groups of the fibers. Forward, we always have pointed spaces, and the base spaces of our fibrations are simply connected. To be a bit more self contained, we remind ourselves what a long exact sequence is.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

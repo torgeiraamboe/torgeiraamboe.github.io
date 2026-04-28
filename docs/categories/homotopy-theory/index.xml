@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Homotopy Theory on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/categories/homotopy-theory/</link>
+    <description>Recent content in Homotopy Theory on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/categories/homotopy-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The homotopy groups of the spheres. Part 1</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/</guid>
+      <description>&lt;p&gt;Recently I gave a talk about the homotopy groups of spheres, and as usual, I try to collect my thoughts on this blog before (or after) presenting. The homotopy groups of spheres have featured several times on this blog, and we have made some effort into calculating them for some small dimensions. In the talk I wanted to showcase some methods used to calculate these groups, as well as doing some of the &amp;ldquo;calculations&amp;rdquo;. We have met several of the tools before, like the long exact sequence from a fibration and the Freudenthal suspension theorem, but we will also meet some new ones, like the $J$-homomorphism and the $h$-cobordism group. These two are methods for calculating the stable homotopy groups of spheres, or at least some of their subgroups. For the low dimensional cases, these subgroups will luckily be the entire groups. Due to the length of the post I have split it into two: one covering the unstable homotopy groups, mostly focusing on the Hopf fibration, and one covering the stable groups, mostly focusing on the image of the $J$-homomorphism. Before we start we recall the definition of the homotopy groups of spheres.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Traveling</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/traveling/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/traveling/</guid>
+      <description>How can we use travel-journaling to study some highly abstract and highly complicated mathematical machinery? Can we get anything out of such an analogy? In this post we do just that, study the homotopy hypothesis and infinity groupoids through the lens of a travel ledger.</description>
+    </item>
+    <item>
+      <title>Sha-algebras</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/sha-algebras/</guid>
+      <description>&lt;p&gt;This is part four in a sort of connected story about operations in mathematics that are associative up to homotopy. It will probably be beneficial to read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/&#34;&gt;part 1&lt;/a&gt;, &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/&#34;&gt;part 2&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/&#34;&gt;part 3&lt;/a&gt; in advance of this, but it is not required in theory. These previous posts do however build up some intuition and motivation for the object we are looking at today. To quickly recap what we already seen in these previous posts we recall that we started out by looking at how to transfer a group structure on a topological space through an isomorphism. We saw it produced the same structure, so we weakened to looking at transferring it through a homotopy equivalence instead. We then got an operation that was associative only up to homotopy, which we studied a bit through the so called Stasheff associahedra. We then introduced H-spaces and saw that some of these, in particular loop spaces, had the same type of homotopy associative operation. In the latest edition we looked at a more algebraic situation, still heavily motivated by the topology we had discussed earlier. In this situation we explicitly described a ternary operation that we proved was the associating homotopy and saw that we got a certain relation involving the associator and the boundary of the associating homotopy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The associating homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/</guid>
+      <description>&lt;p&gt;In the two last posts we have been discussing operations that are associative up to homotopy, and where such operations might arise naturally in topology. One claim I made, which I later realized was maybe a bit unmotivated and in need of some clarification was how some higher arity maps actually defined (or were defined by) homotopies between combinations of the lower arity maps. We also purely looked at this in a topological setting, but in algebraic topology we often translate to algebraic structures, so I also wanted to see clearly that the same constructions hold in that setting. To be more precise I am talking about the claim that a map we denoted by $m_3$ was a homotopy between $m_2(id\otimes m_2)$ and $m_2(m_2 \otimes id)$, where $m_2$ was a product induced through a homotopy equivalence. Don’t worry if you don’t recall the definitions and this problem, we will go through it again shortly. Today we in fact upgrade this earlier homotopy equivalence slightly such as to have a bit more to work with. As said we also take a turn away from standard topology and make our choice of “space” for this post to be chain complexes of vector spaces. I will not cover in detail why this is a reasonable thing to do but I will mention that the de Rham complex of a manifold, the rational singular cochains on a topological space and the rational cohomology of a topological space are all such structures. So, if we believe that algebraic topology is a nice way to study spaces, then studying these should be highly relevant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy associativity</title>
+      <link>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/</guid>
+      <description>&lt;p&gt;Imagine we have a system of two topological spaces $f:T\longrightarrow G$. We are often interested in knowing if a certain property on the space $G$ can be transferred through f such that we have the same property on $T$. If f is a nice enough morphism an example could be a topological invariant of $G$, for example its Euler characteristic. In this post we are more interested in transferring other things than invariants, more specifically structures. If $G$ has an algebraic structure, for example a group structure, can we then transfer the same or some other similar structure onto $T$ through $f$?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quasi-categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/quasi-categories/</guid>
+      <description>&lt;p&gt;A couple weeks ago I held a talk on introductory higher category theory. Most of the talk was based upon thing we already have discussed on this blog, such as the strict $2$-category $Cat$, bicategories, and why strictness fails for the category of topological spaces. The inly thing I talked about which I haven’t yet featured on this blog is the notion of quasi-categories, so I though that I would do that today. So, to see where we are headed, I just define it right away.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy litmus test</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-litmus-test/</guid>
+      <description>&lt;p&gt;A litmus test is a question asked in politics to a potential candidate for high office in which the answer determines if the person gets nominated or not. If a person or a committee holds the power of nominating candidates, they can use that power to make sure that a potential candidate holds their view on a certain matter. So, what does this have to do with mathematics, or especially with homotopy theory? There is a question worth asking certain objects to check if they should be allowed to be a suitable “definition” for a certain nice structure. The question, or test, which we will look more closely at soon, first started as a conjecture by Grothendieck, named later “the homotopy hypothesis”. This conjecture is still open in the way formulated by Grothendieck, but it can be turned on its head to form this test instead. The reason this is possible is because of ambiguity in a certain definition in higher category theory, and because there is seemingly many inequivalent “definitions” for the same object. Before exploring any theory at all, the conjecture states that $\infty$-groupoids are equivalent to topological spaces. The litmus test then becomes; $X$ is considered a definition of $\infty$-groupoids if and only if all $X$s’ are equivalent to topological spaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The homotopy category</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/</guid>
+      <description>&lt;p&gt;This is part 9 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time we ended by giving a definition of a homotopy between maps on the collection of bifibrant objects in a model category. Today we are going to expand further upon this idea, and try to build the theory we are familiar with for topological spaces but in the general setting. The goal is to have a well defined workable notion of a homotopy category, and understand what it consists of.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy in model categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-in-model-categories/</guid>
+      <description>&lt;p&gt;This is part 8 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time we finally defined the model category, gave some examples and tried (kind of) to give a motivation to why they are interesting and how they set the stage for homotopy theory. The first time I read the definition I was a bit confused about the lack of mention of homotopy, or at least some prototype of it that I could connect with. This structure on a category is supposed to embody where homotopy theory works, but failed to immediately convey that to me. But, that said, we will today go through the construction of homotopy, and prove that it is an equivalence relation on maps in nice cases. These cases we mentioned in the previous part, and will be maps between objects that are both fibrant and cofibrant, which I will refer to as bifibrant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Model categories</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/model-categories/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/model-categories/</guid>
+      <description>&lt;p&gt;This is part 7 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally we have made it to the destination we set, namely, more abstraction. This post is focused on the definition and intuition on model categories, which abstracts the objects we have been studying for some weeks, namely fibrations and cofibrations. The main definition is that of a model structure on a category, which together with a nice category will form the definition of a model category. So, why do we want this? There are more than one reason.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cofibrations</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/cofibrations/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/cofibrations/</guid>
+      <description>&lt;p&gt;This is part 6 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Through the series so far we have covered the basic uses of fibrations and related things, like the long exact sequence of homotopy groups, the Serre spectral sequence, fiber bundles and homotopy groups of spheres. But, we have not mentioned that fibrations has a dual construct, namely cofibrations. The road we are heading with this series, as mentioned before, is to define Model categories, and discover how to use them. Up until now, and including this post, I have been pretty comfortable with the objects of study, and I feel i know them quite well. After this post tho, I think I’m entering unknown territory for me, which is good!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hanging pictures with homotopy</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/hanging-pictures-with-homotopy/</guid>
+      <description>&lt;p&gt;Some time ago I saw this problem of hanging a picture on the wall using a string and two nails in such a way that if you remove one of the nails from the wall, the picture falls down. This is a bad way to hang pictures you immediately say, and I would agree. I saw some solution to the problem, and didn’t think about it for many years, until this week when I figured out that we need homotopy, in particular the fundamental group, to do it! Finally a real world practical useful application of homotopy theory! Take that society.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A homotopy group of a sphere</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/</guid>
+      <description>&lt;p&gt;This is part 5 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As promised in the previous part, we are going to calculate $\pi_4(S^3)$. I think we will have to use all of the machinery (plus some new) that we have been through during this series to do the calculation. What more could we possibly need you ask? Last time we developed the machinery to calculate the cohomology of the total space of a fibration, but we want to compute homotopy. Hence we need a method for translating cohmological information into homotopical information, which is what we are missing to be able to do the calculation. There may be other processes that I haven’t learned, but the process I know goes through two steps. First we must translate cohomology into homology. This is done through the so called cohomological universal coefficient theorem (cUCT). Then we need to translate from homology to homotopy. This is done through the Hurewicz theorem. I think of these two theorems together as sort of a Rosetta stone for algebraic topology. It makes us able (with some computation and restrictions of course) to move between the three fundamental theories of invariants we have in algebraic topology, which I find beautiful. There is one more thing we need, which is a starting point for our calculation. We need a good fibration to extract the information we want which we are able to translate into homotopy afterwards. Therefore we need a space in the fibration that does not complicate things when we translate into homotopy, i.e. we need a space in which we completely understand its homotopy groups. The “homotopy-easy” spaces I’m describing are called Eilenberg-MacLane spaces. In cohomology (and homology) theory we have the easy spaces being spheres because we completely understand their cohomological structure. They cam be thought of as the building blocks for (co)homology. The same type of space for homotopy is exactly theese Eilenberg-MacLane spaces, and they form the building blocks for homotopy groups in the same way as the spheres for (co)homology. Hence we can combine these spaces and spheres in a fibration and use that to compute cohomology and then relatively easily translate this to homotopy, which is exactly our plan for computing $\pi_4(S^3)$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Serre spectral sequence</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/the-serre-spectral-sequence/</guid>
+      <description>&lt;p&gt;This is part 4 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My personal favorite part about fibrations is that they come equipped with a natural way to compute the cohomology of the total space from the cohomology of the base and the cohomology of the fibers. This process is encoded in a structure called a spectral sequence, and is a complicated object in its full generality. It consists of layers upon layers of intertwined cohomology groups, all sewn together by homomorphisms. But when I first learned their computing power, and learned how to use them, I fell in love with the structure. If you visit my homepage you will find several small write ups using spectral sequences to prove theorems and do computations of cohomology rings etc. Therefore, I want to create a nice introduction to how to use them, given a fibration. Technicalities of the structure of the spectral sequences will be omitted, but the definitions will of course be given.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homotopy groups</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/homotopy-groups/</guid>
+      <description>&lt;p&gt;This is part 3 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For an introduction to the material, the definitions, motivation and some examples, please read &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fibrations/&#34;&gt;part 1&lt;/a&gt; and &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2020/fiber-bundles/&#34;&gt;part 2&lt;/a&gt; about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration. In this this part, we look at the long exact sequence. This is a tool that will let us relate the homotopy groups of different kinds of spaces to each other, and ultimately, will help us compute the homotopy groups of fiberbundles from the homotopy groups of the base space, and the homotopy groups of the fibers. Forward, we always have pointed spaces, and the base spaces of our fibrations are simply connected. To be a bit more self contained, we remind ourselves what a long exact sequence is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fiber bundles</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/fiber-bundles/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/fiber-bundles/</guid>
+      <description>&lt;p&gt;This is part 2 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Yesterday we discussed the standard definition of a fibration by the homotopy lifting property, and today we are continuing that discussion, but in a more visual manner. This we will do by first looking at fiber bundles, and then generalizing them. Since fibrations are generalized fiber bundles, every fiber bundle is an example of a fibration, and they have been the most important examples for me, as they help me visualize and get intuition into the fibrations without having to really use the full generality of the definition. The main idea of a fiber bundle is that of a family of topological spaces parameterized by another topological space. This family will again form a topological space usually called the total space of the fiber bundle, while the space that parameterizes it is called the base space. Before we get rigorous and technical with definitions, we explore an example.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fibrations</title>
+      <link>https://torgeiraamboe.github.io/posts/2020/fibrations/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2020/fibrations/</guid>
+      <description>&lt;p&gt;This is part 1 of a series leading up to and exploring model categories. For the other parts see &lt;a href=&#34;https://torgeiraamboe.github.io/series/the-fibration-series/&#34;&gt;the series overview&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My main mathematical interest for the last couple years has been algebraic topology. I feel it suits my needs for intuition, and graphical picturing of what happens. A concept I have been learning more rigorously recently is fibrations, and how to use them in computing homotopy groups and homology groups of different spaces. There is something fun and exciting about computing the homology and homotopy groups of new spaces, as it usually requires different techniques and insight every time, and fibrations have certainly presented some new tools for my calculation toolbox. Since fibrations gives us nice tools, it would be nice to understand them better, and that is my plan for this post. As a remark, all spaces used and mentioned will be topological spaces, and all maps will be continuous.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

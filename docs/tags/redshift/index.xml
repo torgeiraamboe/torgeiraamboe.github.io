@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Redshift on Torgeir Aambø</title>
+    <link>https://torgeiraamboe.github.io/tags/redshift/</link>
+    <description>Recent content in Redshift on Torgeir Aambø</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright></copyright>
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://torgeiraamboe.github.io/tags/redshift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chromatic redshift</title>
+      <link>https://torgeiraamboe.github.io/posts/2022/chromatic-redshift/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/posts/2022/chromatic-redshift/</guid>
+      <description>&lt;p&gt;In a recent lunch conversation with Nils Baas we, among a plethora of other things, discussed the chromatic redshift phenomenon in stable homotopy theory. Nils was explaining some things about the results he had published together with Bjørn Dundas and John Rognes on using $2$-vector bundles to explain the algebraic K-theory of topological K-theory, i.e. $K(ku)$. This spectrum has height $2$, and since $ku$ has height $1$ this exhibits a phenomenon called redshift. The word redshift is used due to the word “chromatic” used for the height filtration of the stable homotopy category. Since we increase the height by one, we in some sense get our electro-magnetic frequency (which in this analogy is chromatic height) “shifted” towards the red end of the spectrum. This phenomena has been studied for many years and is the background for one of the more important long-standing conjectures in chromatic homotopy theory, namely the chromatic redshift conjecture. This conjecture roughly states that the behaviour exhibited above by $ku$ is not specific to $ku$. More specifically: the algebraic K-theory of a spectrum shifts the height by $1.$  Nils knew of but had not read the recent paper proving the last piece of the puzzle of this conjecture. The paper in question is titled &lt;a href=&#34;https://arxiv.org/abs/2207.09929&#34;&gt;&amp;ldquo;The chromatic nullstellensatz&amp;rdquo;&lt;/a&gt; and is a beastly paper of over a hundred pages containing mostly highly technical proofs and computations. I sent him the arXiv link on email and added my short thoughts about the proof. After sending it I realized I could expand a bit upon the comments I made to him about the proof and post it as a blog post. I have after all claimed that I want to be better at writing and publishing blog-posts, as well as produce some shorter posts. While digging into the proof and trying to expand upon the comments I made the post turned a bit longer and more technical than planned. Perhaps this is good, as it reflects the immense technicality and complexity of both the research area, conjecture and the proof. Let me just state before we start that there are details of the proofs and explanations I have swept under the rug — a rug that contains much of the actual difficulties and technicalities. I do not claim to understand everything in the proof; any wrong interpretation or wrong idea is on me and not the authors in any of the papers mentioned.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
