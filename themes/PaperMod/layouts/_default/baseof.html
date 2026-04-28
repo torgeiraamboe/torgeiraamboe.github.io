@@ -28,10 +28,8 @@
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 <head>
-  ...
   {{ if .Param "math" }}
     {{ partialCached "math.html" . }}
   {{ end }}
-  ...
 </head>
 </html>

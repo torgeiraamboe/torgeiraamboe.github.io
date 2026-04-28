@@ -49,7 +49,7 @@ menu:
 
 params:
     env: production
-    description: ""
+    description: " "
     author: "Torgeir Aambø"
     authors:
         - "Torgeir Aambø"
@@ -71,14 +71,14 @@ params:
     profileMode:
           enabled: true
           title: Torgeir Aambø, PhD
-          imageUrl: "test.jpg"
+          imageUrl: "TOAAM.jpg"
           # imageTitle: my image
-          imageWidth: 1020
-          imageHeight: 370
+          imageWidth: 370
+          imageHeight: 380
           subtitle: "Researcher in Operations Research at FFI"
 
     social:
-        facebook_admin: ""
+        facebook_admin: " "
 
     socialIcons:
         #- name: LinkedIn
