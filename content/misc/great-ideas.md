@@ -11,7 +11,6 @@ This list seems to be a fantastic curated list of some shorter philosophical wor
 
 Some of the books are exerpts of bigger works, so where I feel inclined I try to read the complete work rather than the actual exerpt used in this series. For example, instead of reading "Being happy" by Epicurus, I read all his surviving works (which are suprisingly few).   
 
-Status: 13/120
 
 ### Series one
 
@@ -33,7 +32,7 @@ Status: 13/120
 
 :heavy_multiplication_x: The Christians and the Fall of Rome - Edward Gibbon
 
-:heavy_multiplication_x: Common Sense - Thomas Paine
+:white_check_mark: Common Sense - Thomas Paine
 
 :heavy_multiplication_x:  A Vindication of the  Rights of Woman - Mary Wollstonecraft
 
@@ -141,7 +140,7 @@ Status: 13/120
 
 ### Series four
 
-:white_check_mark:  Tao Te Ching - Lao-Tzu
+:white_check_mark: Tao Te Ching - Lao-Tzu
 
 :heavy_multiplication_x: Writings from the Zen Masters - Various
 

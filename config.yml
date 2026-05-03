@@ -30,17 +30,14 @@ outputs:
 menu:
     main:
       - name: Research
-        url: research/
+        url: academic/articles-and-preprints/
         weight: 5
       - name: Blog
         url: posts/
         weight: 6  
       - name: Outreach
-        url: "outreach/"
-        weight: 10
-      - name: Reading
-        url: have-read/
-        weight: 15      
+        url: academic/outreach/
+        weight: 10  
       - name: About
         url: about/
         weight: 30

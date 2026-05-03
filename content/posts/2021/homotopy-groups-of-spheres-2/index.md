@@ -26,14 +26,14 @@ When we look at a table of the homotopy groups of spheres, we find these stable 
 <!--- 
 |   |1    |2    |3    |   4 |   5 |
 --- | --- | --- | --- | --- | --- |
-|$S^1$|$\Z$|$0$|$0$|$0$|$0$|
-|$S^2$|$0$|$\Z$|$\Z$|$\Z/2$|$\Z/2$|
-|$S^3$|$0$|$0$|$\Z$|$\Z/2$|$\Z/2$|
-|$S^4$|$0$|$0$|$0$|$\Z$|$\Z/2$|
-|$S^5$|$0$|$0$|$0$|$0$|$\Z$|
+|$S^1$|$\mathbb{Z}$|$0$|$0$|$0$|$0$|
+|$S^2$|$0$|$\mathbb{Z}$|$\mathbb{Z}$|$\mathbb{Z}/2$|$\mathbb{Z}/2$|
+|$S^3$|$0$|$0$|$\mathbb{Z}$|$\mathbb{Z}/2$|$\mathbb{Z}/2$|
+|$S^4$|$0$|$0$|$0$|$\mathbb{Z}$|$\mathbb{Z}/2$|
+|$S^5$|$0$|$0$|$0$|$0$|$\mathbb{Z}$|
 --->
 
-From the table we can see what the zero'th and the first stable homotopy groups is. We have in fact already calculated the zero'th stable homotopy group last time, namely $\pi_0^S=\Z$, and [last year we calculated]({{<ref "posts/2020/a-homotopy-group-of-a-sphere">}}) $\pi_4(S^3) = \Z/2$, which we now see is in the stable range. Hence we actually know two stable homotopy groups of spheres. But, how do we find some of the other ones? 
+From the table we can see what the zero'th and the first stable homotopy groups is. We have in fact already calculated the zero'th stable homotopy group last time, namely $\pi_0^S=\mathbb{Z}$, and [last year we calculated]({{<ref "posts/2020/a-homotopy-group-of-a-sphere">}}) $\pi_4(S^3) = \mathbb{Z}/2$, which we now see is in the stable range. Hence we actually know two stable homotopy groups of spheres. But, how do we find some of the other ones? 
 
 ## The $J$-homomorphism
 
@@ -120,14 +120,14 @@ $$\pi_k(O(\infty)) \cong \pi_{k+8}(\Omega^8 O(\infty))\cong \pi_{k+8}(O(\infty))
 So in order to know them all we only need to list eight of them. These eight are:
 
 $$\begin{aligned}%
-\pi_0(O(\infty)) &\cong \Z/2 \\\\ %
-\pi_1(O(\infty)) &\cong \Z/2 \\\\ %
+\pi_0(O(\infty)) &\cong \mathbb{Z}/2 \\\\ %
+\pi_1(O(\infty)) &\cong \mathbb{Z}/2 \\\\ %
 \pi_2(O(\infty)) &\cong 0 \\\\ %
-\pi_3(O(\infty)) &\cong \Z \\\\ %
+\pi_3(O(\infty)) &\cong \mathbb{Z} \\\\ %
 \pi_4(O(\infty)) &\cong 0 \\\\ %
 \pi_5(O(\infty)) &\cong 0 \\\\ %
 \pi_6(O(\infty)) &\cong 0 \\\\ %
-\pi_7(O(\infty)) &\cong \Z %
+\pi_7(O(\infty)) &\cong \mathbb{Z} %
 \end{aligned}$$
 
 which you can remember by singing them to the tune of "Twinkle, twinkle little star". Under the stable $J$-homomorphism these groups gets sent to subgroups of the stable homotopy groups of spheres, which means that the collection of stable homotopy groups of spheres admit an eightfold periodicity. In order to use these to actually calculate some stable homotopy groups of spheres, we need to know what these subgroups are, i.e. what the image of the $J$-homomorphism is. 
@@ -142,9 +142,9 @@ Luckily for us, Adams described these groups in the 60's, using a conjectured re
 - a cyclic group or order $2$ when $k= 0,1 \,(mod\, 8)$.
 - If $k=3,7 \,(mod\,8)$ then $k=4r-1$. The image $ImJ_k$ is given by a cyclic group of order equal to the denominator of $B_{2r}/4r$, where $B_{r}$ is the $r$'th Bernoulli number.
 
-The incredible part of this theorem is of-course the last point. Somehow the Bernoulli numbers, which are more commonly found in analysis and number theory, show up in the homotopy groups of spheres. The reason they show up is linked to the reason that the Bernoulli numbers show up among diffeomorphism classes of exotic spheres, due to Milnor and Kervaire. We will get to this in a bit, but first: Due to the Bernoulli numbers being related to the Riemann zeta function $\zeta(z)$, we can write that the image of the $J$-homomorphism for $k=4r-1$ is given by a cyclic group or order $S$, where
+The incredible part of this theorem is of-course the last point. Somehow the Bernoulli numbers, which are more commonly found in analysis and number theory, show up in the homotopy groups of spheres. The reason they show up is linked to the reason that the Bernoulli numbers show up among diffeomorphism classes of exotic spheres, due to Milnor and Kervaire. We will get to this in a bit, but first: Due to the Bernoulli numbers being related to the Riemann zeta function $\mathbb{Z}eta(z)$, we can write that the image of the $J$-homomorphism for $k=4r-1$ is given by a cyclic group or order $S$, where
 
-$$S = \text{denominator}(\zeta(1-2r)/2).$$
+$$S = \text{denominator}(\mathbb{Z}eta(1-2r)/2).$$
 
 This is the first — and probably the last — time the Riemann zeta function is making an appearance on this blog, so we felt an obligation to include it. 
 
@@ -184,7 +184,7 @@ We now have our tools and our results, so the only thing remaining is putting th
 
 $$\Large \cdots \pi_1^S \cdots $$
 
-As we know that $\Theta_1 \cong 0$ and that there is no $1$-manifold with Kervaire invariant $1$, we know that the group $\pi_1^S/ImJ_1\cong 0$, i.e. that the image of the $J$-homomorphism is the entire group $\pi_1^S$. For $k = 1 \,(mod\,8)$ we know that $J(\pi_k(O(\infty)))$ is a cyclic group of order $2$, meaning that $\pi_1^S \cong ImJ_1 \cong \Z/2.$ We did alredy know this, as we calculated $\pi_4(S^3)$ [last year]({{<ref "posts/2020/a-homotopy-group-of-a-sphere">}}) which lies in the stable range, but now we have a separate proof, which is always nice to have.  
+As we know that $\Theta_1 \cong 0$ and that there is no $1$-manifold with Kervaire invariant $1$, we know that the group $\pi_1^S/ImJ_1\cong 0$, i.e. that the image of the $J$-homomorphism is the entire group $\pi_1^S$. For $k = 1 \,(mod\,8)$ we know that $J(\pi_k(O(\infty)))$ is a cyclic group of order $2$, meaning that $\pi_1^S \cong ImJ_1 \cong \mathbb{Z}/2.$ We did alredy know this, as we calculated $\pi_4(S^3)$ [last year]({{<ref "posts/2020/a-homotopy-group-of-a-sphere">}}) which lies in the stable range, but now we have a separate proof, which is always nice to have.  
 
 $$\Large \cdots \pi_2^S \cdots $$
 
@@ -192,11 +192,11 @@ For $k=2 \,(mod\,8)$ we know that $ImJ_k =0$. Also, in dimension $2$ we have a m
 
 $$\Theta_2/bP_3 \cong 0 \longrightarrow \pi_2^S/ImJ_2 \cong \pi_2^S$$
 
-has index $2$, i.e. that $\pi_2^S$ must be a group of order $2$. Thus, $\pi_2^S \cong \Z/2$. 
+has index $2$, i.e. that $\pi_2^S$ must be a group of order $2$. Thus, $\pi_2^S \cong \mathbb{Z}/2$. 
 
 $$\Large \cdots \pi_3^S \cdots $$
 
-We now have the interesting case that $k=3\,(mod\,8)$, meaning that $k=4r-1$ for $r=1$. This means that the image of the $J$-homomorphism is a cyclic group of order $\text{denominator}(B_{2}/4)$. The second Bernoulli number $B_2$ is $1/6$, meaning that we have a cyclic group of order $6\cdot 4=24$. The group $\Theta_3$ is still trivial, and there is no $3$-manifold with Kervaire invariant one, meaning that we again know that $ImJ_3 \cong \pi_3^S$. This means that we have $\pi_3^S \cong \Z/24.$ This is the first truly weird stable homotopy group in our opinion.
+We now have the interesting case that $k=3\,(mod\,8)$, meaning that $k=4r-1$ for $r=1$. This means that the image of the $J$-homomorphism is a cyclic group of order $\text{denominator}(B_{2}/4)$. The second Bernoulli number $B_2$ is $1/6$, meaning that we have a cyclic group of order $6\cdot 4=24$. The group $\Theta_3$ is still trivial, and there is no $3$-manifold with Kervaire invariant one, meaning that we again know that $ImJ_3 \cong \pi_3^S$. This means that we have $\pi_3^S \cong \mathbb{Z}/24.$ This is the first truly weird stable homotopy group in our opinion.
 
 $$\Large \cdots \pi_4^S = \pi_5^S \cdots $$
 
@@ -208,7 +208,7 @@ This is the last group we are going to calculate. We could have gone further, bu
 
 $$\Theta_6/bP_7 \cong 0 \longrightarrow \pi_6^S/ImJ_6$$
 
-has index $2$. The image of the $J$-homomorphism is trivial, because $\pi_6(O(\infty))\cong 0$, hence by the same reasoning as for $\pi_2^S$, we get $\pi_6^S \cong \Z/2.$
+has index $2$. The image of the $J$-homomorphism is trivial, because $\pi_6(O(\infty))\cong 0$, hence by the same reasoning as for $\pi_2^S$, we get $\pi_6^S \cong \mathbb{Z}/2.$
 
 This rounds up our looong post about the stable homotopy groups of the spheres. I was not this detailed in describing and defining everything in my talk (which these two twin posts are based on), but I wanted to have some proper definitions and calculations when actually putting this to the public. Calculating these groups is fun, but I think we stop here for now. Maybe some other time we will describe how we have actually just described pieces of the lowest chromatic homotopy layer of the sphere spectrum, maybe we wont...
 

@@ -1,41 +1,67 @@
 ---
 title: "Research"
-layout: "single"
 draft: false
 ShowToc: false
 ShowReadingTime: false
 math: true
-summary: " "
-weight: 1
 ---
 
-This list contains only research publications. For other publications, see [here.]({{<ref "academic/outreach.md">}})
+I am interested in a variety of research topics, usually centered around abstract mathematics, but also some applied mathematics, philosophy and politics. Generally speaking I am interested in how information is structured, how information fuses from a local to a global level, as well as using abstract theory to better understand concrete phenomena. This below list contains only research publications -- for others, see [here.]({{<ref "academic/outreach.md">}})
 
-## Papers
+### Papers
+
+- **Positselski duality in \(\infty\)-categories** \
+    Torgeir Aambø \
+    *To appear in Mathematica Scandinavica* 
+    ([arXiv](https://arxiv.org/abs/2411.04060))
 
 - **Algebraicity in monochromatic homotopy theory** \
-  Torgeir Aambø \
-  *Algebraic & Geometric Topology* 25:9 (2025) 5665–-5692 \
-  [[arXiv:2403.07725](https://arxiv.org/abs/2403.07725)][[doi:10.2140/agt.2025.25.5665](https://msp.org/agt/2025/25-9/p13.xhtml)]
+    Torgeir Aambø \
+    [*Algebraic & Geometric Topology* 25:9 (2025), pp. 5665--5692](https://doi.org/10.2140/agt.2025.25.5665)
+    ([arXiv](https://arxiv.org/abs/2403.07725))
 
-- **Positselski duality in $\infty$-categories** \
-  Torgeir Aambø \
-  *To appear in Mathematica Scandinavia* \
-  [[arXiv:2411.04060](https://arxiv.org/abs/2411.04060)]
+### Preprints
 
-## Preprints
+- **Collective deterrence as a classification problem: Voting rules, deterrence credibility, and escalation risk** \
+    Torgeir Aambø \
+    ([arXiv:2604.08482](https://arxiv.org/abs/2604.08482))
 
 - **A categorical formalization of epistemic uncertainty frameworks** \
-  Torgeir Aambø \
-  [[arXiv:2603.04188](https://arxiv.org/abs/2603.04188)]
+    Torgeir Aambø \
+    ([arXiv:2603.04188](https://arxiv.org/abs/2603.04188)) (Submitted)
 
-- **Classification of localizing subcategories along $t$-structures** \
-  Torgeir Aambø \
-  [[arXiv:2412.09391](https://arxiv.org/abs/2412.09391)] (submitted)
+- **Classification of localizing subcategories along \(t\)-structures** \
+    Torgeir Aambø \
+    ([arXiv:2412.09391](https://arxiv.org/abs/2412.09391)) (Submitted)
 
-- **Formality of spaces with Lusternik--Schnirelmann category $1$** \
-  Torgeir Aambø \
-  [[arXiv:2111.06167](https://arxiv.org/abs/2111.06167)]
+- **Formality of spaces with Lusternik--Schnirelmann category \(1\)** \
+    Torgeir Aambø \
+    ([arXiv:2111.06167](https://arxiv.org/abs/2111.06167))
+
+
+
+<!---
+
+### In progress
+
+- **An obstruction theory for integrated information** \
+    Torgeir Aambø
+
+- **Scenario classes in morphological analysis via formal concepts and optimization** \
+    Torgeir Aambø, Even Tønsberg
+
+- **Capability- and capacity-based optimization of scenario portfolios** \
+    Torgeir Aambø
+
+- **Cyber effect operations in multi domain analytical wargaming** \
+    Torgeir Aambø, Geir Enemo
+
+- **Quantifying epistemic uncertainty in morphological analysis** \
+    Torgeir Aambø
+
+
+
+
 
 
 
@@ -50,7 +76,7 @@ You can find some short poems (limericks) about the main results from the papers
 - Bachelor thesis: [**Naive homotopy theory for schemes**](https://github.com/torgeiraamboe/bachelor_thesis/raw/main/bachelor_thesis.pdf)
 
 
-<!---
+
 
 - Master thesis: [**On formal dg-algebras**](https://github.com/torgeiraamboe/master_thesis/raw/main/master_thesis.pdf)
   <details>

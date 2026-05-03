@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://torgeiraamboe.github.io/academic/articles-and-preprints/</loc>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/academic/talks/</loc>
   </url><url>
     <loc>https://torgeiraamboe.github.io/misc/old/talks-copy/</loc>
@@ -17,10 +15,6 @@
     <loc>https://torgeiraamboe.github.io/misc/pita/abstracts/</loc>
   </url><url>
     <loc>https://torgeiraamboe.github.io/academic/outreach/</loc>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/academic/outreach-and-talks/</loc>
-  </url><url>
-    <loc>https://torgeiraamboe.github.io/outreach/</loc>
   </url><url>
     <loc>https://torgeiraamboe.github.io/academic/supervision/</loc>
   </url><url>
@@ -504,8 +498,6 @@
   </url><url>
     <loc>https://torgeiraamboe.github.io/bokklubb/</loc>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/have-read/</loc>
-  </url><url>
     <loc>https://torgeiraamboe.github.io/misc/have-read/</loc>
   </url><url>
     <loc>https://torgeiraamboe.github.io/misc/</loc>
@@ -520,7 +512,7 @@
   </url><url>
     <loc>https://torgeiraamboe.github.io/misc/booket-list/</loc>
   </url><url>
-    <loc>https://torgeiraamboe.github.io/research/</loc>
+    <loc>https://torgeiraamboe.github.io/academic/articles-and-preprints/</loc>
   </url><url>
     <loc>https://torgeiraamboe.github.io/search/</loc>
   </url><url>

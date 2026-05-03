@@ -6,8 +6,6 @@ katex: true
 categories: ["Stable homotopy theory"]
 tags: ["Formal group laws", "cohomology", "Spectra"]
 series: ["The road to Morava K-theory"]
-cover:
-    image: "images/"
 ---
 
 It has been some time since we studied at the correlation between [formal group laws]({{<ref "posts/2021/formal-group-laws">}}), which were certain power series that looked like Taylor expansion of multiplication on a Lie group, and complex oriented cohomology theories. In particular, we learned that these two completely separate notions had a common universal object. The universal formal group law over the Lazard ring was the same as the formal group law determined by the universal complex oriented cohomology theory — complex cobordism cohomology. Ever since that time we have not encountered formal group laws in any interesting manner, but, today is the day where we do so. The continuation of studying formal group laws — and later, formal groups — will be very important in understanding the field of chromatic homotopy theory, as they are highly linked. In some sense, the algebraic geometry of formal groups corresponds to the stable homotopy theory of complex oriented cohomology theories. One very important feature of this correspondence is the concept of height. The algebraic geometry of formal groups can be filtered by a variable called height, and this — through the correspondence — gives a filtration on spectra. In this blog post we will define this concept of height, and produce some new spectra in light of this new technology. 
@@ -57,15 +55,15 @@ Unfortunately, things get quite complicated when we try to study formal group la
 For this construction we need to consider the universal case, i.e. we need to use the Lazard ring— the ring that carries the universal formal group law —  as our base. By [Quillen’s theorem]({{<ref "posts/2021/formal-group-laws">}}) we know that the Lazard ring is isomorphic to the complex cobordism ring, and  in particular 
 
 $$
-L \cong MU_* \cong \Z[t_1, t_2, \ldots],
+L \cong MU_* \cong \mathbb{Z}[t_1, t_2, \ldots],
 $$
 
-where $t_i$ has degree $2i$. Let $I$ denote the ideal in $L$ consisting of elements in positive degrees. The trick is to consider the $v_n$’s as elements in $L$, where they now lie in degree $2(p^n-1)$. We have a canonical isomorphism $(I/I^2)_ {2n} \cong \Z t_n$, which means that each $v_n$ has an image in $\Z t_{p^n-1}$ through this isomorphism. This image is $p^{p^n-1}-1$. 
+where $t_i$ has degree $2i$. Let $I$ denote the ideal in $L$ consisting of elements in positive degrees. The trick is to consider the $v_n$’s as elements in $L$, where they now lie in degree $2(p^n-1)$. We have a canonical isomorphism $(I/I^2)_ {2n} \cong \mathbb{Z} t_n$, which means that each $v_n$ has an image in $\mathbb{Z} t_{p^n-1}$ through this isomorphism. This image is $p^{p^n-1}-1$. 
 
 Since $L$ is universal for formal group laws, we know that a map
 
 $$
-L\longrightarrow \Z \oplus (I/I^2)_ {2(p^n-1)}\cong \Z\oplus \Z t_{p^n-1}
+L\longrightarrow \mathbb{Z} \oplus (I/I^2)_ {2(p^n-1)}\cong \mathbb{Z}\oplus \mathbb{Z} t_{p^n-1}
 $$
 
 determines a formal group law. This formal group law is given by
@@ -86,7 +84,7 @@ $$
 F^{(m)}(x) = mx+\frac{t_{p^n-1}}{p}((mx)^{p^n}-mx^{p^n})
 $$
 
-which in particular means that the coefficient of $x^{p^n}$ is given by $(p^{p^n-1}-1)t_{p^n-1}$. If we localize at the prime $p$, we can choose a new isomorphism $L_{(p)}\cong \Z_{(p)}[t_1, t_2, \ldots]$ where now each $t_{p^n-1}$ is given by $v_n$. By using this we can finally construct — purely formally — formal group laws of any height, by deciding where the generators of the Lazard ring gets mapped. 
+which in particular means that the coefficient of $x^{p^n}$ is given by $(p^{p^n-1}-1)t_{p^n-1}$. If we localize at the prime $p$, we can choose a new isomorphism $L_{(p)}\cong \mathbb{Z}_{(p)}[t_1, t_2, \ldots]$ where now each $t_{p^n-1}$ is given by $v_n$. By using this we can finally construct — purely formally — formal group laws of any height, by deciding where the generators of the Lazard ring gets mapped. 
 
 Let $R$ be a field with characteristic $p$. A formal group law over $R$ is determined by a map $L\longrightarrow R$. We now choose the particular map that sends $t_i \mapsto 0$ for $i< p^n-1$, and $t_{p^n-1}\mapsto 1$. By construction this formal group law has height $n$. 
 
@@ -101,22 +99,22 @@ The last thing we will do in this blog-post is to define the so-called Johnson-W
 Recall that the [Brown-Peterson spectrum]({{<ref "posts/2022/brown-peterson-cohomology">}}) had coefficients given by
 
 $$
-BP_* \cong \Z_{(p)}[v_1, v_2, \ldots],
+BP_* \cong \mathbb{Z}_{(p)}[v_1, v_2, \ldots],
 $$
 
 where $|v_i|=2(p^i-1)$. We want to simplify this ring a bit, and then construct a spectrum that has this new simplified ring as its coefficients.  The simplified ring is the ring
 
 $$
-\Z_{(p)}[v_1, \ldots, v_{n-1}, v_n^{\pm 1}]
+\mathbb{Z}_{(p)}[v_1, \ldots, v_{n-1}, v_n^{\pm 1}]
 $$
 
 where we have quotiented out all but a finite set of generators, and inverted the final one. We mentioned in the post about Brown-Peterson cohomology that we have a procedure for turning a formal group law into a complex oriented cohomology theory — at least if the ring is flat. The simplified ring we just defined is luckily flat, hence the tensor product  
 
 $$
-(-)\otimes_L \Z_{(p)}[v_1, \ldots, v_{n-1}, v_n^{\pm 1}]
+(-)\otimes_L \mathbb{Z}_{(p)}[v_1, \ldots, v_{n-1}, v_n^{\pm 1}]
 $$
 
-is exact. In particular this means that the functor $CW\longrightarrow Ab_*$ defined by sending a CW-complex $X$ to the graded abelian group $MU_\ast (X)\otimes_L \Z_{(p)}[v_1, \ldots, v_{n-1}, v_n^{\pm 1}]$ is a cohomology theory! This cohomology theory is called height $n$ Johnson-Wilson theory, and by [Brown representability]({{<ref "posts/2021/a-first-look-at-spectra">}}) we know that this functor is represented by a spectrum — the height $n$ Johnson-Wilson spectrum $E(n).$ This cohomology theory in fact determines a formal group law that has height $n$. 
+is exact. In particular this means that the functor $CW\longrightarrow Ab_*$ defined by sending a CW-complex $X$ to the graded abelian group $MU_\ast (X)\otimes_L \mathbb{Z}_{(p)}[v_1, \ldots, v_{n-1}, v_n^{\pm 1}]$ is a cohomology theory! This cohomology theory is called height $n$ Johnson-Wilson theory, and by [Brown representability]({{<ref "posts/2021/a-first-look-at-spectra">}}) we know that this functor is represented by a spectrum — the height $n$ Johnson-Wilson spectrum $E(n).$ This cohomology theory in fact determines a formal group law that has height $n$. 
 
 The importance of $E(n)$, and other similar spectra we will construct later, like Morava $E$-theory $E_n$ and Morava $K$-theory $K(n)$, will become clear in the near future. We have described the process of [localizing at a homology theory]({{<ref "posts/2021/bousfield-localization">}}). The process of localizing the category of $p$-local spectra at Johnson-Wilson theory $E(n)$ is called height $n$ chromatic localization, and is very important in understanding the structure of $Sp$. Perhaps even more for this understanding is the localization $Sp_{K(n)}$, which in some sense completely describes the [tensor-triangular]({{<ref "posts/2021/tensor-triangulated-categories">}}) structure of [the stable homotopy category]({{<ref "posts/2021/the-stable-homotopy-category">}}) $SHC.$  The spectrum $E(n)$ will also show up a lot when we start discussing my research project in more detail, but for now let’s be content on having described it, and the theory regarding heights of formal group laws.
 

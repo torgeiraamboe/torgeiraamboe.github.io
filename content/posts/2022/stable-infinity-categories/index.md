@@ -56,7 +56,7 @@ The first idea of a stable $\infty$-category comes from exactly these two above 
 We have several times looked at the category of spectra, $Sp$, and its associated homotopy category — the stable homotopy category, $SHC$. The idea behind spectrum objects in a $\infty$-category is to emulate the construction of spactra from topological spaces. For some background on these objects see [this post]({{<ref "posts/2021/a-first-look-at-spectra">}}), and [this post]({{<ref "posts/2021/the-stable-homotopy-category">}}) for some insight into the stable homotopy category. The emulation will be made in such a way that the spectrum objects in the $\infty$-category of spaces are precisely the spectra we are already familiar with. The reader unfamiliar with spectra in the classical sense should at least look up the definition of a sequential spectrum, also called a pre-spectrum, in order to feel the familiarity with the following definition. 
 
 <span style="color:orange"> **Definition:** </span> Let $\mathcal{C}$ be a pointed $\infty$-category with all finite limits and colimits. A pre-spectrum object in $\mathcal{C}$ is a functor
-$$E:\Z\times\Z\longrightarrow \mathcal{C},$$
+$$E:\mathbb{Z}\times\mathbb{Z}\longrightarrow \mathcal{C},$$
 such that $E(i,j)=0$ for $i\neq j$. 
 
 In particular this means that only the diagonal elements $E(n,n)$ are non-trivial, so we denote these by $E_n$. We can then visualize a pre-spectrum object as
@@ -89,12 +89,12 @@ The construction of the derived $\infty$-category uses the concept of enriched c
 
 The objects we want to have in the derived $\infty$-category are — as in the case of the normal derived category — the chain complexes of objects in the abelian category. To be even more specific, for an abelian category $\mathcal{A}$, we want the objects of $D_\infty(\mathcal{A})$ to be the unbounded chain complexes in $\mathcal{A}$. Since we want the homotopy category to be the usual derived category, we should want that the equivalence classes of morphisms are the usual derived hom, $RHom$. 
 
-<span style="color:orange"> **Definition:** </span> Let $\mathcal{A}$ be an abelian category. We write $Ch(\mathcal{A})$ for the category of unbounded chain complexes in $\mathcal{A}$. Any such category is enriched in chain complexes of abelian groups, $Ch(\Z)=Ch(Ab)$. 
+<span style="color:orange"> **Definition:** </span> Let $\mathcal{A}$ be an abelian category. We write $Ch(\mathcal{A})$ for the category of unbounded chain complexes in $\mathcal{A}$. Any such category is enriched in chain complexes of abelian groups, $Ch(\mathbb{Z})=Ch(Ab)$. 
 
 In order to create an $\infty$-category we will use the simplicial nerve construction, but, in order to use this we need to produce a category that is enriched over simplicial sets. From the above definition we now have a category enriched over chan complexes of abelian groups, so the question turns into finding a translation between chain complexes of abelian groups and simplicial sets. Luckily for us, there is one such translation, namely the Dold-Kan correspondence. 
 
 <span style="color:orange"> **Theorem (Dold-Kan correspondence):** </span> Let $\mathcal{A}$ be an abelian category. There is an equivalence of categories 
-$$\Gamma:Ch^+(\Z)\leftrightarrows Ab_\Delta:N$$
+$$\Gamma:Ch^+(\mathbb{Z})\leftrightarrows Ab_\Delta:N$$
 between the category of connective chain complexes of abelian groups, and the category of simplicial abelian groups. The functors $N$ and $\Gamma$ are certain nerve and realization functors, which we wont go into detail about. 
 
 The two important things here is that we can turn a chain complex into a simplicial abelian group, and that the equivalence is a Quillen equivalence if we equip these categories with their standard [model structures]({{<ref "posts/2020/model-categories">}}). Being a Quillen equivalence means that these model structures are preserved, in particular that the chain homotopies correspond to simplicial homotopies, and homology of a chain complex corresponds to the homotopy of the corresponding simplicial abelian group. 
@@ -108,13 +108,13 @@ to the connective chain complex
 $$\cdots\longrightarrow 0\longrightarrow 0\longrightarrow ker(f_0)\longrightarrow A_1\longrightarrow A_2\longrightarrow \cdots.$$
 
 We can then finally form the functor 
-$$K:Ch(\Z)\longrightarrow Ch^+(\Z)\overset{\Gamma}\longrightarrow Ab_\Delta\longrightarrow Set_\Delta. $$
+$$K:Ch(\mathbb{Z})\longrightarrow Ch^+(\mathbb{Z})\overset{\Gamma}\longrightarrow Ab_\Delta\longrightarrow Set_\Delta. $$
 
-By using this functor we can turn any dg-category — that is, categories enriched in $Ch(\Z)$ — into a simplicially enriched category. Since we want to use the simplicial nerve construction, we need one more piece of information in order to be certain that we actually get a $\infty$-category. The fact we need is that the simplicial set $K(A_\bullet)$, for some chain complex $A_\bullet$, is a Kan complex, and not just an arbitrary simplicial set. We do in fact get that this holds, due to the underlying simplicial set of any simplicial group being a Kan complex. The Kan complexes that are simplicial groups even have nice algorithms to determine the lifts of inner and outer horns, so these are particularily nice Kan complexes. For an intuitive explanation of why the underlying simplicial set of a simplicial group is a Kan complex, we can consider the fact that a group can be viewed as a one-object groupoid. A simplicial group can in this light be thought of as a simplicial groupoid, which along with Kan complexes are models for $\infty$-groupoids. The fact that a simplicial group has an underlying Kan complex can then be thought of a a sort of change of model. This is not in any way precise, but serves (for me at least) as some motivation and insight into why the abovementioned fact is true. 
+By using this functor we can turn any dg-category — that is, categories enriched in $Ch(\mathbb{Z})$ — into a simplicially enriched category. Since we want to use the simplicial nerve construction, we need one more piece of information in order to be certain that we actually get a $\infty$-category. The fact we need is that the simplicial set $K(A_\bullet)$, for some chain complex $A_\bullet$, is a Kan complex, and not just an arbitrary simplicial set. We do in fact get that this holds, due to the underlying simplicial set of any simplicial group being a Kan complex. The Kan complexes that are simplicial groups even have nice algorithms to determine the lifts of inner and outer horns, so these are particularily nice Kan complexes. For an intuitive explanation of why the underlying simplicial set of a simplicial group is a Kan complex, we can consider the fact that a group can be viewed as a one-object groupoid. A simplicial group can in this light be thought of as a simplicial groupoid, which along with Kan complexes are models for $\infty$-groupoids. The fact that a simplicial group has an underlying Kan complex can then be thought of a a sort of change of model. This is not in any way precise, but serves (for me at least) as some motivation and insight into why the abovementioned fact is true. 
 
 Anyway, we can now form the $\infty$-categorical analogue of $Ch(\mathcal{A})$, which we will denote by $K_\infty(\mathcal{A})$. To do this we first define the so-called dg-nerve of a dg-category. 
 
-<span style="color:orange"> **Definition:** </span> Let $\mathcal{C}$ be a dg-category, i.e. a category enriched in $Ch(\Z)$. We define its dg-nerve to be 
+<span style="color:orange"> **Definition:** </span> Let $\mathcal{C}$ be a dg-category, i.e. a category enriched in $Ch(\mathbb{Z})$. We define its dg-nerve to be 
 $$N^{dg}(\mathcal{C})=N^\Delta(\mathcal{C}_ \Delta)$$
 where $\mathcal{C}_\Delta$ is the Kan enriched category obtained from $\mathcal{C}$ via the functor $K$ constructed above. 
 

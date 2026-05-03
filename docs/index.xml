@@ -10,13 +10,6 @@
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://torgeiraamboe.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Research</title>
-      <link>https://torgeiraamboe.github.io/academic/articles-and-preprints/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://torgeiraamboe.github.io/academic/articles-and-preprints/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Talks and speaking</title>
       <link>https://torgeiraamboe.github.io/academic/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -63,20 +56,6 @@
       <link>https://torgeiraamboe.github.io/academic/outreach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://torgeiraamboe.github.io/academic/outreach/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Outreach and talks</title>
-      <link>https://torgeiraamboe.github.io/academic/outreach-and-talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://torgeiraamboe.github.io/academic/outreach-and-talks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Outreach and talks</title>
-      <link>https://torgeiraamboe.github.io/outreach/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://torgeiraamboe.github.io/outreach/</guid>
       <description></description>
     </item>
     <item>
@@ -248,7 +227,7 @@ $$&lt;p&gt;The fact that this is universal means that for any homology theory $H
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://torgeiraamboe.github.io/posts/2022/brown-peterson-cohomology/</guid>
       <description>&lt;p&gt;Over the holidays sadly Edgar H. Brown passed away. He was one of the influential men behind many of the concepts this blog has featured and will feature in the future. This post is in particular focused on one of these concepts, namely Brown-Peterson cohomology and the Brown-Peterson spectrum.&lt;/p&gt;
-&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/bousfield-localization/&#34;&gt;last post&lt;/a&gt; we developed the category of $p$-local spectra, and in &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/&#34;&gt;the post before that&lt;/a&gt; we explored complex cobordism cohomology. Today we will merge these two together, and try to understand what happens to the complex cobordism spectrum $MU$ when we travel to the $p$-local category. The spectrum $MU$ is a normal spectrum — it is not $p$-local. But, as we now know, we can create a $p$-local version of it by $p$-localizing it. We then get a spectrum $MU\wedge \Z_{(p)}$ which we simply denote by $MU_{(p)}$. This is the spectrum we want to understand today. The idea for understanding $MU_{(p)}$ will be to split it into nicer pieces which have similar — and actually better — properties.&lt;/p&gt;</description>
+&lt;p&gt;In the &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/bousfield-localization/&#34;&gt;last post&lt;/a&gt; we developed the category of $p$-local spectra, and in &lt;a href=&#34;https://torgeiraamboe.github.io/posts/2021/complex-cobordism-cohomology/&#34;&gt;the post before that&lt;/a&gt; we explored complex cobordism cohomology. Today we will merge these two together, and try to understand what happens to the complex cobordism spectrum $MU$ when we travel to the $p$-local category. The spectrum $MU$ is a normal spectrum — it is not $p$-local. But, as we now know, we can create a $p$-local version of it by $p$-localizing it. We then get a spectrum $MU\wedge \mathbb{Z}_{(p)}$ which we simply denote by $MU_{(p)}$. This is the spectrum we want to understand today. The idea for understanding $MU_{(p)}$ will be to split it into nicer pieces which have similar — and actually better — properties.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bousfield localization</title>
@@ -256,7 +235,7 @@ $$&lt;p&gt;The fact that this is universal means that for any homology theory $H
       <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://torgeiraamboe.github.io/posts/2021/bousfield-localization/</guid>
       <description>&lt;p&gt;Topology, particularly homotopy theory, is hard. The scenes where these kind of mathematics happen are immensely complicated; the category of topological spaces; the category of spectra. The problem is that there is simply too much information to try to capture by using simple tools that we can actually understand properly. Trying to classify topological spaces or spectra is a feat that many deem impossible, it is simply too difficult.&lt;/p&gt;
-&lt;p&gt;So, how can we try to fix this? We take inspiration from other fields, where similar situations occur and then try to translate into our own situation. Take for example abelian groups. We have no classification of all abelian groups, but there are certain constructions that help us study them. We have a classification of finitely generated abelian groups, where we can decompose any abelian group $A$ into understandable pieces: a free part $\Z^r$ and a torsion part $\Z/p_1^{k_1}\oplus \ldots \oplus \Z/p_t^{k_t}$. For all abelian groups things get more complicated, but there are nice groups that have classifications, like divisible groups, which are direct sums of copies of $\mathbb{Q}$ and Prüfer groups $\Z(p^\infty)$. The general approach seems to be to split the complicated groups into smaller pieces, or to study them via some easier groups. If we just consider $\Z$ for a moment, we can for a prime $p$ study&lt;/p&gt;</description>
+&lt;p&gt;So, how can we try to fix this? We take inspiration from other fields, where similar situations occur and then try to translate into our own situation. Take for example abelian groups. We have no classification of all abelian groups, but there are certain constructions that help us study them. We have a classification of finitely generated abelian groups, where we can decompose any abelian group $A$ into understandable pieces: a free part $\mathbb{Z}^r$ and a torsion part $\mathbb{Z}/p_1^{k_1}\oplus \ldots \oplus \mathbb{Z}/p_t^{k_t}$. For all abelian groups things get more complicated, but there are nice groups that have classifications, like divisible groups, which are direct sums of copies of $\mathbb{Q}$ and Prüfer groups $\mathbb{Z}(p^\infty)$. The general approach seems to be to split the complicated groups into smaller pieces, or to study them via some easier groups. If we just consider $\mathbb{Z}$ for a moment, we can for a prime $p$ study&lt;/p&gt;</description>
     </item>
     <item>
       <title>Complex cobordism cohomology</title>
@@ -573,7 +552,7 @@ $$&lt;p&gt;The fact that this is universal means that for any homology theory $H
       <guid>https://torgeiraamboe.github.io/about/</guid>
       <description>&lt;p&gt;My name is Torgeir Aambø and I am a researcher in Operations Research at the Norwegian Defence Research Establishment (FFI).&lt;/p&gt;
 &lt;p&gt;I did my PhD in pure mathematics at the Norwegian University of Science and Technology (NTNU), where I was part of the project &lt;a href=&#34;https://folk.ntnu.no/drewkh/tt.html&#34;&gt;&amp;ldquo;Tensor triangulated geometry in Trondheim&amp;rdquo;&lt;/a&gt; led by professor &lt;a href=&#34;https://folk.ntnu.no/drewkh/&#34;&gt;Drew Heard&lt;/a&gt;. My research focused on chromatic and stable homotopy theory and its interactions with homological algebra.&lt;/p&gt;
-&lt;p&gt;In my spare time I play drums in some &lt;a href=&#34;https://torgeiraamboe.github.io/misc/music_and_other/&#34;&gt;bands&lt;/a&gt;, and I like &lt;a href=&#34;https://torgeiraamboe.github.io/have-read/&#34;&gt;reading&lt;/a&gt;, &lt;a href=&#34;https://www.strava.com/athletes/104823864&#34;&gt;bouldering, hiking and running&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;In my spare time I play drums in some &lt;a href=&#34;https://torgeiraamboe.github.io/misc/music_and_other/&#34;&gt;bands&lt;/a&gt;, and I like &lt;a href=&#34;https://torgeiraamboe.github.io/misc/have-read/&#34;&gt;reading&lt;/a&gt;, &lt;a href=&#34;https://www.strava.com/athletes/104823864&#34;&gt;bouldering, hiking and running&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
@@ -589,13 +568,6 @@ $$&lt;p&gt;The fact that this is universal means that for any homology theory $H
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://torgeiraamboe.github.io/bokklubb/</guid>
       <description>&lt;p&gt;Som navnet tilsier er dette en bokklubb, skapt for kun to personer. Den skal være personlig, intim, følsom, gøy, spennende, gripende, lærerik og interessant. Det skal derfor velges en kurert liste med interessante bøker som man kan lese, studere, tenke på, eller bare fly gjennom. De skal tilpasses interesse, leselyst, følelse, livssituasjon og læringslyst. Men, dette er ikke alt. Litteratur, og spesielt bøker, er veldig statiske objekter. Man befinner seg i en slags ro mens man konsumerer innholdet – både fysisk og psykisk. Ofte så står dette i sterk kontrast til det man leser om, som kan være episke fortellinger, magiske eventyr og dypt påvirkende historier. Dette skaper en slags strid mellom det statiske og det dynamiske; det å leve gjennom andres fortellinger og det å leve sine egne; det å konsumere og det å skape. For å bygge en bro mellom disse to ofte separate verdenene omhandler ikke denne bokklubben kun bøker, men også eventyr og opplevelser. Men, disse er selvfølgelig sammenknyttede. Denne sammenknyttingen kan, som alle knuter, være løse eller stramme, og det vil variere hva og hvor dyp sammenhengen er.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Have read</title>
-      <link>https://torgeiraamboe.github.io/have-read/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://torgeiraamboe.github.io/have-read/</guid>
-      <description>A list of books that I have read.</description>
     </item>
     <item>
       <title>Have read</title>
@@ -686,16 +658,16 @@ $$&lt;p&gt;The fact that this is universal means that for any homology theory $H
     </item>
     <item>
       <title>Research</title>
-      <link>https://torgeiraamboe.github.io/research/</link>
+      <link>https://torgeiraamboe.github.io/academic/articles-and-preprints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://torgeiraamboe.github.io/research/</guid>
+      <guid>https://torgeiraamboe.github.io/academic/articles-and-preprints/</guid>
       <description>&lt;p&gt;I am interested in a variety of research topics, usually centered around abstract mathematics, but also some applied mathematics, philosophy and politics. Generally speaking I am interested in how information is structured, how information fuses from a local to a global level, as well as using abstract theory to better understand concrete phenomena. This below list contains only research publications &amp;ndash; for others, see &lt;a href=&#34;https://torgeiraamboe.github.io/academic/outreach/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Positselski duality in \(\infty\)-categories&lt;/strong&gt; &lt;br&gt;
 Torgeir Aambø &lt;br&gt;
-&lt;em&gt;To appear in Mathematica Scandinavia&lt;/em&gt;
+&lt;em&gt;To appear in Mathematica Scandinavica&lt;/em&gt;
 (&lt;a href=&#34;https://arxiv.org/abs/2411.04060&#34;&gt;arXiv&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
     <item>

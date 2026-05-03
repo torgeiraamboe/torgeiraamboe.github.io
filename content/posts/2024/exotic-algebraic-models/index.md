@@ -52,11 +52,11 @@ For a stable $\infty$-category $\mathcal{C}$ we can then instead ask whether the
 
 ## Examples and non-examples
 
-We can again look at the case of modules over some ring spectrum, but now some spectrum that is not the Eilenberg-MacLane spectrum of a ring. One such fairly simple spectrum is $KU$, the spectrum representing complex topological $K$-theory. Via Bott periodicity it is a $2$-periodic spectrum, with homotopy groups $\Z[u^{\pm}]$, where $|u|$ is the Bott-class in degree $2$. 
+We can again look at the case of modules over some ring spectrum, but now some spectrum that is not the Eilenberg-MacLane spectrum of a ring. One such fairly simple spectrum is $KU$, the spectrum representing complex topological $K$-theory. Via Bott periodicity it is a $2$-periodic spectrum, with homotopy groups $\mathbb{Z}[u^{\pm}]$, where $|u|$ is the Bott-class in degree $2$. 
 
-There is an equivalence of $1$-categories $hMod_{KU}\simeq hD(\Z[u^\pm])$.
+There is an equivalence of $1$-categories $hMod_{KU}\simeq hD(\mathbb{Z}[u^\pm])$.
 
-Since both $Mod_{KU}$ and $D(\Z[u^\pm])$ are stable we know that their homotopy categories are triangulated. A natural question arises: Is the above equivalence an equivalence of triangulated categories? As of right now, that question is still an open problem, but, there is a nice way to tell if such equivalences are triangulated. 
+Since both $Mod_{KU}$ and $D(\mathbb{Z}[u^\pm])$ are stable we know that their homotopy categories are triangulated. A natural question arises: Is the above equivalence an equivalence of triangulated categories? As of right now, that question is still an open problem, but, there is a nice way to tell if such equivalences are triangulated. 
 
 <span style="color:orange" id=def-2> **Definition 2:** </span> 
 Let $\mathcal{C}$ be a stable $\infty$-category. The homotopy $2$-category, denoted $h_2\mathcal{C}$, is defined as the $2$-category with the same objects as $\mathcal{C}$, $1$-morphisms given by $\pi_0 Map(-,-)$ and $2$-morphisms given by $\pi_1Map(-,-)$. 
@@ -66,9 +66,9 @@ Another way to say this is that it is the $2$-category obtained by $3$-truncatin
 <span style="color:orange" id=prop-3> **Proposition 3:** </span> 
 Let $\mathcal{C}$ and $\mathcal{D}$ be stable $\infty$-categories. If there is an equivalence $h_2\mathcal{C}\simeq h_2\mathcal{D}$, then the induced equivalence $h\mathcal{C}\simeq h\mathcal{D}$ is triangulated. 
 
-The reason we don’t know whether the equivalence $hMod_{KU}\simeq hD(\Z[u^\pm])$ is triangulated, is precisely because we don’t know whether there is an equivalence $h_2 Mod_{KU}\simeq h_2 D(\Z[u^\pm])$. 
+The reason we don’t know whether the equivalence $hMod_{KU}\simeq hD(\mathbb{Z}[u^\pm])$ is triangulated, is precisely because we don’t know whether there is an equivalence $h_2 Mod_{KU}\simeq h_2 D(\mathbb{Z}[u^\pm])$. 
 
-So what is an example of an equivalence that is triangulated? One example comes from an old friend of the blog, the [Johnson-Wilson spectrum]({{<ref "posts/2022/johnson-wilson-theory">}}). Recall that this is a ring spectrum $E(n)$ with coefficients $\pi_* E(n) = \Z_{(p)}[v_1, v_2, \ldots, v_{n-1}, v_{n}^{\pm}]$ that is complex oriented with associated [formal group law]({{<ref "posts/2021/formal-group-laws">}}) of height $n$. It is also implicitly dependent on a prime $p$. As for $KU$, the exotic algebraic equivalence comes from comparing $E(n)$ and $\pi_* E(n)$. Letting for example $p=3$ and $n=1$ we have an equivalence 
+So what is an example of an equivalence that is triangulated? One example comes from an old friend of the blog, the [Johnson-Wilson spectrum]({{<ref "posts/2022/johnson-wilson-theory">}}). Recall that this is a ring spectrum $E(n)$ with coefficients $\pi_* E(n) = \mathbb{Z}_{(p)}[v_1, v_2, \ldots, v_{n-1}, v_{n}^{\pm}]$ that is complex oriented with associated [formal group law]({{<ref "posts/2021/formal-group-laws">}}) of height $n$. It is also implicitly dependent on a prime $p$. As for $KU$, the exotic algebraic equivalence comes from comparing $E(n)$ and $\pi_* E(n)$. Letting for example $p=3$ and $n=1$ we have an equivalence 
 
 $$
 h_2 Mod_{E(1)}\simeq h_2 D(\pi_*E(1)),
@@ -150,22 +150,22 @@ A fix for this is then to precisely use just the $R$-equivalences, i.e. passing 
 The splitting condition is a technical condition that makes sure the functor $H,$ restricted to injective objects, has a partial inverse. The only thing the theorem needs to work is this partial inverse, but as there is currently no other known way of constructing it, using the splitting condition is usually the preferred way of stating the theorem. 
 
 <span style="color:orange" id=def-9> **Definition 9:** </span> 
-Let $\mathcal{A}$ be an abelian category with a local grading $[1]$. A splitting of order $q$, is a collection of $q$ Serre subcategories $\mathcal{A}_\phi \subseteq \mathcal{A}$, where $\phi \in \Z/q$, such that 
+Let $\mathcal{A}$ be an abelian category with a local grading $[1]$. A splitting of order $q$, is a collection of $q$ Serre subcategories $\mathcal{A}_\phi \subseteq \mathcal{A}$, where $\phi \in \mathbb{Z}/q$, such that 
 
-1. $\coprod_{\phi\in \Z/q} \mathcal{A}_\phi \simeq \mathcal{A}$, i.e. the subcategories form a decomposition of $\mathcal{A}$, and
+1. $\coprod_{\phi\in \mathbb{Z}/q} \mathcal{A}_\phi \simeq \mathcal{A}$, i.e. the subcategories form a decomposition of $\mathcal{A}$, and
 2. $[k]\mathcal{A}_ \phi\subseteq \mathcal{A}_{\phi+k \text{ mod } q}$. 
 
 The objects in $\mathcal{A}_\phi$ are said to be of pure weight $\phi$.  
 
 A condition of this type was first described by Franke, but it looked a bit different. Let us see this ‘original’ splitting. 
 
-Let $p$ be an odd prime and $Ab_{(p)}$ the category of $p$-local abelian groups. This is the category of modules over the $p$-local integers, which are obtained from $\Z$ by inverting every prime except $p$. For any $M\in Mod_{\Z_{(p)}}$, there is a rational eigenspace decomposition 
+Let $p$ be an odd prime and $Ab_{(p)}$ the category of $p$-local abelian groups. This is the category of modules over the $p$-local integers, which are obtained from $\mathbb{Z}$ by inverting every prime except $p$. For any $M\in Mod_{\mathbb{Z}_{(p)}}$, there is a rational eigenspace decomposition 
 
 $$
-M\otimes \mathbb{Q} \cong \bigoplus_{j\in \Z}W_{j(p-1)}.
+M\otimes \mathbb{Q} \cong \bigoplus_{j\in \mathbb{Z}}W_{j(p-1)}.
 $$
 
-We have a set of operations $\psi^k$ for $k\in \Z_{(p)}^\times$, called Adams operations, that act on $M$ via this decomposition in the following manner: For any $w\in W_{j(p-1)}$ we have
+We have a set of operations $\psi^k$ for $k\in \mathbb{Z}_{(p)}^\times$, called Adams operations, that act on $M$ via this decomposition in the following manner: For any $w\in W_{j(p-1)}$ we have
 
 $$
 (\psi^k\otimes Id_\mathbb{Q})(w) = k^{j(p-1)}w.
@@ -173,7 +173,7 @@ $$
 
 We let $Ad_{(p)}$ be the category of $p$-local abelian groups together with these Adams operations. There is an auto-equivalence $T\colon Ad_{(p)}\longrightarrow Ad_{(p)}$ that sends a module $M$ to itself, but the Adams operation $\psi^k$ now acts on $TM$ as $k^{p-1}\psi^k$. 
 
-Now we can define a category $\mathcal{A}$, consisting of collections of objects $(M_n)_ {n\in \Z}$ where $M_n\in Ad_{(p)}$ together with a specified isomorphism $T(M_n)\overset{\cong}{\longrightarrow} (M_{n+2p-2})$ for each $n$. This category is isomorphic to the sum of $2p-2$ shifted copies of $Ad_{(p)}$, which we can recognize as a full subcategory of objects $(M_n)$ such that $M_n \cong 0$ whenever $n \neq 0\mod 2p-2$. 
+Now we can define a category $\mathcal{A}$, consisting of collections of objects $(M_n)_ {n\in \mathbb{Z}}$ where $M_n\in Ad_{(p)}$ together with a specified isomorphism $T(M_n)\overset{\cong}{\longrightarrow} (M_{n+2p-2})$ for each $n$. This category is isomorphic to the sum of $2p-2$ shifted copies of $Ad_{(p)}$, which we can recognize as a full subcategory of objects $(M_n)$ such that $M_n \cong 0$ whenever $n \neq 0\mod 2p-2$. 
 
 This precicely means that we can recognize the copies of $Ad_{(p)}$ as the pure weight $\phi$ components of a splitting of $\mathcal{A}$. In fact, there is an equivalence of categories 
 $$
@@ -183,12 +183,12 @@ where $E(1)$ is the height $1$ [Johnson-Wilson spectrum]({{<ref "posts/2022/john
 
 A natural question is then, can we generalize this construction to other ring spectra? In other words, is there a sufficient condition we can place upon a ring spectrum $R$ such that the category $Comod_{R_*R}$ has a splitting of order $q$? 
 
-The answer turns out to be yes, and it should not be that hard to convince ourselves of this. The ring spectrum $E(1)$ from the example above has homotopy groups $\pi_*E(1) \cong \Z_{(p)}[v_1^{\pm}]$ with $|v_1|=2p-2$. In other words, it is a graded ring concentrated in degrees divisible by $2p-2$. This condition allowed us to take the module category over the copy of $\Z_{(p)}$ that exists in the degree $2j(p-1)$ and construct a splitting based on these. They are precisely sewn together as a coherent whole by the shift operation $T$. The added Adams operations, which the shift $T$ acted on essentially by degree shifting, is what gives the modules the extra structure of comodules. 
+The answer turns out to be yes, and it should not be that hard to convince ourselves of this. The ring spectrum $E(1)$ from the example above has homotopy groups $\pi_*E(1) \cong \mathbb{Z}_{(p)}[v_1^{\pm}]$ with $|v_1|=2p-2$. In other words, it is a graded ring concentrated in degrees divisible by $2p-2$. This condition allowed us to take the module category over the copy of $\mathbb{Z}_{(p)}$ that exists in the degree $2j(p-1)$ and construct a splitting based on these. They are precisely sewn together as a coherent whole by the shift operation $T$. The added Adams operations, which the shift $T$ acted on essentially by degree shifting, is what gives the modules the extra structure of comodules. 
 
 We can then hope that whenever we have a nice ring spectrum $R$, such that $\pi_*R$ is concentrated in degrees divisible by $q$, that we get a similar splitting of order $q$ on $Comod_{R_*R}$. This is precisely the case. 
 
 <span style="color:orange" id=lm-10> **Lemma 10:** </span> 
-Let $R$ be a nice ring spectrum such that $\pi_*R$ is concentrated in degrees divisible by $q$ as a graded ring. Let further $\phi \in \Z/q$ and denote by $Comod_{R_*R}^\phi$ the full subcategory spanned by the graded comodules $M_*$ such that $M_n = 0$ unless $n\equiv 0\mod q$. The collection of subcategories defined by this constitutes a splitting of order $q$ of $Comod_{R_*R}$. 
+Let $R$ be a nice ring spectrum such that $\pi_*R$ is concentrated in degrees divisible by $q$ as a graded ring. Let further $\phi \in \mathbb{Z}/q$ and denote by $Comod_{R_*R}^\phi$ the full subcategory spanned by the graded comodules $M_*$ such that $M_n = 0$ unless $n\equiv 0\mod q$. The collection of subcategories defined by this constitutes a splitting of order $q$ of $Comod_{R_*R}$. 
 
 Note that this also works for the category of modules over $R$, not just comodules! This will be used later. 
 
@@ -202,7 +202,7 @@ is a conservative adapted homology theory, where $Comod_{R_*R}$ has a splitting 
 
 ### Cohomological dimension
 
-There are several types of “dimensions” throughout mathematics. In algebra there is usually no very geometric definition one could make, corresponding with some sort of visual intuition. For vector spaces, this is ok, as it corresponds roughly with intuition, but what should the dimension of $\Z[x]$ be? What about $\mathbb{F}_p$, or some abelian group $G?$ There are several ways of answering these questions, all depending on what type of structure one is interested in studying. For us, the dimension will be a certain “resolution dimension”, or the longest chain of certain objects one can create starting from another. For categories of modules over a ring this is relatively straightforward. 
+There are several types of “dimensions” throughout mathematics. In algebra there is usually no very geometric definition one could make, corresponding with some sort of visual intuition. For vector spaces, this is ok, as it corresponds roughly with intuition, but what should the dimension of $\mathbb{Z}[x]$ be? What about $\mathbb{F}_p$, or some abelian group $G?$ There are several ways of answering these questions, all depending on what type of structure one is interested in studying. For us, the dimension will be a certain “resolution dimension”, or the longest chain of certain objects one can create starting from another. For categories of modules over a ring this is relatively straightforward. 
 
 Let $R$ be a commutative ring and $M$ an $R$-module. The projective dimension of $M,$ denoted $p.dim(M),$ is defined as the minimal length of a finite projective resolution of $M$. If no such number exists, then we say $p.dim(M)=\infty.$
 
@@ -235,12 +235,12 @@ The construction of $Ext$-groups uses injective resolutions, which for us works 
 <span style="color:orange" id=def-15> **Definition 15:** </span> 
 Let $\mathcal{A}$ be a locally graded abelian category with enough injectives. The cohomological dimension of $\mathcal{A}$, denoted $c.dim(\mathcal{A})$, is defined to be the minimal integer $d$ such that $Ext_\mathcal{A}^{s,t}(A,B)=0$ for all $s>d$ and $A, B\in \mathcal{A}.$
 
-So, what are some examples of this? Let us return to the first example we saw, namely $\pi_*KU \cong \Z[u^\pm]$, where $u$ is the degree $2$ Bott-class. The global dimension of $\Z$ is $1$, and adding a generator increases the dimension by $1$. By inverting that generator, the dimension is again reduced by $1$, hence $c.dim(\Z[u^\pm])=1$. In summary for the category of modules we have the following. 
+So, what are some examples of this? Let us return to the first example we saw, namely $\pi_*KU \cong \mathbb{Z}[u^\pm]$, where $u$ is the degree $2$ Bott-class. The global dimension of $\mathbb{Z}$ is $1$, and adding a generator increases the dimension by $1$. By inverting that generator, the dimension is again reduced by $1$, hence $c.dim(\mathbb{Z}[u^\pm])=1$. In summary for the category of modules we have the following. 
 
 <span style="color:orange" id=lm-16> **Lemma 16:** </span> 
 The cohomological dimension of the category $Mod_{\pi_*KU}$ is $1$. 
 
-We also say the Johnson—Wilson spectrum $E(n)$, especially at height $1$. The ring $\Z_{(p)}$ is a regular Noetherian local ring, with global dimension $1$. By adding $n$ generators, and then inverting one of them to get $\pi_*E(n)=\Z_{(p)}[v_1, \ldots, v_{n-1}, v_n^\pm]$ we get the following. 
+We also say the Johnson—Wilson spectrum $E(n)$, especially at height $1$. The ring $\mathbb{Z}_{(p)}$ is a regular Noetherian local ring, with global dimension $1$. By adding $n$ generators, and then inverting one of them to get $\pi_*E(n)=\mathbb{Z}_{(p)}[v_1, \ldots, v_{n-1}, v_n^\pm]$ we get the following. 
 
 <span style="color:orange" id=lm-17> **Lemma 17:** </span>
 The cohomological dimension of the category $Mod_{\pi_*E(n)}$ is $n$. 
@@ -263,9 +263,9 @@ $$h_{q-d}D^{per}(\pi_*R)\simeq h_{q-d}Mod_{H\pi_*R}\simeq h_{q-d}D(\pi_*R).$$
 Let us see some examples of this theorem. We can now prove our first claim: the algebraicity for $KU$-modules. 
 
 <span style="color:orange" id=cor-20> **Corollary 20:** </span> 
-Let $KU$ be the complex topological $K$-theory spectrum. Then $hMod_{KU}\simeq hD(\Z[u^\pm])$.
+Let $KU$ be the complex topological $K$-theory spectrum. Then $hMod_{KU}\simeq hD(\mathbb{Z}[u^\pm])$.
 
-*Proof.* By [Lemma 10](#lm-10) the category $Mod_{\pi_*KU}$ has a splitting of order $2$, as $\pi_*KU\cong \Z[u^\pm]$, which is a graded ring concentrated in degrees divisible by $2$, due to the Bott-class $u$ having degree $2$. By [Lemma 16](#lm-16) the cohomological dimension of $Mod_{\pi_*KU}$ is $1$. Since $1<2$ we have by [Theorem 19](#thm-19) an equivalence $h_1Mod_{KU}\simeq h_1D(\pi_*KU)$. Taking $h_1$ is the same as taking the homotopy category $h$, hence we are done. 
+*Proof.* By [Lemma 10](#lm-10) the category $Mod_{\pi_*KU}$ has a splitting of order $2$, as $\pi_*KU\cong \mathbb{Z}[u^\pm]$, which is a graded ring concentrated in degrees divisible by $2$, due to the Bott-class $u$ having degree $2$. By [Lemma 16](#lm-16) the cohomological dimension of $Mod_{\pi_*KU}$ is $1$. Since $1<2$ we have by [Theorem 19](#thm-19) an equivalence $h_1Mod_{KU}\simeq h_1D(\pi_*KU)$. Taking $h_1$ is the same as taking the homotopy category $h$, hence we are done. 
 
 <span style="color:orange" id=cor-21> **Corollary 21:** </span> 
 Let $E(n)$ be the height $n$ Johnson—Wilson spectrum at a prime $p$. If $2p-2>n$ then there is an equivalence $h_{2p-2-n}Mod_{E(n)}\simeq h_{2p-2-n}D(\pi_*E(n))$. 

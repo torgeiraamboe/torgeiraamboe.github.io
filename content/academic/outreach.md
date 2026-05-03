@@ -27,13 +27,15 @@ I am currently the topic expert in [topology](https://snl.no/.taxonomy/3760) and
 - [Graph theory](https://snl.no/grafteori)
 - [Margaret Hamilton](https://snl.no/Margaret_Hamilton)
 
-### Video and podcast
+### Radio, video and podcast
 
+- Guest on [NRK P1 to discuss math anxiety](https://radio.nrk.no/serie/opptur/DVFJ01003526#t=1h39m2s), 26.04.26
+- Guest on [NRK P1 in relation to $\pi$-day](https://radio.nrk.no/serie/opptur/DVFJ01002226#t=1h23m54s), 14.03.26
+- Guest on the Podcast ["Livet, universet og alt"](https://open.spotify.com/show/0hWAACTAMHvX4bcOQDZTpj?si=abce3d9722574285) for the episode on [topology and the shape of the universe](https://open.spotify.com/episode/7r1EFigD36yF85NJgeBPkZ?si=ff33d1ae78474931)
 - [Promovideo for bachelor in mathematics (BMAT)](https://www.youtube.com/watch?v=JjZApGQ8cUA)
 - [Promovideo for master in mathematics (MSMNFMA)](https://www.youtube.com/watch?v=HdiJD-Tm3Vo&t)
 - [Short math promovideo on symmetry](https://www.linkedin.com/posts/ntnu_matematikkens-kunst-ugcPost-7109879186516848641-bopX/)
-- Guest on Podcast ["Livet, universet og alt"](https://open.spotify.com/show/0hWAACTAMHvX4bcOQDZTpj?si=abce3d9722574285), 
-    - Episode on [topology and the shape of the universe](https://open.spotify.com/episode/7r1EFigD36yF85NJgeBPkZ?si=ff33d1ae78474931)
+
 
 ### Mathematical art
 

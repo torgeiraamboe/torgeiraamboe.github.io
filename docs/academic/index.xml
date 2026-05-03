@@ -9,13 +9,6 @@
     <copyright></copyright>
     <atom:link href="https://torgeiraamboe.github.io/academic/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Research</title>
-      <link>https://torgeiraamboe.github.io/academic/articles-and-preprints/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://torgeiraamboe.github.io/academic/articles-and-preprints/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Talks and speaking</title>
       <link>https://torgeiraamboe.github.io/academic/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,13 +34,6 @@
       <link>https://torgeiraamboe.github.io/academic/outreach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://torgeiraamboe.github.io/academic/outreach/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Outreach and talks</title>
-      <link>https://torgeiraamboe.github.io/academic/outreach-and-talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://torgeiraamboe.github.io/academic/outreach-and-talks/</guid>
       <description></description>
     </item>
     <item>
@@ -77,6 +63,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://torgeiraamboe.github.io/academic/education_and_experience/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://torgeiraamboe.github.io/academic/articles-and-preprints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://torgeiraamboe.github.io/academic/articles-and-preprints/</guid>
+      <description>&lt;p&gt;I am interested in a variety of research topics, usually centered around abstract mathematics, but also some applied mathematics, philosophy and politics. Generally speaking I am interested in how information is structured, how information fuses from a local to a global level, as well as using abstract theory to better understand concrete phenomena. This below list contains only research publications &amp;ndash; for others, see &lt;a href=&#34;https://torgeiraamboe.github.io/academic/outreach/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Positselski duality in \(\infty\)-categories&lt;/strong&gt; &lt;br&gt;
+Torgeir Aambø &lt;br&gt;
+&lt;em&gt;To appear in Mathematica Scandinavica&lt;/em&gt;
+(&lt;a href=&#34;https://arxiv.org/abs/2411.04060&#34;&gt;arXiv&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
