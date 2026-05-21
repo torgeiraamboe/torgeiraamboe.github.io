@@ -65,3 +65,9 @@ I did social media coverage of the [International mathematics olympiad (IMO22)](
 
 - Writer for \(\Delta t\), the student association's newspaper (Feb. 2018 -- 2022) ([My articles]({{<ref "misc/delta-t.md">}}))
 - In 2020 I created a digital [christmas calender](https://fagkom.wordpress.com/fagklubber/adventskalender-2020/). The goal was to learn about several topics, as well as a competition to find a paper, by being given hints every day. It is summarized in the link above. 
+
+
+
+
+
+<style>body {text-align: justify}</style>

@@ -14,3 +14,7 @@ In my spare time I play drums in some [bands]({{<ref "misc/../../misc/music_and_
 
 
 
+<style>body {text-align: justify}</style>
+
+
+

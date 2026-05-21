@@ -11,6 +11,8 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 # 2026
 
+- *Operation Heartbreak* -- Duff Cooper
+- *The Prince* -- Niccolò Machiavelli
 - *Admiral Hyman Rickover: Engineer of power* -- Marc Wortman
 - ***The baron in the trees*** -- Italo Calvino
 - *Empire of deterrence: Nuclear weapons and the containment of politics* -- Michael Gardiner

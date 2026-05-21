@@ -167,7 +167,7 @@ $$A \overset{f}\longrightarrow B\overset{g}\longrightarrow  C\overset{h}\longrig
 <p>So our definition of a triangle is a sort of generalization of this image to allow for other automorphisms as well. I don&rsquo;t know if the following image helps, but it is roughly how I visualize and think about triangles</p>
 <p><img alt="Error loading image" loading="lazy" src="/posts/2021/tensor-triangulated-categories/images/triangle2.svg"></p>
 <p>Lets now look at the definition we are interested in.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> A <em>triangulated category</em> is an additive category $T$, together with an additive automorphism $\Sigma:T\longrightarrow T$ often called the shift, and a class of triangles, $\Delta$, called the exact or sometimes distinguished triangles, such that the following four axioms are satisfied.</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> A <em>triangulated category</em> is an additive category $T$, together with an additive automorphism $\Sigma:T\longrightarrow T$ often called the shift, and a class of triangles, $\Delta$, called the exact or sometimes distinguished triangles, such that the following four axioms are satisfied.</p>
 <p>This first axiom consist of three parts.</p>
 <p><strong>TC1.1:</strong> For every object $A\in T$, the triangle</p>
 $$A\overset{id_A}\longrightarrow A\longrightarrow 0\longrightarrow \Sigma A$$<p>is exact, i.e. is an element of $\Delta$.</p>
@@ -205,7 +205,7 @@ $$A\overset{f}\longrightarrow B \longrightarrow C(f)\longrightarrow \Sigma A$$<p
 <p>In general, the Quillen homotopy category (the localization at the weak equivalences) of a stable model category (or even more generally a stable $(\infty, 1)$-category) is a triangulated category. A model category is called stable if its initial and terminal object coincide, and every fiber sequence is also a cofiber sequence. Both the derived category of a ring, and the stable homotopy category are examples of this general theory. Maybe we will return to visit this again later as well, as it is rather interesting.</p>
 <h2 id="the-tt-categories">The tt-categories<a hidden class="anchor" aria-hidden="true" href="#the-tt-categories">#</a></h2>
 <p>Ok, we now understand a tiny bit about triangulated categories, or at least some intuitive and motivating examples. This post has gotten long enough, so let us finish off by defining the joint tensor and triangulated structure. There are several versions of this structure in the literature, often adding stronger requirements to fit specific needs.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> A <em>tensor triangulated category</em> (tt-category) is a tuple $(H, \Sigma, \Delta, \otimes, 1, e)$ where $H$ is an additive category, such that</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> A <em>tensor triangulated category</em> (tt-category) is a tuple $(H, \Sigma, \Delta, \otimes, 1, e)$ where $H$ is an additive category, such that</p>
 <ul>
 <li>$(H, \Sigma, \Delta)$ is a triangulated category</li>
 <li>$(H, \otimes, 1)$ is a symmetric monoidal category</li>
@@ -217,8 +217,7 @@ $$X\otimes A\longrightarrow X\otimes B \longrightarrow X\otimes C \longrightarro
 $$A\otimes X\longrightarrow B\otimes X \longrightarrow C\otimes X \longrightarrow \Sigma(A\otimes X)$$<p>is in $\Delta$ for all objects $X$, i.e. the functors $X\otimes-$ and $-\otimes X$ preserve distinguished triangles.</p>
 <p>So, there we have it, the combined structure of a tensor category and a triangulated category. This post has gone on long enough, so we wont cover any examples in detail, just mentioning that the stable homotopy category and the naive homotopy category $K(R)$ of a Noetherian ring $R$, are both tt-categories. The most important for us will be the stable homotopy category, which as said earlier we will look more into soon.</p>
 <p>For now this is what I wanted to present, but there will be more posts regarding this theory during the next four years, so follow along if you are interested! I have set a goal to post at least once every month, but there will probably be no regularity in when and what the posts are about. I currently have some vacation time, and thought about making a series defining mathematically what spacetime is. Hopefully this will be a more down to earth and approachable series. I also want to post a summary of my master thesis, which will be my next post I think.</p>
-<!-- raw HTML omitted -->
-
+<style>body {text-align: justify}</style>
 
   </div>
 

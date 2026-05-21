@@ -147,7 +147,7 @@
 <h2 id="exact-couples">Exact couples<a hidden class="anchor" aria-hidden="true" href="#exact-couples">#</a></h2>
 <p>Spectral sequences are very iterative objects. One starts on a place of coarse and not very comprehensive information and iterates a procedure in order to refine this information. If we are careful in our construction, and use it in nice situations, this iterative information converges to the thing we are interested in. The information we are interested in is usually some form of homology, cohomology or derived functor, and the iteration process is usually made by creating some differentials and producing some form of homology or cohomology. For some general information about this you can see my old blog post or Elias’ post.</p>
 <p>Ok, let’s start off by defining what an exact couple actually is.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> An <em>exact couple</em> $(D, E; i,j,k)$ is a pair of modules $D$ and $E$, together with homomorphisms $i, j, k$ such that the diagram</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> An <em>exact couple</em> $(D, E; i,j,k)$ is a pair of modules $D$ and $E$, together with homomorphisms $i, j, k$ such that the diagram</p>
 <p><img alt="Error loading image" loading="lazy" src="/posts/2022/the-adams-spectral-sequence/images/Exact-couple.png"></p>
 <p>is exact at each vertex.</p>
 <p>The notion of being exact at each vertex here means that we have $Im(i)=Ker(j)$, $Im(j)=Ker(k)$ and $Im(k)=ker(i)$. So it is the standard exactness we use in homological algebra. Notice also that the composition $d:=j\circ k:E\longrightarrow E$ is a differential on $E$, as we have</p>
@@ -155,7 +155,7 @@ $$
 d\circ d = (j\circ k)\circ (j\circ k) = j\circ (k\circ j)\circ k = j\circ 0\circ k=0.
 $$<p>The composition $k\circ j$ is zero as we have $Ker(k)=Im(j)$. So having an exact couple gives us a differential on the module $E$, and this is exactly how we start the iterative process.</p>
 <p>So, how does the iteration work? When we have a differential one of the first things we should think about doing is taking homology. This is precisely the thing we do to form the so-called derived couple of an exact couple.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> Let $(D, E;i,j,k)$ be an exact couple. We define its <em>derived couple</em> as the tuple $(D', E';i', j', k')$ defined by</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> Let $(D, E;i,j,k)$ be an exact couple. We define its <em>derived couple</em> as the tuple $(D', E';i', j', k')$ defined by</p>
 <ul>
 <li>$D'=iD$</li>
 <li>$E'=H(E, d)$</li>
@@ -166,16 +166,16 @@ $$<p>The composition $k\circ j$ is zero as we have $Ker(k)=Im(j)$. So having an 
 <p>And in diagram form:</p>
 <p><img alt="Error loading image" loading="lazy" src="/posts/2022/the-adams-spectral-sequence/images/Derived-couple.png"></p>
 <p>We see that we make several choices in this definition, as we choose representatives from different homology classes. But one can show that these choices does not matter, and we get well defined maps.</p>
-<p><!-- raw HTML omitted --> <strong>Lemma:</strong> <!-- raw HTML omitted --> The derived couple of an exact couple is again an exact couple.</p>
+<p><span style="color:orange"> <strong>Lemma:</strong> </span> The derived couple of an exact couple is again an exact couple.</p>
 <p><em>Proof:</em> We need to check that the diagram is exact at each vertex. We show only for $Im(k')=Ker(i')$, the other vertices are similar types of diagram chase arguments.</p>
 <p>Let $x\in Ker(i)$. In particular we know $x\in D'$, which means $x=i(y)$ for some $y\in D$. We then have $0=i'(i(y))$ since its in the kernel. But $i'$ is just the restriction of $i$ to its image, hence we have $0=i(i(y))$, which means $i(y)$ is in the kernel of $i$, and by exactness that $i(y)$ is in the image of $k$. Hence we can find $a\in E$ such that $i(y)=k(a)$. Choosing the class $[a]\in E'$ gives us $k'[a] = k(a)=i(y)=x$, hence we have that $x$ is in the image of $k'$.</p>
 <p>Choose now $x\in Im(k')$. This means we have a homology class $[a]$ such that $k'[a]=x$. By definition this means that $x=k(a)$. We then have $i'(x)=i'(k(a))=i(k(a))=0$ by exactness.</p>
 <p>The cool thing about this result is that we can start iterating this procedure, and form an infinite tower $(D^n, E^n;i^n, j^n, k^n)$ of exact couples. In each of these towers $E^n$ is a differential group with $d^n=j^n\circ k^n$ and $E^{n+1}=H(E^n, d^n)$.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> The sequence $E^n$ is called the <em>spectral sequence</em> of the exact couple $(D, E;i,j,k)$.</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> The sequence $E^n$ is called the <em>spectral sequence</em> of the exact couple $(D, E;i,j,k)$.</p>
 <p>For the people familiar with spectral sequences this should look familiar, but perhaps feel a bit weird. It seems like we have only one grading, where in the usual scenario we have three. This can easily be implemented by considering $D$ and $E$ to be bigraded modules instead. We will do so below. Even though most examples use three gradings, there are also examples in the more simple situation described above, like the Bockstein spectral sequence.</p>
 <h2 id="exact-couples-in-spectra">Exact couples in spectra<a hidden class="anchor" aria-hidden="true" href="#exact-couples-in-spectra">#</a></h2>
 <p>One important use case of the theory we developed above is to study spectra, i.e. stable phenomena in topology. One of the crucial ways to do this is by understanding their homotopy groups, which we know from earlier discussions generalize the notion of stable homotopy groups of topological spaces via the suspension spectrum construction. We want to create spectral sequences that allows us to compute these homotopy groups, in particular the coefficients $\pi_* X$ of some spectrum $X$. One way to do this is to use filtered spectra.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> A <em>filtration</em> on a spectrum $X$ is a $\mathbb{Z}$-graded sequence of spectra $X_\bullet$, such that $X$ is the homotopy colimit $X\simeq \underrightarrow{\lim}_kX_k$. A <em>filtered spectrum</em> is then a spectrum together with a chosen filtration.</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> A <em>filtration</em> on a spectrum $X$ is a $\mathbb{Z}$-graded sequence of spectra $X_\bullet$, such that $X$ is the homotopy colimit $X\simeq \underrightarrow{\lim}_kX_k$. A <em>filtered spectrum</em> is then a spectrum together with a chosen filtration.</p>
 <p>Often we work with a simpler definition, namely that a filtration is simply a sequence</p>
 $$
 \cdots \rightarrow X_n\overset{f_n}\rightarrow X_{n-1}\rightarrow \cdots \rightarrow X_1\overset{f_0}\rightarrow X_0=X.
@@ -241,8 +241,7 @@ $$
 E_2^{s,t} \cong Ext_{Comod_{MU_\ast MU}}^{s,t}(\pi_\ast MU, \pi_\ast MU)\implies \pi_\ast \mathbb{S}.
 $$<p>As we already know that the homotopy groups of spheres are terribly complicated, we should expect this spectral sequence to also be terribly complicated. We can make it a bit simpler by using $BP$, the <a href="https://torgeiraamboe.github.io/posts/2022/brown-peterson-cohomology/">Brown-Peterson spectrum</a>, instead of $MU$. This would allow us to compute the homotopy groups of $\mathbb{S}$ “one prime at the time”, which we could later use to compute the full homotopy groups. This spectral sequence is also usually called the Adams-Novikov spectral sequence, as its really exactly the same as the one above based on $MU$, just in the category of <a href="https://torgeiraamboe.github.io/posts/2021/bousfield-localization/">$p$-local spectra</a> instead of all spectra. Because the potential for computing the homotopy groups of spheres is there, we should however also expect it to be very difficult to compute.</p>
 <p>I will leave off this blog post by stating a recurring theme of these last few paragraphs — a theme we have also encountered before. It is a statement sometimes called Mahovald’s uncertainty principle, and very informally says: Any easy to compute spectral sequence converging to the homotopy groups of spheres that can be written down using homological algebra, will be infinitely wrong.</p>
-<!-- raw HTML omitted -->
-
+<style>body {text-align: justify}</style>
 
   </div>
 

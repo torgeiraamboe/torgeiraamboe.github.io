@@ -26,7 +26,7 @@ $$
 
 from spectra to vector spaces over $\mathbb{F}_ p$. The adapted factorization produced a category $Comod_{LR}$, into which the functor $H(-;\mathbb{F}_p)\colon Sp\longrightarrow Comod_{LR}$ became adapted. In this blog post we try to figure out what this mysterious category $Comod_{LR}$ is, and how it is related to the title — Hopf algebroids. 
 
-## Structure maps on mod $p$ homology
+## Structure maps on mod p homology
 
 Let us start by recalling some information about the homology theory we are interested in. One important fact about homology theories on spectra is that they are representable. The mod $p$ singular homology functor is represented by the Eilenberg-MacLane spectrum of its coefficients, namely $H\mathbb{F}_ p$. This means in particular that we have an equivalence $H_ *(X;\mathbb{F}_ p)\simeq \pi_ *(H\mathbb{F}_ p\wedge X)$ that is natural in $X$. Here $\wedge$  is the wedge product on spectra — the operation that makes $Sp$ into a symmetric monoidal stable $\infty$-category. As a shorthand notation we also often use just $H\mathbb{F}_ {p*}(–)$ for this homology theory. 
 

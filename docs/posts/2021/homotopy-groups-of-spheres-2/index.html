@@ -145,14 +145,23 @@
   </header> 
   <div class="post-content md-content"><p>In the <a href="https://torgeiraamboe.github.io/posts/2021/homotopy-groups-of-spheres/">previous post</a> we studied some &ldquo;easy&rdquo; cases of homotopy groups of spheres. We focused most on the group $\pi_3(S^2)$ and its computation from the Hopf fibration. All groups calculated last time were part of the so-called unstable range, meaning that they are not invariant under suspension. Due to the Freudenthal suspension theorem we know precicely the stable range for homotopy groups of spheres, and these are given by the stable homotopy groups. These groups are what we will look at today (and what we looked at during the second part of the talk these two blog-posts are based upon). We will compute some of the low stable homotopy groups of spheres using the socalled $J$-homomorphism. But, in order to do this calculation we must cover a plethora of interesting mathematics.</p>
 <p>We have already looked at <a href="https://torgeiraamboe.github.io/posts/2021/stable-homotopy/">stable homotopy groups</a>, but let&rsquo;s recall the definition anyway.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> The $k$&lsquo;th stable homotopy group of the spheres is defined as</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> The $k$&lsquo;th stable homotopy group of the spheres is defined as</p>
 $$\pi_k^S=colim_n(\pi_{k+n}(S^n))$$<p>We know that this stabilizes in finite steps due to the Freudenthal suspension theorem.</p>
 <p>When we look at a table of the homotopy groups of spheres, we find these stable groups along the diagonals, and the stable range is below the jagged line.</p>
 <p><img alt="Error loading image" loading="lazy" src="/posts/2021/homotopy-groups-of-spheres-2/images/Table.png"></p>
+<!--- 
+|   |1    |2    |3    |   4 |   5 |
+--- | --- | --- | --- | --- | --- |
+|$S^1$|$\mathbb{Z}$|$0$|$0$|$0$|$0$|
+|$S^2$|$0$|$\mathbb{Z}$|$\mathbb{Z}$|$\mathbb{Z}/2$|$\mathbb{Z}/2$|
+|$S^3$|$0$|$0$|$\mathbb{Z}$|$\mathbb{Z}/2$|$\mathbb{Z}/2$|
+|$S^4$|$0$|$0$|$0$|$\mathbb{Z}$|$\mathbb{Z}/2$|
+|$S^5$|$0$|$0$|$0$|$0$|$\mathbb{Z}$|
+--->
 <p>From the table we can see what the zero&rsquo;th and the first stable homotopy groups is. We have in fact already calculated the zero&rsquo;th stable homotopy group last time, namely $\pi_0^S=\mathbb{Z}$, and <a href="https://torgeiraamboe.github.io/posts/2020/a-homotopy-group-of-a-sphere/">last year we calculated</a> $\pi_4(S^3) = \mathbb{Z}/2$, which we now see is in the stable range. Hence we actually know two stable homotopy groups of spheres. But, how do we find some of the other ones?</p>
 <h2 id="the--homomorphism">The $J$-homomorphism<a hidden class="anchor" aria-hidden="true" href="#the--homomorphism">#</a></h2>
 <p>If you have ever studied a table of the homotopy groups of spheres, you will maybe start to see some weak patterns, in particular some repeating behaviour. One of these repeating behaviours comes precisely from the $J$-homomorphism, which is a group homomorphism from the homotopy groups of the infinite orthogonal group to the stable homotopy groups of spheres.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> The space $O(n)$, called the $n$&lsquo;th orthogonal group, is the set of orthogonal $n\times n$ matrices, i.e.</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> The space $O(n)$, called the $n$&lsquo;th orthogonal group, is the set of orthogonal $n\times n$ matrices, i.e.</p>
 $$O(n) = \\{A\in M(n):AA^T = I = A^TA\\}$$<p>It can also be thought of as the space of distance preserving transformations of $\R^n$, or more relevant for us, as the symmetry group of the $(n-1)$-sphere. We are not so much interested in the group structure on $O(n)$, but merely its topological properties. It is in fact a Lie group, which in particular means it is a manifold.</p>
 <p>Since $O(n)$ form the symmetries of the $(n-1)$-sphere, an element $a\in O(n)$ can be thought of as a map $a:S^{n-1}\longrightarrow S^{n-1}$. If we now consider the $k$&lsquo;th homotopy group $\pi_k(O(n))$ we can think of an element in this group as being represented by a map</p>
 $$S^k\longrightarrow Map(S^{n-1}, S^{n-1})$$<p>or by the Hom-Tensor adjunction a map</p>
@@ -194,7 +203,7 @@ $$\begin{aligned}%
 \end{aligned}$$<p>which you can remember by singing them to the tune of &ldquo;Twinkle, twinkle little star&rdquo;. Under the stable $J$-homomorphism these groups gets sent to subgroups of the stable homotopy groups of spheres, which means that the collection of stable homotopy groups of spheres admit an eightfold periodicity. In order to use these to actually calculate some stable homotopy groups of spheres, we need to know what these subgroups are, i.e. what the image of the $J$-homomorphism is.</p>
 <h2 id="the-image-of-the--homomorphism">The image of the $J$-homomorphism<a hidden class="anchor" aria-hidden="true" href="#the-image-of-the--homomorphism">#</a></h2>
 <p>Luckily for us, Adams described these groups in the 60&rsquo;s, using a conjectured result (called the Adams conjecture) later proved by Quillen. Hence the following theorem is usually credited to them both.</p>
-<p><!-- raw HTML omitted --> <strong>Theorem (Adams-Quillen):</strong> <!-- raw HTML omitted --> Let $k>0$. The image of the $J$-homomorphism, $ImJ_k$ is given by</p>
+<p><span style="color:orange"> <strong>Theorem (Adams-Quillen):</strong> </span> Let $k>0$. The image of the $J$-homomorphism, $ImJ_k$ is given by</p>
 <ul>
 <li>$0$ when $k=2,4,5,6 \,(mod\,8)$ and</li>
 <li>a cyclic group or order $2$ when $k= 0,1 \,(mod\, 8)$.</li>
@@ -204,11 +213,11 @@ $$\begin{aligned}%
 $$S = \text{denominator}(\mathbb{Z}eta(1-2r)/2).$$<p>This is the first — and probably the last — time the Riemann zeta function is making an appearance on this blog, so we felt an obligation to include it.</p>
 <p>But, as you may have noticed, the image of the $J$-homomorphism only gives us subgroups of the stable homotopy groups of spheres. It would then be interesting to know if these subgroups are actually the entire group. So we ask, does this happen? And if it does, then when? The answer to the former is yes, and the latter is complicated&hellip; Knowing if $ImJ_k$ is the entire $k$&lsquo;th stable homotopy group is the same as knowing wether $\pi_k^S/ImJ_k$  is trivial. By some mathematical magic, this quotient groups can be described by another quotient group — the quotient of the group of $h$-cobordism classes of the spheres by the subgroup of manifolds that are the boundaries of a higher dimensional paralellizable manifold. Let&rsquo;s define these terms.</p>
 <p>Recall that we have talked a bit about <a href="https://torgeiraamboe.github.io/posts/2021/a-lecture-in-my-second-year/">cobordisms before</a>. These give a very general and weak equivalence relation between manifolds. A cobordism between two manifolds can be thought of as being a way to deform one space into the other, except we allow the deformation to be non-continuous at finitely many discrete points. More specifically, a cobordism is another smooth manifold that has the disjoint union of the two original manifolds as its boundary.</p>
-<p><!-- raw HTML omitted --> <strong>Definition:</strong> <!-- raw HTML omitted --> Let $M$ and $N$ be smooth $n$-manifolds. A cobordism $W:M\longrightarrow N$ is a smooth $n+1$ dimensional manifold $W$ such that $\partial W = M\coprod N$. We call $W$ an $h$-cobordism if the inclusions $M\hookrightarrow W$ and $N\hookrightarrow W$ are both homotopy equivalences. If $M$ and $N$ are smooth manifolds such that there exists an $h$-cobordism between them, we say they are $h$-cobordant.</p>
+<p><span style="color:orange"> <strong>Definition:</strong> </span> Let $M$ and $N$ be smooth $n$-manifolds. A cobordism $W:M\longrightarrow N$ is a smooth $n+1$ dimensional manifold $W$ such that $\partial W = M\coprod N$. We call $W$ an $h$-cobordism if the inclusions $M\hookrightarrow W$ and $N\hookrightarrow W$ are both homotopy equivalences. If $M$ and $N$ are smooth manifolds such that there exists an $h$-cobordism between them, we say they are $h$-cobordant.</p>
 <p>An $h$-cobordism can be visualized as something like:</p>
 <p><img alt="Error loading image" loading="lazy" src="/posts/2021/homotopy-groups-of-spheres-2/images/H-cobordism.png"></p>
 <p>We see that a cylinder between two manifolds is an $h$-cobordism, and we can wonder wether these are the only ones. This leads to the $h$-cobordism theorem, an infamous and important result, proved by Stephen Smale in the 60&rsquo;s.</p>
-<p><!-- raw HTML omitted --> <strong>Theorem (Smale):</strong> <!-- raw HTML omitted --> Let $W:M\longrightarrow N$ be a compact $h$-cobordism between two simply connected smooth manifolds of dimension at least $5$. Then $W$ is diffeomorphic to a cylinder $M\times I$.</p>
+<p><span style="color:orange"> <strong>Theorem (Smale):</strong> </span> Let $W:M\longrightarrow N$ be a compact $h$-cobordism between two simply connected smooth manifolds of dimension at least $5$. Then $W$ is diffeomorphic to a cylinder $M\times I$.</p>
 <p>By Donaldson we know that this theorem does not hold for smooth manifolds of dimension $4$, but it does hold in dimension $3$, as it is equivalent to the Poincaré conjecture, proved in 2003 by Perelman. It also is trivially true in dimension $2$ and $1$. Hence the $h$-cobordism theorem holds for all $n\neq 4$.</p>
 <p>Since the spheres are simply connected, we see that all manifolds that are $h$-cobordant to sphere, must itself be a sphere. The $h$-cobordisms must in some way preserve the smooth structures on these spheres, meaning that for high $n$ — where there exists exotic spheres — we can get several $h$-cobordism classes of spheres. In fact, the set of $h$-cobordism classes of $n$-spheres is equivalent to the set of smooth structures on the $n$-sphere. At least for $n\neq 4$, as for this dimension it is an open problem whether exotic spheres exists.</p>
 <p>The $h$-cobordism classes of spheres form a group under disjoint union, denoted $\Theta_n$, and (for $n\neq 4$) the set of smooth structures on $S^n$ form a group under connected sum. The equivalence between their sets respects these group structures, so we do in fact have a group isomorphism between the group of smooth structures on $S^n$  and $\Theta_n$.</p>
@@ -226,8 +235,7 @@ $$\Large \cdots \pi_4^S = \pi_5^S \cdots $$<p>For both these groups we have no m
 $$\Large \cdots \pi_6^S \cdots $$<p>This is the last group we are going to calculate. We could have gone further, but at dimension seven we run into exotic spheres, making things more complicated.. For $k=6$ we have manifolds with Kervaire invariant one, meaning that the map</p>
 $$\Theta_6/bP_7 \cong 0 \longrightarrow \pi_6^S/ImJ_6$$<p>has index $2$. The image of the $J$-homomorphism is trivial, because $\pi_6(O(\infty))\cong 0$, hence by the same reasoning as for $\pi_2^S$, we get $\pi_6^S \cong \mathbb{Z}/2.$</p>
 <p>This rounds up our looong post about the stable homotopy groups of the spheres. I was not this detailed in describing and defining everything in my talk (which these two twin posts are based on), but I wanted to have some proper definitions and calculations when actually putting this to the public. Calculating these groups is fun, but I think we stop here for now. Maybe some other time we will describe how we have actually just described pieces of the lowest chromatic homotopy layer of the sphere spectrum, maybe we wont&hellip;</p>
-<!-- raw HTML omitted -->
-
+<style>body {text-align: justify}</style>
 
   </div>
 
