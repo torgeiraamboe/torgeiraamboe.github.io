@@ -272,10 +272,9 @@ $$
 $$
 
 where the last equivalence holds because $X$ already was $F(K)$-torsion. Hence we have $X\simeq 0$, which was what we wanted. This proves that all the three criteria – conservativity, projection formula and preservation of colimits – are satisfied. To recap; this means that the monoidal Barr-Beck theorem passes down to torsion objects, which was what we wanted to show. 
-
-$$
-\hspace{18cm}\square
-$$
+<div style="text-align: right;">
+$\blacksquare$
+</div> 
 
 Note that the theorem can be stated in a slightly more general fashion, stating that any monoidal Barr-Beck adjunction induces a monoidal Barr-beck adjunction on smashing localizing ideals. Or in the language of tensor-triangulated geometry; any monoidal Barr-Beck adjunction on tt-categories induces a monoidal Barr-Beck adjunction on tt-ideals. 
 

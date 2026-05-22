@@ -13,6 +13,8 @@ cover:
 
 ## Introduction
 
+
+
 In the last blog post we introduced and studied [adapted homology theories]({{<ref "posts/2023/adapted-homology">}}). Given a stable $\infty$-category $\mathcal{C}$ and $\mathcal{A}$ an abelian category with enough injectives together with a local grading $[1]\colon \mathcal{A}\longrightarrow \mathcal{A}$, an adapted homology theory is a functor
 $$H\colon \mathcal{C}\longrightarrow \mathcal{A}$$
 
@@ -101,8 +103,7 @@ $$
 $$
 
 and up to isomorphism the map of interest is an isomorphism $A_p\longrightarrow A_p$. Hence, the two homology theories are equivalent. 
-
-$\hspace{17cm}\square$
+<div style="text-align: right;"> $\blacksquare$</div>
 
 In particular, if we apply the above equivalence of homology theories to $H\mathbb{F}_p$ we get the equivalence we wanted
 
@@ -424,8 +425,10 @@ So, since the forgetful functor $u\colon Comod_{R_*R}\longrightarrow Mod_{R_*}$ 
 $$Hom_{R_*}(R_*(X),i)\simeq [X,I]$$
 
 for any $X\in Sp$, which proves that we can lift injectives from $Comod_{R_*R}$ to $Sp$. The remaining part is showing that $R_*(I)\simeq i$ – a fact we will not cover here as it is rather technical. This is where the "niceness" requirement" comes in. To be brief, the proof uses certain properties of certain finite spectra, and the niceness condition tells us that our ring spectrum $R$ can be described by spectra which satisfy these properties. The interested reader can find the proof in Devinatz's paper on Morava modules and Brown-Comenetz dualit. Maybe we will get back to this at some point, but for now we leave this as a hanging thread. 
+<div style="text-align: right;">
+$\blacksquare$
+</div>
 
-$\hspace{17cm}\square$
 
 
 We can now summarize the above discussion with the following theorem. 
@@ -458,7 +461,5 @@ There are several different ways we can go from here. We could explore the conec
 
 [^1]: We have omitted one of the relations, just to make the presentations simpler. 
 [^2]: Nice here means "Adams type". In the paper Devinatz mentioned it is referred to as property 1.1. It means that the spectrum $R$ is a colimit of finite spectra $R_\alpha$ such that the $R_*$-homology of $R_\alpha$ is finitely generated and projective. 
-
-
 
 <style>body {text-align: justify}</style>

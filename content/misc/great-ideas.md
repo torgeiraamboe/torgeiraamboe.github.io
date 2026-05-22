@@ -7,9 +7,9 @@ ShowReadingTime: false
 summary: "One of Penguin's wonderful curated list of short books of influential ideas."
 ---
 
-This list seems to be a fantastic curated list of some shorter philosophical works created by brilliant authors. Great ideas are always interesting to read, so I have decided to try to read them all, though it might take some years or decades. 
+Penguin's series "Great ideas", is a fantastic curated list of some shorter philosophical works created by brilliant authors. Great ideas are always interesting to read, so I have decided to try to read them all, though it might take some years or decades. 
 
-Some of the books are exerpts of bigger works, so where I feel inclined I try to read the complete work rather than the actual exerpt used in this series. For example, instead of reading "Being happy" by Epicurus, I read all his surviving works (which are suprisingly few).   
+Some of the books are exerpts of bigger works, so where I feel inclined I try to read the complete work rather than the actual exerpt used in this series. For example, instead of reading "Being happy" by Epicurus, I read all his surviving works.   
 
 
 ### Series one
@@ -22,7 +22,7 @@ Some of the books are exerpts of bigger works, so where I feel inclined I try to
 
 :heavy_multiplication_x: The Inner Life - Thomas à Kempis
 
-:heavy_multiplication_x: The Prince - Niccolò Machiavelli
+:white_check_mark: The Prince - Niccolò Machiavelli
 
 :heavy_multiplication_x: On Friendship - Michel de Montaigne
 
