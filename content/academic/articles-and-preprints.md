@@ -24,7 +24,7 @@ I am interested in a variety of research topics, usually centered around abstrac
 
 - **Collective deterrence as a classification problem: Voting rules, deterrence credibility, and escalation risk** \
     Torgeir Aambø \
-    ([arXiv:2604.08482](https://arxiv.org/abs/2604.08482))
+    ([arXiv:2604.08482](https://arxiv.org/abs/2604.08482)) (Submitted)
 
 - **A categorical formalization of epistemic uncertainty frameworks** \
     Torgeir Aambø \

@@ -12,6 +12,36 @@ weight: 1
 
 <details>
     <summary>
+        <b>Conference:</b> Persistent Scenario Classes for Defense Planning via Formal Concepts and Optimization, 20.10.26
+    </summary>
+    <ul>
+        <li>
+        <b>Seminar:</b> <a href="https://soaf.se/norm2026/">Nordic Operations Research Meeting</a>
+        </li>
+        <li>
+        <b>Abstract:</b> Defense planners routinely use scenarios to test military capabilities against realistic operational settings. To ensure a comprehensive and holistic assessment of the capabilities, the portfolio of scenarios should be broad enough to capture operational requirements that sufficiently model the whole space of possibilities. To construct this space, defense planners often use General Morphological Analysis (GMA), an analytical method developed to understand the solution space of un-quantifiable, complex, multi-dimensional problems. After such an analysis, the resulting possible defense problems are often grouped and aggregated by similarity into scenario classes. This process is currently done manually, which puts several limitations on the methodology, like requiring small and manageable solution spaces, and lacking reproduceability between analysts. 
+
+        This project introduces a mathematical framework aimed at deriving analytically meaningful scenario classes from morphological solution spaces. The method is general and works for any GMA model. It is based on formal concepts and abstraction graphs, which form the foundation for a class selection process using simple optimization and a persistence lifetime analysis across portfolio sizes. 
+
+        The result is a simplified, reproduceable and iterative approach to scenario classes -- and more generally to typologies of structured solution spaces -- which still retains room for the expert judgement. We demonstrate the method through examples from Norwegian defense planning.  
+        </li>
+</details>
+
+<details>
+    <summary>
+        <b>Seminar:</b> Collective deterrence, 04.06.26
+    </summary>
+    <ul>
+        <li>
+        <b>Seminar:</b> FFI operations research seminar
+        </li>
+        <li>
+        <b>Abstract:</b> Deterrence coalitions that collectively own their deterrence technology, need an institutional design to decide when to retaliate against an attack or incident. This choice of institutional design, formalized through a social choice function, introduces a tradeoff between credible deterrence and escalation risk. In the talk we view this tradeoff as a simple signalling model, and use it to construct an associated binary classification problem to determine institutional designs that perform well in a variety of environments. For a small coalition of four members, we compute and study the statistics of the empirical ROC curves associated to a variety of choice functions and probability distributions for retaliation and false positives.
+        </li>
+</details>
+
+<details>
+    <summary>
         <b>Conference:</b> Deformations of chromatic homotopy theory, 15.08.24
     </summary>
     <ul>

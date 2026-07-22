@@ -11,6 +11,11 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 # 2026
 
+- ***The black swan: The impact of the highly improbable*** -- Nassim Nicholas Taleb
+- *Hillbilly elegy: A memoir of a family and culture in crisis* -- James David Vance
+- *Mending reality: An advocates exsistential journey with mental health* -- Cohen Miles-Rath
+- ***Invisible cities*** -- Italo Calvino
+- *The plague* -- Albert Camus
 - *Operation Heartbreak* -- Duff Cooper
 - *The Prince* -- Niccolò Machiavelli
 - *Admiral Hyman Rickover: Engineer of power* -- Marc Wortman
@@ -36,7 +41,7 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 - *European universalism: The rethoric of power* -- Immanuel Wallerstein
 - *Alternativt statsbudsjett: Løsninger for landet som ble for rikt* -- Martin Bech Holte
-- *Sociopath: a memoir* -- Patric Gagne
+- *Sociopath: A memoir* -- Patric Gagne
 - ***The unbearable lightness of being*** -- Milan Kundera
 - *Flowers for Algernon* -- Daniel Keyes
 - *Forward the foundation* -- Isaac Asimov

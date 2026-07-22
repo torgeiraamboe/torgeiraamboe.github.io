@@ -8,10 +8,12 @@ summary: " "
 weight: 7
 ---
 
-
+- [Nordic Operations Research Meeting](https://soaf.se/norm2026/), Oct. 2026, Stockholm
+- [Folkerettskonferansen](https://www.forsvaret.no/forskning/arrangementer/folkerettskonferansen), Sep. 2026, Oslo
+- [Arctic Security Conference](https://www.fni.no/events/arctic-security-conference-2026?instance=0), Sep. 2026, Oslo
 - [Norsk Militært Logistikkforums Logistikkonferanse](https://www.logistikkonferansen.no/), Mar. 2026, Oslo
 - [NATO Operations Research and Analysis Conference](https://www.act.nato.int/activities/nato-operations-research-and-analysis-conference/), Nov. 2025, Berlin
-- [Folkerettskonferansen 2025](https://www.forsvaret.no/forskning/arrangementer/folkerettskonferansen-2025), Sep. 2025, Oslo
+- [Folkerettskonferansen](https://www.forsvaret.no/forskning/arrangementer/folkerettskonferansen-2025), Sep. 2025, Oslo
 - [Cobordism categories](https://www.math.ku.dk/english/calendar/events/cobordism-categories/), Feb. 2025, University of Copenhagen
 - [Representation theory - combinatorial aspects and applications to TDA](https://wiki.math.ntnu.no/repthy), Des. 2024, Trondheim
 - [Unstable homotopy theory](https://www.mpim-bonn.mpg.de/node/13256), Nov. 2024, Max Planck Institute for Mathematics, Bonn
