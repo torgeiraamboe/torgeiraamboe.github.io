@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -9,16 +9,16 @@
 <meta name="keywords" content="Algebras, Homotopy, Model categories, Massey products">
 <meta name="description" content="I have recently handed in and defended my master thesis in mathematics, so I though I would go through its abstract and try to explain what it&rsquo;s all about. We look at formality of DG-algebras, Massey products, A_infinity-algebras and how we can use these to some interesting results.">
 <meta name="author" content="Torgeir Aambø">
-<link rel="canonical" href="http://localhost:1313/posts/2021/on-formal-dg-algebras/">
+<link rel="canonical" href="https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f548c61ace8dc509ac5795eb1aa47d423d4d717a8208848a20e3045bcad46444.css" integrity="sha256-9UjGGs6NxQmsV5XrGqR9Qj1NcXqCCISKIOMEW8rUZEQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://torgeiraamboe.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://torgeiraamboe.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://torgeiraamboe.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://torgeiraamboe.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://torgeiraamboe.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2021/on-formal-dg-algebras/">
+<link rel="alternate" hreflang="en" href="https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/">
 <noscript>
     <style>
         #theme-toggle,
@@ -28,7 +28,7 @@
 
     </style>
 </noscript>
-<meta property="og:url" content="http://localhost:1313/posts/2021/on-formal-dg-algebras/">
+<meta property="og:url" content="https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/">
   <meta property="og:site_name" content="Torgeir Aambø">
   <meta property="og:title" content="On formal DG-algebras">
   <meta property="og:description" content="I have recently handed in and defended my master thesis in mathematics, so I though I would go through its abstract and try to explain what it’s all about. We look at formality of DG-algebras, Massey products, A_infinity-algebras and how we can use these to some interesting results.">
@@ -41,10 +41,10 @@
     <meta property="article:tag" content="Homotopy">
     <meta property="article:tag" content="Model Categories">
     <meta property="article:tag" content="Massey Products">
-    <meta property="og:image" content="http://localhost:1313/images/borromean.svg">
+    <meta property="og:image" content="https://torgeiraamboe.github.io/images/borromean.svg">
         <meta property="fb:admins" content=" ">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:1313/images/borromean.svg">
+<meta name="twitter:image" content="https://torgeiraamboe.github.io/images/borromean.svg">
   <meta name="twitter:title" content="On formal DG-algebras">
   <meta name="twitter:description" content="I have recently handed in and defended my master thesis in mathematics, so I though I would go through its abstract and try to explain what it’s all about. We look at formality of DG-algebras, Massey products, A_infinity-algebras and how we can use these to some interesting results.">
 
@@ -58,13 +58,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Blog posts",
-      "item": "http://localhost:1313/posts/"
+      "item": "https://torgeiraamboe.github.io/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "On formal DG-algebras",
-      "item": "http://localhost:1313/posts/2021/on-formal-dg-algebras/"
+      "item": "https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/"
     }
   ]
 }
@@ -82,7 +82,7 @@
   "articleBody": "My five years of studying mathematics at NTNU has finally culminated in my master thesis, now handed in and defended. So, I thought I would explain my thesis, and a couple of the interesting pieces. Luckily we have already covered a lot of the background material, so I will rely on that as much as possible in order to not reproduce the thesis in its full details. I have a suspicion that this post will be long enough already… Ok, lets begin.\nThe idea To get an idea of what the thesis is about I thought it would be smart to state, unpack and explain the abstract of the thesis. If I have made a good job making the abstract it should summarize the thesis well, and allow us to explore the relevant ideas through it. Ok, lets see the abstract:\nLuckily I was smart enough to highlight the four central themes in the thesis by italicizing them. As you can see from those four words, the thesis is about formal DG-algebras, Massey products and $A_\\infty$-algebras. These three are intimately linked, as we will hopefully discover throughout this post. In the most rough and short outline possible: DG-algebras are collections of topological information about a topological space, Massey products are higher order data in a DG-algebra and $A_\\infty$-algebras are collections of homotopical data about a topological space. Formal DG-algebras will be those without homotopical information, so a sort of easy to understand DG-algebra. It would then be handy to understand which DG-algebras are formal, and which are not. This is the goal of the thesis.\nFormal DG-algebras We have already learned a bit about DG-algebras when we learned about homotopy associativity. There we tried deform a DG-algebra through a homotopy equivalence and see whether the result was still a DG-algebra. It turned out not to be the case as the product was no longer associative, only associative up to a special homotopy, which we later discovered was part of an $A_\\infty$-structure. More on this later. Let’s start by recalling the definition.\nDefinition: A DG-algebra is a graded vector space $A=\\bigoplus A^i$ over a field $k$ together with two operations, $d:A\\longrightarrow A$ called the differential and $m:A\\otimes A\\longrightarrow A$ called multiplication, such that\n$|d|=1, |m|=0$, meaning that $d$ has degree $1$ and $m$ has degree $0$ $d^2=0$, meaning that $d$ makes $\\bigoplus A^i$ into a cochain complex $m(m\\otimes 1) = m(1\\otimes m)$, meaning that $m$ is an associative product $dm=m(d\\otimes 1)+m(1\\otimes d)$, meaning that $d$ is a derivation with respect to $m$ This definition is precisely a structure that unifies cochain complexes and algebras.\nThe examples one should have in mind, at least for this blog post is the cochain complex of a topological space together with the cup product. Also, the cohomology ring of a topological space together with a differential $d=0$. These are of course intimately linked, as the cohomology ring is the graded vector space we get by taking the homology of the cochain complex with respect to the differential, which we turn into a DG-algebra using the induced cup product and trivial differential. One can also consider the de Rham algebra of a manifold, and many other more fancy examples.\nWe of course also have morphisms between DG-algebras, such that we get a category of DG-algebras, denoted $DGA_k$. These morphisms are precicely those who preserve both the product and the differential, i.e. structure preserving maps.\nNow, we need to understand what a formal DG-algebra is. The abstract states that a formal DG-algebra is a DG-algebra that contain the same homotopical information as its cohomology, so what does this really mean?\nIn the fibration series we learned about model categories and the homotopy category of model categories. As it turns out, $DGA_k$ admits a model structure. This is done by defining the fibrations to be the degreewise surjective morphisms, the weak equivalences to be the quasi-isomorphisms (the morphisms that induce isomorphisms in cohomology) and the cofibrations being induced from the other two. Its Quillen homotopy category, $HoDGA_k$, is then obtained by localizing at the weak equivalences. The “homotopical” information is stored in this homotopy category, meaning that a formal DG-algebra i.e. one that contains the same homotopical information as its cohomology, should be isomorphic to it in the homotopy category!\nRecall that localizing inverts the quasi-isomorphisms, so they become isomorphisms in the homotopy category. Hence, being isomorphic in the homotopy category is the same as being weakly equivalent in $DGA_k$. Two DG-algebras $A, B$ as weakly equivalent if there exists a span of quasi-isomorphisms $A\\longleftarrow C\\longrightarrow B$ between them. The reason this is not a single quasi-isomorphisms $A\\longrightarrow B$, is that quasi-isomorphisms are not in general homotopy-invertible. Thus, a single isomorphism in $HoDGA_k$ does not always come from a single quasi-isomorphism in $DGA_k$. This now defines what we mean by formal DG-algebras, so lets wrap the above discussion up in a nice package.\nDefinition: A DG-algebra $A$ is said to be formal if there exists a DG-algebra $C$ forming a span $H(A)\\overset{p}\\longleftarrow C \\overset{q}\\longrightarrow A$, where $p$ and $q$ are quasi-isomorphisms.\nAs we will see in a bit, the cohomology algebra itself does not contain a whole lot of homotopical information, so formal DG-algebras are sort of simple objects, at least in the eyes of homotopy.\nMassey products We said that these formal DG-algebras were the ones that contained the same homotopical information as their cohomology, but we don’t yet know what this homotopical information is, or even what it can be. One example of such information is the Massey products. Intuitively, Massey products detect higher order linking inside the space — we will see a bit better what this means in an example soon. First of, lets define these. We will do this through what is called defining systems.\nDefinition: Let $\\bar{x} = (-1)^{|x|}x$. A defining system for a set of cohomology classes $x_1, \\ldots, x_n$ in $H(A)$ is a collection $\\{ a_{i,j}\\}$ of cochains in $A$ such that\n$[a_{i-1, i}] = x_i$ $d(a_{i, j}) = \\displaystyle\\sum_{i",
   "wordCount" : "1000",
   "inLanguage": "en",
-  "image":"http://localhost:1313/images/borromean.svg","datePublished": "2021-07-19T00:00:00Z",
+  "image":"https://torgeiraamboe.github.io/images/borromean.svg","datePublished": "2021-07-19T00:00:00Z",
   "dateModified": "2021-07-19T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -90,14 +90,14 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/2021/on-formal-dg-algebras/"
+    "@id": "https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Torgeir Aambø",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://torgeiraamboe.github.io/favicon.ico"
     }
   }
 }
@@ -107,26 +107,26 @@
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Torgeir Aambø (Alt + H)">Torgeir Aambø</a>
+            <a href="https://torgeiraamboe.github.io/" accesskey="h" title="Torgeir Aambø (Alt + H)">Torgeir Aambø</a>
         </div>
         <ul id="menu" class="menu">
             <li>
-                <a href="http://localhost:1313/academic/articles-and-preprints/" title="Research">
+                <a href="https://torgeiraamboe.github.io/academic/articles-and-preprints/" title="Research">
                     <span>Research</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts/" title="Blog">
+                <a href="https://torgeiraamboe.github.io/posts/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/academic/outreach/" title="Outreach">
+                <a href="https://torgeiraamboe.github.io/academic/outreach/" title="Outreach">
                     <span>Outreach</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
+                <a href="https://torgeiraamboe.github.io/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -151,7 +151,7 @@
 <p><img alt="Error loading image" loading="lazy" src="/posts/2021/on-formal-dg-algebras/images/abstract.png"></p>
 <p>Luckily I was smart enough to highlight the four central themes in the thesis by italicizing them. As you can see from those four words, the thesis is about formal DG-algebras, Massey products and $A_\infty$-algebras. These three are intimately linked, as we will hopefully discover throughout this post. In the most rough and short outline possible: DG-algebras are collections of topological information about a topological space, Massey products are higher order data in a DG-algebra and $A_\infty$-algebras are collections of homotopical data about a topological space. Formal DG-algebras will be those without homotopical information, so a sort of easy to understand DG-algebra. It would then be handy to understand which DG-algebras are formal, and which are not. This is the goal of the thesis.</p>
 <h2 id="formal-dg-algebras">Formal DG-algebras<a hidden class="anchor" aria-hidden="true" href="#formal-dg-algebras">#</a></h2>
-<p>We have already learned a bit about DG-algebras when we learned about <a href="http://localhost:1313/posts/2021/the-associating-homotopy/">homotopy associativity</a>. There we tried deform a DG-algebra through a homotopy equivalence and see whether the result was still a DG-algebra. It turned out not to be the case as the product was no longer associative, only associative up to a special homotopy, which we later discovered was part of an $A_\infty$-structure. More on this later. Let&rsquo;s start by recalling the definition.</p>
+<p>We have already learned a bit about DG-algebras when we learned about <a href="https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/">homotopy associativity</a>. There we tried deform a DG-algebra through a homotopy equivalence and see whether the result was still a DG-algebra. It turned out not to be the case as the product was no longer associative, only associative up to a special homotopy, which we later discovered was part of an $A_\infty$-structure. More on this later. Let&rsquo;s start by recalling the definition.</p>
 <p><span style="color:orange"> <strong>Definition:</strong> </span> A <em>DG-algebra</em> is a graded vector space $A=\bigoplus A^i$ over a field $k$ together with two operations, $d:A\longrightarrow A$ called the differential and $m:A\otimes A\longrightarrow A$ called multiplication, such that</p>
 <ol>
 <li>$|d|=1, |m|=0$, meaning that $d$ has degree $1$ and $m$ has degree $0$</li>
@@ -163,7 +163,7 @@
 <p>The examples one should have in mind, at least for this blog post is the cochain complex of a topological space together with the cup product. Also, the cohomology ring of a topological space together with a differential $d=0$. These are of course intimately linked, as the cohomology ring is the graded vector space we get by taking the homology of the cochain complex with respect to the differential, which we turn into a DG-algebra using the induced cup product and trivial differential. One can also consider the de Rham algebra of a manifold, and many other more fancy examples.</p>
 <p>We of course also have morphisms between DG-algebras, such that we get a category of DG-algebras, denoted $DGA_k$. These morphisms are precicely those who preserve both the product and the differential, i.e. structure preserving maps.</p>
 <p>Now, we need to understand what a formal DG-algebra is. The abstract states that a formal DG-algebra is a DG-algebra that contain the same homotopical information as its cohomology, so what does this really mean?</p>
-<p>In the <a href="http://localhost:1313/series/the-fibration-series/">fibration series</a> we learned about model categories and the homotopy category of model categories. As it turns out, $DGA_k$ admits a model structure. This is done by defining the fibrations to be the degreewise surjective morphisms, the weak equivalences to be the quasi-isomorphisms (the morphisms that induce isomorphisms in cohomology) and the cofibrations being induced from the other two. Its <a href="http://localhost:1313/posts/2020/the-homotopy-category/">Quillen homotopy category</a>, $HoDGA_k$, is then obtained by localizing at the weak equivalences. The &ldquo;homotopical&rdquo; information is stored in this homotopy category, meaning that a formal DG-algebra i.e. one that contains the same homotopical information as its cohomology, should be isomorphic to it in the homotopy category!</p>
+<p>In the <a href="https://torgeiraamboe.github.io/series/the-fibration-series/">fibration series</a> we learned about model categories and the homotopy category of model categories. As it turns out, $DGA_k$ admits a model structure. This is done by defining the fibrations to be the degreewise surjective morphisms, the weak equivalences to be the quasi-isomorphisms (the morphisms that induce isomorphisms in cohomology) and the cofibrations being induced from the other two. Its <a href="https://torgeiraamboe.github.io/posts/2020/the-homotopy-category/">Quillen homotopy category</a>, $HoDGA_k$, is then obtained by localizing at the weak equivalences. The &ldquo;homotopical&rdquo; information is stored in this homotopy category, meaning that a formal DG-algebra i.e. one that contains the same homotopical information as its cohomology, should be isomorphic to it in the homotopy category!</p>
 <p>Recall that localizing inverts the quasi-isomorphisms, so they become isomorphisms in the homotopy category. Hence, being isomorphic in the homotopy category is the same as being weakly equivalent in $DGA_k$. Two DG-algebras $A, B$ as weakly equivalent if there exists a span of quasi-isomorphisms $A\longleftarrow C\longrightarrow B$ between them. The reason this is not a single quasi-isomorphisms $A\longrightarrow B$, is that quasi-isomorphisms are not in general homotopy-invertible. Thus, a single isomorphism in $HoDGA_k$ does not always come from a single quasi-isomorphism in $DGA_k$. This now defines what we mean by formal DG-algebras, so lets wrap the above discussion up in a nice package.</p>
 <p><span style="color:orange"> <strong>Definition:</strong> </span> A DG-algebra $A$ is said to be <em>formal</em> if there exists a DG-algebra $C$  forming a span $H(A)\overset{p}\longleftarrow C \overset{q}\longrightarrow A$, where $p$ and $q$ are quasi-isomorphisms.</p>
 <p>As we will see in a bit, the cohomology algebra itself does not contain a whole lot of homotopical information, so formal DG-algebras are sort of simple objects, at least in the eyes of homotopy.</p>
@@ -215,14 +215,14 @@ $$a_{0,4} = \overline{a_{0,1}}a_{1,4} + \overline{a_{0,2}}a_{2,4} + \overline{a_
 <p>Hence, formal DG-algebras — as they are quasi-isomorphic to their cohomology — can only contain vanishing Massey products! This means that if we find any non-vanishing Massey product in a DG-algebra, it cant be formal, i.e. Massey products are obstructions to formality.</p>
 <p>This is good. We now have a test for recognizing non-formal DG-algebras, but is this also a test for recognizing the formal ones? Or reformulated, are Massey products the only obstructions to formality? If this was the case, checking all Massey products would be a definite proof that the DG-algebra is formal. Unfortunately, this is not the case. Massey products can sort of vanish for different reasons making it possible to have certain Massey products containing zero, but not being the homotopical information we would expect. So, we need some kind of new way of figuring out when the Massey products all vanish for the same reason, sometimes stated as being &ldquo;uniformly vanishing&rdquo;. This leads us to some homotopical structures we have already seen quite a bit of.</p>
 <h2 id="-algebras">$A_\infty$-algebras<a hidden class="anchor" aria-hidden="true" href="#-algebras">#</a></h2>
-<p>In order for this post not to be as long as the thesis it self we will mostly outsource the information on $A_\infty$-algebras to the 4 posts we have already made on them (<a href="http://localhost:1313/posts/2021/homotopy-associativity/">1</a>, <a href="http://localhost:1313/posts/2021/spaces-with-operations/">2</a>, <a href="http://localhost:1313/posts/2021/the-associating-homotopy/">3</a>, <a href="http://localhost:1313/posts/2021/sha-algebras/">4</a>, where number 4 is the most important for this post). We will however recall the definition, and connect it to the above story on homotopical information in DG-algebras.</p>
+<p>In order for this post not to be as long as the thesis it self we will mostly outsource the information on $A_\infty$-algebras to the 4 posts we have already made on them (<a href="https://torgeiraamboe.github.io/posts/2021/homotopy-associativity/">1</a>, <a href="https://torgeiraamboe.github.io/posts/2021/spaces-with-operations/">2</a>, <a href="https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/">3</a>, <a href="https://torgeiraamboe.github.io/posts/2021/sha-algebras/">4</a>, where number 4 is the most important for this post). We will however recall the definition, and connect it to the above story on homotopical information in DG-algebras.</p>
 <p><span style="color:orange"> <strong>Definition:</strong> </span> An $A_\infty$<em>-algebra</em> $(A, m)$ is a graded vector space $A = \bigoplus_{i\in \mathbb{Z}} A^i$ together with a family of morphisms $m=\{m_n\}$ consisting of maps $m_n\colon A^{\otimes n}\longrightarrow A$ of degree $2-n$ such that</p>
 $$\displaystyle\sum_{r+s+t=n}(-1)^{r+st}m_{r+1+t}(id^{\otimes r}\otimes m_s \otimes id^{\otimes t}) = 0$$<p>for all $n, s\geq 1$ and $r, t\geq 0$.</p>
-<p>These relations are often called the Stasheff identities or the coherence relations in $A$. We won&rsquo;t recall them in detail here, as it would take a bit of time and is not so important for the story we are telling in this post, but to be brief: The first Stasheff identity makes $A$ into a cochain complex; the second one states that the product $m_2$ is a derivation with respect to $m_1$, i.e. it satisfies the Leibniz rule; the third states that $m_2$ is associative up to homotopy. To see some more detail on this, see <a href="http://localhost:1313/posts/2021/sha-algebras/">post 4</a>.</p>
+<p>These relations are often called the Stasheff identities or the coherence relations in $A$. We won&rsquo;t recall them in detail here, as it would take a bit of time and is not so important for the story we are telling in this post, but to be brief: The first Stasheff identity makes $A$ into a cochain complex; the second one states that the product $m_2$ is a derivation with respect to $m_1$, i.e. it satisfies the Leibniz rule; the third states that $m_2$ is associative up to homotopy. To see some more detail on this, see <a href="https://torgeiraamboe.github.io/posts/2021/sha-algebras/">post 4</a>.</p>
 <p>As with DG-algebras we also have morphisms between $A_\infty$-algebras such that we get a category $\infty Alg_k$. These maps are not structure preserving, but are structure preserving up to homotopy. This is because the structure itself is homotopical, so this notion of morphisms is more fitting. What these maps are precisely is not that important for us here. The important part is that there are morphisms, and even more importantly, that there are $A_\infty$-quasi-isomorphisms. As $m_1$ acts as a differential we can define the cohomology of an $A_\infty$-algebra in exactly the same way as usual. This ables us to again define $A_\infty$-quasi-isomorphisms as those who induce isomorphisms in cohomology.</p>
 <p>The whole reason we introduce $A_\infty$-algebras in order to study DG-algebras is the following theorem.</p>
 <p><span style="color:orange"> <strong>Theorem (Kadeishvili):</strong> </span> Let $A$ be a DG-algebra and $H(A)$ its cohomology. There exists an $A_\infty$-structure $\{m_i\}$ on $H(A)$ such that $A$ and $H(A)$ are related by an $A_\infty$-quasi-isomorphism $H(A)\rightsquigarrow A$.</p>
-<p>In <a href="http://localhost:1313/posts/2021/the-associating-homotopy/">post 3</a> about $A_\infty$-algebras we constructed such an $A_\infty$-structure by deforming a DG-algebra through a homotopy equivalence. The above theorem can be proven by constructing such a deformation retraction from $A$ onto $H(A)$.</p>
+<p>In <a href="https://torgeiraamboe.github.io/posts/2021/the-associating-homotopy/">post 3</a> about $A_\infty$-algebras we constructed such an $A_\infty$-structure by deforming a DG-algebra through a homotopy equivalence. The above theorem can be proven by constructing such a deformation retraction from $A$ onto $H(A)$.</p>
 <p>So, this means that not every DG-algebra is formal, i.e. quasi-isomorphic to its cohomology, but, with the added $A_\infty$-structure on $H(A)$ it is in fact $A_\infty$-quasi-isomorphic! Intuitively, we have now created a homotopical structure on $H(A)$ that tells us all relevant homotopical information about $A$. What we mean by this is that passing from DG-algebras to $A_\infty$-algebras does not create more homotopy types, just showcases the relevant information more explicitly, or in a different way. This means that two DG-algebras $A$ and $B$ are DG-quasi-isomorphic if and only if they are $A_\infty$-quasi-isomorphic. For us this is really important, as we get the following result.</p>
 <p><span style="color:orange"> <strong>Theorem:</strong> </span> Let $A$ be a DG-algebra and $H(A)$ its cohomology $A_\infty$-algebra. Then $A$ is formal if and only in $m_i=0$ for all $i\geq 3$, i.e. $H(A)$ is a DG-algebra.</p>
 <p>This is the ultimate conclusion about formality in the thesis, as we have a clear cut way to figure out if something is formal or not. The operations $m_i$ are inductively defined, so all we need to do is check that these product are all trivial in order to have a definite proof that a DG-algebra $A$ is formal. This was the goal of the thesis after all, to understand formality, or equivalently, when a DG-algebra contains the same homotopical information as its cohomology.</p>
@@ -240,10 +240,10 @@ $$\displaystyle\sum_{r+s+t=n}(-1)^{r+st}m_{r+1+t}(id^{\otimes r}\otimes m_s \oti
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/algebras/">Algebras</a></li>
-      <li><a href="http://localhost:1313/tags/homotopy/">Homotopy</a></li>
-      <li><a href="http://localhost:1313/tags/model-categories/">Model Categories</a></li>
-      <li><a href="http://localhost:1313/tags/massey-products/">Massey Products</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/algebras/">Algebras</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/homotopy/">Homotopy</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/model-categories/">Model Categories</a></li>
+      <li><a href="https://torgeiraamboe.github.io/tags/massey-products/">Massey Products</a></li>
     </ul>
   </footer>
 </article>
