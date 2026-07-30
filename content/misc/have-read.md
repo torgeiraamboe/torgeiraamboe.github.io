@@ -11,6 +11,8 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 # 2026
 
+- *Cyber wargaming: Research and education for security in a dangerous digital world* -- Edited by Frank L. Smith III, Nina A. Kollars, Benjamin H. Schechter
+- *Lord of the flies* -- William Golding
 - ***The black swan: The impact of the highly improbable*** -- Nassim Nicholas Taleb
 - *Hillbilly elegy: A memoir of a family and culture in crisis* -- James David Vance
 - *Mending reality: An advocates exsistential journey with mental health* -- Cohen Miles-Rath

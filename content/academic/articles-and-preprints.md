@@ -22,6 +22,10 @@ I am interested in a variety of research topics, usually centered around abstrac
 
 ### Preprints
 
+- **Possibilistic operators in Formal Concept Analysis as Kan extensions** \
+    Torgeir Aambø \
+    ([arXiv:2607.26776](https://arxiv.org/abs/2607.26776))
+
 - **Collective deterrence as a classification problem: Voting rules, deterrence credibility, and escalation risk** \
     Torgeir Aambø \
     ([arXiv:2604.08482](https://arxiv.org/abs/2604.08482)) (Submitted)
