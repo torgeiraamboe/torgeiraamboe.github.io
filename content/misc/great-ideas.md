@@ -80,7 +80,7 @@ Some of the books are exerpts of bigger works, so where I feel inclined I try to
 
 :heavy_multiplication_x: Urne-Burial - Sir Thomas Browne
 
-:heavy_multiplication_x: Miracles and Idolatry - Voltaire
+:white_check_mark: Miracles and Idolatry - Voltaire
 
 :heavy_multiplication_x: On Suicide - David Hume
 

@@ -11,6 +11,10 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 # 2026
 
+- *Dilemmaer i nosk utenrikspolitikk* -- Edited by Øyvind Svendsen, Kristin Haugevik
+- *Introducing the enlightenment* -- Lloyd Spencer
+- *Miracles and idolatry* -- Voltaire
+- *Beautiful things: A memoir* -- Hunter Biden
 - *Cyber wargaming: Research and education for security in a dangerous digital world* -- Edited by Frank L. Smith III, Nina A. Kollars, Benjamin H. Schechter
 - *Lord of the flies* -- William Golding
 - ***The black swan: The impact of the highly improbable*** -- Nassim Nicholas Taleb

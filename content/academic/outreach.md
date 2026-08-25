@@ -10,7 +10,9 @@ weight: 5
 
 Outreach talks are listed [here.]({{<ref "academic/talks.md">}})
 
-### Articles and media
+### Articles
+
+- [Drømmen om utslippsfrie fly begynner å ta av](https://verdensbestenyheter.no/nyheter/fly/), Verdens Beste Nyheter 23.06.2026
 - [Stor nedgang i amerikansk kriminalitet](https://verdensbestenyheter.no/nyheter/stor-nedgang-i-amerikansk-kriminalitet/), Verdens Beste Nyheter 19.03.2026
 - [Historisk seier for internasjonalt farvann](https://verdensbestenyheter.no/nyheter/historisk-seier-for-internasjonale-farvann/), Verdens Beste Nyheter 18.11.2025
 - [Ny storsatsing skal løfte norske barns leseferdigheter](https://verdensbestenyheter.no/nyheter/ny-storsatsing-skal-lofte-norske-barns-leseferdigheter/),  Verdens Beste Nyheter 08.09.2025

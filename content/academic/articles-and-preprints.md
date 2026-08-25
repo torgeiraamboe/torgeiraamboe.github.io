@@ -6,7 +6,7 @@ ShowReadingTime: false
 math: true
 ---
 
-I am interested in a variety of research topics, usually centered around abstract mathematics, but also some applied mathematics, philosophy and politics. Generally speaking I am interested in how information is structured, how information fuses from a local to a global level, as well as using abstract theory to better understand concrete phenomena. This below list contains only research publications -- for others, see [here.]({{<ref "academic/outreach.md">}})
+I am interested in a variety of topics, usually centered around mathematics, philosophy and politics. Generally speaking I am interested in uncertainty, how information is structured, relationships between geometry and algebra, emergence and how information fuses and aggregates from a local to a global level. This below list contains only research publications -- for others, see [here.]({{<ref "academic/outreach.md">}})
 
 ### Papers
 
