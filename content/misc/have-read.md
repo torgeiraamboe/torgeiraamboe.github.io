@@ -11,6 +11,10 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 # 2026
 
+- *On Tyranny* -- Timothy Snyder
+- *Fellesskap, folkehelse og beredskap gjennom musikk* -- Nora B. Kulset, Kirsten Halle
+- ***Everything is predictable: How Bayes' remarkable theorem explains the world*** --
+- *On Violence* -- Hannah Arendt
 - *Dilemmaer i nosk utenrikspolitikk* -- Edited by Øyvind Svendsen, Kristin Haugevik
 - *Introducing the enlightenment* -- Lloyd Spencer
 - *Miracles and idolatry* -- Voltaire

@@ -12,7 +12,7 @@ weight: 1
 
 <details>
     <summary>
-        <b>Conference:</b> Persistent Scenario Classes for Defense Planning via Formal Concepts and Optimization, 20.10.26
+        <b>Conference:</b> Scenario classes in defence planning via formal concepts, 20.10.26
     </summary>
     <ul>
         <li>
@@ -20,10 +20,8 @@ weight: 1
         </li>
         <li>
         <b>Abstract:</b> Defense planners routinely use scenarios to test military capabilities against realistic operational settings. To ensure a comprehensive and holistic assessment of the capabilities, the portfolio of scenarios should be broad enough to capture operational requirements that sufficiently model the whole space of possibilities. To construct this space, defense planners often use General Morphological Analysis (GMA), an analytical method developed to understand the solution space of un-quantifiable, complex, multi-dimensional problems. After such an analysis, the resulting possible defense problems are often grouped and aggregated by similarity into scenario classes. This process is currently done manually, which puts several limitations on the methodology, like requiring small and manageable solution spaces, and lacking reproduceability between analysts. 
-
-        This project introduces a mathematical framework aimed at deriving analytically meaningful scenario classes from morphological solution spaces. The method is general and works for any GMA model. It is based on formal concepts and abstraction graphs, which form the foundation for a class selection process using simple optimization and a persistence lifetime analysis across portfolio sizes. 
-
-        The result is a simplified, reproduceable and iterative approach to scenario classes -- and more generally to typologies of structured solution spaces -- which still retains room for the expert judgement. We demonstrate the method through examples from Norwegian defense planning.  
+        <br></br>
+        This project introduces a mathematical framework aimed at deriving analytically meaningful scenario classes from morphological solution spaces. The method is general and works for any GMA model. It is based on formal concepts and abstraction graphs, which form the foundation for a class selection process using simple optimization and a persistence lifetime analysis across portfolio sizes. The result is a simplified, reproduceable and iterative approach to scenario classes -- and more generally to typologies of structured solution spaces -- which still retains room for the expert judgement. We demonstrate the method through examples from Norwegian defense planning.  
         </li>
 </details>
 
@@ -218,6 +216,19 @@ weight: 1
 
 
 ## Outreach
+
+<details>
+    <summary>
+        <b>Studentforedrag:</b> Hvordan bruke matematikk til å gjøre Norge tryggere, 24.10.26
+    </summary>
+    <ul>
+        <li>
+        Arbeidslivsforedrag 
+        </li>
+        <li>
+        <b>Oppsummering:</b> Verden blir stadig mer usikker, og samfunnet står overfor krevende valg om hvordan begrensede ressurser skal brukes for å sikre og beskytte samfunnet og samfunnsverdiene våre. Hvordan kan vi få best mulig effekt ut av ressursene vi har tilgjengelig? I foredraget skal jeg prøve å gi et innblikk i hvordan analyse, spillteori, optimering, kryptografi, grafteori, sannsynlighet og mer kan brukes, samt hvordan det kombineres med samfunnsvitenskap, politikk og filosofi.
+        </li>
+</details>
 
 <details>
     <summary>
