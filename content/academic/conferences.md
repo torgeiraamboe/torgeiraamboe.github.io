@@ -9,8 +9,8 @@ weight: 7
 ---
 
 - [Nordic Operations Research Meeting](https://soaf.se/norm2026/), Oct. 2026, Stockholm
-- [Folkerettskonferansen](https://www.forsvaret.no/forskning/arrangementer/folkerettskonferansen), Sep. 2026, Oslo
 - [Arctic Security Conference](https://www.fni.no/events/arctic-security-conference-2026?instance=0), Sep. 2026, Oslo
+- [Understanding Cognitive Superiority](https://www.forsvaret.no/forskning/arrangementer/understanding-cognitive-superiority), Sep. 2026, Oslo
 - [Norsk Militært Logistikkforums Logistikkonferanse](https://www.logistikkonferansen.no/), Mar. 2026, Oslo
 - [NATO Operations Research and Analysis Conference](https://www.act.nato.int/activities/nato-operations-research-and-analysis-conference/), Nov. 2025, Berlin
 - [Folkerettskonferansen](https://www.forsvaret.no/forskning/arrangementer/folkerettskonferansen-2025), Sep. 2025, Oslo

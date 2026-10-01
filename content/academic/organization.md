@@ -11,7 +11,7 @@ weight: 4
 
 ### Seminars and conferences
 
-- [Young Homotopy-theorist Online Meeting](https://younghomseminar.github.io/), co-organizer (Aug. 2022 -- )
+- [Young Homotopy-theorist Online Meeting](https://younghomseminar.github.io/), co-organizer (Aug. 2022 -- Jun. 2025)
 - [NTNU Topology SeminarXiv](https://folk.ntnu.no/torgeaam/misc/seminarxiv/),  organizer (Sept. 2024 -- Des. 2024)
 - [PITA Seminar](https://wiki.math.ntnu.no/seminar/pita), co-organizer (Jan. 2023 -- Des. 2023)
 - [eCHT Hopf rings reading seminar](https://s.wayne.edu/echt/echt-reading-seminars/echt-hopf-rings-reading-seminar-winter-2024/), assistant (Jan. 2024 -- Apr. 2024)
@@ -25,7 +25,7 @@ weight: 4
 ### Education and recruitment at NTNU
 
 - [Comittee for research and researcher education](https://innsida.ntnu.no/wiki/-/wiki/Norsk/Utvalg+for+forskning+og+forskerutdanning+IE) (Sep. 2021 -- Oct. 2024)
-- Committee for mathematical outreach at IMF (May 2022 -- ) 
+- Committee for mathematical outreach at IMF (May 2022 -- Jun. 2025) 
 - User panel on motivation for doing a PhD (Jun. 2023)
 - PhD recruitment event for IE faculty (Apr. 2022) 
 - [NTNU Ung](https://www.ntnu.no/studier/opptak/enkeltemner/ung) (2021/2022)

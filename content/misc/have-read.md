@@ -11,6 +11,8 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 # 2026
 
+- *How to lie with statistics* -- Darrell Huff
+- *A philosophy of war: Why we fight* -- Frédéric Gros 
 - *On Tyranny* -- Timothy Snyder
 - *Fellesskap, folkehelse og beredskap gjennom musikk* -- Nora B. Kulset, Kirsten Halle
 - ***Everything is predictable: How Bayes' remarkable theorem explains the world*** --
