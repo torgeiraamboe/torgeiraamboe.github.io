@@ -11,17 +11,24 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 
 # 2026
 
+- *85 seconds to midnight: A physisist's argument against rearmament* -- Carlo Rovelli
+- *If anyone builds it, eveyone dies: Why superhuman AI would kill us all* -- Eliezer Yudkowsky and Nate Soares
+- *Project Maven: A colonel, his team, and the dawn of AI warfare* -- Katrina Mason
+- *Against progress* -- Slavoj Žižek
+- ***Trout fishing in America*** -- Richard Brautigan
+- *The world goes on* -- László Krasznahorkai
+- *A kidnapped west: The tragedy of central Europe* -- Milan Kundera
 - *How to lie with statistics* -- Darrell Huff
 - *A philosophy of war: Why we fight* -- Frédéric Gros 
 - *On Tyranny* -- Timothy Snyder
-- *Fellesskap, folkehelse og beredskap gjennom musikk* -- Nora B. Kulset, Kirsten Halle
-- ***Everything is predictable: How Bayes' remarkable theorem explains the world*** --
+- *Fellesskap, folkehelse og beredskap gjennom musikk* -- Nora B. Kulset and Kirsten Halle
+- ***Everything is predictable: How Bayes' remarkable theorem explains the world*** -- Tom Chivers
 - *On Violence* -- Hannah Arendt
-- *Dilemmaer i nosk utenrikspolitikk* -- Edited by Øyvind Svendsen, Kristin Haugevik
+- *Dilemmaer i nosk utenrikspolitikk* -- Edited by Øyvind Svendsen and Kristin Haugevik
 - *Introducing the enlightenment* -- Lloyd Spencer
 - *Miracles and idolatry* -- Voltaire
 - *Beautiful things: A memoir* -- Hunter Biden
-- *Cyber wargaming: Research and education for security in a dangerous digital world* -- Edited by Frank L. Smith III, Nina A. Kollars, Benjamin H. Schechter
+- *Cyber wargaming: Research and education for security in a dangerous digital world* -- Edited by Frank L. Smith III, Nina A. Kollars and Benjamin H. Schechter
 - *Lord of the flies* -- William Golding
 - ***The black swan: The impact of the highly improbable*** -- Nassim Nicholas Taleb
 - *Hillbilly elegy: A memoir of a family and culture in crisis* -- James David Vance
@@ -230,7 +237,7 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 - *Reflections on the Guillotine* -- Albert Camus
 - *Beatrice and Virgil* -- Yann Martel
 - *Slapstick, or lonesome no more* -- Kurt Vonnegut
-- *How the Marquis got his cote back* -- Neil Gaiman
+- *How the Marquis got his coat back* -- Neil Gaiman
 - *Marcovaldo* -- Italo Calvino
 - *The myth of Sisyphus* -- Albert Camus
 - *One blade of grass* -- Henry Shukman
@@ -293,7 +300,7 @@ For more quick updates on what I read, add me on [Goodreads](https://www.goodrea
 - ***Mythos*** -- Stephen Fry
 - *Thus spake Zarathustra* -- Friedrich Nietzsche
 - *Socialism: Utopian and scientific* -- Friedrich Engels
-- *The communist manifesto* -- Karl Marx, Friedrich Engels
+- *The communist manifesto* -- Karl Marx and Friedrich Engels
 - *Ten arguments for deleting your social media accounts right now* -- Jaron Lanier
 - *The official TED guide to public speaking* -- Chris J. Anderson
 - *The teachings of Karl Marx* -- Vladimir Lenin

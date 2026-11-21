@@ -12,7 +12,7 @@ weight: 1
 
 <details>
     <summary>
-        <b>Conference:</b> Scenario classes in defence planning via formal concepts, 20.10.26
+        <b>Conference:</b> From solution spaces to scenario classes, 20.10.26
     </summary>
     <ul>
         <li>

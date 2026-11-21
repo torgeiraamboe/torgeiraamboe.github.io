@@ -39,6 +39,8 @@ Books I think are of great historical, literary or personal importance – hence
 
 :heavy_multiplication_x: *The wealth of nations* -- Adam Smith
 
+:heavy_multiplication_x: *On war* -- Carl von Clausewitz
+
 :heavy_multiplication_x: *The count of monte cristo* -- Alexandre Dumas
 
 :white_check_mark: *Moby dick* -- Herman Melville

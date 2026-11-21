@@ -12,6 +12,8 @@ Outreach talks are listed [here.]({{<ref "academic/talks.md">}})
 
 ### Articles
 
+- [Palantir og palantírene: Hva Forsvaret kan lære av Tolkien](https://www.stratagem.no/palantir-og-palantirene-hva-forsvaret-kan-laere-av-tolkien/), Stratagem 20.10.2026. Also published at [ffi.no](https://www.ffi.no/aktuelt/kronikker/palantir-og-palantirene-hva-forsvaret-kan-laere-av-tolkien).
+
 - [Drømmen om utslippsfrie fly begynner å ta av](https://verdensbestenyheter.no/nyheter/fly/), Verdens Beste Nyheter 23.06.2026
 - [Stor nedgang i amerikansk kriminalitet](https://verdensbestenyheter.no/nyheter/stor-nedgang-i-amerikansk-kriminalitet/), Verdens Beste Nyheter 19.03.2026
 - [Historisk seier for internasjonalt farvann](https://verdensbestenyheter.no/nyheter/historisk-seier-for-internasjonale-farvann/), Verdens Beste Nyheter 18.11.2025

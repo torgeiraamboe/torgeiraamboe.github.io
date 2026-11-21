@@ -12,7 +12,7 @@ I am interested in a variety of topics, usually centered around mathematics, phi
 
 - **Positselski duality in \(\infty\)-categories** \
     Torgeir Aambø \
-    *To appear in Mathematica Scandinavica* 
+    [*Mathematica Scandinavica* 132:3 (2026), pp. 503--526](https://doi.org/10.2140/mscand.2026.132.503)
     ([arXiv](https://arxiv.org/abs/2411.04060))
 
 - **Algebraicity in monochromatic homotopy theory** \
