@@ -10,6 +10,7 @@ weight: 7
 
 - [NATO Operations Research and Analysis Conference](), Mar. 2027, Antalya
 - [Nordic Military Operations Research Conference](), Jan. 2027, Oslo
+- [IFS-konferansen: Avskrekking i en ny virkelighet](https://www.forsvaret.no/forskning/arrangementer/ifs-konferansen-2026), Nov. 2026, Oslo
 - [Nordic Operations Research Meeting](https://soaf.se/norm2026/), Oct. 2026, Stockholm
 - [Arctic Security Conference](https://www.fni.no/events/arctic-security-conference-2026?instance=0), Sep. 2026, Oslo
 - [Understanding Cognitive Superiority](https://www.forsvaret.no/forskning/arrangementer/understanding-cognitive-superiority), Sep. 2026, Oslo
